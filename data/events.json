@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Update sample CSG proxy",
+    "description": "Increased the height of the sample CSG proxy to improve clearance.",
+    "guids": ["1kTvXnbbzCWw8lcMd1dR4o"],
+    "timestamp": "2024-02-15T10:30:00Z",
+    "author": "engineer_a"
+  },
+  {
+    "id": 2,
+    "title": "Rename test building",
+    "description": "Changed building name from 'Test Building' to 'Demo Building' for consistency.",
+    "guids": ["2FCZDorxHDT8NI01kdXi8P"],
+    "timestamp": "2024-03-01T14:00:00Z",
+    "author": "engineer_b"
+  },
+  {
+    "id": 3,
+    "title": "General project metadata revision",
+    "description": "Updated project metadata to align with new specification guidelines.",
+    "guids": ["0xScRe4drECQ4DMSqUjd6d"],
+    "timestamp": "2023-12-05T09:15:00Z",
+    "author": "engineer_c"
+  }
+]

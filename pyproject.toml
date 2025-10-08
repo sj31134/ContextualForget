@@ -1,0 +1,41 @@
+[project]
+name = "contextualforget"
+version = "0.0.1"
+description = "Digital-twin Graph-RAG (IFC+BCF) with long-term memory and forgetting"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Eunchan Lee" }]
+license = { text = "MIT" }
+
+dependencies = [
+  "networkx>=3.2",
+  "rich>=13.7",
+  "typer>=0.12",
+  "pydantic>=2.7",
+  "orjson>=3.10",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "python-dateutil>=2.9",
+  "tqdm>=4.66",
+  "whoosh>=2.7"
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.5", "pytest>=8.2"]
+
+[project.scripts]
+ctxf = "contextualforget.cli:app"
+
+[build-system]
+requires = ["setuptools>=68","wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-select = ["I","UP","B","A","C4","TCH","PTH"]
+exclude = ["data/"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

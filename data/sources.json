@@ -1,0 +1,14 @@
+{
+  "sample.ifc": {
+    "path": "data/raw/sample.ifc",
+    "sha256": "ec16d040ba7fe43c93528a144bbe43975731f0d85775d6c5ae7f0e7540e3087a",
+    "size": 481,
+    "source": "synthetic"
+  },
+  "sample.bcfzip": {
+    "path": "data/raw/sample.bcfzip",
+    "sha256": "d342096cdf5ef93a189b8c98fb74d262e0ec46dadbea4a11568d3c0408eb4c76",
+    "size": 1009,
+    "source": "synthetic"
+  }
+}
