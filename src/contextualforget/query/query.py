@@ -1,5 +1,7 @@
 import networkx as nx
+
 from ..core import expired
+
 
 def find_by_guid(G: nx.DiGraph, guid: str, ttl: int = 0):
     hits = []

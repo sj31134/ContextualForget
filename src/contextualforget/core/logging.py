@@ -2,11 +2,11 @@
 
 import logging
 import os
-import json
 import time
 from datetime import datetime
-from typing import Dict, Any, Optional
 from functools import wraps
+from typing import Any, Optional
+
 import psutil
 
 
@@ -70,7 +70,7 @@ class PerformanceMonitor:
             "timestamp": datetime.now().isoformat()
         })
     
-    def get_system_metrics(self) -> Dict[str, Any]:
+    def get_system_metrics(self) -> dict[str, Any]:
         """시스템 메트릭 수집."""
         return {
             "cpu_percent": psutil.cpu_percent(),
@@ -79,7 +79,7 @@ class PerformanceMonitor:
             "timestamp": datetime.now().isoformat()
         }
     
-    def get_metrics_summary(self) -> Dict[str, Any]:
+    def get_metrics_summary(self) -> dict[str, Any]:
         """메트릭 요약."""
         summary = {}
         for name, values in self.metrics.items():
@@ -154,7 +154,7 @@ class QueryLogger:
         self.logger = logger
         self.query_count = 0
     
-    def log_query(self, query_type: str, parameters: Dict[str, Any], 
+    def log_query(self, query_type: str, parameters: dict[str, Any], 
                   result_count: int, execution_time: float):
         """쿼리 실행 로그."""
         self.query_count += 1
@@ -167,7 +167,7 @@ class QueryLogger:
             execution_time=execution_time
         )
     
-    def log_query_error(self, query_type: str, parameters: Dict[str, Any], 
+    def log_query_error(self, query_type: str, parameters: dict[str, Any], 
                        error: str, execution_time: float):
         """쿼리 오류 로그."""
         self.logger.error(

@@ -20,7 +20,10 @@ dependencies = [
   "whoosh>=2.7",
   "matplotlib>=3.7",
   "sentence-transformers>=2.2",
-  "scikit-learn>=1.3"
+  "scikit-learn>=1.3",
+  # LLM 의존성 추가
+  "langchain-core>=0.1.0",
+  "langchain-ollama>=0.1.0"
 ]
 
 [project.optional-dependencies]
@@ -36,7 +39,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.ruff]
 line-length = 100
-target-version = "py311"
+target-version = "py312"
 extend-select = ["I","UP","B","A","C4","TCH","PTH"]
 exclude = ["data/"]
 

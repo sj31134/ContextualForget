@@ -1,18 +1,25 @@
 from __future__ import annotations
-import os, re, json, zipfile, xml.etree.ElementTree as ET
+
+import json
+import os
+import re
+import xml.etree.ElementTree as ET
+import zipfile
+from pathlib import Path
+
 
 def read_jsonl(p: str):
-    with open(p, "r", encoding="utf-8") as f:
+    with Path(p).open(encoding="utf-8") as f:
         for line in f:
             s = line.strip()
             if s:
                 yield json.loads(s)
 
 def write_jsonl(p: str, rows):
-    dirname = os.path.dirname(p)
-    if dirname:  # dirname이 비어있지 않을 때만 makedirs 호출
-        os.makedirs(dirname, exist_ok=True)
-    with open(p, "w", encoding="utf-8") as f:
+    path = Path(p)
+    if path.parent:  # parent가 비어있지 않을 때만 mkdir 호출
+        path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 

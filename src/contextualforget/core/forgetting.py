@@ -1,5 +1,7 @@
 from __future__ import annotations
+
 from datetime import datetime, timezone
+
 
 def expired(created_iso: str, ttl: int) -> bool:
     if ttl <= 0:

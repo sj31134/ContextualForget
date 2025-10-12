@@ -3,8 +3,8 @@ Base class for baseline query engines.
 """
 
 from abc import ABC, abstractmethod
-from typing import Dict, List, Any, Optional
 from datetime import datetime
+from typing import Any
 
 
 class BaselineQueryEngine(ABC):
@@ -15,16 +15,16 @@ class BaselineQueryEngine(ABC):
         self.initialized = False
     
     @abstractmethod
-    def initialize(self, graph_data: Dict[str, Any]) -> None:
+    def initialize(self, graph_data: dict[str, Any]) -> None:
         """Initialize the engine with graph data."""
         pass
     
     @abstractmethod
-    def process_query(self, question: str, **kwargs) -> Dict[str, Any]:
+    def process_query(self, question: str, **kwargs) -> dict[str, Any]:
         """Process a natural language query."""
         pass
     
-    def get_stats(self) -> Dict[str, Any]:
+    def get_stats(self) -> dict[str, Any]:
         """Get engine statistics."""
         return {
             "name": self.name,

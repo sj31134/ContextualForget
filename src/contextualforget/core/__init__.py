@@ -1,32 +1,36 @@
 """Core functionality for ContextualForget system."""
 
-from .forgetting import expired, score
 from .advanced_forgetting import (
+    CompositeForgettingPolicy,
+    ContradictionPolicy,
+    ForgettingManager,
     ForgettingPolicy,
+    ImportanceBasedPolicy,
     TTLPolicy,
     WeightedDecayPolicy,
-    ImportanceBasedPolicy,
-    ContradictionPolicy,
-    CompositeForgettingPolicy,
-    ForgettingManager,
+    calculate_event_importance,
     create_default_forgetting_policy,
-    calculate_event_importance
-)
-from .utils import (
-    read_jsonl,
-    write_jsonl,
-    extract_ifc_entities,
-    parse_bcf_zip
 )
 from .eval_metrics import ndcg_at_k
+from .forgetting import expired, score
 from .logging import (
-    setup_logging, get_logger, log_execution_time, log_graph_operations,
-    QueryLogger, DataPipelineLogger, PerformanceMonitor
+    DataPipelineLogger,
+    PerformanceMonitor,
+    QueryLogger,
+    get_logger,
+    log_execution_time,
+    log_graph_operations,
+    setup_logging,
 )
 from .monitoring import (
-    start_monitoring, stop_monitoring, get_health_status, get_metrics_summary,
-    MetricsCollector, HealthChecker
+    HealthChecker,
+    MetricsCollector,
+    get_health_status,
+    get_metrics_summary,
+    start_monitoring,
+    stop_monitoring,
 )
+from .utils import extract_ifc_entities, parse_bcf_zip, read_jsonl, write_jsonl
 
 __all__ = [
     # Forgetting

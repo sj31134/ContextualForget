@@ -8,6 +8,12 @@ src/contextualforget.egg-info/dependency_links.txt
 src/contextualforget.egg-info/entry_points.txt
 src/contextualforget.egg-info/requires.txt
 src/contextualforget.egg-info/top_level.txt
+src/contextualforget/analytics/__init__.py
+src/contextualforget/analytics/analytics.py
+src/contextualforget/baselines/__init__.py
+src/contextualforget/baselines/base.py
+src/contextualforget/baselines/bm25_engine.py
+src/contextualforget/baselines/vector_engine.py
 src/contextualforget/cli/__init__.py
 src/contextualforget/cli/cli.py
 src/contextualforget/core/__init__.py
@@ -26,6 +32,8 @@ src/contextualforget/data/link_ifc_bcf.py
 src/contextualforget/llm/__init__.py
 src/contextualforget/llm/llm_processor.py
 src/contextualforget/llm/natural_language_processor.py
+src/contextualforget/optimization/__init__.py
+src/contextualforget/optimization/optimizer.py
 src/contextualforget/performance/__init__.py
 src/contextualforget/performance/performance.py
 src/contextualforget/query/__init__.py

@@ -2,16 +2,17 @@
 Performance optimization utilities for large-scale data processing.
 """
 from __future__ import annotations
-import networkx as nx
-import pickle
+
 import json
-from typing import Dict, List, Optional, Tuple, Any
-from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
-import multiprocessing as mp
-from functools import lru_cache
-import time
 import os
+import pickle
+import time
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+from functools import lru_cache
 from pathlib import Path
+from typing import Any
+
+import networkx as nx
 
 
 class GraphOptimizer:
@@ -53,19 +54,18 @@ class GraphOptimizer:
                     except Exception:
                         pass
     
-    @lru_cache(maxsize=1000)
-    def get_neighbors_cached(self, node: Tuple[str, str]) -> List[Tuple[str, str]]:
+    def get_neighbors_cached(self, node: tuple[str, str]) -> list[tuple[str, str]]:
         """Cached neighbor lookup."""
         return list(self.graph.neighbors(node))
     
-    def batch_query(self, guids: List[str], ttl: int = 0) -> Dict[str, List[Dict]]:
+    def batch_query(self, guids: list[str], ttl: int = 0) -> dict[str, list[dict]]:
         """Batch query multiple GUIDs efficiently."""
         results = {}
         
         for guid in guids:
             if guid in self.ifc_index:
                 node = self.ifc_index[guid]
-                neighbors = self.get_neighbors_cached(node)
+                _neighbors = self.get_neighbors_cached(node)
                 
                 hits = []
                 # Check predecessors (BCF nodes that point to this IFC node)
@@ -98,13 +98,13 @@ class GraphOptimizer:
 class ParallelProcessor:
     """Parallel processing utilities."""
     
-    def __init__(self, max_workers: Optional[int] = None):
+    def __init__(self, max_workers: int | None = None):
         self.max_workers = max_workers or min(32, (os.cpu_count() or 1) + 4)
     
     def process_files_parallel(self, 
-                              file_paths: List[str], 
+                              file_paths: list[str], 
                               process_func,
-                              chunk_size: int = 100) -> List[Any]:
+                              chunk_size: int = 100) -> list[Any]:
         """Process multiple files in parallel."""
         results = []
         
@@ -125,9 +125,9 @@ class ParallelProcessor:
         return results
     
     def process_data_parallel(self, 
-                             data_items: List[Any], 
+                             data_items: list[Any], 
                              process_func,
-                             chunk_size: int = 100) -> List[Any]:
+                             chunk_size: int = 100) -> list[Any]:
         """Process data items in parallel."""
         results = []
         
@@ -181,13 +181,13 @@ class MemoryOptimizer:
         """Save graph in compressed format."""
         compressed = MemoryOptimizer.compress_graph(graph)
         
-        with open(filepath, 'wb') as f:
+        with Path(filepath).open('wb') as f:
             pickle.dump(compressed, f, protocol=pickle.HIGHEST_PROTOCOL)
     
     @staticmethod
     def load_graph_compressed(filepath: str) -> nx.DiGraph:
         """Load compressed graph."""
-        with open(filepath, 'rb') as f:
+        with Path(filepath).open('rb') as f:
             return pickle.load(f)
 
 
@@ -202,12 +202,12 @@ class CacheManager:
         """Get cache file path for a key."""
         return self.cache_dir / f"{key}.pkl"
     
-    def get(self, key: str) -> Optional[Any]:
+    def get(self, key: str) -> Any | None:
         """Get cached data."""
         cache_path = self.get_cache_path(key)
         if cache_path.exists():
             try:
-                with open(cache_path, 'rb') as f:
+                with cache_path.open('rb') as f:
                     return pickle.load(f)
             except Exception:
                 return None
@@ -217,7 +217,7 @@ class CacheManager:
         """Cache data."""
         cache_path = self.get_cache_path(key)
         try:
-            with open(cache_path, 'wb') as f:
+            with cache_path.open('wb') as f:
                 pickle.dump(data, f, protocol=pickle.HIGHEST_PROTOCOL)
         except Exception as e:
             print(f"Error caching data: {e}")
@@ -251,7 +251,7 @@ class PerformanceProfiler:
             return wrapper
         return decorator
     
-    def get_stats(self) -> Dict[str, Any]:
+    def get_stats(self) -> dict[str, Any]:
         """Get performance statistics."""
         stats = {}
         
@@ -295,7 +295,7 @@ class LargeDataProcessor:
     def process_large_jsonl(self, 
                            filepath: str, 
                            process_func,
-                           cache_key: Optional[str] = None) -> List[Any]:
+                           cache_key: str | None = None) -> list[Any]:
         """Process large JSONL files in chunks."""
         
         # Check cache first
@@ -306,7 +306,7 @@ class LargeDataProcessor:
         
         results = []
         
-        with open(filepath, 'r', encoding='utf-8') as f:
+        with Path(filepath).open(encoding='utf-8') as f:
             chunk = []
             for line in f:
                 chunk.append(json.loads(line.strip()))
@@ -333,9 +333,9 @@ class LargeDataProcessor:
         return results
     
     def build_graph_incremental(self, 
-                               ifc_data: List[Dict], 
-                               bcf_data: List[Dict],
-                               links_data: List[Dict]) -> nx.DiGraph:
+                               ifc_data: list[dict], 
+                               bcf_data: list[dict],
+                               links_data: list[dict]) -> nx.DiGraph:
         """Build graph incrementally to save memory."""
         graph = nx.DiGraph()
         
@@ -369,7 +369,7 @@ class LargeDataProcessor:
 def optimize_for_production(graph_path: str, output_path: str):
     """Optimize graph for production use."""
     print("Loading graph...")
-    with open(graph_path, 'rb') as f:
+    with Path(graph_path).open('rb') as f:
         graph = pickle.load(f)
     
     print("Compressing graph...")
@@ -382,7 +382,7 @@ def optimize_for_production(graph_path: str, output_path: str):
     MemoryOptimizer.save_graph_compressed(compressed_graph, output_path)
     
     print(f"Optimized graph saved to {output_path}")
-    print(f"Original size: {os.path.getsize(graph_path) / 1024 / 1024:.2f} MB")
-    print(f"Optimized size: {os.path.getsize(output_path) / 1024 / 1024:.2f} MB")
+    print(f"Original size: {Path(graph_path).stat().st_size / 1024 / 1024:.2f} MB")
+    print(f"Optimized size: {Path(output_path).stat().st_size / 1024 / 1024:.2f} MB")
     
     return optimizer

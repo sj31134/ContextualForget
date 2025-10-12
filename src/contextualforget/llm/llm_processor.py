@@ -2,13 +2,12 @@
 
 import json
 import logging
-from typing import Dict, List, Any, Optional, Tuple
 from dataclasses import dataclass
-from datetime import datetime
+from typing import Any
 
 try:
-    from langchain_ollama import ChatOllama
     from langchain_core.messages import HumanMessage, SystemMessage
+    from langchain_ollama import ChatOllama
     OLLAMA_AVAILABLE = True
 except ImportError:
     OLLAMA_AVAILABLE = False
@@ -23,8 +22,8 @@ logger = logging.getLogger(__name__)
 class QueryIntent:
     """질의 의도 분석 결과."""
     intent_type: str  # "search", "query", "timeline", "author", "connected", "stats"
-    entities: List[str]  # 추출된 엔티티들 (GUID, 키워드, 작성자 등)
-    parameters: Dict[str, Any]  # 추가 파라미터들
+    entities: list[str]  # 추출된 엔티티들 (GUID, 키워드, 작성자 등)
+    parameters: dict[str, Any]  # 추가 파라미터들
     confidence: float  # 의도 분석 신뢰도
     reasoning: str  # LLM의 추론 과정
 
@@ -198,7 +197,7 @@ Examples:
             reasoning="정규식 기반 폴백 처리"
         )
     
-    def generate_natural_response(self, intent: QueryIntent, result: Dict[str, Any], original_query: str) -> str:
+    def generate_natural_response(self, intent: QueryIntent, result: dict[str, Any], original_query: str) -> str:
         """LLM을 사용하여 자연어 응답을 생성."""
         if not self.llm:
             return self._generate_simple_response(intent, result, original_query)
@@ -243,7 +242,7 @@ Examples:
             logger.error(f"자연어 응답 생성 중 오류: {e}")
             return self._generate_simple_response(intent, result, original_query)
     
-    def _summarize_result(self, result: Dict[str, Any]) -> str:
+    def _summarize_result(self, result: dict[str, Any]) -> str:
         """결과를 요약하여 LLM이 이해하기 쉽게 변환."""
         if "error" in result:
             return f"오류: {result['error']}"
@@ -290,7 +289,7 @@ Examples:
         
         return summary
     
-    def _generate_simple_response(self, intent: QueryIntent, result: Dict[str, Any], original_query: str) -> str:
+    def _generate_simple_response(self, intent: QueryIntent, result: dict[str, Any], original_query: str) -> str:
         """간단한 템플릿 기반 응답 생성 (폴백용)."""
         if "error" in result:
             return f"죄송합니다. {result['error']}"
@@ -332,7 +331,7 @@ Examples:
         """LLM이 사용 가능한지 확인."""
         return self.llm is not None
     
-    def get_model_info(self) -> Dict[str, Any]:
+    def get_model_info(self) -> dict[str, Any]:
         """모델 정보 반환."""
         return {
             "model_name": self.model_name,

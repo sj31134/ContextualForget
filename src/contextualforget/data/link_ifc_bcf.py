@@ -1,6 +1,8 @@
 import argparse
 import re
+
 from ..core import read_jsonl, write_jsonl
+
 
 def extract_guid_from_text(text):
     """텍스트에서 GUID 패턴을 추출합니다."""
@@ -32,7 +34,7 @@ def semantic_match(bcf_text, ifc_item):
     }
     
     score = 0
-    for category, terms in keywords.items():
+    for _category, terms in keywords.items():
         if any(term in bcf_lower for term in terms):
             if any(term in ifc_name or term in ifc_type for term in terms):
                 score += 1

@@ -1,11 +1,10 @@
 """실시간 모니터링 시스템."""
 
 import logging
-from pathlib import Path
-from typing import List, Optional
 from datetime import datetime
+from pathlib import Path
 
-from .file_watcher import FileWatcher, FileChangeEvent
+from .file_watcher import FileChangeEvent, FileWatcher
 from .graph_updater import GraphUpdater
 
 logger = logging.getLogger(__name__)
@@ -16,7 +15,7 @@ class RealtimeMonitor:
     
     def __init__(
         self,
-        watch_dirs: List[Path],
+        watch_dirs: list[Path],
         graph_path: Path,
         processed_dir: Path,
         poll_interval: float = 2.0

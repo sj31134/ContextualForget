@@ -1,4 +1,7 @@
-import argparse, json, os
+import argparse
+import json
+import os
+
 
 def ndcg_at_k(pred, gold, k=5):
     s = 0.0
@@ -13,15 +16,16 @@ def main():
     ap.add_argument("--run", required=True)
     a = ap.parse_args()
 
-    q = json.loads(open(a.q, "r", encoding="utf-8").read().splitlines()[0])
-    gold = json.loads(open(a.gold, "r", encoding="utf-8").read().splitlines()[0])
+    _q = json.loads(Path(a.q).open(encoding="utf-8").read().splitlines()[0])
+    gold = json.loads(Path(a.gold).open(encoding="utf-8").read().splitlines()[0])
 
     # toy prediction: equal to gold
     pred = gold["gold_issue_ids"]
     res = {"ndcg@5": ndcg_at_k(pred, gold["gold_issue_ids"], 5)}
 
-    os.makedirs("results", exist_ok=True)
-    json.dump(res, open(a.run, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    Path("results").mkdir(parents=True, exist_ok=True)
+    with Path(a.run).open("w", encoding="utf-8") as f:
+        json.dump(res, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()

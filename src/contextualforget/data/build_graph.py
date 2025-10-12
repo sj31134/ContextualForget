@@ -1,6 +1,10 @@
-import argparse, os
+import argparse
+import os
+
 import networkx as nx
+
 from ..core import read_jsonl
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -15,14 +19,14 @@ def main():
         G.add_node(("IFC", r["guid"]), **r)
     for b in read_jsonl(a.bcf):
         G.add_node(("BCF", b["topic_id"]), **b)
-    for l in read_jsonl(a.links):
-        for g in l["guid_matches"]:
-            G.add_edge(("BCF", l["topic_id"]), ("IFC", g),
-                       type="refersTo", confidence=l["confidence"])
+    for link in read_jsonl(a.links):
+        for g in link["guid_matches"]:
+            G.add_edge(("BCF", link["topic_id"]), ("IFC", g),
+                       type="refersTo", confidence=link["confidence"])
 
-    os.makedirs(os.path.dirname(a.out), exist_ok=True)
+    Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     import pickle
-    with open(a.out, 'wb') as f:
+    with Path(a.out).open('wb') as f:
         pickle.dump(G, f)
 
 if __name__ == "__main__":

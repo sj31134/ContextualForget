@@ -1,14 +1,12 @@
 """파일 시스템 감시 모듈."""
 
-import os
-import time
 import logging
-from pathlib import Path
-from typing import Callable, Dict, List, Set
+from collections.abc import Callable
 from dataclasses import dataclass
-from enum import Enum
-from threading import Thread, Event
 from datetime import datetime
+from enum import Enum
+from pathlib import Path
+from threading import Event, Thread
 
 logger = logging.getLogger(__name__)
 
@@ -32,7 +30,7 @@ class FileChangeEvent:
 class FileWatcher:
     """파일 시스템 감시기 - IFC 및 BCF 파일 변경 감지."""
     
-    def __init__(self, watch_dirs: List[Path], poll_interval: float = 2.0):
+    def __init__(self, watch_dirs: list[Path], poll_interval: float = 2.0):
         """
         Args:
             watch_dirs: 감시할 디렉토리 목록
@@ -40,10 +38,10 @@ class FileWatcher:
         """
         self.watch_dirs = [Path(d) for d in watch_dirs]
         self.poll_interval = poll_interval
-        self.callbacks: List[Callable[[FileChangeEvent], None]] = []
+        self.callbacks: list[Callable[[FileChangeEvent], None]] = []
         
         # 파일 상태 추적
-        self.file_states: Dict[Path, float] = {}  # path -> mtime
+        self.file_states: dict[Path, float] = {}  # path -> mtime
         self._stop_event = Event()
         self._thread: Thread = None
         
@@ -54,7 +52,7 @@ class FileWatcher:
         self.callbacks.append(callback)
         logger.info(f"콜백 등록: {callback.__name__}")
     
-    def _scan_files(self) -> Dict[Path, float]:
+    def _scan_files(self) -> dict[Path, float]:
         """현재 파일 상태 스캔."""
         current_files = {}
         
@@ -75,7 +73,7 @@ class FileWatcher:
         
         return current_files
     
-    def _detect_changes(self, current_files: Dict[Path, float]) -> List[FileChangeEvent]:
+    def _detect_changes(self, current_files: dict[Path, float]) -> list[FileChangeEvent]:
         """파일 변경 감지."""
         events = []
         current_paths = set(current_files.keys())

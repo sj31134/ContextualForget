@@ -1,11 +1,9 @@
 """자연어 질의 처리 및 LLM 통합 모듈."""
 
-import re
-import json
-from typing import Dict, List, Any, Optional, Tuple
-from dataclasses import dataclass
-from datetime import datetime
 import logging
+import re
+from datetime import datetime
+from typing import Any
 
 from .llm_processor import LLMNaturalLanguageProcessor, QueryIntent
 
@@ -40,7 +38,7 @@ class NaturalLanguageProcessor:
         """LLM이 사용 가능한지 확인."""
         return self.processor.is_available()
     
-    def get_model_info(self) -> Dict[str, Any]:
+    def get_model_info(self) -> dict[str, Any]:
         """모델 정보 반환."""
         return self.processor.get_model_info()
 
@@ -53,7 +51,7 @@ class LLMQueryEngine:
         self.nlp = nlp_processor
         self.conversation_history = []
     
-    def process_natural_query(self, query: str) -> Dict[str, Any]:
+    def process_natural_query(self, query: str) -> dict[str, Any]:
         """자연어 질의를 처리하여 결과를 반환."""
         logger.info(f"Processing natural language query: {query}")
         
@@ -86,7 +84,7 @@ class LLMQueryEngine:
             "timestamp": datetime.now().isoformat()
         }
     
-    def _execute_intent(self, intent: QueryIntent, original_query: str) -> Dict[str, Any]:
+    def _execute_intent(self, intent: QueryIntent, original_query: str) -> dict[str, Any]:
         """의도에 따라 적절한 쿼리를 실행."""
         try:
             if intent.intent_type == "search":
@@ -107,11 +105,11 @@ class LLMQueryEngine:
             logger.error(f"Error executing intent {intent.intent_type}: {e}")
             return {"error": str(e)}
     
-    def _handle_search_intent(self, intent: QueryIntent) -> Dict[str, Any]:
+    def _handle_search_intent(self, intent: QueryIntent) -> dict[str, Any]:
         """검색 의도 처리."""
         keywords = [entity for entity in intent.entities if not self._is_guid(entity)]
         guids = [entity for entity in intent.entities if self._is_guid(entity)]
-        limit = intent.parameters.get("limit", 5)
+        _limit = intent.parameters.get("limit", 5)
         
         # GUID 질문 처리
         if guids and not keywords:
@@ -150,7 +148,7 @@ class LLMQueryEngine:
             "total_found": len(results)
         }
     
-    def _handle_query_intent(self, intent: QueryIntent) -> Dict[str, Any]:
+    def _handle_query_intent(self, intent: QueryIntent) -> dict[str, Any]:
         """GUID 쿼리 의도 처리."""
         guids = [entity for entity in intent.entities if self._is_guid(entity)]
         ttl = intent.parameters.get("time_period", 365)
@@ -174,7 +172,7 @@ class LLMQueryEngine:
             "total_found": len(results)
         }
     
-    def _handle_timeline_intent(self, intent: QueryIntent) -> Dict[str, Any]:
+    def _handle_timeline_intent(self, intent: QueryIntent) -> dict[str, Any]:
         """시간 범위 의도 처리."""
         start_date = intent.parameters.get("start_date")
         end_date = intent.parameters.get("end_date")
@@ -195,7 +193,7 @@ class LLMQueryEngine:
             logger.error(f"Error querying timeline: {e}")
             return {"error": str(e)}
     
-    def _handle_author_intent(self, intent: QueryIntent) -> Dict[str, Any]:
+    def _handle_author_intent(self, intent: QueryIntent) -> dict[str, Any]:
         """작성자 의도 처리."""
         authors = [entity for entity in intent.entities if "engineer" in entity.lower()]
         limit = intent.parameters.get("limit", 5)
@@ -218,7 +216,7 @@ class LLMQueryEngine:
             "total_found": len(results)
         }
     
-    def _handle_connected_intent(self, intent: QueryIntent) -> Dict[str, Any]:
+    def _handle_connected_intent(self, intent: QueryIntent) -> dict[str, Any]:
         """연결된 컴포넌트 의도 처리."""
         guids = [entity for entity in intent.entities if self._is_guid(entity)]
         max_depth = intent.parameters.get("max_depth", 2)
@@ -243,7 +241,7 @@ class LLMQueryEngine:
             "results": results
         }
     
-    def _handle_stats_intent(self, intent: QueryIntent) -> Dict[str, Any]:
+    def _handle_stats_intent(self, intent: QueryIntent) -> dict[str, Any]:
         """통계 의도 처리."""
         try:
             stats = self.query_engine.get_statistics()
@@ -257,11 +255,10 @@ class LLMQueryEngine:
     
     def _is_guid(self, entity: str) -> bool:
         """엔티티가 GUID인지 확인."""
-        import re
         guid_pattern = r"[0-9A-Fa-f]{22}|[0-9A-Fa-f-]{36}|[0-9A-Za-z]{22}"
         return bool(re.match(guid_pattern, entity))
     
-    def get_conversation_history(self) -> List[Dict[str, Any]]:
+    def get_conversation_history(self) -> list[dict[str, Any]]:
         """대화 기록을 반환."""
         return self.conversation_history
     

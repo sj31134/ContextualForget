@@ -1,5 +1,7 @@
 import argparse
-from ..core import write_jsonl, extract_ifc_entities
+
+from ..core import extract_ifc_entities, write_jsonl
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -7,7 +9,7 @@ def main():
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
 
-    with open(a.ifc, "r", errors="ignore") as f:
+    with Path(a.ifc).open(errors="ignore") as f:
         text = f.read()
 
     rows = extract_ifc_entities(text)

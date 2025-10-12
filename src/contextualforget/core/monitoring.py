@@ -1,14 +1,14 @@
 """시스템 모니터링 및 메트릭 수집."""
 
-import time
 import json
-import os
-from datetime import datetime, timedelta
-from typing import Dict, List, Any, Optional
-from dataclasses import dataclass, asdict
-import psutil
 import threading
+import time
+from dataclasses import asdict, dataclass
+from datetime import datetime, timedelta
 from queue import Queue
+from typing import Any
+
+import psutil
 
 
 @dataclass
@@ -22,7 +22,7 @@ class SystemMetrics:
     disk_usage_percent: float
     disk_free_gb: float
     process_count: int
-    load_average: List[float]
+    load_average: list[float]
 
 
 @dataclass
@@ -49,12 +49,12 @@ class MetricsCollector:
         self.thread = None
         
         # 메트릭 저장소
-        self.system_metrics: List[SystemMetrics] = []
-        self.application_metrics: List[ApplicationMetrics] = []
+        self.system_metrics: list[SystemMetrics] = []
+        self.application_metrics: list[ApplicationMetrics] = []
         
         # 애플리케이션 카운터
         self.query_count = 0
-        self.query_times: List[float] = []
+        self.query_times: list[float] = []
         self.cache_hits = 0
         self.cache_misses = 0
         self.error_count = 0
@@ -167,7 +167,7 @@ class MetricsCollector:
         """오류 기록."""
         self.error_count += 1
     
-    def get_metrics_summary(self) -> Dict[str, Any]:
+    def get_metrics_summary(self) -> dict[str, Any]:
         """메트릭 요약 반환."""
         if not self.system_metrics or not self.application_metrics:
             return {"error": "No metrics available"}
@@ -204,10 +204,10 @@ class MetricsCollector:
             "export_timestamp": datetime.now().isoformat()
         }
         
-        with open(filepath, 'w') as f:
+        with Path(filepath).open('w') as f:
             json.dump(data, f, indent=2)
     
-    def get_metrics_history(self, hours: int = 24) -> Dict[str, List[Dict]]:
+    def get_metrics_history(self, hours: int = 24) -> dict[str, list[dict]]:
         """지정된 시간 범위의 메트릭 히스토리 반환."""
         cutoff_time = datetime.now() - timedelta(hours=hours)
         
@@ -240,7 +240,7 @@ class HealthChecker:
             "error_rate": 0.1  # 10%
         }
     
-    def check_health(self) -> Dict[str, Any]:
+    def check_health(self) -> dict[str, Any]:
         """시스템 상태 체크."""
         summary = self.metrics_collector.get_metrics_summary()
         
@@ -309,11 +309,11 @@ def stop_monitoring():
     metrics_collector.stop_collection()
 
 
-def get_health_status() -> Dict[str, Any]:
+def get_health_status() -> dict[str, Any]:
     """시스템 상태 반환."""
     return health_checker.check_health()
 
 
-def get_metrics_summary() -> Dict[str, Any]:
+def get_metrics_summary() -> dict[str, Any]:
     """메트릭 요약 반환."""
     return metrics_collector.get_metrics_summary()

@@ -2,13 +2,14 @@
 
 import logging
 import pickle
-import networkx as nx
-from pathlib import Path
-from typing import Dict, Any, List
 from datetime import datetime
+from pathlib import Path
+from typing import Any
 
+import networkx as nx
+
+from ..core import extract_ifc_entities, parse_bcf_zip
 from .file_watcher import FileChangeEvent, FileChangeType
-from ..core import extract_ifc_entities, parse_bcf_zip, write_jsonl
 
 logger = logging.getLogger(__name__)
 
@@ -34,7 +35,7 @@ class GraphUpdater:
         """그래프 로드."""
         if self.graph is None:
             if self.graph_path.exists():
-                with open(self.graph_path, 'rb') as f:
+                with self.graph_path.open('rb') as f:
                     self.graph = pickle.load(f)
                 logger.info(f"그래프 로드 완료: {self.graph.number_of_nodes()}개 노드")
             else:
@@ -49,7 +50,7 @@ class GraphUpdater:
             logger.warning("저장할 그래프가 없습니다")
             return
         
-        with open(self.graph_path, 'wb') as f:
+        with self.graph_path.open('wb') as f:
             pickle.dump(self.graph, f)
         
         logger.info(
@@ -57,7 +58,7 @@ class GraphUpdater:
             f"{self.graph.number_of_edges()}개 엣지"
         )
     
-    def process_ifc_file(self, ifc_path: Path) -> List[Dict[str, Any]]:
+    def process_ifc_file(self, ifc_path: Path) -> list[dict[str, Any]]:
         """IFC 파일 처리."""
         logger.info(f"IFC 파일 처리: {ifc_path.name}")
         
@@ -69,7 +70,7 @@ class GraphUpdater:
             logger.error(f"IFC 파일 처리 오류: {e}", exc_info=True)
             return []
     
-    def process_bcf_file(self, bcf_path: Path) -> List[Dict[str, Any]]:
+    def process_bcf_file(self, bcf_path: Path) -> list[dict[str, Any]]:
         """BCF 파일 처리."""
         logger.info(f"BCF 파일 처리: {bcf_path.name}")
         
@@ -81,7 +82,7 @@ class GraphUpdater:
             logger.error(f"BCF 파일 처리 오류: {e}", exc_info=True)
             return []
     
-    def add_ifc_nodes(self, entities: List[Dict[str, Any]]):
+    def add_ifc_nodes(self, entities: list[dict[str, Any]]):
         """IFC 엔티티를 그래프에 추가."""
         graph = self.load_graph()
         added_count = 0
@@ -117,7 +118,7 @@ class GraphUpdater:
         logger.info(f"IFC 노드 추가/업데이트: +{added_count}, ~{updated_count}")
         return added_count, updated_count
     
-    def add_bcf_nodes(self, topics: List[Dict[str, Any]]):
+    def add_bcf_nodes(self, topics: list[dict[str, Any]]):
         """BCF 토픽을 그래프에 추가."""
         graph = self.load_graph()
         added_count = 0
@@ -169,7 +170,7 @@ class GraphUpdater:
     
     def remove_file_nodes(self, file_path: Path, file_type: str):
         """파일과 관련된 노드 제거."""
-        graph = self.load_graph()
+        _graph = self.load_graph()
         
         # 파일 경로 기반으로 노드 식별 (실제로는 더 정교한 매핑 필요)
         # 여기서는 간단한 구현으로 진행

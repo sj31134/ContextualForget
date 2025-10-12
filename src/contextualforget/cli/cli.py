@@ -1,14 +1,16 @@
-import json, typer, networkx as nx
-import time
+import json
 import signal
+import time
 from pathlib import Path
 from typing import List, Optional
-from ..query import find_by_guid
-from ..query import AdvancedQueryEngine, QueryBuilder
-from ..visualization import GraphVisualizer, create_visualization_report
-from ..core import create_default_forgetting_policy, setup_logging, get_logger, start_monitoring, get_health_status, get_metrics_summary
-from ..llm import NaturalLanguageProcessor, LLMQueryEngine
+
+import typer
+
+from ..core import get_health_status, get_logger, get_metrics_summary, start_monitoring
+from ..llm import LLMQueryEngine, NaturalLanguageProcessor
+from ..query import AdvancedQueryEngine, QueryBuilder, find_by_guid
 from ..realtime import RealtimeMonitor
+from ..visualization import GraphVisualizer, create_visualization_report
 
 app = typer.Typer()
 
@@ -18,7 +20,7 @@ logger = get_logger("contextualforget.cli")
 def load_graph(graph_path: str):
     """Load graph from file."""
     import pickle
-    with open(graph_path, 'rb') as f:
+    with Path(graph_path).open('rb') as f:
         return pickle.load(f)
 
 @app.command()
@@ -40,7 +42,7 @@ def query(
 
 @app.command()
 def search(
-    keywords: List[str] = typer.Argument(..., help="Keywords to search for"),
+    keywords: list[str] = typer.Argument(help="Keywords to search for"),
     ttl: int = 365,
     topk: int = 10,
     graph: str = "data/processed/graph.gpickle"
@@ -266,10 +268,8 @@ def model_info():
 
 @app.command()
 def watch(
-    watch_dirs: List[str] = typer.Option(
-        ["data", "data/raw"],
-        "--watch",
-        "-w",
+    watch_dirs: list[str] = typer.Option(
+        default=["data", "data/raw"],
         help="감시할 디렉토리 (여러 개 지정 가능)"
     ),
     graph: str = typer.Option(
@@ -372,7 +372,7 @@ def visualize(
 def advanced_query(
     guid: Optional[str] = typer.Option(None, help="IFC GUID"),
     author: Optional[str] = typer.Option(None, help="Author name"),
-    keywords: Optional[List[str]] = typer.Option(None, help="Keywords"),
+    keywords: Optional[List[str]] = typer.Option(default=None, help="Keywords"),
     start_date: Optional[str] = typer.Option(None, help="Start date (YYYY-MM-DD)"),
     end_date: Optional[str] = typer.Option(None, help="End date (YYYY-MM-DD)"),
     ttl: int = 365,
@@ -410,6 +410,113 @@ def advanced_query(
     # Execute query
     results = builder.execute()
     typer.echo(json.dumps(results, indent=2, ensure_ascii=False))
+
+
+@app.command()
+def analytics(
+    graph: str = typer.Option("data/processed/graph.gpickle", "--graph", "-g", help="그래프 파일 경로"),
+    output: str = typer.Option("analytics", "--output", "-o", help="출력 디렉토리"),
+    include_visualizations: bool = typer.Option(True, "--viz/--no-viz", help="시각화 포함 여부")
+):
+    """그래프 분석 및 통계 생성"""
+    try:
+        from ..analytics import create_analytics_report
+        
+        typer.echo("📊 그래프 분석 시작...")
+        
+        # 분석 보고서 생성
+        report = create_analytics_report(graph, output)
+        
+        # 기본 통계 출력
+        basic_stats = report.get("basic_statistics", {})
+        typer.echo(f"\n📈 기본 통계:")
+        typer.echo(f"  총 노드: {basic_stats.get('total_nodes', 0)}개")
+        typer.echo(f"  총 엣지: {basic_stats.get('total_edges', 0)}개")
+        typer.echo(f"  IFC 노드: {basic_stats.get('ifc_nodes', 0)}개")
+        typer.echo(f"  BCF 노드: {basic_stats.get('bcf_nodes', 0)}개")
+        typer.echo(f"  그래프 밀도: {basic_stats.get('density', 0):.3f}")
+        
+        # 인사이트 출력
+        insights = report.get("insights", [])
+        if insights:
+            typer.echo(f"\n💡 인사이트 ({len(insights)}개):")
+            for i, insight in enumerate(insights, 1):
+                severity_emoji = {
+                    "critical": "🚨",
+                    "warning": "⚠️",
+                    "info": "ℹ️"
+                }.get(insight.get("severity", "info"), "ℹ️")
+                
+                typer.echo(f"  {i}. {severity_emoji} {insight.get('message', '')}")
+                if insight.get("recommendation"):
+                    typer.echo(f"     💡 {insight['recommendation']}")
+        
+        typer.echo(f"\n✅ 분석 완료! 결과는 {output}/ 디렉토리에 저장되었습니다.")
+        
+    except Exception as e:
+        typer.echo(f"❌ 분석 중 오류가 발생했습니다: {e}")
+        import traceback
+        traceback.print_exc()
+
+
+@app.command()
+def optimize(
+    input_graph: str = typer.Option("data/processed/graph.gpickle", "--input", "-i", help="입력 그래프 파일"),
+    output_graph: str = typer.Option("data/processed/optimized_graph.gpickle", "--output", "-o", help="출력 그래프 파일"),
+    enable_indexing: bool = typer.Option(True, "--index/--no-index", help="인덱싱 활성화"),
+    enable_caching: bool = typer.Option(True, "--cache/--no-cache", help="캐싱 활성화"),
+    enable_compression: bool = typer.Option(True, "--compress/--no-compress", help="압축 활성화"),
+    cache_size: int = typer.Option(1000, "--cache-size", help="캐시 크기")
+):
+    """그래프 성능 최적화"""
+    try:
+        from ..optimization import GraphOptimizer, OptimizationConfig
+        
+        typer.echo("⚡ 그래프 최적화 시작...")
+        
+        # 최적화 설정
+        config = OptimizationConfig(
+            enable_indexing=enable_indexing,
+            enable_caching=enable_caching,
+            enable_compression=enable_compression,
+            cache_size=cache_size
+        )
+        
+        # 그래프 로드
+        import pickle
+        with open(input_graph, 'rb') as f:
+            graph = pickle.load(f)
+        
+        typer.echo(f"원본 그래프: {graph.number_of_nodes()}개 노드, {graph.number_of_edges()}개 엣지")
+        
+        # 최적화 수행
+        optimizer = GraphOptimizer(config)
+        optimized_graph = optimizer.optimize_graph(graph)
+        
+        typer.echo(f"최적화된 그래프: {optimized_graph.number_of_nodes()}개 노드, {optimized_graph.number_of_edges()}개 엣지")
+        
+        # 최적화된 그래프 저장
+        optimizer.save_optimized_graph(optimized_graph, output_graph)
+        
+        # 통계 출력
+        stats = optimizer.get_optimization_stats()
+        typer.echo(f"\n📊 최적화 통계:")
+        typer.echo(f"  인덱스 구축 시간: {stats.get('index_build_time', 0):.2f}초")
+        
+        cache_stats = stats.get('cache_stats', {})
+        typer.echo(f"  캐시 히트율: {cache_stats.get('hit_rate', 0):.2%}")
+        typer.echo(f"  캐시 크기: {cache_stats.get('cache_size', 0)}/{cache_stats.get('max_size', 0)}")
+        
+        indexer_stats = stats.get('indexer_stats', {})
+        typer.echo(f"  GUID 인덱스: {indexer_stats.get('guid_index_size', 0)}개")
+        typer.echo(f"  키워드 인덱스: {indexer_stats.get('keyword_index_size', 0)}개")
+        
+        typer.echo(f"\n✅ 최적화 완료! 결과는 {output_graph}에 저장되었습니다.")
+        
+    except Exception as e:
+        typer.echo(f"❌ 최적화 중 오류가 발생했습니다: {e}")
+        import traceback
+        traceback.print_exc()
 
 if __name__ == "__main__":
     app()

@@ -19,6 +19,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
         channels: conda-forge,defaults
         channel-priority: strict
+        auto-activate-base: false
     
     - name: Create conda environment
       shell: bash -l {0}
@@ -55,6 +56,7 @@ jobs:
         python-version: 3.11
         channels: conda-forge,defaults
         channel-priority: strict
+        auto-activate-base: false
     
     - name: Create conda environment and build
       shell: bash -l {0}
@@ -80,6 +82,7 @@ jobs:
         python-version: 3.11
         channels: conda-forge,defaults
         channel-priority: strict
+        auto-activate-base: false
     
     - name: Create conda environment and run integration tests
       shell: bash -l {0}

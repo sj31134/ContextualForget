@@ -1,5 +1,7 @@
 import argparse
+
 from ..core import parse_bcf_zip, write_jsonl
+
 
 def main():
     ap = argparse.ArgumentParser()

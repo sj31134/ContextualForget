@@ -2,18 +2,16 @@
 BM25-based keyword search engine for baseline comparison.
 """
 
-import os
-import json
 import re
-from pathlib import Path
-from typing import Dict, List, Any, Optional
 from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Any
 
 from whoosh import index
-from whoosh.fields import Schema, TEXT, ID, DATETIME, KEYWORD
-from whoosh.qparser import QueryParser, MultifieldParser
-from whoosh.query import *
 from whoosh.analysis import StandardAnalyzer
+from whoosh.fields import DATETIME, ID, KEYWORD, TEXT, Schema
+from whoosh.qparser import MultifieldParser
+from whoosh.query import Term, And
 
 from .base import BaselineQueryEngine
 
@@ -28,9 +26,9 @@ class BM25QueryEngine(BaselineQueryEngine):
         self.ix = None
         self.analyzer = StandardAnalyzer()
         
-    def initialize(self, graph_data: Dict[str, Any]) -> None:
+    def initialize(self, graph_data: dict[str, Any]) -> None:
         """Initialize BM25 index with graph data."""
-        print(f"🔧 BM25 엔진 초기화 중...")
+        print("🔧 BM25 엔진 초기화 중...")
         
         # Create index directory
         self.index_dir.mkdir(parents=True, exist_ok=True)
@@ -58,11 +56,11 @@ class BM25QueryEngine(BaselineQueryEngine):
             print(f"  ✅ 새 인덱스 생성: {self.index_dir}")
         
         self.initialized = True
-        print(f"  ✅ BM25 엔진 초기화 완료")
+        print("  ✅ BM25 엔진 초기화 완료")
     
-    def _build_index(self, graph_data: Dict[str, Any]) -> None:
+    def _build_index(self, graph_data: dict[str, Any]) -> None:
         """Build BM25 index from graph data."""
-        print(f"  📚 인덱스 구축 중...")
+        print("  📚 인덱스 구축 중...")
         
         writer = self.ix.writer()
         
@@ -89,7 +87,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                     if created:
                         try:
                             created_date = datetime.fromisoformat(created.replace('Z', '+00:00'))
-                        except:
+                        except Exception:
                             pass
                     
                     try:
@@ -145,7 +143,7 @@ class BM25QueryEngine(BaselineQueryEngine):
         print(f"    📐 IFC 문서: {ifc_count}개")
         print(f"    ✅ 총 {bcf_count + ifc_count}개 문서 인덱싱 완료")
     
-    def _extract_keywords(self, text: str) -> List[str]:
+    def _extract_keywords(self, text: str) -> list[str]:
         """Extract keywords from text."""
         if not text:
             return []
@@ -161,13 +159,13 @@ class BM25QueryEngine(BaselineQueryEngine):
             'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could',
             'should', 'may', 'might', 'must', 'can', 'this', 'that', 'these',
             'those', 'i', 'you', 'he', 'she', 'it', 'we', 'they', 'me', 'him',
-            'her', 'us', 'them', 'my', 'your', 'his', 'her', 'its', 'our', 'their'
+            'her', 'us', 'them', 'my', 'your', 'his', 'its', 'our', 'their'
         }
         
         keywords = [word for word in words if len(word) > 2 and word not in stop_words]
         return keywords[:10]  # Limit to 10 keywords
     
-    def process_query(self, question: str, **kwargs) -> Dict[str, Any]:
+    def process_query(self, question: str, **kwargs) -> dict[str, Any]:
         """Process a natural language query using BM25."""
         if not self.initialized:
             raise RuntimeError("BM25 engine not initialized")
@@ -200,7 +198,7 @@ class BM25QueryEngine(BaselineQueryEngine):
         author_keywords = ['작성', 'author', 'engineer', 'architect']
         return any(keyword in question.lower() for keyword in author_keywords)
     
-    def _handle_guid_query(self, question: str) -> Dict[str, Any]:
+    def _handle_guid_query(self, question: str) -> dict[str, Any]:
         """Handle GUID-specific queries."""
         # Extract GUID from question
         guid_pattern = r'\b([A-Za-z0-9]{22})\b'
@@ -235,7 +233,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                     "source": "BM25"
                 }
     
-    def _handle_temporal_query(self, question: str, keywords: List[str]) -> Dict[str, Any]:
+    def _handle_temporal_query(self, question: str, keywords: list[str]) -> dict[str, Any]:
         """Handle temporal queries."""
         # Extract time period from question
         time_period = self._extract_time_period(question)
@@ -279,7 +277,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                     "source": "BM25"
                 }
     
-    def _handle_author_query(self, question: str, keywords: List[str]) -> Dict[str, Any]:
+    def _handle_author_query(self, question: str, keywords: list[str]) -> dict[str, Any]:
         """Handle author-specific queries."""
         # Extract author name from question
         author = None
@@ -333,7 +331,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                     "source": "BM25"
                 }
     
-    def _handle_general_query(self, question: str, keywords: List[str]) -> Dict[str, Any]:
+    def _handle_general_query(self, question: str, keywords: list[str]) -> dict[str, Any]:
         """Handle general queries."""
         if not keywords:
             return {
@@ -381,7 +379,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                     "source": "BM25"
                 }
     
-    def _extract_time_period(self, question: str) -> Optional[datetime]:
+    def _extract_time_period(self, question: str) -> datetime | None:
         """Extract time period from question."""
         # Simple time period extraction
         if '1일' in question or '1 day' in question:

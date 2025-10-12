@@ -1,9 +1,9 @@
 """프로덕션 환경 설정 관리."""
 
-import os
-from typing import Dict, Any, Optional
-from dataclasses import dataclass
 import json
+import os
+from dataclasses import dataclass
+from typing import Any, Optional
 
 
 @dataclass
@@ -71,7 +71,7 @@ class MonitoringConfig:
     collection_interval: int = 60
     metrics_retention_hours: int = 24
     health_check_interval: int = 30
-    alert_thresholds: Dict[str, float] = None
+    alert_thresholds: dict[str, float] = None
     
     def __post_init__(self):
         if self.alert_thresholds is None:
@@ -98,7 +98,7 @@ class Config:
         self._load_from_env()
         
         # 설정 파일에서 로드 (있는 경우)
-        if config_file and os.path.exists(config_file):
+        if config_file and Path(config_file).exists():
             self._load_from_file(config_file)
     
     def _load_from_env(self):
@@ -134,7 +134,7 @@ class Config:
     def _load_from_file(self, config_file: str):
         """설정 파일에서 로드."""
         try:
-            with open(config_file, 'r') as f:
+            with Path(config_file).open() as f:
                 config_data = json.load(f)
             
             # 각 섹션별로 설정 업데이트
@@ -220,10 +220,10 @@ class Config:
             }
         }
         
-        with open(config_file, 'w') as f:
+        with Path(config_file).open('w') as f:
             json.dump(config_data, f, indent=2)
     
-    def validate(self) -> Dict[str, Any]:
+    def validate(self) -> dict[str, Any]:
         """설정 유효성 검사."""
         errors = []
         warnings = []

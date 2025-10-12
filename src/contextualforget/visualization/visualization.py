@@ -2,12 +2,12 @@
 Visualization tools for the ContextualForget graph system.
 """
 from __future__ import annotations
-import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
-from typing import Dict, List, Optional, Tuple
-import json
+
 from datetime import datetime
+
+import matplotlib.patches as mpatches
+import matplotlib.pyplot as plt
+import networkx as nx
 
 
 class GraphVisualizer:
@@ -28,10 +28,10 @@ class GraphVisualizer:
                 self.bcf_nodes.append((node, data))
     
     def plot_graph(self, 
-                   figsize: Tuple[int, int] = (12, 8),
+                   figsize: tuple[int, int] = (12, 8),
                    node_size: int = 1000,
                    font_size: int = 8,
-                   save_path: Optional[str] = None) -> plt.Figure:
+                   save_path: str | None = None) -> plt.Figure:
         """Plot the entire graph."""
         fig, ax = plt.subplots(figsize=figsize)
         
@@ -63,7 +63,7 @@ class GraphVisualizer:
         
         # Draw labels
         labels = {}
-        for node, data in self.graph.nodes(data=True):
+        for node, _data in self.graph.nodes(data=True):
             if node[0] == "IFC":
                 labels[node] = f"IFC\n{node[1][:8]}..."
             else:
@@ -86,8 +86,8 @@ class GraphVisualizer:
     
     def plot_subgraph(self, 
                       target_guid: str,
-                      figsize: Tuple[int, int] = (10, 6),
-                      save_path: Optional[str] = None) -> plt.Figure:
+                      figsize: tuple[int, int] = (10, 6),
+                      save_path: str | None = None) -> plt.Figure:
         """Plot subgraph around a specific IFC GUID."""
         # Find all nodes connected to the target GUID
         target_node = ("IFC", target_guid)
@@ -95,7 +95,7 @@ class GraphVisualizer:
             raise ValueError(f"GUID {target_guid} not found in graph")
         
         # Get all connected nodes
-        connected_nodes = set([target_node])
+        connected_nodes = {target_node}
         for neighbor in self.graph.neighbors(target_node):
             connected_nodes.add(neighbor)
         for predecessor in self.graph.predecessors(target_node):
@@ -167,12 +167,12 @@ class GraphVisualizer:
 class TimelineVisualizer:
     """Visualizes event timelines and forgetting patterns."""
     
-    def __init__(self, events: List[Dict]):
+    def __init__(self, events: list[dict]):
         self.events = events
     
     def plot_timeline(self, 
-                      figsize: Tuple[int, int] = (12, 6),
-                      save_path: Optional[str] = None) -> plt.Figure:
+                      figsize: tuple[int, int] = (12, 6),
+                      save_path: str | None = None) -> plt.Figure:
         """Plot event timeline."""
         fig, ax = plt.subplots(figsize=figsize)
         
@@ -202,7 +202,7 @@ class TimelineVisualizer:
                   c='blue', alpha=0.7, s=100)
         
         # Add labels
-        for i, (date, label) in enumerate(zip(event_dates, event_labels)):
+        for i, (date, label) in enumerate(zip(event_dates, event_labels, strict=False)):
             ax.annotate(label, (date, i), 
                        xytext=(5, 0), textcoords='offset points',
                        fontsize=8, alpha=0.8)
@@ -222,8 +222,8 @@ class TimelineVisualizer:
     
     def plot_forgetting_curve(self, 
                              ttl_days: int = 365,
-                             figsize: Tuple[int, int] = (10, 6),
-                             save_path: Optional[str] = None) -> plt.Figure:
+                             figsize: tuple[int, int] = (10, 6),
+                             save_path: str | None = None) -> plt.Figure:
         """Plot forgetting curve based on TTL."""
         fig, ax = plt.subplots(figsize=figsize)
         
@@ -273,10 +273,10 @@ def create_visualization_report(graph_path: str,
     import pickle
     
     # Create output directory
-    os.makedirs(output_dir, exist_ok=True)
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
     
     # Load graph
-    with open(graph_path, 'rb') as f:
+    with Path(graph_path).open('rb') as f:
         graph = pickle.load(f)
     
     # Create graph visualizer

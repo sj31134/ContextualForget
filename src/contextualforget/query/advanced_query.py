@@ -2,22 +2,26 @@
 Advanced query capabilities for the ContextualForget system.
 """
 from __future__ import annotations
-import networkx as nx
-from typing import Dict, List, Optional, Tuple, Any
-from datetime import datetime, timezone
-import json
-from ..core import expired
-from ..core import ForgettingManager, create_default_forgetting_policy
+
+from datetime import datetime
+from typing import Any
+
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    import networkx as nx
+
+from ..core import ForgettingManager, create_default_forgetting_policy, expired
 
 
 class AdvancedQueryEngine:
     """Advanced query engine with multiple search strategies."""
     
-    def __init__(self, graph: nx.DiGraph, forgetting_manager: Optional[ForgettingManager] = None):
+    def __init__(self, graph: nx.DiGraph, forgetting_manager: ForgettingManager | None = None):
         self.graph = graph
         self.forgetting_manager = forgetting_manager or create_default_forgetting_policy()
     
-    def get_ifc_element_info(self, guid: str) -> Dict[str, Any]:
+    def get_ifc_element_info(self, guid: str) -> dict[str, Any]:
         """Get IFC element information by GUID."""
         target_node = ("IFC", guid)
         
@@ -32,7 +36,7 @@ class AdvancedQueryEngine:
             "data": node_data
         }
     
-    def find_by_guid(self, guid: str, ttl: int = 0, limit: int = 10) -> List[Dict]:
+    def find_by_guid(self, guid: str, ttl: int = 0, limit: int = 10) -> list[dict]:
         """Find BCF topics related to a specific IFC GUID."""
         hits = []
         target_node = ("IFC", guid)
@@ -67,7 +71,7 @@ class AdvancedQueryEngine:
         
         return hits
     
-    def find_by_author(self, author: str, ttl: int = 0, limit: int = 10) -> List[Dict]:
+    def find_by_author(self, author: str, ttl: int = 0, limit: int = 10) -> list[dict]:
         """Find all BCF topics by a specific author."""
         hits = []
         
@@ -97,7 +101,7 @@ class AdvancedQueryEngine:
         
         return hits
     
-    def find_by_time_range(self, start_date: str, end_date: str) -> List[Dict]:
+    def find_by_time_range(self, start_date: str, end_date: str) -> list[dict]:
         """Find BCF topics within a specific time range."""
         hits = []
         
@@ -132,7 +136,7 @@ class AdvancedQueryEngine:
         
         return hits
     
-    def find_by_keywords(self, keywords: List[str], ttl: int = 0) -> List[Dict]:
+    def find_by_keywords(self, keywords: list[str], ttl: int = 0) -> list[dict]:
         """Find BCF topics containing specific keywords."""
         hits = []
         keywords_lower = [kw.lower() for kw in keywords]
@@ -166,7 +170,7 @@ class AdvancedQueryEngine:
         
         return hits
     
-    def find_connected_components(self, guid: str, max_depth: int = 2) -> Dict:
+    def find_connected_components(self, guid: str, max_depth: int = 2) -> dict:
         """Find all entities connected to a GUID within max_depth."""
         target_node = ("IFC", guid)
         
@@ -210,7 +214,7 @@ class AdvancedQueryEngine:
         
         return components
     
-    def get_statistics(self) -> Dict:
+    def get_statistics(self) -> dict:
         """Get graph statistics."""
         ifc_count = sum(1 for node in self.graph.nodes() if node[0] == "IFC")
         bcf_count = sum(1 for node in self.graph.nodes() if node[0] == "BCF")
@@ -250,7 +254,7 @@ class AdvancedQueryEngine:
             "forgetting_stats": self.forgetting_manager.get_forgetting_stats()
         }
     
-    def apply_forgetting_policy(self, events: List[Dict]) -> List[Dict]:
+    def apply_forgetting_policy(self, events: list[dict]) -> list[dict]:
         """Apply forgetting policy to filter events."""
         return self.forgetting_manager.filter_events(events)
 
@@ -264,47 +268,47 @@ class QueryBuilder:
         self.sort_by = None
         self.limit = None
     
-    def by_guid(self, guid: str) -> 'QueryBuilder':
+    def by_guid(self, guid: str) -> QueryBuilder:
         """Filter by IFC GUID."""
         self.filters.append(("guid", guid))
         return self
     
-    def by_author(self, author: str) -> 'QueryBuilder':
+    def by_author(self, author: str) -> QueryBuilder:
         """Filter by author."""
         self.filters.append(("author", author))
         return self
     
-    def by_keywords(self, keywords: List[str]) -> 'QueryBuilder':
+    def by_keywords(self, keywords: list[str]) -> QueryBuilder:
         """Filter by keywords."""
         self.filters.append(("keywords", keywords))
         return self
     
-    def by_time_range(self, start_date: str, end_date: str) -> 'QueryBuilder':
+    def by_time_range(self, start_date: str, end_date: str) -> QueryBuilder:
         """Filter by time range."""
         self.filters.append(("time_range", (start_date, end_date)))
         return self
     
-    def with_ttl(self, ttl_days: int) -> 'QueryBuilder':
+    def with_ttl(self, ttl_days: int) -> QueryBuilder:
         """Apply TTL filter."""
         self.filters.append(("ttl", ttl_days))
         return self
     
-    def sort_by_date(self, ascending: bool = True) -> 'QueryBuilder':
+    def sort_by_date(self, ascending: bool = True) -> QueryBuilder:
         """Sort by date."""
         self.sort_by = ("date", ascending)
         return self
     
-    def sort_by_confidence(self, ascending: bool = False) -> 'QueryBuilder':
+    def sort_by_confidence(self, ascending: bool = False) -> QueryBuilder:
         """Sort by confidence."""
         self.sort_by = ("confidence", ascending)
         return self
     
-    def limit_results(self, limit: int) -> 'QueryBuilder':
+    def limit_results(self, limit: int) -> QueryBuilder:
         """Limit number of results."""
         self.limit = limit
         return self
     
-    def execute(self) -> List[Dict]:
+    def execute(self) -> list[dict]:
         """Execute the query."""
         results = []
         

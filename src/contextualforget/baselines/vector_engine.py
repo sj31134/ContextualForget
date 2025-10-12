@@ -2,14 +2,12 @@
 Vector-based semantic search engine using Sentence-BERT.
 """
 
-import os
 import json
-import pickle
-import numpy as np
-from pathlib import Path
-from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Any
 
+import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -30,9 +28,9 @@ class VectorQueryEngine(BaselineQueryEngine):
         self.documents = None
         self.document_metadata = None
         
-    def initialize(self, graph_data: Dict[str, Any]) -> None:
+    def initialize(self, graph_data: dict[str, Any]) -> None:
         """Initialize vector engine with graph data."""
-        print(f"🔧 Vector 엔진 초기화 중...")
+        print("🔧 Vector 엔진 초기화 중...")
         
         # Create cache directory
         self.cache_dir.mkdir(parents=True, exist_ok=True)
@@ -53,7 +51,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             print(f"  ✅ 새 임베딩 생성: {len(self.documents)}개 문서")
         
         self.initialized = True
-        print(f"  ✅ Vector 엔진 초기화 완료")
+        print("  ✅ Vector 엔진 초기화 완료")
     
     def _load_cached_embeddings(self, 
                                embeddings_path: Path, 
@@ -67,16 +65,16 @@ class VectorQueryEngine(BaselineQueryEngine):
         self.embeddings = np.load(embeddings_path)
         
         # Load documents
-        with open(documents_path, 'r', encoding='utf-8') as f:
+        with Path(documents_path).open(encoding='utf-8') as f:
             self.documents = json.load(f)
         
         # Load metadata
-        with open(metadata_path, 'r', encoding='utf-8') as f:
+        with Path(metadata_path).open(encoding='utf-8') as f:
             self.document_metadata = json.load(f)
     
-    def _build_embeddings(self, graph_data: Dict[str, Any]) -> None:
+    def _build_embeddings(self, graph_data: dict[str, Any]) -> None:
         """Build embeddings from graph data."""
-        print(f"  📚 임베딩 구축 중...")
+        print("  📚 임베딩 구축 중...")
         
         # Load model
         self.model = SentenceTransformer(self.model_name)
@@ -142,7 +140,7 @@ class VectorQueryEngine(BaselineQueryEngine):
         # Generate embeddings
         print(f"    📋 BCF 문서: {bcf_count}개")
         print(f"    📐 IFC 문서: {ifc_count}개")
-        print(f"    🔄 임베딩 생성 중...")
+        print("    🔄 임베딩 생성 중...")
         
         self.embeddings = self.model.encode(documents, show_progress_bar=True)
         self.documents = documents
@@ -159,14 +157,14 @@ class VectorQueryEngine(BaselineQueryEngine):
         np.save(embeddings_path, self.embeddings)
         
         # Save documents
-        with open(documents_path, 'w', encoding='utf-8') as f:
+        with Path(documents_path).open('w', encoding='utf-8') as f:
             json.dump(self.documents, f, ensure_ascii=False, indent=2)
         
         # Save metadata
-        with open(metadata_path, 'w', encoding='utf-8') as f:
+        with Path(metadata_path).open('w', encoding='utf-8') as f:
             json.dump(self.document_metadata, f, ensure_ascii=False, indent=2)
     
-    def process_query(self, question: str, **kwargs) -> Dict[str, Any]:
+    def process_query(self, question: str, **kwargs) -> dict[str, Any]:
         """Process a natural language query using vector similarity."""
         if not self.initialized:
             raise RuntimeError("Vector engine not initialized")
@@ -197,7 +195,7 @@ class VectorQueryEngine(BaselineQueryEngine):
         author_keywords = ['작성', 'author', 'engineer', 'architect']
         return any(keyword in question.lower() for keyword in author_keywords)
     
-    def _handle_guid_query(self, question: str) -> Dict[str, Any]:
+    def _handle_guid_query(self, question: str) -> dict[str, Any]:
         """Handle GUID-specific queries."""
         import re
         
@@ -211,7 +209,7 @@ class VectorQueryEngine(BaselineQueryEngine):
         guid = match.group(1)
         
         # Search for IFC element with this GUID
-        for i, metadata in enumerate(self.document_metadata):
+        for _i, metadata in enumerate(self.document_metadata):
             if metadata['doc_type'] == 'IFC' and metadata['guid'] == guid:
                 return {
                     "answer": f"GUID {guid}는 {metadata['entity_type']} 타입의 IFC 요소입니다.",
@@ -230,7 +228,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             "source": "Vector"
         }
     
-    def _handle_temporal_query(self, question: str) -> Dict[str, Any]:
+    def _handle_temporal_query(self, question: str) -> dict[str, Any]:
         """Handle temporal queries."""
         # Extract time period from question
         time_period = self._extract_time_period(question)
@@ -256,7 +254,7 @@ class VectorQueryEngine(BaselineQueryEngine):
                         created_date = datetime.fromisoformat(metadata['created'].replace('Z', '+00:00'))
                         if created_date >= cutoff_date:
                             filtered_results.append((idx, similarities[idx]))
-                    except:
+                    except Exception:
                         pass
         else:
             # Filter for BCF documents only
@@ -271,7 +269,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             filtered_results.sort(key=lambda x: x[1], reverse=True)
             
             issues = []
-            for idx, similarity in filtered_results[:5]:
+            for idx, _similarity in filtered_results[:5]:
                 metadata = self.document_metadata[idx]
                 issues.append(metadata['title'])
             
@@ -292,7 +290,7 @@ class VectorQueryEngine(BaselineQueryEngine):
                 "source": "Vector"
             }
     
-    def _handle_author_query(self, question: str) -> Dict[str, Any]:
+    def _handle_author_query(self, question: str) -> dict[str, Any]:
         """Handle author-specific queries."""
         import re
         
@@ -344,7 +342,7 @@ class VectorQueryEngine(BaselineQueryEngine):
                 "source": "Vector"
             }
     
-    def _handle_general_query(self, question: str) -> Dict[str, Any]:
+    def _handle_general_query(self, question: str) -> dict[str, Any]:
         """Handle general queries."""
         # Generate query embedding
         query_embedding = self.model.encode([question])
@@ -398,7 +396,7 @@ class VectorQueryEngine(BaselineQueryEngine):
                 "source": "Vector"
             }
     
-    def _extract_time_period(self, question: str) -> Optional[datetime]:
+    def _extract_time_period(self, question: str) -> datetime | None:
         """Extract time period from question."""
         # Simple time period extraction
         if '1일' in question or '1 day' in question:
