@@ -1,0 +1,311 @@
+{
+  "total_count": 61,
+  "total_size_mb": 0.2862052917480469,
+  "files": [
+    {
+      "name": "hospital_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/hospital_issues.bcfzip",
+      "size_kb": 3.63
+    },
+    {
+      "name": "industrial_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/industrial_issues.bcfzip",
+      "size_kb": 6.12
+    },
+    {
+      "name": "synthetic_bcf_009.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_009.bcfzip",
+      "size_kb": 6.06
+    },
+    {
+      "name": "synthetic_bcf_017.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_017.bcfzip",
+      "size_kb": 4.56
+    },
+    {
+      "name": "synthetic_bcf_005.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_005.bcfzip",
+      "size_kb": 2.56
+    },
+    {
+      "name": "synthetic_bcf_050.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_050.bcfzip",
+      "size_kb": 2.5
+    },
+    {
+      "name": "synthetic_bcf_033.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_033.bcfzip",
+      "size_kb": 6.31
+    },
+    {
+      "name": "synthetic_bcf_042.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_042.bcfzip",
+      "size_kb": 6.82
+    },
+    {
+      "name": "synthetic_bcf_021.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_021.bcfzip",
+      "size_kb": 6.81
+    },
+    {
+      "name": "synthetic_bcf_007.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_007.bcfzip",
+      "size_kb": 5.41
+    },
+    {
+      "name": "synthetic_bcf_019.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_019.bcfzip",
+      "size_kb": 4.66
+    },
+    {
+      "name": "synthetic_bcf_015.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_015.bcfzip",
+      "size_kb": 3.21
+    },
+    {
+      "name": "synthetic_bcf_023.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_023.bcfzip",
+      "size_kb": 2.48
+    },
+    {
+      "name": "synthetic_bcf_040.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_040.bcfzip",
+      "size_kb": 6.18
+    },
+    {
+      "name": "synthetic_bcf_031.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_031.bcfzip",
+      "size_kb": 4.04
+    },
+    {
+      "name": "synthetic_bcf_048.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_048.bcfzip",
+      "size_kb": 2.33
+    },
+    {
+      "name": "synthetic_bcf_035.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_035.bcfzip",
+      "size_kb": 7.47
+    },
+    {
+      "name": "synthetic_bcf_027.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_027.bcfzip",
+      "size_kb": 7.55
+    },
+    {
+      "name": "synthetic_bcf_044.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_044.bcfzip",
+      "size_kb": 6.26
+    },
+    {
+      "name": "synthetic_bcf_039.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_039.bcfzip",
+      "size_kb": 3.23
+    },
+    {
+      "name": "synthetic_bcf_011.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_011.bcfzip",
+      "size_kb": 4.77
+    },
+    {
+      "name": "synthetic_bcf_003.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_003.bcfzip",
+      "size_kb": 6.73
+    },
+    {
+      "name": "residential_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/residential_issues.bcfzip",
+      "size_kb": 3.61
+    },
+    {
+      "name": "synthetic_bcf_046.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_046.bcfzip",
+      "size_kb": 7.76
+    },
+    {
+      "name": "synthetic_bcf_025.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_025.bcfzip",
+      "size_kb": 4.78
+    },
+    {
+      "name": "synthetic_bcf_029.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_029.bcfzip",
+      "size_kb": 7.5
+    },
+    {
+      "name": "synthetic_bcf_037.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_037.bcfzip",
+      "size_kb": 5.48
+    },
+    {
+      "name": "synthetic_bcf_001.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_001.bcfzip",
+      "size_kb": 3.18
+    },
+    {
+      "name": "synthetic_bcf_013.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_013.bcfzip",
+      "size_kb": 5.68
+    },
+    {
+      "name": "synthetic_bcf_032.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_032.bcfzip",
+      "size_kb": 5.35
+    },
+    {
+      "name": "synthetic_bcf_020.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_020.bcfzip",
+      "size_kb": 6.25
+    },
+    {
+      "name": "synthetic_bcf_043.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_043.bcfzip",
+      "size_kb": 5.55
+    },
+    {
+      "name": "synthetic_bcf_016.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_016.bcfzip",
+      "size_kb": 4.48
+    },
+    {
+      "name": "synthetic_bcf_008.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_008.bcfzip",
+      "size_kb": 3.84
+    },
+    {
+      "name": "synthetic_bcf_004.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_004.bcfzip",
+      "size_kb": 5.43
+    },
+    {
+      "name": "school_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/school_issues.bcfzip",
+      "size_kb": 4.4
+    },
+    {
+      "name": "synthetic_bcf_041.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_041.bcfzip",
+      "size_kb": 3.81
+    },
+    {
+      "name": "synthetic_bcf_022.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_022.bcfzip",
+      "size_kb": 4.01
+    },
+    {
+      "name": "synthetic_bcf_030.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_030.bcfzip",
+      "size_kb": 3.86
+    },
+    {
+      "name": "synthetic_bcf_018.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_018.bcfzip",
+      "size_kb": 3.79
+    },
+    {
+      "name": "synthetic_bcf_006.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_006.bcfzip",
+      "size_kb": 3.06
+    },
+    {
+      "name": "synthetic_bcf_014.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_014.bcfzip",
+      "size_kb": 6.78
+    },
+    {
+      "name": "synthetic_bcf_010.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_010.bcfzip",
+      "size_kb": 2.46
+    },
+    {
+      "name": "synthetic_bcf_002.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_002.bcfzip",
+      "size_kb": 3.85
+    },
+    {
+      "name": "synthetic_bcf_034.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_034.bcfzip",
+      "size_kb": 7.73
+    },
+    {
+      "name": "synthetic_bcf_049.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_049.bcfzip",
+      "size_kb": 3.96
+    },
+    {
+      "name": "synthetic_bcf_038.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_038.bcfzip",
+      "size_kb": 5.35
+    },
+    {
+      "name": "synthetic_bcf_045.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_045.bcfzip",
+      "size_kb": 6.07
+    },
+    {
+      "name": "synthetic_bcf_026.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_026.bcfzip",
+      "size_kb": 7.58
+    },
+    {
+      "name": "office_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/office_issues.bcfzip",
+      "size_kb": 3.6
+    },
+    {
+      "name": "synthetic_bcf_012.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_012.bcfzip",
+      "size_kb": 4.64
+    },
+    {
+      "name": "synthetic_bcf_024.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_024.bcfzip",
+      "size_kb": 3.93
+    },
+    {
+      "name": "synthetic_bcf_047.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_047.bcfzip",
+      "size_kb": 7.04
+    },
+    {
+      "name": "synthetic_bcf_036.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_036.bcfzip",
+      "size_kb": 2.41
+    },
+    {
+      "name": "synthetic_bcf_028.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/synthetic_bcf_028.bcfzip",
+      "size_kb": 4.0
+    },
+    {
+      "name": "hospital_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/hospital_issues.bcfzip",
+      "size_kb": 3.63
+    },
+    {
+      "name": "industrial_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/industrial_issues.bcfzip",
+      "size_kb": 6.12
+    },
+    {
+      "name": "sample.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/sample.bcfzip",
+      "size_kb": 0.81
+    },
+    {
+      "name": "residential_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/residential_issues.bcfzip",
+      "size_kb": 3.61
+    },
+    {
+      "name": "school_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/school_issues.bcfzip",
+      "size_kb": 4.4
+    },
+    {
+      "name": "office_issues.bcfzip",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/office_issues.bcfzip",
+      "size_kb": 3.6
+    }
+  ]
+}

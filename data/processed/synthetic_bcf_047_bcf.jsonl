@@ -1,0 +1,9 @@
+{"topic_id": "f2ee3011-a8e6-4b00-8a73-5b37ba9d393e", "title": "환기 용량 부족", "created": "2025-07-18T23:13:53.078453", "author": "engineer_park", "description": "환기 용량이 실내 인원수 대비 부족합니다.", "ref": "ee03ksmxPcppWB5k6WU0DQ"}
+{"topic_id": "4c8b64e9-1ced-4d9d-ac82-78dccdbbd2f6", "title": "기계실 공간 부족", "created": "2025-08-21T23:13:53.078471", "author": "engineer_a", "description": "기계실 기기 배치 시 공간이 부족합니다.", "ref": "eS$2Zbswcb$Lqe4$GR_QUV"}
+{"topic_id": "525752c0-7e90-48f7-a4ff-f591b1ed1f8e", "title": "기초 깊이 변경", "created": "2025-10-07T23:13:53.078487", "author": "engineer_park", "description": "지반 조사 결과 기초 깊이 증가 필요.", "ref": "HDerB4slM1o70gKwA5kSKd"}
+{"topic_id": "76dbbd72-aea8-4341-a2c7-1698532eacc7", "title": "내진 설계 미흡", "created": "2025-08-02T23:13:53.078502", "author": "engineer_park", "description": "내진 벽체 배치가 구조 계산서와 불일치합니다.", "ref": "G5Q1N61ATP9mph$Osv0i6z"}
+{"topic_id": "4673810d-efc4-49e3-be28-6721b9b7ab81", "title": "마감재 변경", "created": "2025-07-11T23:13:53.078517", "author": "architect_jung", "description": "마감재 사양이 승인된 내용과 다릅니다.", "ref": "m9I9zkx3iZNOazMWDEDDce"}
+{"topic_id": "83c6dd6a-4d79-41a1-aa5a-a84de3fc4d91", "title": "기둥 단면 부족", "created": "2025-10-05T23:13:53.078532", "author": "engineer_b", "description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.", "ref": "qxMobBx0mRbo3WDaNPGT4L"}
+{"topic_id": "ec01d77b-fde7-4327-b825-2e9f719c24c9", "title": "보일러 용량", "created": "2025-10-02T23:13:53.078550", "author": "engineer_b", "description": "보일러 용량 재검토 필요합니다.", "ref": "JjOlnW_3MDzL2mEosG5oBU"}
+{"topic_id": "cdfe3a5e-091c-40a3-b776-2f7b25fa51b0", "title": "연결부 상세 누락", "created": "2025-07-18T23:13:53.078564", "author": "engineer_b", "description": "기둥-보 접합부 상세도가 누락되었습니다.", "ref": "PPUYeBYF4rf8y0KsAj7RPW"}
+{"topic_id": "690122d1-5154-4cc9-b304-1a1920681dd2", "title": "환기 용량 부족", "created": "2025-07-20T23:13:53.078577", "author": "engineer_a", "description": "환기 용량이 실내 인원수 대비 부족합니다.", "ref": "czLYruXpgJZkADMHgFHMa$"}

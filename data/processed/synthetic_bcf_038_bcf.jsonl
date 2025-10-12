@@ -1,0 +1,7 @@
+{"topic_id": "4b81340f-e319-4fdb-a786-68199ef7c5cf", "title": "기둥 단면 부족", "created": "2025-08-21T23:13:53.076583", "author": "architect_jung", "description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.", "ref": "2MKbngBzuRWBPwknyLR31$"}
+{"topic_id": "ab23bc7c-edd2-4316-b6ea-ce6df641d96b", "title": "벽체 두께 불일치", "created": "2025-08-09T23:13:53.076600", "author": "engineer_b", "description": "외벽 두께가 단열 기준을 만족하지 못합니다.", "ref": "epGgReX7RgfjZcRBOVbyPI"}
+{"topic_id": "ab28de05-d818-4398-8b60-7eef16548aeb", "title": "보 처짐 우려", "created": "2025-09-30T23:13:53.076618", "author": "architect_jung", "description": "보의 처짐이 허용치를 초과합니다. 보강 또는 단면 증가 필요.", "ref": "K1EUypbOVnpL1REnuqTm5g"}
+{"topic_id": "550f412e-3abe-41a7-8124-7b0dd6f12189", "title": "보일러 용량", "created": "2025-08-09T23:13:53.076635", "author": "engineer_b", "description": "보일러 용량 재검토 필요합니다.", "ref": "EZF2h_c3phbp98DQEtbMPi"}
+{"topic_id": "4e52d966-fa0d-49a6-9dd4-63cc249e27b8", "title": "천장고 부족", "created": "2025-10-03T23:13:53.076651", "author": "engineer_lee", "description": "설비 배관 고려 시 순 천장고가 부족합니다.", "ref": "se2cyJagvyllKImeHGIrim"}
+{"topic_id": "905b99cb-d6bd-4263-a0e3-58abf7d21d63", "title": "콘센트 위치", "created": "2025-07-23T23:13:53.076668", "author": "engineer_a", "description": "콘센트 위치가 가구 배치와 맞지 않습니다.", "ref": "WhnziVhVxsq9xi03xOqKGQ"}
+{"topic_id": "3b450b86-71a4-48ad-8b1a-9e3f0be55993", "title": "콘센트 위치", "created": "2025-08-24T23:13:53.076685", "author": "engineer_lee", "description": "콘센트 위치가 가구 배치와 맞지 않습니다.", "ref": "iodfWXttu_wO4a6ZwAjeKk"}

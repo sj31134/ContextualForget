@@ -1,0 +1,34 @@
+{
+  "generated_at": "2025-10-09T23:14:07.428101",
+  "summary": {
+    "total_ifc": 123,
+    "total_bcf": 61,
+    "total_size_mb": 39.390170097351074,
+    "sufficiency_score": 100,
+    "sufficiency_level": "✅ IDEAL - Top-tier 학회 목표 가능"
+  },
+  "ifc_breakdown": {
+    "size_distribution": {
+      "small": 81,
+      "medium": 28,
+      "large": 14,
+      "xlarge": 0
+    },
+    "complexity_distribution": {
+      "simple": 68,
+      "moderate": 32,
+      "complex": 23
+    }
+  },
+  "data_splits": {
+    "total": 123,
+    "train": 86,
+    "validation": 18,
+    "test": 19
+  },
+  "next_steps": [
+    "✅ 데이터 충분 - Phase 1 시작 가능",
+    "시간적 다양성 추가 (3-12개월 분산)",
+    "Gold Standard QA 데이터셋 생성"
+  ]
+}

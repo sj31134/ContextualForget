@@ -1,0 +1,28 @@
+{
+  "current": {
+    "ifc_count": 123,
+    "bcf_count": 61,
+    "total_ifc_size_mb": 39.10396480560303,
+    "complexity_diversity": 3
+  },
+  "requirements": {
+    "minimum": {
+      "ifc_count": 15,
+      "bcf_count": 30,
+      "total_ifc_size_mb": 10,
+      "complexity_diversity": 3
+    },
+    "ideal": {
+      "ifc_count": 25,
+      "bcf_count": 50,
+      "total_ifc_size_mb": 50,
+      "complexity_diversity": 4
+    }
+  },
+  "status": {
+    "level": "✅ IDEAL - Top-tier 학회 목표 가능",
+    "score": 100,
+    "minimum_met": true,
+    "ideal_met": true
+  }
+}

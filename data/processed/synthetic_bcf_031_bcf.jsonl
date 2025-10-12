@@ -1,0 +1,5 @@
+{"topic_id": "75f87cd0-27e4-4cc2-a6ce-56eac9f0d3e0", "title": "슬라브 두께 확인", "created": "2025-07-25T23:13:53.074869", "author": "architect_jung", "description": "슬라브 두께가 설계 기준에 미달합니다. 재검토 요청.", "ref": "rUKlN_u_BzroHjC4uBcrtQ"}
+{"topic_id": "0f31835a-448f-48f0-a8f8-8ac13a082b5d", "title": "내진 설계 미흡", "created": "2025-08-02T23:13:53.074917", "author": "engineer_lee", "description": "내진 벽체 배치가 구조 계산서와 불일치합니다.", "ref": "IMzvS7mGHIx0qmwHcna8ly"}
+{"topic_id": "14a9725a-bf95-4917-96c6-8f1861b3ab67", "title": "기둥 단면 부족", "created": "2025-09-09T23:13:53.074973", "author": "architect_choi", "description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.", "ref": "I9cxltnx80I3lHQlBH_kkI"}
+{"topic_id": "0f160068-df9d-443f-911c-1cf1ba4cbd58", "title": "마감재 변경", "created": "2025-09-15T23:13:53.075002", "author": "engineer_a", "description": "마감재 사양이 승인된 내용과 다릅니다.", "ref": "GLd2jnkjhcpgzXScEA_mSG"}
+{"topic_id": "d60a4684-744f-4f40-85db-08807e56d846", "title": "연결부 상세 누락", "created": "2025-09-29T23:13:53.075026", "author": "engineer_lee", "description": "기둥-보 접합부 상세도가 누락되었습니다.", "ref": "6o_tdy1dJDFc9iwQrik_V_"}

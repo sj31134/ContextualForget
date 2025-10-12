@@ -1,0 +1,10 @@
+{"topic_id": "f5e92f35-f04e-4227-a08b-ea32d1f8138c", "title": "보 처짐 우려", "created": "2025-09-04T23:13:53.074020", "author": "architect_choi", "description": "보의 처짐이 허용치를 초과합니다. 보강 또는 단면 증가 필요.", "ref": "vhIRP91MA0ZwnUkQ9zU5Iv"}
+{"topic_id": "7e51e184-139a-41ee-987d-f7552ddf322c", "title": "가설 시설 위치", "created": "2025-09-08T23:13:53.074036", "author": "engineer_a", "description": "가설 사무실 위치 변경 요청.", "ref": "P84MU6fJXhvrzglt3iD4j_"}
+{"topic_id": "3b655388-0531-4ef9-9c3a-1f9add77f9f5", "title": "창호 위치 간섭", "created": "2025-08-06T23:13:53.074053", "author": "engineer_park", "description": "창호 위치가 구조체와 간섭됩니다. 위치 조정 필요.", "ref": "6fKlaQpYd4WCIS04yixHdv"}
+{"topic_id": "7c2c66e5-75e5-477c-93e7-9dc9281abde4", "title": "비상구 유도등", "created": "2025-07-30T23:13:53.074075", "author": "architect_choi", "description": "비상구 유도등 위치가 부적절합니다.", "ref": "X0QVwqFEgfxmHtjLrmtupz"}
+{"topic_id": "7ce0c726-fc0c-45be-ae77-62d62046b138", "title": "덕트 간섭", "created": "2025-08-25T23:13:53.074091", "author": "architect_choi", "description": "공조 덕트가 구조 보와 간섭합니다.", "ref": "6o_tdy1dJDFc9iwQrik_V_"}
+{"topic_id": "aae666a7-19d5-47c9-9cce-143a3b9b66a9", "title": "접지 시스템", "created": "2025-08-19T23:13:53.074109", "author": "engineer_lee", "description": "접지 시스템 상세 확인 필요.", "ref": "HDerB4slM1o70gKwA5kSKd"}
+{"topic_id": "29fc2da4-9697-42ec-8b00-d6ec71fc5f0b", "title": "조명 배치 변경", "created": "2025-07-17T23:13:53.074125", "author": "engineer_a", "description": "조명 배치가 실 용도와 맞지 않습니다.", "ref": "1_qYFKKkFyP4sdAYlZ1IaQ"}
+{"topic_id": "6db95c03-5f8c-482b-9836-2f5386658416", "title": "콘센트 위치", "created": "2025-07-26T23:13:53.074144", "author": "engineer_a", "description": "콘센트 위치가 가구 배치와 맞지 않습니다.", "ref": "lWl1bxmPAtvW6SeahAT8gW"}
+{"topic_id": "e536ad0a-f1fc-4684-97a5-b2eb6848fbdd", "title": "출입문 폭 부족", "created": "2025-09-02T23:13:53.074159", "author": "engineer_b", "description": "장애인 접근을 위한 출입문 폭이 부족합니다.", "ref": "TtT_FiZqiFwAA66mPppf37"}
+{"topic_id": "1a04193d-6741-46d2-b533-1bc70a42dbcc", "title": "환기 용량 부족", "created": "2025-09-10T23:13:53.074175", "author": "engineer_park", "description": "환기 용량이 실내 인원수 대비 부족합니다.", "ref": "Om6p2OEhY6JVfJyXIZa6Df"}

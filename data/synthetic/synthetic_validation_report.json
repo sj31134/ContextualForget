@@ -1,0 +1,164 @@
+{
+  "validation_date": "2025-10-09T23:33:53.820569",
+  "synthetic_data_policy": {},
+  "generation_methodology": {
+    "purpose": "To supplement limited real-world BIM collaboration data for research purposes",
+    "approach": "Template-based generation with domain expert knowledge",
+    "transparency_level": "FULL - All generation logic is open-source",
+    "ifc_generation": {
+      "method": "Programmatic IFC entity creation using ifcopenshell library",
+      "templates": [
+        "Residential buildings (1-3 floors)",
+        "Office buildings (2-5 floors)",
+        "Industrial facilities",
+        "Healthcare facilities",
+        "Educational facilities"
+      ],
+      "elements_per_building": "15-25 IFC entities (Walls, Slabs, Columns, Doors, Windows)",
+      "realism_factors": [
+        "Standard building dimensions",
+        "Typical floor-to-floor heights (3.0-3.5m)",
+        "Realistic element relationships (Wall contains Door)",
+        "Valid IFC schema (IFC2X3, IFC4)"
+      ],
+      "limitations": [
+        "Simplified geometry (no complex curves)",
+        "Limited element types",
+        "No MEP systems",
+        "No structural analysis data"
+      ]
+    },
+    "bcf_generation": {
+      "method": "Template-based issue generation with random variation",
+      "issue_templates": {
+        "structural": [
+          "Column section insufficient",
+          "Beam deflection concern",
+          "Slab thickness verification",
+          "Seismic design issue",
+          "Foundation depth change",
+          "Rebar placement error",
+          "Connection detail missing"
+        ],
+        "architectural": [
+          "Wall thickness mismatch",
+          "Window position interference",
+          "Door width insufficient",
+          "Ceiling height shortage",
+          "Finish material change",
+          "Waterproofing detail",
+          "Balcony railing height"
+        ],
+        "mechanical": [
+          "Duct interference",
+          "Pipe routing change",
+          "Equipment room space",
+          "Ventilation capacity",
+          "Boiler capacity",
+          "Cooling load exceeded"
+        ],
+        "electrical": [
+          "Power capacity shortage",
+          "Lighting layout change",
+          "Outlet position",
+          "Emergency light missing",
+          "Grounding system"
+        ],
+        "fire_safety": [
+          "Sprinkler head spacing",
+          "Emergency exit sign",
+          "Fire hydrant access",
+          "Fire compartment penetration"
+        ],
+        "construction": [
+          "Construction sequence change",
+          "Material delivery route",
+          "Crane lifting plan",
+          "Temporary facility location"
+        ]
+      },
+      "parameters": {
+        "issues_per_file": "3-10",
+        "authors": [
+          "engineer_kim",
+          "engineer_lee",
+          "engineer_park",
+          "architect_choi",
+          "architect_jung"
+        ],
+        "statuses": [
+          "Open",
+          "InProgress",
+          "Resolved",
+          "Closed"
+        ],
+        "temporal_distribution": "Past 90 days (uniform distribution)",
+        "guid_linking": "1-3 random IFC GUIDs per issue"
+      },
+      "realism_factors": [
+        "Based on real BIM collaboration workflows",
+        "Issue categories reflect actual construction practice",
+        "Temporal distribution mimics project lifecycle",
+        "Author diversity represents multi-disciplinary teams"
+      ],
+      "limitations": [
+        "Templates cover limited issue types (~40 templates)",
+        "No actual project context",
+        "Simplified issue descriptions",
+        "No image attachments",
+        "No threaded comments",
+        "Random GUID assignment (not semantically meaningful)"
+      ]
+    },
+    "randomness_control": {
+      "seed_policy": "FIXED - All random operations use fixed seed for reproducibility",
+      "seed_value": 42,
+      "randomized_aspects": [
+        "Issue template selection",
+        "Author assignment",
+        "Status assignment",
+        "Timestamp generation",
+        "GUID selection",
+        "Number of issues per file"
+      ],
+      "deterministic_aspects": [
+        "Template content",
+        "IFC element types",
+        "BCF file structure",
+        "XML schema compliance"
+      ]
+    },
+    "quality_assurance": {
+      "validation_checks": [
+        "IFC schema compliance (ISO 10303-21)",
+        "BCF XML schema validation",
+        "GUID format verification",
+        "Timestamp validity",
+        "File integrity (ZIP structure)"
+      ],
+      "planned_expert_review": {
+        "target_reviewers": 2,
+        "expertise_required": "5+ years BIM experience",
+        "review_aspects": [
+          "Issue realism",
+          "Terminology accuracy",
+          "Workflow plausibility"
+        ]
+      }
+    }
+  },
+  "statistical_comparison": {
+    "file_count": {
+      "real": 2,
+      "synthetic": 60,
+      "ratio": "60/2"
+    },
+    "sample_issues": {
+      "real_sampled": 1,
+      "synthetic_sampled": 114
+    },
+    "assessment": "🔴 Synthetic data heavily dominates. High risk for paper acceptance."
+  },
+  "reproducibility": {},
+  "transparency_score": 90
+}

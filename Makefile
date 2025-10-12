@@ -4,14 +4,11 @@ VENV := conda activate contextualforget &&
 .PHONY: setup data ingest_ifc ingest_bcf link build_graph query eval all clean
 
 setup:
-	conda create -n contextualforget python=3.11 -y || true; \
-	$(VENV) pip install -U pip; \
-	$(VENV) pip install -e ".[dev]"
+	conda create -n contextualforget python=3.11 -y || true; 	$(VENV) pip install -U pip; 	$(VENV) pip install -e ".[dev]"
 
 data: data/raw/sample.ifc data/raw/sample.bcfzip data/sources.json
 	@echo ">> sample IFC & BCF prepared"
 
-# --- minimal IFC (GUID는 연구 텍스트와 동일) ---
 data/raw/sample.ifc:
 	@mkdir -p data/raw
 	@cat > data/raw/sample.ifc <<'EOF'
@@ -29,7 +26,6 @@ ENDSEC;
 END-ISO-10303-21;
 EOF
 
-# --- minimal BCF zip (Topic이 위 IFC GUID를 참조) ---
 data/raw/bcf_min/Topics/0001/markup.bcf:
 	@mkdir -p data/raw/bcf_min/Topics/0001
 	@cat > data/raw/bcf_min/Topics/0001/markup.bcf <<'EOF'
@@ -70,24 +66,43 @@ json.dump(j,open("data/sources.json","w"),indent=2)
 PY
 
 ingest_ifc:
-	$(VENV) $(PY) -m src.contextualforget.ingest_ifc --ifc data/raw/sample.ifc --out data/processed/ifc.jsonl
+	$(VENV) python -m contextualforget.data.ingest_ifc --ifc data/raw/sample.ifc --out data/processed/ifc.jsonl
 
 ingest_bcf:
-	$(VENV) $(PY) -m src.contextualforget.ingest_bcf --bcf data/raw/sample.bcfzip --out data/processed/bcf.jsonl
+	$(VENV) python -m contextualforget.data.ingest_bcf --bcf data/raw/sample.bcfzip --out data/processed/bcf.jsonl
 
 link:
-	$(VENV) $(PY) -m src.contextualforget.link_ifc_bcf --ifc data/processed/ifc.jsonl --bcf data/processed/bcf.jsonl --out data/processed/links.jsonl
+	$(VENV) python -m contextualforget.data.link_ifc_bcf --ifc data/processed/ifc.jsonl --bcf data/processed/bcf.jsonl --out data/processed/links.jsonl
 
 build_graph:
-	$(VENV) $(PY) -m src.contextualforget.build_graph --ifc data/processed/ifc.jsonl --bcf data/processed/bcf.jsonl --links data/processed/links.jsonl --out data/processed/graph.gpickle
+	$(VENV) python -m contextualforget.data.build_graph --ifc data/processed/ifc.jsonl --bcf data/processed/bcf.jsonl --links data/processed/links.jsonl --out data/processed/graph.gpickle
 
 query:
-	$(VENV) $(PY) -m src.contextualforget.cli query --guid 1kTvXnbbzCWw8lcMd1dR4o --ttl 365 --topk 5
+	$(VENV) ctxf query 1kTvXnbbzCWw8lcMd1dR4o --ttl 365 --topk 5
 
 eval:
-	$(VENV) $(PY) -m src.contextualforget.eval_metrics --q queries/queries.jsonl --gold eval/gold.jsonl --run results/run.json
+	$(VENV) python -m contextualforget.core.eval_metrics --q queries/queries.jsonl --gold eval/gold.jsonl --run results/run.json
+
+optimize:
+	$(VENV) python -c "from contextualforget.performance import optimize_for_production; optimize_for_production('data/processed/graph.gpickle', 'data/processed/graph_optimized.gpickle')"
+
+visualize:
+	$(VENV) ctxf visualize --output-dir visualizations
+
+test_advanced:
+	$(VENV) ctxf stats
+	$(VENV) ctxf search "clearance" "HVAC" --topk 5
+	$(VENV) ctxf author "engineer_a" --topk 5
+
+demo:
+	$(VENV) python examples/quick_start.py
+
+jupyter:
+	$(VENV) jupyter lab examples/demo.ipynb
 
 all: setup data ingest_ifc ingest_bcf link build_graph query
 
+all_advanced: setup data ingest_ifc ingest_bcf link build_graph query optimize visualize test_advanced
+
 clean:
-	rm -rf .venv data/processed data/raw/sample.bcfzip
+	rm -rf .venv data/processed data/raw/sample.bcfzip visualizations cache

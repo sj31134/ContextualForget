@@ -1,0 +1,26 @@
+{
+  "total_count": 48,
+  "by_category": {
+    "entity_search": 12,
+    "relationship": 7,
+    "temporal": 7,
+    "forgetting": 10,
+    "change_impact": 7,
+    "complex": 5
+  },
+  "by_difficulty": {
+    "easy": 18,
+    "medium": 17,
+    "hard": 13
+  },
+  "by_evaluation_type": {
+    "exact_match": 9,
+    "set_match": 30,
+    "semantic_match": 9
+  },
+  "status": {
+    "template": 48,
+    "filled": 0,
+    "validated": 0
+  }
+}

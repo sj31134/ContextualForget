@@ -1,2 +1,2 @@
 [console_scripts]
-ctxf = contextualforget.cli:app
+ctxf = contextualforget.cli.cli:app

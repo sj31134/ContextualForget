@@ -1,0 +1,51 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "contextualforget_prod",
+    "username": "contextualforget_user",
+    "password": "",
+    "pool_size": 20,
+    "max_overflow": 30
+  },
+  "cache": {
+    "redis_host": "localhost",
+    "redis_port": 6379,
+    "redis_db": 0,
+    "redis_password": null,
+    "cache_ttl": 7200,
+    "max_cache_size": 5000
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "/var/log/contextualforget/app.log",
+    "max_file_size": 52428800,
+    "backup_count": 10,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "performance": {
+    "max_workers": 8,
+    "chunk_size": 2000,
+    "memory_limit_mb": 2048,
+    "query_timeout": 60,
+    "batch_size": 200
+  },
+  "security": {
+    "secret_key": "",
+    "allowed_hosts": ["localhost", "127.0.0.1"],
+    "cors_origins": ["https://yourdomain.com"],
+    "rate_limit": 1000
+  },
+  "monitoring": {
+    "enabled": true,
+    "collection_interval": 30,
+    "metrics_retention_hours": 168,
+    "health_check_interval": 15,
+    "alert_thresholds": {
+      "cpu_percent": 75.0,
+      "memory_percent": 80.0,
+      "disk_usage_percent": 85.0,
+      "query_avg_time": 3.0
+    }
+  }
+}

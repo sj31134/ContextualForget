@@ -1,0 +1,27 @@
+Subject: Request for BIM Dataset Access for Research Purpose
+
+Dear [Dataset Manager],
+
+I am writing to request access to [Dataset Name] for academic research purposes.
+
+Research Project: ContextualForget - Long-Term Memory Management for BIM Digital Twins
+Institution: [Your Institution]
+Supervisor: [Your Supervisor]
+
+Research Objective:
+We are developing a Graph-RAG system that integrates IFC and BCF data with 
+adaptive forgetting mechanisms to manage long-term memory in BIM digital twins.
+
+Data Usage:
+- Academic research only
+- Publication in peer-reviewed conferences/journals
+- Open-source implementation (code only, not proprietary data)
+
+We will properly cite your dataset and acknowledge your contribution.
+
+Thank you for your consideration.
+
+Best regards,
+[Your Name]
+[Your Email]
+[Your Affiliation]

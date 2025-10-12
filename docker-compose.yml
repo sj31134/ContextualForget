@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  contextualforget:
+    build: .
+    container_name: contextualforget-app
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+      - ./visualizations:/app/visualizations
+      - ./cache:/app/cache
+    environment:
+      - PYTHONPATH=/app/src
+      - PYTHONUNBUFFERED=1
+    working_dir: /app
+    command: ["ctxf", "--help"]
+    
+  jupyter:
+    build: .
+    container_name: contextualforget-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./data:/app/data
+      - ./examples:/app/examples
+      - ./results:/app/results
+      - ./visualizations:/app/visualizations
+    environment:
+      - PYTHONPATH=/app/src
+      - PYTHONUNBUFFERED=1
+    working_dir: /app
+    command: ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+    
+  pipeline:
+    build: .
+    container_name: contextualforget-pipeline
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+    environment:
+      - PYTHONPATH=/app/src
+      - PYTHONUNBUFFERED=1
+    working_dir: /app
+    command: ["python", "-m", "contextualforget.data.ingest_ifc", "--ifc", "data/raw/sample.ifc", "--out", "data/processed/ifc.jsonl"]

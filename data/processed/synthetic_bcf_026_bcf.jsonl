@@ -1,0 +1,10 @@
+{"topic_id": "dc5267c8-5170-4bd4-a76f-61221babe47a", "title": "발코니 난간", "created": "2025-08-15T23:13:53.073747", "author": "architect_jung", "description": "발코니 난간 높이가 안전 기준 미달입니다.", "ref": "2UxF1$dPe5sy6wSaQspjb1"}
+{"topic_id": "030d77de-ee5a-491e-a008-bde9fc9690d8", "title": "기둥 단면 부족", "created": "2025-09-23T23:13:53.073766", "author": "engineer_a", "description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.", "ref": "xLkKNr_Pyhbk7oACzOcLOS"}
+{"topic_id": "b2da0f70-21fd-4acf-8574-6568c447df6f", "title": "보일러 용량", "created": "2025-07-28T23:13:53.073783", "author": "architect_choi", "description": "보일러 용량 재검토 필요합니다.", "ref": "HHVj6wZjocXdgfLaQxS8NE"}
+{"topic_id": "7c7879b4-1c3c-4d36-aef4-1b41d9ff39dc", "title": "덕트 간섭", "created": "2025-08-20T23:13:53.073800", "author": "architect_jung", "description": "공조 덕트가 구조 보와 간섭합니다.", "ref": "epGgReX7RgfjZcRBOVbyPI"}
+{"topic_id": "0dff83e1-eb38-41bc-bd7a-eaab0de564b5", "title": "기계실 공간 부족", "created": "2025-09-19T23:13:53.073816", "author": "engineer_a", "description": "기계실 기기 배치 시 공간이 부족합니다.", "ref": "C2ABGcmh53p6$NJTbQ_fKm"}
+{"topic_id": "11c60fb3-5800-44bf-a71e-7facb2062290", "title": "스프링클러 헤드 추가", "created": "2025-10-02T23:13:53.073834", "author": "engineer_park", "description": "스프링클러 헤드 설치 간격이 기준 초과합니다.", "ref": "KziDTcsOmsz82TaoV6vyIU"}
+{"topic_id": "6866cfae-41bd-4fb4-846c-47040b30b8ce", "title": "자재 반입 경로", "created": "2025-08-14T23:13:53.073856", "author": "engineer_lee", "description": "자재 반입 경로 확보 어려움.", "ref": "6o_tdy1dJDFc9iwQrik_V_"}
+{"topic_id": "b62e857d-3245-4916-b50d-ea1d0f0a9401", "title": "시공 순서 변경", "created": "2025-07-18T23:13:53.073875", "author": "engineer_b", "description": "현장 여건상 시공 순서 변경 필요.", "ref": "5cVH7eX2Jo7ed1Trq4iCHz"}
+{"topic_id": "db7749e9-983a-4e5d-88a8-b850567ac15a", "title": "전력 용량 부족", "created": "2025-07-12T23:13:53.073892", "author": "engineer_park", "description": "전력 수용량이 부족합니다. 큐비클 증설 필요.", "ref": "CwPcEhn2sPz91XqkIwqorj"}
+{"topic_id": "e668e086-b6ae-4bed-a9f3-0e921c97baf0", "title": "소화전 접근", "created": "2025-10-01T23:13:53.073909", "author": "architect_jung", "description": "소화전 접근 공간이 확보되지 않았습니다.", "ref": "tekXDXMaMsvoHBkbvbjCHF"}

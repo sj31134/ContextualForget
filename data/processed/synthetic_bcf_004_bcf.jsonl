@@ -1,0 +1,7 @@
+{"topic_id": "ee93ce0d-0954-431c-846c-feeb640f9e24", "title": "가설 시설 위치", "created": "2025-08-16T23:13:53.069908", "author": "engineer_kim", "description": "가설 사무실 위치 변경 요청.", "ref": "0i7PQb5R2CbrpqtdD6ZNVD"}
+{"topic_id": "6ed92c7b-cf0b-43b2-bb52-6ff1c971c62f", "title": "방수층 시공", "created": "2025-08-19T23:13:53.069925", "author": "architect_choi", "description": "방수층 시공 상세가 명확하지 않습니다.", "ref": "5cVH7eX2Jo7ed1Trq4iCHz"}
+{"topic_id": "7dc98a60-3103-48fc-ab88-1db428613157", "title": "기초 깊이 변경", "created": "2025-08-09T23:13:53.069940", "author": "engineer_a", "description": "지반 조사 결과 기초 깊이 증가 필요.", "ref": "iodfWXttu_wO4a6ZwAjeKk"}
+{"topic_id": "daf5fd5e-029e-4861-a238-f831feb3e972", "title": "천장고 부족", "created": "2025-08-19T23:13:53.069956", "author": "engineer_a", "description": "설비 배관 고려 시 순 천장고가 부족합니다.", "ref": "Middzmvb3377n7CS$$2in8"}
+{"topic_id": "7ef65424-1abd-4283-a2ff-da9efb4c55e4", "title": "비상구 유도등", "created": "2025-08-25T23:13:53.069971", "author": "engineer_park", "description": "비상구 유도등 위치가 부적절합니다.", "ref": "0An8NXSYEWWWx527oPPwcm"}
+{"topic_id": "31122262-dfb2-47de-ba8b-15913dd0f7c9", "title": "기둥 단면 부족", "created": "2025-07-30T23:13:53.069986", "author": "architect_choi", "description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.", "ref": "OXbp25MoEZayG4wqyoNKRo"}
+{"topic_id": "92ac6369-63d3-43cb-9594-77949f0d687d", "title": "스프링클러 헤드 추가", "created": "2025-09-07T23:13:53.070001", "author": "engineer_park", "description": "스프링클러 헤드 설치 간격이 기준 초과합니다.", "ref": "X0QVwqFEgfxmHtjLrmtupz"}

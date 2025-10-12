@@ -1,0 +1,5 @@
+{"topic_id": "9704ec32-2f69-4697-97a9-9bc5bbaf972c", "title": "기둥 단면 부족", "created": "2025-07-28T23:13:53.073402", "author": "engineer_lee", "description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.", "ref": "h$OsuKxLEU$9sGkQfybcnZ"}
+{"topic_id": "bfbc059a-13e4-4ef2-8f30-6ba04e946cfa", "title": "덕트 간섭", "created": "2025-09-02T23:13:53.073420", "author": "engineer_lee", "description": "공조 덕트가 구조 보와 간섭합니다.", "ref": "S0l3I5LxiYIYF3gUNbwbZP"}
+{"topic_id": "09cdcab0-855d-4556-858a-13ff5613108d", "title": "슬라브 두께 확인", "created": "2025-07-28T23:13:53.073437", "author": "engineer_lee", "description": "슬라브 두께가 설계 기준에 미달합니다. 재검토 요청.", "ref": "v9mQfEDyXYWjGhVR$Bdo_B"}
+{"topic_id": "bb0e90f5-c47c-4176-b597-589db0c6d2c4", "title": "방화구획 관통", "created": "2025-09-18T23:13:53.073456", "author": "engineer_lee", "description": "방화구획 관통부 방화 처리 누락.", "ref": "DZZ3fDhdNw9NTQ1lGqSe7V"}
+{"topic_id": "ccb6a1db-9f51-4ce0-bdf8-d54db6c67b67", "title": "접지 시스템", "created": "2025-07-18T23:13:53.073472", "author": "engineer_park", "description": "접지 시스템 상세 확인 필요.", "ref": "bJ91$MNjux5WNtSM8nsocK"}

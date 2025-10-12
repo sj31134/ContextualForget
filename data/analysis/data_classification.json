@@ -1,0 +1,998 @@
+{
+  "train": [
+    {
+      "name": "IfcOpenShell-files_two_views.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_two_views.ifc",
+      "size_kb": 1.32,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4 Demo Library.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4 Demo Library.ifc",
+      "size_kb": 83.0,
+      "size_mb": 0.08,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_CBI_L4_Classification.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CBI_L4_Classification.ifc",
+      "size_kb": 231.46,
+      "size_mb": 0.23,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_Pset_IFC4_ADD2.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Pset_IFC4_ADD2.ifc",
+      "size_kb": 3079.25,
+      "size_mb": 3.01,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_geolocation-mapconversion.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_geolocation-mapconversion.ifc",
+      "size_kb": 14.08,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4 EU Steel.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4 EU Steel.ifc",
+      "size_kb": 585.29,
+      "size_mb": 0.57,
+      "category": "medium",
+      "complexity": "complex"
+    },
+    {
+      "name": "buildingsmart_Building-Landscaping.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_Building-Landscaping.ifc",
+      "size_kb": 1433.25,
+      "size_mb": 1.4,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_Pset_IFC2X3.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Pset_IFC2X3.ifc",
+      "size_kb": 599.23,
+      "size_mb": 0.59,
+      "category": "medium",
+      "complexity": "complex"
+    },
+    {
+      "name": "office_building.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/office_building.ifc",
+      "size_kb": 2.23,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_contains_exchange_requirement.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_contains_exchange_requirement.ifc",
+      "size_kb": 1.29,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC2X3 Demo Library.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC2X3 Demo Library.ifc",
+      "size_kb": 138.8,
+      "size_mb": 0.14,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_pass-not-duplicated-guids-ifc2x3.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_pass-not-duplicated-guids-ifc2x3.ifc",
+      "size_kb": 1.05,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4 AU Steel.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4 AU Steel.ifc",
+      "size_kb": 386.0,
+      "size_mb": 0.38,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_Uniclass July 2023.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Uniclass July 2023.ifc",
+      "size_kb": 1595.11,
+      "size_mb": 1.56,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_GuBIMclass_v.1.2_CA-ClassManager_.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_GuBIMclass_v.1.2_CA-ClassManager_.ifc",
+      "size_kb": 47.55,
+      "size_mb": 0.05,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_geolocation.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_geolocation.ifc",
+      "size_kb": 14.0,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_bug_2517_test2.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_bug_2517_test2.ifc",
+      "size_kb": 3.89,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_fail-duplicated-guids-ifc2x3.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_fail-duplicated-guids-ifc2x3.ifc",
+      "size_kb": 1.05,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_SFG20_.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_SFG20_.ifc",
+      "size_kb": 51.65,
+      "size_mb": 0.05,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_passing_header.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_passing_header.ifc",
+      "size_kb": 1.28,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_CBI_L2_Classification.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CBI_L2_Classification.ifc",
+      "size_kb": 4.88,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_contains_options.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_contains_options.ifc",
+      "size_kb": 1.28,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_EQto_BodyGeometryValidation.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_EQto_BodyGeometryValidation.ifc",
+      "size_kb": 3.82,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "buildingsmart_column-straight-rectangle-tessellation.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_column-straight-rectangle-tessellation.ifc",
+      "size_kb": 4.49,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_78860d3c-14db-11ee-be56-0242ac120002.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_78860d3c-14db-11ee-be56-0242ac120002.ifc",
+      "size_kb": 15.91,
+      "size_mb": 0.02,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC2X3 Demo Template.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC2X3 Demo Template.ifc",
+      "size_kb": 138.8,
+      "size_mb": 0.14,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_project0-walls.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_project0-walls.ifc",
+      "size_kb": 14.33,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_NBS Create.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_NBS Create.ifc",
+      "size_kb": 528.88,
+      "size_mb": 0.52,
+      "category": "medium",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_contains_comment.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_contains_comment.ifc",
+      "size_kb": 1.28,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_ColumnPSetsOfSets.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_ColumnPSetsOfSets.ifc",
+      "size_kb": 8.9,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_GuBIMclass_v.1.2_ES-ClassManager_.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_GuBIMclass_v.1.2_ES-ClassManager_.ifc",
+      "size_kb": 47.59,
+      "size_mb": 0.05,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_geolocation-mapconversion-offsetsite.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_geolocation-mapconversion-offsetsite.ifc",
+      "size_kb": 14.25,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4 US Steel.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4 US Steel.ifc",
+      "size_kb": 2131.44,
+      "size_mb": 2.08,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_CCS(EN).ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CCS(EN).ifc",
+      "size_kb": 65.62,
+      "size_mb": 0.06,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_NATSPEC 2017.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_NATSPEC 2017.ifc",
+      "size_kb": 132.74,
+      "size_mb": 0.13,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_ePSet_Georeferencing.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_ePSet_Georeferencing.ifc",
+      "size_kb": 2.01,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_BB_SfB_4_cijfers.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_BB_SfB_4_cijfers.ifc",
+      "size_kb": 51.59,
+      "size_mb": 0.05,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_polygonal-face-tessellation.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_polygonal-face-tessellation.ifc",
+      "size_kb": 3.98,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "basic_shape_CSG.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/basic_shape_CSG.ifc",
+      "size_kb": 5.08,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "xBIM-Samples_SampleHouse.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/xBIM-Samples_SampleHouse.ifc",
+      "size_kb": 2268.02,
+      "size_mb": 2.21,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_RICS NRM1.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_RICS NRM1.ifc",
+      "size_kb": 73.79,
+      "size_mb": 0.07,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_VBIS.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_VBIS.ifc",
+      "size_kb": 356.63,
+      "size_mb": 0.35,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4 Entourage Library.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4 Entourage Library.ifc",
+      "size_kb": 123.46,
+      "size_mb": 0.12,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_CD001_001_004.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CD001_001_004.ifc",
+      "size_kb": 12.64,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_fail-zone-with-IfcWall-IfcSpace-ifc2x3.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_fail-zone-with-IfcWall-IfcSpace-ifc2x3.ifc",
+      "size_kb": 1.06,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_geolocation-mapconversion-angle.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_geolocation-mapconversion-angle.ifc",
+      "size_kb": 14.12,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_Psets_BBIM_Annotation.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Psets_BBIM_Annotation.ifc",
+      "size_kb": 5.72,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_CCI(EN).ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CCI(EN).ifc",
+      "size_kb": 161.46,
+      "size_mb": 0.16,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "xBIM-Samples_IFC4_ADD2_Properties.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/xBIM-Samples_IFC4_ADD2_Properties.ifc",
+      "size_kb": 3078.85,
+      "size_mb": 3.01,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_manual-geolocation-coords.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_manual-geolocation-coords.ifc",
+      "size_kb": 5.58,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "buildingsmart_Building-Architecture.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_Building-Architecture.ifc",
+      "size_kb": 223.65,
+      "size_mb": 0.22,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_TALO2000_Building_Component_Classification_ENG.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_TALO2000_Building_Component_Classification_ENG.ifc",
+      "size_kb": 9.79,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_MasterFormat2016Edition.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_MasterFormat2016Edition.ifc",
+      "size_kb": 793.53,
+      "size_mb": 0.77,
+      "category": "medium",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC2X3_col.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC2X3_col.ifc",
+      "size_kb": 2.56,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4 Demo Template.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4 Demo Template.ifc",
+      "size_kb": 83.0,
+      "size_mb": 0.08,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_SverchokFacadesIfcSverchok.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_SverchokFacadesIfcSverchok.ifc",
+      "size_kb": 2694.38,
+      "size_mb": 2.63,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_NS3451.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_NS3451.ifc",
+      "size_kb": 25.54,
+      "size_mb": 0.02,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_Uniclass2.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Uniclass2.ifc",
+      "size_kb": 977.94,
+      "size_mb": 0.96,
+      "category": "medium",
+      "complexity": "complex"
+    },
+    {
+      "name": "buildingsmart_Infra-Plumbing.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_Infra-Plumbing.ifc",
+      "size_kb": 512.44,
+      "size_mb": 0.5,
+      "category": "medium",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_geolocation-unit1.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_geolocation-unit1.ifc",
+      "size_kb": 4.19,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_CD002_001_001.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CD002_001_001.ifc",
+      "size_kb": 16.07,
+      "size_mb": 0.02,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_Brick.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Brick.ifc",
+      "size_kb": 145.47,
+      "size_mb": 0.14,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_78860e68-14db-11ee-be56-0242ac120002.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_78860e68-14db-11ee-be56-0242ac120002.ifc",
+      "size_kb": 15.91,
+      "size_mb": 0.02,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "buildingsmart_tessellation-with-individual-colors.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_tessellation-with-individual-colors.ifc",
+      "size_kb": 2.53,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_RICS NRM3.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_RICS NRM3.ifc",
+      "size_kb": 88.72,
+      "size_mb": 0.09,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "hospital_building.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/hospital_building.ifc",
+      "size_kb": 2.29,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "buildingsmart_Infra-Road.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_Infra-Road.ifc",
+      "size_kb": 428.66,
+      "size_mb": 0.42,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_project0-openings.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_project0-openings.ifc",
+      "size_kb": 47.28,
+      "size_mb": 0.05,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "xBIM-Samples_SampleHouseExtension.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/xBIM-Samples_SampleHouseExtension.ifc",
+      "size_kb": 149.12,
+      "size_mb": 0.15,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4_col.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4_col.ifc",
+      "size_kb": 2.56,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_ONORM 6241-2 with Properties.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_ONORM 6241-2 with Properties.ifc",
+      "size_kb": 29.78,
+      "size_mb": 0.03,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "buildingsmart_tessellated-item.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_tessellated-item.ifc",
+      "size_kb": 5.08,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "buildingsmart_Building-Hvac.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_Building-Hvac.ifc",
+      "size_kb": 175.51,
+      "size_mb": 0.17,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_Uniformat_2010_CSI.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Uniformat_2010_CSI.ifc",
+      "size_kb": 64.32,
+      "size_mb": 0.06,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_CCS(DK)m.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CCS(DK)m.ifc",
+      "size_kb": 68.17,
+      "size_mb": 0.07,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_TALO2000_HankenimikkeistÃ¶_FIN.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_TALO2000_HankenimikkeistÃ¶_FIN.ifc",
+      "size_kb": 9.88,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_6dbd4d52-14db-11ee-be56-0242ac120002.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_6dbd4d52-14db-11ee-be56-0242ac120002.ifc",
+      "size_kb": 15.91,
+      "size_mb": 0.02,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_geolocation-unit3.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_geolocation-unit3.ifc",
+      "size_kb": 4.24,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_CAWS Nov 2019.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CAWS Nov 2019.ifc",
+      "size_kb": 698.88,
+      "size_mb": 0.68,
+      "category": "medium",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4X3 Demo Template.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4X3 Demo Template.ifc",
+      "size_kb": 83.04,
+      "size_mb": 0.08,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_beam-standard-case.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_beam-standard-case.ifc",
+      "size_kb": 17.59,
+      "size_mb": 0.02,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "buildingsmart_Building-Structural.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_Building-Structural.ifc",
+      "size_kb": 289.69,
+      "size_mb": 0.28,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_VMSW_2015.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_VMSW_2015.ifc",
+      "size_kb": 248.46,
+      "size_mb": 0.24,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_pass-zone-with-IfcZone-IfcSpace-ifc2x3.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_pass-zone-with-IfcZone-IfcSpace-ifc2x3.ifc",
+      "size_kb": 1.19,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_polygonal-faces.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_polygonal-faces.ifc",
+      "size_kb": 4.26,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "school_building.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/school_building.ifc",
+      "size_kb": 1.95,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    }
+  ],
+  "validation": [
+    {
+      "name": "IfcOpenShell-files_geolocation-unit2.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_geolocation-unit2.ifc",
+      "size_kb": 4.13,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_pass-zone-with-IfcSpace-ifc2x3.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_pass-zone-with-IfcSpace-ifc2x3.ifc",
+      "size_kb": 1.01,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_CC001_001_001.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CC001_001_001.ifc",
+      "size_kb": 8.66,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_EPset_Status.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_EPset_Status.ifc",
+      "size_kb": 1.08,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_EPset_Drawing.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_EPset_Drawing.ifc",
+      "size_kb": 4.69,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_Omniclass_OCCS.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Omniclass_OCCS.ifc",
+      "size_kb": 763.24,
+      "size_mb": 0.75,
+      "category": "medium",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_CCTB_01.08.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_CCTB_01.08.ifc",
+      "size_kb": 1316.27,
+      "size_mb": 1.29,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "buildingsmart_Infra-Landscaping.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_Infra-Landscaping.ifc",
+      "size_kb": 3014.67,
+      "size_mb": 2.94,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "buildingsmart_Infra-Rail.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_Infra-Rail.ifc",
+      "size_kb": 239.04,
+      "size_mb": 0.23,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "industrial_building.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/industrial_building.ifc",
+      "size_kb": 1.74,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "residential_building.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/residential_building.ifc",
+      "size_kb": 1.92,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_pipe.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_pipe.ifc",
+      "size_kb": 7.13,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_STABU-Element (6 Cijfers).ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_STABU-Element (6 Cijfers).ifc",
+      "size_kb": 194.43,
+      "size_mb": 0.19,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_SINAPI.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_SINAPI.ifc",
+      "size_kb": 1273.27,
+      "size_mb": 1.24,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_EcoQuaestor Codetabel.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_EcoQuaestor Codetabel.ifc",
+      "size_kb": 170.0,
+      "size_mb": 0.17,
+      "category": "medium",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_auto-geolocation.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_auto-geolocation.ifc",
+      "size_kb": 5.37,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "buildingsmart_wall-with-opening-and-window.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_wall-with-opening-and-window.ifc",
+      "size_kb": 12.2,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_NL_SfB_4_cijfers_2005.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_NL_SfB_4_cijfers_2005.ifc",
+      "size_kb": 65.12,
+      "size_mb": 0.06,
+      "category": "small",
+      "complexity": "moderate"
+    }
+  ],
+  "test": [
+    {
+      "name": "IfcOpenShell-files_Pset_IFC4X3.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Pset_IFC4X3.ifc",
+      "size_kb": 1402.02,
+      "size_mb": 1.37,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_simple_sweep_1.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_simple_sweep_1.ifc",
+      "size_kb": 3.98,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_simple_sweep_2.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_simple_sweep_2.ifc",
+      "size_kb": 4.38,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_geolocation-offsetsite.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_geolocation-offsetsite.ifc",
+      "size_kb": 14.17,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_basic.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_basic.ifc",
+      "size_kb": 12.13,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_BIMTypeCode_V1.0_SWE.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_BIMTypeCode_V1.0_SWE.ifc",
+      "size_kb": 27.36,
+      "size_mb": 0.03,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_Uniclass2015_Jan2020.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_Uniclass2015_Jan2020.ifc",
+      "size_kb": 1113.28,
+      "size_mb": 1.09,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4 Furniture Library.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4 Furniture Library.ifc",
+      "size_kb": 717.45,
+      "size_mb": 0.7,
+      "category": "medium",
+      "complexity": "complex"
+    },
+    {
+      "name": "buildingsmart_Infra-Bridge.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_Infra-Bridge.ifc",
+      "size_kb": 1845.01,
+      "size_mb": 1.8,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4X3 Demo Library.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4X3 Demo Library.ifc",
+      "size_kb": 83.04,
+      "size_mb": 0.08,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_UniformatII-0918.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_UniformatII-0918.ifc",
+      "size_kb": 37.29,
+      "size_mb": 0.04,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_linked-aggregates.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_linked-aggregates.ifc",
+      "size_kb": 86.66,
+      "size_mb": 0.08,
+      "category": "small",
+      "complexity": "moderate"
+    },
+    {
+      "name": "IfcOpenShell-files_dynamic_fields.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_dynamic_fields.ifc",
+      "size_kb": 1.58,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_IFC4 Landscape Library.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_IFC4 Landscape Library.ifc",
+      "size_kb": 1987.72,
+      "size_mb": 1.94,
+      "category": "large",
+      "complexity": "complex"
+    },
+    {
+      "name": "IfcOpenShell-files_manual-geolocation.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_manual-geolocation.ifc",
+      "size_kb": 5.52,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "buildingsmart_basin-tessellation.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/buildingsmart_basin-tessellation.ifc",
+      "size_kb": 11.85,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_decomposition.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_decomposition.ifc",
+      "size_kb": 6.49,
+      "size_mb": 0.01,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_annotation.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_annotation.ifc",
+      "size_kb": 3.91,
+      "size_mb": 0.0,
+      "category": "small",
+      "complexity": "simple"
+    },
+    {
+      "name": "IfcOpenShell-files_NL_SfB_tabel_1_2019.ifc",
+      "path": "/Users/junyonglee/ContextualForget/data/raw/downloaded/IfcOpenShell-files_NL_SfB_tabel_1_2019.ifc",
+      "size_kb": 102.1,
+      "size_mb": 0.1,
+      "category": "medium",
+      "complexity": "moderate"
+    }
+  ],
+  "statistics": {
+    "total": 123,
+    "train": 86,
+    "validation": 18,
+    "test": 19
+  }
+}

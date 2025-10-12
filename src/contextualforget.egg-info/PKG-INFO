@@ -4,8 +4,9 @@ Version: 0.0.1
 Summary: Digital-twin Graph-RAG (IFC+BCF) with long-term memory and forgetting
 Author: Eunchan Lee
 License: MIT
-Requires-Python: >=3.11
+Requires-Python: >=3.9
 Description-Content-Type: text/markdown
+License-File: LICENSE
 Requires-Dist: networkx>=3.2
 Requires-Dist: rich>=13.7
 Requires-Dist: typer>=0.12
@@ -16,27 +17,224 @@ Requires-Dist: pandas>=2.2
 Requires-Dist: python-dateutil>=2.9
 Requires-Dist: tqdm>=4.66
 Requires-Dist: whoosh>=2.7
+Requires-Dist: matplotlib>=3.7
 Provides-Extra: dev
 Requires-Dist: ruff>=0.5; extra == "dev"
 Requires-Dist: pytest>=8.2; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"
+Provides-Extra: demo
+Requires-Dist: jupyter>=1.0; extra == "demo"
+Requires-Dist: jupyterlab>=4.0; extra == "demo"
+Dynamic: license-file
 
-# ContextualForget — Digital Twin Graph-RAG with Long-Term Memory (Forgetting)
+# ContextualForget — Digital Twin Graph-RAG with Long-Term Memory & Real-time Updates
 
-**IFC(정적 구조) + BCF(동적 이슈)**를 하나의 그래프로 묶고, **TTL/감쇠/요약압축** 망각을 적용해
-"무엇이/어디서/언제/왜 바뀌었는가"를 **근거와 함께** 답하는 오프라인 파이프라인입니다.
+**IFC(정적 구조) + BCF(동적 이슈)**를 하나의 그래프로 묶고, **TTL/감쇠/요약압축** 망각을 적용하며,
+**LLM 기반 자연어 질의**와 **실시간 파일 모니터링**으로 "무엇이/어디서/언제/왜 바뀌었는가"를
+**근거와 함께** 답하는 시스템입니다.
 
-## Quickstart
+[![CI](https://github.com/sj31134/ContextualForget/workflows/CI/badge.svg)](https://github.com/sj31134/ContextualForget/actions)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## ✨ 주요 기능
+
+- 🧠 **LLM 기반 자연어 질의**: Ollama(Qwen2.5:3b)를 활용한 직관적인 대화형 인터페이스
+- 📡 **실시간 파일 모니터링**: IFC/BCF 파일 변경 시 자동으로 그래프 업데이트
+- 🕸️ **통합 그래프 데이터베이스**: IFC 구조와 BCF 이슈를 하나의 지식 그래프로 통합
+- ⏰ **망각 메커니즘**: TTL, Weighted Decay, Importance-Based 등 다양한 정책
+- 📊 **고급 쿼리 엔진**: GUID, 작성자, 키워드, 시간 범위 등 다차원 검색
+- 📈 **시각화**: 그래프 구조, 타임라인, 망각 곡선 등 다양한 시각화 도구
+
+## 🚀 Quickstart
+
 ```bash
-source .venv/bin/activate
-make all
-ctxf query --guid 1kTvXnbbzCWw8lcMd1dR4o --ttl 365 --topk 5
+# 1. Clone and setup
+git clone https://github.com/sj31134/ContextualForget.git
+cd ContextualForget
+conda create -n contextualforget python=3.11 -y
+conda activate contextualforget
+pip install -e ".[dev,demo]"
 
-Outputs
+# 2. (선택) Ollama LLM 설치
+# https://ollama.ai에서 다운로드 후
+ollama pull qwen2.5:3b
 
-data/processed/graph.gpickle : 통합 그래프
+# 3. Generate diverse sample data (6 buildings, 87 nodes)
+python scripts/generate_sample_data.py
+python scripts/process_all_data.py
 
-CLI JSON: 관련 BCF 토픽, 생성시각, IFC GUID로의 간선(근거)
+# 4. 자연어로 질의하기
+ctxf ask "그래프에 몇 개의 노드가 있어?"
+ctxf chat  # 대화형 모드
 
-results/ : 평가 결과 (make eval)
+# 5. 실시간 모니터링 시작 (별도 터미널)
+ctxf watch -w data -w data/raw -i 2.0
+```
 
-대형 파일은 Git LFS 규칙을 사용합니다(.gitattributes).
+## 📊 Output
+
+- `data/processed/graph.gpickle`: 통합 그래프
+- CLI JSON: 관련 BCF 토픽, 생성시각, IFC GUID로의 간선(근거)
+- `results/`: 평가 결과 (`make eval`)
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                  실시간 파일 모니터링                         │
+│         (FileWatcher → GraphUpdater → RealtimeMonitor)      │
+└─────────────────────────────────────────────────────────────┘
+                            ↓
+IFC Files → IFC Parser → Graph Builder ← BCF Parser ← BCF Files
+                ↓                           ↓
+            Entity Nodes ←→ Topic Nodes (with TTL filtering)
+                ↓
+     ┌──────────────────────────────┐
+     │  LLM 자연어 처리 (Qwen2.5)    │
+     │  NaturalLanguageProcessor    │
+     │  + LLMQueryEngine            │
+     └──────────────────────────────┘
+                ↓
+            Query Engine → Results with Evidence
+```
+
+## 📁 Project Structure
+
+```
+src/contextualforget/
+├── core/                    # 핵심 기능
+│   ├── forgetting.py       # 기본 망각 메커니즘
+│   ├── advanced_forgetting.py  # 고급 망각 정책
+│   ├── utils.py           # 유틸리티 함수
+│   ├── logging.py         # 구조화된 로깅
+│   ├── monitoring.py      # 시스템 모니터링
+│   └── config.py          # 설정 관리
+├── data/                   # 데이터 처리
+│   ├── ingest_ifc.py      # IFC 데이터 수집
+│   ├── ingest_bcf.py      # BCF 데이터 수집
+│   ├── link_ifc_bcf.py    # IFC-BCF 연결
+│   └── build_graph.py     # 그래프 구축
+├── query/                  # 쿼리 엔진
+│   ├── query.py           # 기본 쿼리
+│   └── advanced_query.py  # 고급 쿼리
+├── llm/                    # LLM 통합
+│   ├── llm_processor.py   # LLM 처리 (Ollama)
+│   └── natural_language_processor.py  # 자연어 처리
+├── realtime/               # 실시간 업데이트 ✨ NEW
+│   ├── file_watcher.py    # 파일 시스템 감시
+│   ├── graph_updater.py   # 동적 그래프 업데이트
+│   └── realtime_monitor.py # 실시간 모니터링 시스템
+├── visualization/          # 시각화
+│   └── visualization.py   # 그래프 시각화
+├── performance/            # 성능 최적화
+│   └── performance.py     # 성능 도구
+└── cli/                    # 명령줄 인터페이스
+    └── cli.py             # CLI 명령어
+```
+
+## 📚 Documentation
+
+- [Tutorial](docs/tutorial.md) - Getting started guide
+- [API Reference](docs/api_reference.md) - Complete API documentation
+- [Research Plan](docs/research_plan.md) - 한국어 연구 계획
+- [Long-term Memory Paper](docs/ltm_ifc_events.md) - 영문 연구 문서
+
+## 🔧 Features
+
+### 핵심 기능
+- **IFC/BCF Integration**: 정적 구조와 동적 이슈 통합
+- **Graph-based RAG**: NetworkX 기반 그래프 구조
+- **Long-term Memory**: TTL 기반 망각 메커니즘
+- **Evidence-based Queries**: 근거와 함께 답변 제공
+- **CLI Interface**: `ctxf` 명령어로 쉬운 사용
+
+### ✨ 새로운 기능
+
+#### 🧠 LLM 기반 자연어 질의
+```bash
+# 단일 질의
+ctxf ask "현재 그래프에 몇 개의 노드가 있어?"
+
+# 대화형 모드
+ctxf chat
+> 통계 정보를 보여줘
+> GUID 1kTvXnbbzCWw8lcMd1dR4o를 찾아줘
+> quit
+
+# LLM 모델 정보
+ctxf model-info
+```
+
+#### 📡 실시간 파일 모니터링
+```bash
+# 기본 모니터링 (data/, data/raw/ 감시)
+ctxf watch
+
+# 커스텀 디렉토리 감시
+ctxf watch -w /path/to/project/ifc -w /path/to/project/bcf -i 5.0
+
+# 데모: 실시간 파일 생성 시연
+# 터미널 1
+python scripts/demo_realtime.py
+
+# 터미널 2
+ctxf watch -w data/demo -i 2.0
+```
+
+**동작 방식:**
+1. 지정된 디렉토리의 IFC/BCF 파일을 주기적으로 스캔
+2. 파일 생성/수정/삭제 감지
+3. 자동으로 그래프에 새 노드/엣지 추가
+4. 실시간 통계 및 로그 출력
+
+#### 📊 다양한 샘플 데이터
+```bash
+# 6개 건물 유형, 81개 요소, 27개 이슈 생성
+python scripts/generate_sample_data.py
+
+# 모든 데이터를 그래프로 통합
+python scripts/process_all_data.py
+```
+
+생성되는 건물:
+- 주거용 건물 (Residential) - 15개 요소
+- 오피스 빌딩 (Office) - 20개 요소
+- 공장 건물 (Industrial) - 12개 요소
+- 병원 (Hospital) - 18개 요소
+- 학교 (School) - 16개 요소
+
+## 🛠️ Development
+
+```bash
+# Run tests
+pytest
+
+# Code formatting
+ruff check .
+ruff format .
+
+# Clean up
+make clean
+```
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests
+5. Submit a pull request
+
+## 📞 Support
+
+- GitHub Issues: [Report bugs or request features](https://github.com/sj31134/ContextualForget/issues)
+- Documentation: [docs/](docs/)
+
+---
+
+**Note**: 대형 파일은 Git LFS 규칙을 사용합니다 (`.gitattributes` 참조).

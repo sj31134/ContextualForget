@@ -1,0 +1,7 @@
+{"topic_id": "b63878e3-6462-4926-a470-134098428c07", "title": "양중 계획 수정", "created": "2025-08-08T23:13:53.077548", "author": "architect_jung", "description": "타워크레인 양중 계획 재검토 필요.", "ref": "zCb$ZZG_tF4NYNiPP5xCCk"}
+{"topic_id": "95ae2ae0-9020-4e61-87be-d8b7bfe960b0", "title": "기둥 단면 부족", "created": "2025-08-16T23:13:53.077567", "author": "architect_jung", "description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.", "ref": "IMzvS7mGHIx0qmwHcna8ly"}
+{"topic_id": "2b5cd45c-d1ca-4126-a867-b340acf756c6", "title": "비상구 유도등", "created": "2025-08-12T23:13:53.077586", "author": "engineer_park", "description": "비상구 유도등 위치가 부적절합니다.", "ref": "iZRIEiieIhvnDPXHB2bEv0"}
+{"topic_id": "fdffa2f7-afe8-4509-a884-c44e54a136ca", "title": "발코니 난간", "created": "2025-08-09T23:13:53.077603", "author": "architect_choi", "description": "발코니 난간 높이가 안전 기준 미달입니다.", "ref": "X0QVwqFEgfxmHtjLrmtupz"}
+{"topic_id": "9c5e7fd3-275a-46ea-b539-5636aa89d3a2", "title": "접지 시스템", "created": "2025-08-23T23:13:53.077621", "author": "engineer_kim", "description": "접지 시스템 상세 확인 필요.", "ref": "S0l3I5LxiYIYF3gUNbwbZP"}
+{"topic_id": "16db7dd9-2cbe-434a-8406-3a404b5533a0", "title": "스프링클러 헤드 추가", "created": "2025-09-14T23:13:53.077639", "author": "engineer_park", "description": "스프링클러 헤드 설치 간격이 기준 초과합니다.", "ref": "8zokminF1YpcYW8pPrBFmV"}
+{"topic_id": "a70033a5-4c27-4490-9bee-02a194592038", "title": "슬라브 두께 확인", "created": "2025-09-08T23:13:53.077658", "author": "engineer_kim", "description": "슬라브 두께가 설계 기준에 미달합니다. 재검토 요청.", "ref": "GLd2jnkjhcpgzXScEA_mSG"}

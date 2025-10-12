@@ -1,0 +1,92 @@
+{
+  "timestamp": "2025-10-09T23:06:07.753845",
+  "sources": [
+    {
+      "name": "buildingSMART Sample-Test-Files",
+      "url": "https://github.com/buildingSMART/Sample-Test-Files.git",
+      "files_count": 23,
+      "type": "IFC"
+    },
+    {
+      "name": "buildingSMART BCF-XML Examples",
+      "url": "https://github.com/buildingSMART/BCF-XML.git",
+      "files_count": 0,
+      "type": "BCF"
+    },
+    {
+      "name": "GitHub OpenSource BIM Projects",
+      "files_count": 0,
+      "type": "IFC"
+    }
+  ],
+  "statistics": {
+    "ifc": {
+      "count": 14,
+      "total_size_mb": 8.00593090057373,
+      "files": [
+        {
+          "name": "buildingsmart_Infra-Landscaping.ifc",
+          "size_kb": 3014.6689453125
+        },
+        {
+          "name": "buildingsmart_Infra-Bridge.ifc",
+          "size_kb": 1845.013671875
+        },
+        {
+          "name": "buildingsmart_Building-Landscaping.ifc",
+          "size_kb": 1433.25390625
+        },
+        {
+          "name": "buildingsmart_Infra-Plumbing.ifc",
+          "size_kb": 512.44140625
+        },
+        {
+          "name": "buildingsmart_Infra-Road.ifc",
+          "size_kb": 428.6611328125
+        },
+        {
+          "name": "buildingsmart_Building-Structural.ifc",
+          "size_kb": 289.6875
+        },
+        {
+          "name": "buildingsmart_Infra-Rail.ifc",
+          "size_kb": 239.0361328125
+        },
+        {
+          "name": "buildingsmart_Building-Architecture.ifc",
+          "size_kb": 223.654296875
+        },
+        {
+          "name": "buildingsmart_Building-Hvac.ifc",
+          "size_kb": 175.5146484375
+        },
+        {
+          "name": "buildingsmart_wall-with-opening-and-window.ifc",
+          "size_kb": 12.19921875
+        },
+        {
+          "name": "buildingsmart_basin-tessellation.ifc",
+          "size_kb": 11.8466796875
+        },
+        {
+          "name": "buildingsmart_tessellated-item.ifc",
+          "size_kb": 5.0771484375
+        },
+        {
+          "name": "buildingsmart_column-straight-rectangle-tessellation.ifc",
+          "size_kb": 4.486328125
+        },
+        {
+          "name": "buildingsmart_tessellation-with-individual-colors.ifc",
+          "size_kb": 2.5322265625
+        }
+      ]
+    },
+    "bcf": {
+      "count": 0,
+      "total_size_mb": 0.0,
+      "files": []
+    },
+    "total_files": 14
+  }
+}
