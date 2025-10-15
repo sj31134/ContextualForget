@@ -66,7 +66,22 @@ class BM25QueryEngine(BaselineQueryEngine):
         
         # Index BCF data
         bcf_count = 0
-        for node, data in graph_data.get('nodes', []):
+        
+        # Handle different data structures
+        if 'graph' in graph_data:
+            # NetworkX graph object
+            graph = graph_data['graph']
+            nodes_to_process = graph.nodes(data=True)
+        elif 'nodes' in graph_data:
+            # List of (node, data) tuples
+            nodes_to_process = graph_data['nodes']
+        else:
+            # Direct BCF data list
+            nodes_to_process = []
+            for item in graph_data.get('bcf_data', []):
+                nodes_to_process.append((('BCF', item.get('guid', '')), item))
+        
+        for node, data in nodes_to_process:
             if isinstance(node, tuple) and len(node) == 2:
                 node_type, node_id = node
                 if node_type == "BCF":
@@ -148,11 +163,15 @@ class BM25QueryEngine(BaselineQueryEngine):
         if not text:
             return []
         
-        # Simple keyword extraction
-        # Remove special characters and split
-        words = re.findall(r'\b\w+\b', text.lower())
+        # Simple keyword extraction - support Korean and English
+        # Extract Korean characters and English words
+        korean_words = re.findall(r'[가-힣]+', text)
+        english_words = re.findall(r'\b[a-zA-Z]+\b', text.lower())
         
-        # Filter out common stop words
+        # Combine Korean and English words
+        words = korean_words + english_words
+        
+        # Filter out common stop words (English only for now)
         stop_words = {
             'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 
             'of', 'with', 'by', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
@@ -162,7 +181,7 @@ class BM25QueryEngine(BaselineQueryEngine):
             'her', 'us', 'them', 'my', 'your', 'his', 'its', 'our', 'their'
         }
         
-        keywords = [word for word in words if len(word) > 2 and word not in stop_words]
+        keywords = [word for word in words if len(word) > 1 and word not in stop_words]
         return keywords[:10]  # Limit to 10 keywords
     
     def process_query(self, question: str, **kwargs) -> dict[str, Any]:
@@ -219,6 +238,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                 return {
                     "answer": f"GUID {guid}는 {hit['entity_type']} 타입의 IFC 요소입니다.",
                     "confidence": 1.0,
+                    "result_count": 1,
                     "source": "BM25",
                     "details": {
                         "guid": guid,
@@ -230,6 +250,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                 return {
                     "answer": f"GUID {guid}에 대한 정보를 찾을 수 없습니다.",
                     "confidence": 0.0,
+                    "result_count": 0,
                     "source": "BM25"
                 }
     
@@ -264,6 +285,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                 return {
                     "answer": answer,
                     "confidence": 0.7,
+                    "result_count": len(results),
                     "source": "BM25",
                     "details": {
                         "issues": issues,
@@ -274,6 +296,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                 return {
                     "answer": "해당 기간의 이슈를 찾을 수 없습니다.",
                     "confidence": 0.0,
+                    "result_count": 0,
                     "source": "BM25"
                 }
     
@@ -317,6 +340,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                 return {
                     "answer": answer,
                     "confidence": 0.8,
+                    "result_count": len(results),
                     "source": "BM25",
                     "details": {
                         "author": author,
@@ -328,6 +352,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                 return {
                     "answer": f"{author}가 작성한 이슈를 찾을 수 없습니다.",
                     "confidence": 0.0,
+                    "result_count": 0,
                     "source": "BM25"
                 }
     
@@ -337,13 +362,25 @@ class BM25QueryEngine(BaselineQueryEngine):
             return {
                 "answer": "검색할 키워드를 찾을 수 없습니다.",
                 "confidence": 0.0,
+                "result_count": 0,
                 "source": "BM25"
             }
         
         with self.ix.searcher() as searcher:
-            # Search across title and content
-            query = MultifieldParser(["title", "content"], self.schema).parse(" ".join(keywords))
-            results = searcher.search(query, limit=5)
+            # Search across title and content - try each keyword individually
+            all_results = []
+            for keyword in keywords:
+                query = MultifieldParser(["title", "content"], self.schema).parse(keyword)
+                results = searcher.search(query, limit=5)
+                all_results.extend(results)
+            
+            # Remove duplicates and sort by score
+            seen = set()
+            results = []
+            for hit in all_results:
+                if hit['doc_id'] not in seen:
+                    seen.add(hit['doc_id'])
+                    results.append(hit)
             
             if results:
                 # Group results by type
@@ -365,6 +402,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                 return {
                     "answer": answer,
                     "confidence": 0.6,
+                    "result_count": len(results),
                     "source": "BM25",
                     "details": {
                         "bcf_count": len(bcf_results),
@@ -376,6 +414,7 @@ class BM25QueryEngine(BaselineQueryEngine):
                 return {
                     "answer": "관련 정보를 찾을 수 없습니다.",
                     "confidence": 0.0,
+                    "result_count": 0,
                     "source": "BM25"
                 }
     

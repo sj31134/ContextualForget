@@ -8,3 +8,11 @@ dist/
 build/
 data/processed/*.gpickle
 data/external/
+
+# Research reports and evaluation results
+docs/FINAL_RESEARCH_REPORT.md
+docs/RESEARCH_VALIDATION_REPORT.md
+evaluation_*.json
+evaluation_*.csv
+evaluation_*.md
+evaluation_results_*.csv

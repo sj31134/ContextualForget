@@ -21,7 +21,18 @@ class BaselineQueryEngine(ABC):
     
     @abstractmethod
     def process_query(self, question: str, **kwargs) -> dict[str, Any]:
-        """Process a natural language query."""
+        """
+        Process a natural language query.
+        
+        Returns:
+            {
+                'answer': str,
+                'confidence': float (0.0-1.0),
+                'result_count': int,
+                'source': str,
+                'details': dict
+            }
+        """
         pass
     
     def get_stats(self) -> dict[str, Any]:

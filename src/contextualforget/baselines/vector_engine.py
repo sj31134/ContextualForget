@@ -214,6 +214,7 @@ class VectorQueryEngine(BaselineQueryEngine):
                 return {
                     "answer": f"GUID {guid}는 {metadata['entity_type']} 타입의 IFC 요소입니다.",
                     "confidence": 1.0,
+                    "result_count": 1,
                     "source": "Vector",
                     "details": {
                         "guid": guid,
@@ -225,6 +226,7 @@ class VectorQueryEngine(BaselineQueryEngine):
         return {
             "answer": f"GUID {guid}에 대한 정보를 찾을 수 없습니다.",
             "confidence": 0.0,
+            "result_count": 0,
             "source": "Vector"
         }
     
@@ -277,6 +279,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             return {
                 "answer": answer,
                 "confidence": 0.7,
+                "result_count": len(filtered_results),
                 "source": "Vector",
                 "details": {
                     "issues": issues,
@@ -287,6 +290,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             return {
                 "answer": "해당 기간의 이슈를 찾을 수 없습니다.",
                 "confidence": 0.0,
+                "result_count": 0,
                 "source": "Vector"
             }
     
@@ -328,6 +332,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             return {
                 "answer": answer,
                 "confidence": 0.8,
+                "result_count": len(author_docs),
                 "source": "Vector",
                 "details": {
                     "author": author,
@@ -339,6 +344,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             return {
                 "answer": f"{author}가 작성한 이슈를 찾을 수 없습니다.",
                 "confidence": 0.0,
+                "result_count": 0,
                 "source": "Vector"
             }
     
@@ -382,6 +388,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             return {
                 "answer": answer,
                 "confidence": float(similarities[top_indices[0]]),
+                "result_count": len(bcf_results) + len(ifc_results),
                 "source": "Vector",
                 "details": {
                     "bcf_count": len(bcf_results),
@@ -393,6 +400,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             return {
                 "answer": "관련 정보를 찾을 수 없습니다.",
                 "confidence": 0.0,
+                "result_count": 0,
                 "source": "Vector"
             }
     
