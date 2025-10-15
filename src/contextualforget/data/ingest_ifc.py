@@ -1,6 +1,11 @@
 import argparse
+import sys
+from pathlib import Path
 
-from ..core import extract_ifc_entities, write_jsonl
+# Add src to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from contextualforget.core import extract_ifc_entities, write_jsonl
 
 
 def main():

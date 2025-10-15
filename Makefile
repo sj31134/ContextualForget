@@ -4,7 +4,9 @@ VENV := conda activate contextualforget &&
 .PHONY: setup data ingest_ifc ingest_bcf link build_graph query eval all clean
 
 setup:
-	conda create -n contextualforget python=3.11 -y || true; 	$(VENV) pip install -U pip; 	$(VENV) pip install -e ".[dev]"
+	conda create -n contextualforget python=3.11 -y || true
+	$(VENV) pip install -U pip
+	$(VENV) pip install -e ".[dev]"
 
 data: data/raw/sample.ifc data/raw/sample.bcfzip data/sources.json
 	@echo ">> sample IFC & BCF prepared"

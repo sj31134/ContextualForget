@@ -1,47 +1,16 @@
 {
   "ifc_files": [
     {
-      "name": "residential_building.ifc",
-      "type": "residential",
-      "korean_name": "주거용 건물",
-      "elements_count": 15,
-      "building_guid": "BUnHSwj8$ZsuzpkuO9JmCg"
-    },
-    {
-      "name": "office_building.ifc",
-      "type": "office",
-      "korean_name": "오피스 빌딩",
-      "elements_count": 20,
-      "building_guid": "RmfLQaaopZymxpSyZbRA9G"
-    },
-    {
-      "name": "industrial_building.ifc",
-      "type": "industrial",
-      "korean_name": "공장 건물",
-      "elements_count": 12,
-      "building_guid": "hpqfdQqDqlHmCyp9q4cmrs"
-    },
-    {
-      "name": "hospital_building.ifc",
-      "type": "hospital",
-      "korean_name": "병원",
-      "elements_count": 18,
-      "building_guid": "k$XULWwB5OMgmKdZZArRnX"
-    },
-    {
-      "name": "school_building.ifc",
-      "type": "school",
-      "korean_name": "학교",
-      "elements_count": 16,
-      "building_guid": "_$HJKr8VKbe3G4x7AqejKY"
+      "path": "data/raw/sample.ifc",
+      "name": "Sample IFC",
+      "description": "Sample IFC file for testing"
     }
   ],
   "bcf_files": [
-    "residential_issues.bcfzip",
-    "office_issues.bcfzip",
-    "industrial_issues.bcfzip",
-    "hospital_issues.bcfzip",
-    "school_issues.bcfzip"
-  ],
-  "generated_at": "2025-10-09T23:10:43.320512"
+    {
+      "path": "data/raw/sample.bcfzip",
+      "name": "Sample BCF",
+      "description": "Sample BCF file for testing"
+    }
+  ]
 }

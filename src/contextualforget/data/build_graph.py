@@ -1,9 +1,14 @@
 import argparse
 import os
+import sys
+from pathlib import Path
 
 import networkx as nx
 
-from ..core import read_jsonl
+# Add src to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from contextualforget.core import read_jsonl
 
 
 def main():

@@ -1,7 +1,12 @@
 import argparse
 import re
+import sys
+from pathlib import Path
 
-from ..core import read_jsonl, write_jsonl
+# Add src to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from contextualforget.core import read_jsonl, write_jsonl
 
 
 def extract_guid_from_text(text):

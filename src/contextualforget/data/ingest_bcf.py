@@ -1,6 +1,11 @@
 import argparse
+import sys
+from pathlib import Path
 
-from ..core import parse_bcf_zip, write_jsonl
+# Add src to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from contextualforget.core import parse_bcf_zip, write_jsonl
 
 
 def main():
