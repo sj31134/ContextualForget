@@ -2,7 +2,7 @@
 import pytest
 import networkx as nx
 from datetime import datetime, timezone, timedelta
-from contextualforget.query import AdvancedQueryEngine, QueryBuilder
+from contextualforget.query.advanced_query import AdvancedQueryEngine
 
 
 class TestAdvancedQuery:

@@ -1,11 +1,7 @@
 """Tests for forgetting mechanisms."""
 import pytest
 from datetime import datetime, timezone, timedelta
-from contextualforget.core import expired, score
-from contextualforget.core import (
-    TTLPolicy, WeightedDecayPolicy, ImportanceBasedPolicy,
-    CompositeForgettingPolicy, ForgettingManager, calculate_event_importance
-)
+from contextualforget.core.contextual_forgetting import ContextualForgettingManager
 
 
 class TestForgetting:

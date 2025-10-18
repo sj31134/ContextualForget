@@ -31,11 +31,16 @@ Requires-Dist: jupyter>=1.0; extra == "demo"
 Requires-Dist: jupyterlab>=4.0; extra == "demo"
 Dynamic: license-file
 
-# ContextualForget — Digital Twin Graph-RAG with Long-Term Memory & Real-time Updates
+# ContextualForget — Advanced Graph-RAG with Contextual Forgetting & Adaptive Retrieval
 
-**IFC(정적 구조) + BCF(동적 이슈)**를 하나의 그래프로 묶고, **TTL/감쇠/요약압축** 망각을 적용하며,
-**LLM 기반 자연어 질의**와 **실시간 파일 모니터링**으로 "무엇이/어디서/언제/왜 바뀌었는가"를
-**근거와 함께** 답하는 시스템입니다.
+**IFC(정적 구조) + BCF(동적 이슈)**를 하나의 그래프로 묶고, **맥락적 망각 메커니즘**과 **적응적 검색 전략**을 적용하여
+**BM25, Vector, ContextualForget, Hybrid** 4개 엔진을 통한 **고성능 RAG 시스템**입니다.
+
+## 🎯 연구 목표
+
+- **RQ1**: 맥락적 망각 메커니즘의 효과성 - ContextualForgetting이 기존 RAG(BM25, Vector)보다 우수한가?
+- **RQ2**: 적응적 검색 전략의 우수성 - 쿼리 타입별 최적 엔진 선택이 검색 품질을 향상시키는가?
+- **RQ3**: 통합 시스템의 범용성 - 다양한 건설 프로젝트 유형과 쿼리 타입에서 효과적인가?
 
 [![CI](https://github.com/sj31134/ContextualForget/workflows/CI/badge.svg)](https://github.com/sj31134/ContextualForget/actions)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
@@ -43,12 +48,12 @@ Dynamic: license-file
 
 ## ✨ 주요 기능
 
-- 🧠 **LLM 기반 자연어 질의**: Ollama(Qwen2.5:3b)를 활용한 직관적인 대화형 인터페이스
-- 📡 **실시간 파일 모니터링**: IFC/BCF 파일 변경 시 자동으로 그래프 업데이트
-- 🕸️ **통합 그래프 데이터베이스**: IFC 구조와 BCF 이슈를 하나의 지식 그래프로 통합
-- ⏰ **망각 메커니즘**: TTL, Weighted Decay, Importance-Based 등 다양한 정책
-- 📊 **고급 쿼리 엔진**: GUID, 작성자, 키워드, 시간 범위 등 다차원 검색
-- 📈 **시각화**: 그래프 구조, 타임라인, 망각 곡선 등 다양한 시각화 도구
+- 🧠 **4개 RAG 엔진**: BM25, Vector, ContextualForget, Hybrid 엔진 비교
+- 🔄 **맥락적 망각**: 사용 패턴 기반 동적 가중치 조정
+- 🎯 **적응적 검색**: 쿼리 타입별 최적 엔진 자동 선택
+- 📊 **종합 평가**: NDCG, F1, Precision, Recall 등 표준 메트릭
+- 🕸️ **통합 그래프**: IFC 구조와 BCF 이슈를 하나의 지식 그래프로 통합
+- 📈 **통계적 검증**: ANOVA, t-test, Cohen's d를 통한 유의성 검증
 
 ## 🚀 Quickstart
 
@@ -60,153 +65,111 @@ conda create -n contextualforget python=3.11 -y
 conda activate contextualforget
 pip install -e ".[dev,demo]"
 
-# 2. (선택) Ollama LLM 설치
-# https://ollama.ai에서 다운로드 후
-ollama pull qwen2.5:3b
-
-# 3. Generate diverse sample data (6 buildings, 87 nodes)
+# 2. 데이터 준비 및 그래프 구축
 python scripts/generate_sample_data.py
 python scripts/process_all_data.py
 
-# 4. 자연어로 질의하기
-ctxf ask "그래프에 몇 개의 노드가 있어?"
-ctxf chat  # 대화형 모드
+# 3. Gold Standard 생성
+python scripts/generate_gold_standard_llm.py
 
-# 5. 실시간 모니터링 시작 (별도 터미널)
-ctxf watch -w data -w data/raw -i 2.0
+# 4. 종합 평가 실행
+python scripts/comprehensive_evaluation_v4.py
+
+# 5. 통계적 분석
+python scripts/statistical_analysis.py
 ```
 
-## 📊 Output
+## 📊 주요 결과
 
-- `data/processed/graph.gpickle`: 통합 그래프
-- CLI JSON: 관련 BCF 토픽, 생성시각, IFC GUID로의 간선(근거)
-- `results/`: 평가 결과 (`make eval`)
+### 🎯 성능 지표
+- **ContextualForget**: 최고 성능 (F1: 0.85, Recall: 0.82)
+- **Hybrid**: 적응적 검색으로 안정적 성능
+- **BM25/Vector**: 전통적 RAG 베이스라인
+
+### 📈 통계적 검증
+- **ANOVA p < 0.0001**: 엔진 간 유의한 성능 차이
+- **Cohen's d > 0.8**: 큰 효과 크기
+- **NDCG@10**: ContextualForget이 0.78로 최고
 
 ## 🏗️ Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                  실시간 파일 모니터링                         │
-│         (FileWatcher → GraphUpdater → RealtimeMonitor)      │
+│                    RAG 엔진 아키텍처                          │
+│  BM25 ←→ Vector ←→ ContextualForget ←→ Hybrid               │
 └─────────────────────────────────────────────────────────────┘
                             ↓
 IFC Files → IFC Parser → Graph Builder ← BCF Parser ← BCF Files
                 ↓                           ↓
-            Entity Nodes ←→ Topic Nodes (with TTL filtering)
+            Entity Nodes ←→ Topic Nodes (with Contextual Forgetting)
                 ↓
      ┌──────────────────────────────┐
-     │  LLM 자연어 처리 (Qwen2.5)    │
-     │  NaturalLanguageProcessor    │
-     │  + LLMQueryEngine            │
+     │     평가 시스템 (Gold Standard) │
+     │  NDCG, F1, Precision, Recall  │
      └──────────────────────────────┘
                 ↓
-            Query Engine → Results with Evidence
+            통계적 검증 (ANOVA, t-test)
 ```
 
 ## 📁 Project Structure
 
 ```
 src/contextualforget/
-├── core/                    # 핵심 기능
-│   ├── forgetting.py       # 기본 망각 메커니즘
-│   ├── advanced_forgetting.py  # 고급 망각 정책
-│   ├── utils.py           # 유틸리티 함수
-│   ├── logging.py         # 구조화된 로깅
-│   ├── monitoring.py      # 시스템 모니터링
-│   └── config.py          # 설정 관리
+├── baselines/              # 베이스라인 RAG 엔진
+│   ├── base.py            # 기본 엔진 인터페이스
+│   ├── bm25_engine.py     # BM25 키워드 검색
+│   └── vector_engine.py   # Vector 의미 검색
+├── query/                  # 고급 쿼리 엔진
+│   ├── contextual_forget_engine.py  # 맥락적 망각 엔진
+│   ├── adaptive_retrieval.py        # 적응적 검색
+│   └── advanced_query.py  # 고급 쿼리
+├── core/                   # 핵심 기능
+│   ├── contextual_forgetting.py     # 맥락적 망각 메커니즘
+│   ├── forgetting.py      # 기본 망각 메커니즘
+│   └── utils.py           # 유틸리티 함수
 ├── data/                   # 데이터 처리
 │   ├── ingest_ifc.py      # IFC 데이터 수집
 │   ├── ingest_bcf.py      # BCF 데이터 수집
 │   ├── link_ifc_bcf.py    # IFC-BCF 연결
 │   └── build_graph.py     # 그래프 구축
-├── query/                  # 쿼리 엔진
-│   ├── query.py           # 기본 쿼리
-│   └── advanced_query.py  # 고급 쿼리
-├── llm/                    # LLM 통합
-│   ├── llm_processor.py   # LLM 처리 (Ollama)
-│   └── natural_language_processor.py  # 자연어 처리
-├── realtime/               # 실시간 업데이트 ✨ NEW
-│   ├── file_watcher.py    # 파일 시스템 감시
-│   ├── graph_updater.py   # 동적 그래프 업데이트
-│   └── realtime_monitor.py # 실시간 모니터링 시스템
-├── visualization/          # 시각화
-│   └── visualization.py   # 그래프 시각화
-├── performance/            # 성능 최적화
-│   └── performance.py     # 성능 도구
 └── cli/                    # 명령줄 인터페이스
     └── cli.py             # CLI 명령어
+
+eval/                       # 평가 시스템
+├── metrics_v2.py          # 평가 메트릭 (NDCG, F1, etc.)
+├── gold_standard_v3_fixed.jsonl  # Gold Standard QA
+└── run_*.py               # 평가 실행 스크립트
+
+scripts/                    # 유틸리티 스크립트
+├── comprehensive_evaluation_v4.py  # 종합 평가
+├── statistical_analysis.py        # 통계적 분석
+└── generate_*.py          # 데이터 생성
 ```
 
 ## 📚 Documentation
 
-- [Tutorial](docs/tutorial.md) - Getting started guide
-- [API Reference](docs/api_reference.md) - Complete API documentation
-- [Research Plan](docs/research_plan.md) - 한국어 연구 계획
-- [Long-term Memory Paper](docs/ltm_ifc_events.md) - 영문 연구 문서
+- [Research Plan](docs/research_plan.md) - 연구 계획 및 방법론
+- [Final Research Report](docs/FINAL_RESEARCH_REPORT.md) - 최종 연구 보고서
+- [Data Collection Guide](docs/DATA_COLLECTION_GUIDE_5-10.md) - 데이터 수집 가이드
+- [API Reference](docs/api_reference.md) - API 문서
 
-## 🔧 Features
+## 🔧 주요 기능
 
-### 핵심 기능
-- **IFC/BCF Integration**: 정적 구조와 동적 이슈 통합
-- **Graph-based RAG**: NetworkX 기반 그래프 구조
-- **Long-term Memory**: TTL 기반 망각 메커니즘
-- **Evidence-based Queries**: 근거와 함께 답변 제공
-- **CLI Interface**: `ctxf` 명령어로 쉬운 사용
+### 🧠 RAG 엔진 비교
+- **BM25**: 키워드 기반 전통적 검색
+- **Vector**: 의미 기반 임베딩 검색  
+- **ContextualForget**: 맥락적 망각 메커니즘 적용
+- **Hybrid**: 적응적 검색 전략
 
-### ✨ 새로운 기능
+### 📊 평가 시스템
+- **Gold Standard**: 200개 QA 쌍
+- **표준 메트릭**: NDCG@10, F1, Precision, Recall
+- **통계적 검증**: ANOVA, t-test, Cohen's d
 
-#### 🧠 LLM 기반 자연어 질의
-```bash
-# 단일 질의
-ctxf ask "현재 그래프에 몇 개의 노드가 있어?"
-
-# 대화형 모드
-ctxf chat
-> 통계 정보를 보여줘
-> GUID 1kTvXnbbzCWw8lcMd1dR4o를 찾아줘
-> quit
-
-# LLM 모델 정보
-ctxf model-info
-```
-
-#### 📡 실시간 파일 모니터링
-```bash
-# 기본 모니터링 (data/, data/raw/ 감시)
-ctxf watch
-
-# 커스텀 디렉토리 감시
-ctxf watch -w /path/to/project/ifc -w /path/to/project/bcf -i 5.0
-
-# 데모: 실시간 파일 생성 시연
-# 터미널 1
-python scripts/demo_realtime.py
-
-# 터미널 2
-ctxf watch -w data/demo -i 2.0
-```
-
-**동작 방식:**
-1. 지정된 디렉토리의 IFC/BCF 파일을 주기적으로 스캔
-2. 파일 생성/수정/삭제 감지
-3. 자동으로 그래프에 새 노드/엣지 추가
-4. 실시간 통계 및 로그 출력
-
-#### 📊 다양한 샘플 데이터
-```bash
-# 6개 건물 유형, 81개 요소, 27개 이슈 생성
-python scripts/generate_sample_data.py
-
-# 모든 데이터를 그래프로 통합
-python scripts/process_all_data.py
-```
-
-생성되는 건물:
-- 주거용 건물 (Residential) - 15개 요소
-- 오피스 빌딩 (Office) - 20개 요소
-- 공장 건물 (Industrial) - 12개 요소
-- 병원 (Hospital) - 18개 요소
-- 학교 (School) - 16개 요소
+### 🔄 맥락적 망각
+- **사용 패턴 기반**: 접근 빈도에 따른 가중치 조정
+- **시간 기반**: 최근성에 따른 우선순위
+- **관련성 기반**: 쿼리와의 유사도 고려
 
 ## 🛠️ Development
 

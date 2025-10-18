@@ -5,9 +5,9 @@
 
 ## 🎯 연구 목표
 
-- **RQ1**: 맥락적 망각 메커니즘이 RAG 성능에 미치는 영향
-- **RQ2**: 적응적 검색 전략의 효과성 검증  
-- **RQ3**: 통합 시스템의 우수성 입증
+- **RQ1**: 맥락적 망각 메커니즘의 효과성 - ContextualForgetting이 기존 RAG(BM25, Vector)보다 우수한가?
+- **RQ2**: 적응적 검색 전략의 우수성 - 쿼리 타입별 최적 엔진 선택이 검색 품질을 향상시키는가?
+- **RQ3**: 통합 시스템의 범용성 - 다양한 건설 프로젝트 유형과 쿼리 타입에서 효과적인가?
 
 [![CI](https://github.com/sj31134/ContextualForget/workflows/CI/badge.svg)](https://github.com/sj31134/ContextualForget/actions)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)

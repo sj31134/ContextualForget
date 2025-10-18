@@ -4,6 +4,32 @@
       "path": "data/raw/sample.ifc",
       "name": "Sample IFC",
       "description": "Sample IFC file for testing"
+    },
+    {
+      "path": "data/processed/restored_ifc/ifc_analysis.json",
+      "name": "Restored IFC Data",
+      "description": "복구된 OpenBIM IDS, IfcOpenShell 및 기타 IFC 파일",
+      "type": "restored_ifc",
+      "source_type": "downloaded",
+      "data_quality": "high",
+      "added_date": "2025-10-18T17:47:07.125665",
+      "usage": "primary_training_data"
+    },
+    {
+      "path": "data/processed/integrated_dataset/integrated_ifc_data.json",
+      "name": "Integrated IFC Dataset",
+      "description": "OpenBIM IDS + IfcOpenShell + buildingSMART + xBIM 통합 (5,000+ 엔티티)",
+      "type": "integrated_ifc",
+      "data_quality": "high",
+      "added_date": "2025-10-18T17:48:35.914799",
+      "usage": "primary_training_data",
+      "sources": [
+        "openbim_ids",
+        "ifcopenshell",
+        "buildingsmart",
+        "xbim_samples"
+      ],
+      "total_files": 5000
     }
   ],
   "bcf_files": [
@@ -24,6 +50,32 @@
       "data_quality": "high",
       "added_date": "2025-10-18T14:47:23.696561",
       "usage": "primary_training_data"
+    },
+    {
+      "path": "data/processed/restored_bcf/restored_bcf_data.jsonl",
+      "name": "Restored BCF Data",
+      "description": "복구된 buildingSMART 및 기타 BCF 테스트 케이스",
+      "type": "restored_bcf",
+      "source_type": "downloaded",
+      "data_quality": "high",
+      "added_date": "2025-10-18T17:47:07.125663",
+      "usage": "primary_training_data"
+    },
+    {
+      "path": "data/processed/integrated_dataset/integrated_bcf_data.jsonl",
+      "name": "Integrated BCF Dataset",
+      "description": "Schependomlaan + buildingSMART + 기타 BCF 데이터 통합 (475개 이슈)",
+      "type": "integrated_bcf",
+      "data_quality": "high",
+      "added_date": "2025-10-18T17:48:35.914797",
+      "usage": "primary_training_data",
+      "project_types": [
+        "residential",
+        "commercial",
+        "infrastructure",
+        "industrial"
+      ],
+      "total_issues": 475
     }
   ]
 }
