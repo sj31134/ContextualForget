@@ -1,7 +1,7 @@
 # ContextualForget — Advanced Graph-RAG with Contextual Forgetting & Adaptive Retrieval
 
-**IFC(정적 구조) + BCF(동적 이슈)**를 하나의 그래프로 묶고, **맥락적 망각 메커니즘**과 **적응적 검색 전략**을 적용하여
-**BM25, Vector, ContextualForget, Hybrid** 4개 엔진을 통한 **고성능 RAG 시스템**입니다.
+**IFC(정적 구조) + BCF(동적 이슈)** 를 하나의 그래프로 묶고, **맥락적 망각 메커니즘** 과 **적응적 검색 전략** 을 적용하여
+**BM25, Vector, ContextualForget, Hybrid** 4개 엔진을 통한 **고성능 RAG 시스템** 입니다.
 
 ## 🎯 연구 목표
 
@@ -15,12 +15,12 @@
 
 ## ✨ 주요 기능
 
-- 🧠 **4개 RAG 엔진**: BM25, Vector, ContextualForget, Hybrid 엔진 비교
-- 🔄 **맥락적 망각**: 사용 패턴 기반 동적 가중치 조정
-- 🎯 **적응적 검색**: 쿼리 타입별 최적 엔진 자동 선택
-- 📊 **종합 평가**: NDCG, F1, Precision, Recall 등 표준 메트릭
-- 🕸️ **통합 그래프**: IFC 구조와 BCF 이슈를 하나의 지식 그래프로 통합
-- 📈 **통계적 검증**: ANOVA, t-test, Cohen's d를 통한 유의성 검증
+- 🧠 **4개 RAG 엔진** : BM25, Vector, ContextualForget, Hybrid 엔진 비교
+- 🔄 **맥락적 망각** : 사용 패턴 기반 동적 가중치 조정
+- 🎯 **적응적 검색** : 쿼리 타입별 최적 엔진 자동 선택
+- 📊 **종합 평가** : NDCG, F1, Precision, Recall 등 표준 메트릭
+- 🕸️ **통합 그래프** : IFC 구조와 BCF 이슈를 하나의 지식 그래프로 통합
+- 📈 **통계적 검증** : ANOVA, t-test, Cohen's d를 통한 유의성 검증
 
 ## 🚀 Quickstart
 
@@ -49,14 +49,14 @@ python scripts/statistical_analysis.py
 ## 📊 주요 결과
 
 ### 🎯 성능 지표
-- **ContextualForget**: 최고 성능 (F1: 0.85, Recall: 0.82)
-- **Hybrid**: 적응적 검색으로 안정적 성능
-- **BM25/Vector**: 전통적 RAG 베이스라인
+- **ContextualForget** : 최고 성능 (F1: 0.85, Recall: 0.82)
+- **Hybrid** : 적응적 검색으로 안정적 성능
+- **BM25/Vector** : 전통적 RAG 베이스라인
 
 ### 📈 통계적 검증
-- **ANOVA p < 0.0001**: 엔진 간 유의한 성능 차이
-- **Cohen's d > 0.8**: 큰 효과 크기
-- **NDCG@10**: ContextualForget이 0.78로 최고
+- **ANOVA p < 0.0001** : 엔진 간 유의한 성능 차이
+- **Cohen's d > 0.8** : 큰 효과 크기
+- **NDCG@10** : ContextualForget이 0.78로 최고
 
 ## 🏗️ Architecture
 
@@ -123,20 +123,20 @@ scripts/                    # 유틸리티 스크립트
 ## 🔧 주요 기능
 
 ### 🧠 RAG 엔진 비교
-- **BM25**: 키워드 기반 전통적 검색
-- **Vector**: 의미 기반 임베딩 검색  
-- **ContextualForget**: 맥락적 망각 메커니즘 적용
-- **Hybrid**: 적응적 검색 전략
+- **BM25** : 키워드 기반 전통적 검색
+- **Vector** : 의미 기반 임베딩 검색  
+- **ContextualForget** : 맥락적 망각 메커니즘 적용
+- **Hybrid** : 적응적 검색 전략
 
 ### 📊 평가 시스템
-- **Gold Standard**: 200개 QA 쌍
-- **표준 메트릭**: NDCG@10, F1, Precision, Recall
-- **통계적 검증**: ANOVA, t-test, Cohen's d
+- **Gold Standard** : 200개 QA 쌍
+- **표준 메트릭** : NDCG@10, F1, Precision, Recall
+- **통계적 검증** : ANOVA, t-test, Cohen's d
 
 ### 🔄 맥락적 망각
-- **사용 패턴 기반**: 접근 빈도에 따른 가중치 조정
-- **시간 기반**: 최근성에 따른 우선순위
-- **관련성 기반**: 쿼리와의 유사도 고려
+- **사용 패턴 기반** : 접근 빈도에 따른 가중치 조정
+- **시간 기반** : 최근성에 따른 우선순위
+- **관련성 기반** : 쿼리와의 유사도 고려
 
 ## 🛠️ Development
 
@@ -171,4 +171,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Note**: 대형 파일은 Git LFS 규칙을 사용합니다 (`.gitattributes` 참조).
+**Note** : 대형 파일은 Git LFS 규칙을 사용합니다 (`.gitattributes` 참조).
