@@ -1,0 +1,17 @@
+{
+  "total_queries": 600,
+  "query_type_distribution": {
+    "guid": 100,
+    "temporal": 100,
+    "author": 100,
+    "keyword": 100,
+    "complex": 100,
+    "relationship": 100
+  },
+  "difficulty_distribution": {
+    "easy": 100,
+    "medium": 300,
+    "hard": 200
+  },
+  "generation_date": "2025-10-18T17:52:17.990246"
+}

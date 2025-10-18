@@ -1,0 +1,1420 @@
+{
+  "benchmark_date": "2025-10-18T17:57:21.235463",
+  "node_counts": [
+    100,
+    500,
+    1000,
+    2000,
+    5000,
+    10000
+  ],
+  "test_queries": [
+    "GUID topic_000001과 관련된 이슈는 무엇인가요?",
+    "engineer_001이 작성한 이슈들을 보여주세요.",
+    "구조 관련 이슈들을 찾아주세요.",
+    "최근 생성된 이슈는 무엇인가요?",
+    "작업 우선순위를 높여야 할 이슈는 무엇인가요?"
+  ],
+  "engine_results": {
+    "BM25": {
+      "100": {
+        "node_count": 100,
+        "avg_response_time": 1.4781951904296875e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 96.66666666666666,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 1.9073486328125e-06,
+            "min_time": 1.6689300537109375e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.9466795466607238e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.16666666666667,
+            "max_cpu": 97.7
+          },
+          "query_2": {
+            "avg_time": 1.6689300537109375e-06,
+            "min_time": 7.152557373046875e-07,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 6.743495761743046e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 97.5,
+            "max_cpu": 99.3
+          },
+          "query_3": {
+            "avg_time": 1.5894571940104167e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.39999999999999,
+            "max_cpu": 96.8
+          },
+          "query_4": {
+            "avg_time": 1.0331471761067708e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.1920928955078125e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.43333333333334,
+            "max_cpu": 97.2
+          },
+          "query_5": {
+            "avg_time": 1.1920928955078125e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.6689300537109375e-06,
+            "std_time": 3.371747880871523e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.83333333333333,
+            "max_cpu": 97.9
+          }
+        }
+      },
+      "500": {
+        "node_count": 500,
+        "avg_response_time": 1.430511474609375e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 95.60666666666665,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 1.7484029134114583e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 5.619579801452537e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.03333333333332,
+            "max_cpu": 102.1
+          },
+          "query_2": {
+            "avg_time": 1.1920928955078125e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.6689300537109375e-06,
+            "std_time": 3.371747880871523e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 97.73333333333333,
+            "max_cpu": 100.8
+          },
+          "query_3": {
+            "avg_time": 1.2715657552083333e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.3,
+            "max_cpu": 95.6
+          },
+          "query_4": {
+            "avg_time": 1.5894571940104167e-06,
+            "min_time": 7.152557373046875e-07,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 6.25769923052137e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.33333333333333,
+            "max_cpu": 98.1
+          },
+          "query_5": {
+            "avg_time": 1.3510386149088542e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 5.619579801452537e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.63333333333333,
+            "max_cpu": 97.0
+          }
+        }
+      },
+      "1000": {
+        "node_count": 1000,
+        "avg_response_time": 2.1616617838541666e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 93.04666666666667,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 2.6226043701171875e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.150429962800233e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.86666666666667,
+            "max_cpu": 99.8
+          },
+          "query_2": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 91.16666666666667,
+            "max_cpu": 92.5
+          },
+          "query_3": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.3,
+            "max_cpu": 98.9
+          },
+          "query_4": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 90.93333333333334,
+            "max_cpu": 97.3
+          },
+          "query_5": {
+            "avg_time": 1.986821492513021e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.96666666666665,
+            "max_cpu": 100.2
+          }
+        }
+      },
+      "2000": {
+        "node_count": 2000,
+        "avg_response_time": 1.8596649169921875e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 94.82000000000001,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 1.986821492513021e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.56666666666666,
+            "max_cpu": 103.0
+          },
+          "query_2": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.39999999999999,
+            "max_cpu": 95.3
+          },
+          "query_3": {
+            "avg_time": 1.6689300537109375e-06,
+            "min_time": 1.1920928955078125e-06,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 3.371747880871523e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.53333333333335,
+            "max_cpu": 99.2
+          },
+          "query_4": {
+            "avg_time": 1.5099843343098958e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 4.052336624139774e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.06666666666666,
+            "max_cpu": 96.6
+          },
+          "query_5": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.53333333333335,
+            "max_cpu": 94.9
+          }
+        }
+      },
+      "5000": {
+        "node_count": 5000,
+        "avg_response_time": 2.0503997802734374e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 94.16666666666666,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 98.59999999999998,
+            "max_cpu": 102.1
+          },
+          "query_2": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 91.23333333333333,
+            "max_cpu": 96.0
+          },
+          "query_3": {
+            "avg_time": 1.7484029134114583e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 5.619579801452537e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.60000000000001,
+            "max_cpu": 98.0
+          },
+          "query_4": {
+            "avg_time": 2.384185791015625e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 2.86102294921875e-06,
+            "std_time": 3.371747880871523e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.43333333333334,
+            "max_cpu": 97.6
+          },
+          "query_5": {
+            "avg_time": 1.986821492513021e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 8.778064264605253e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 91.96666666666665,
+            "max_cpu": 96.3
+          }
+        }
+      },
+      "10000": {
+        "node_count": 10000,
+        "avg_response_time": 1.9073486328125e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 93.03999999999999,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 1.9073486328125e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 0.0,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 97.0,
+            "max_cpu": 99.9
+          },
+          "query_2": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 92.46666666666665,
+            "max_cpu": 102.0
+          },
+          "query_3": {
+            "avg_time": 1.986821492513021e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 84.86666666666666,
+            "max_cpu": 89.5
+          },
+          "query_4": {
+            "avg_time": 1.430511474609375e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.6689300537109375e-06,
+            "std_time": 3.371747880871523e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.06666666666666,
+            "max_cpu": 99.0
+          },
+          "query_5": {
+            "avg_time": 2.1457672119140625e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 0.0,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.8,
+            "max_cpu": 103.0
+          }
+        }
+      }
+    },
+    "Vector": {
+      "100": {
+        "node_count": 100,
+        "avg_response_time": 3.1948089599609376e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 96.47333333333333,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 3.4968058268229165e-06,
+            "min_time": 2.6226043701171875e-06,
+            "max_time": 4.76837158203125e-06,
+            "std_time": 9.199648620915592e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.3,
+            "max_cpu": 96.5
+          },
+          "query_2": {
+            "avg_time": 3.417332967122396e-06,
+            "min_time": 3.0994415283203125e-06,
+            "max_time": 4.0531158447265625e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.13333333333333,
+            "max_cpu": 96.6
+          },
+          "query_3": {
+            "avg_time": 3.0199686686197915e-06,
+            "min_time": 2.86102294921875e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 97.76666666666667,
+            "max_cpu": 98.1
+          },
+          "query_4": {
+            "avg_time": 3.0994415283203125e-06,
+            "min_time": 3.0994415283203125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 0.0,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.89999999999999,
+            "max_cpu": 99.1
+          },
+          "query_5": {
+            "avg_time": 2.940495808919271e-06,
+            "min_time": 2.6226043701171875e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 2.247831920581015e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.26666666666667,
+            "max_cpu": 96.6
+          }
+        }
+      },
+      "500": {
+        "node_count": 500,
+        "avg_response_time": 2.86102294921875e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 97.4,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 2.781550089518229e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.63333333333333,
+            "max_cpu": 98.1
+          },
+          "query_2": {
+            "avg_time": 3.4968058268229165e-06,
+            "min_time": 3.0994415283203125e-06,
+            "max_time": 4.291534423828125e-06,
+            "std_time": 5.619579801452537e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 97.7,
+            "max_cpu": 99.3
+          },
+          "query_3": {
+            "avg_time": 2.5431315104166665e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 2.86102294921875e-06,
+            "std_time": 2.9736021254650284e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 98.66666666666667,
+            "max_cpu": 100.6
+          },
+          "query_4": {
+            "avg_time": 2.384185791015625e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.150429962800233e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 97.36666666666667,
+            "max_cpu": 98.5
+          },
+          "query_5": {
+            "avg_time": 3.0994415283203125e-06,
+            "min_time": 3.0994415283203125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 0.0,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.63333333333333,
+            "max_cpu": 98.5
+          }
+        }
+      },
+      "1000": {
+        "node_count": 1000,
+        "avg_response_time": 2.4318695068359373e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 95.01333333333332,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 3.0199686686197915e-06,
+            "min_time": 2.86102294921875e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.43333333333334,
+            "max_cpu": 97.2
+          },
+          "query_2": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 92.7,
+            "max_cpu": 98.5
+          },
+          "query_3": {
+            "avg_time": 2.304712931315104e-06,
+            "min_time": 1.6689300537109375e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.947204250930057e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.0,
+            "max_cpu": 97.5
+          },
+          "query_4": {
+            "avg_time": 2.384185791015625e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 1.0115243642614567e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.96666666666665,
+            "max_cpu": 102.0
+          },
+          "query_5": {
+            "avg_time": 2.384185791015625e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.150429962800233e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 97.96666666666665,
+            "max_cpu": 100.4
+          }
+        }
+      },
+      "2000": {
+        "node_count": 2000,
+        "avg_response_time": 2.845128377278646e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 95.66,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.1920928955078125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 7.867411722033552e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.26666666666667,
+            "max_cpu": 96.3
+          },
+          "query_2": {
+            "avg_time": 3.417332967122396e-06,
+            "min_time": 3.0994415283203125e-06,
+            "max_time": 4.0531158447265625e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.23333333333335,
+            "max_cpu": 103.4
+          },
+          "query_3": {
+            "avg_time": 3.258387247721354e-06,
+            "min_time": 2.86102294921875e-06,
+            "max_time": 3.814697265625e-06,
+            "std_time": 4.052336624139774e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.63333333333333,
+            "max_cpu": 99.7
+          },
+          "query_4": {
+            "avg_time": 3.1789143880208335e-06,
+            "min_time": 2.86102294921875e-06,
+            "max_time": 3.814697265625e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.96666666666665,
+            "max_cpu": 98.2
+          },
+          "query_5": {
+            "avg_time": 2.304712931315104e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.86102294921875e-06,
+            "std_time": 4.052336624139774e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.2,
+            "max_cpu": 97.9
+          }
+        }
+      },
+      "5000": {
+        "node_count": 5000,
+        "avg_response_time": 2.797444661458333e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 92.37333333333333,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 2.781550089518229e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 98.36666666666667,
+            "max_cpu": 103.1
+          },
+          "query_2": {
+            "avg_time": 3.0994415283203125e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 4.291534423828125e-06,
+            "std_time": 9.73339773330362e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.3,
+            "max_cpu": 104.7
+          },
+          "query_3": {
+            "avg_time": 3.4968058268229165e-06,
+            "min_time": 3.0994415283203125e-06,
+            "max_time": 4.291534423828125e-06,
+            "std_time": 5.619579801452537e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 92.46666666666665,
+            "max_cpu": 104.4
+          },
+          "query_4": {
+            "avg_time": 1.986821492513021e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 87.8,
+            "max_cpu": 90.8
+          },
+          "query_5": {
+            "avg_time": 2.6226043701171875e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.814697265625e-06,
+            "std_time": 8.485379419351666e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 87.93333333333334,
+            "max_cpu": 91.8
+          }
+        }
+      },
+      "10000": {
+        "node_count": 10000,
+        "avg_response_time": 2.702077229817708e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 95.92666666666668,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 2.5431315104166665e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 4.899036091938795e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 92.5,
+            "max_cpu": 93.5
+          },
+          "query_2": {
+            "avg_time": 3.337860107421875e-06,
+            "min_time": 3.0994415283203125e-06,
+            "max_time": 3.814697265625e-06,
+            "std_time": 3.371747880871523e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.60000000000001,
+            "max_cpu": 95.2
+          },
+          "query_3": {
+            "avg_time": 2.7020772298177085e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.619579801452537e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 104.10000000000001,
+            "max_cpu": 113.9
+          },
+          "query_4": {
+            "avg_time": 2.5431315104166665e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.86102294921875e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.23333333333333,
+            "max_cpu": 112.3
+          },
+          "query_5": {
+            "avg_time": 2.384185791015625e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.150429962800233e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 90.2,
+            "max_cpu": 96.4
+          }
+        }
+      }
+    },
+    "ContextualForget": {
+      "100": {
+        "node_count": 100,
+        "avg_response_time": 2.0186106363932288e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 95.06666666666668,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 1.8278757731119792e-06,
+            "min_time": 7.152557373046875e-07,
+            "max_time": 2.86102294921875e-06,
+            "std_time": 8.778064264605254e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.66666666666667,
+            "max_cpu": 101.0
+          },
+          "query_2": {
+            "avg_time": 2.6226043701171875e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.150429962800233e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.10000000000001,
+            "max_cpu": 100.0
+          },
+          "query_3": {
+            "avg_time": 1.986821492513021e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.89999999999999,
+            "max_cpu": 98.6
+          },
+          "query_4": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.40000000000002,
+            "max_cpu": 95.6
+          },
+          "query_5": {
+            "avg_time": 1.5894571940104167e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.26666666666667,
+            "max_cpu": 100.1
+          }
+        }
+      },
+      "500": {
+        "node_count": 500,
+        "avg_response_time": 2.209345499674479e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 96.54666666666667,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.1920928955078125e-06,
+            "max_time": 2.86102294921875e-06,
+            "std_time": 6.836513890459241e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.56666666666666,
+            "max_cpu": 96.6
+          },
+          "query_2": {
+            "avg_time": 2.781550089518229e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.26666666666665,
+            "max_cpu": 105.4
+          },
+          "query_3": {
+            "avg_time": 1.986821492513021e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 95.90000000000002,
+            "max_cpu": 101.9
+          },
+          "query_4": {
+            "avg_time": 1.9073486328125e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 2.86102294921875e-06,
+            "std_time": 7.786718186642895e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.26666666666667,
+            "max_cpu": 105.9
+          },
+          "query_5": {
+            "avg_time": 2.304712931315104e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.619579801452537e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.73333333333333,
+            "max_cpu": 99.4
+          }
+        }
+      },
+      "1000": {
+        "node_count": 1000,
+        "avg_response_time": 2.1616617838541666e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 95.90666666666667,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 2.6226043701171875e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.150429962800233e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 100.7,
+            "max_cpu": 105.5
+          },
+          "query_2": {
+            "avg_time": 2.7020772298177085e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 4.052336624139774e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.86666666666667,
+            "max_cpu": 94.9
+          },
+          "query_3": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.33333333333333,
+            "max_cpu": 95.4
+          },
+          "query_4": {
+            "avg_time": 1.5894571940104167e-06,
+            "min_time": 7.152557373046875e-07,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 6.25769923052137e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 97.66666666666667,
+            "max_cpu": 100.0
+          },
+          "query_5": {
+            "avg_time": 1.8278757731119792e-06,
+            "min_time": 1.6689300537109375e-06,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.96666666666665,
+            "max_cpu": 96.5
+          }
+        }
+      },
+      "2000": {
+        "node_count": 2000,
+        "avg_response_time": 1.796086629231771e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 93.99333333333334,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 1.9073486328125e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 0.0,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 100.13333333333333,
+            "max_cpu": 105.1
+          },
+          "query_2": {
+            "avg_time": 1.5894571940104167e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 91.43333333333334,
+            "max_cpu": 95.4
+          },
+          "query_3": {
+            "avg_time": 2.1457672119140625e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 0.0,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 96.10000000000001,
+            "max_cpu": 97.3
+          },
+          "query_4": {
+            "avg_time": 2.0662943522135415e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 8.778064264605254e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 93.86666666666667,
+            "max_cpu": 96.7
+          },
+          "query_5": {
+            "avg_time": 1.2715657552083333e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 88.43333333333334,
+            "max_cpu": 90.2
+          }
+        }
+      },
+      "5000": {
+        "node_count": 5000,
+        "avg_response_time": 1.8437703450520831e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 95.18666666666667,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 2.781550089518229e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 83.93333333333334,
+            "max_cpu": 91.3
+          },
+          "query_2": {
+            "avg_time": 1.1920928955078125e-06,
+            "min_time": 7.152557373046875e-07,
+            "max_time": 1.9073486328125e-06,
+            "std_time": 5.150429962800233e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 98.73333333333333,
+            "max_cpu": 106.1
+          },
+          "query_3": {
+            "avg_time": 1.9073486328125e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 2.86102294921875e-06,
+            "std_time": 7.786718186642895e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 101.06666666666666,
+            "max_cpu": 108.9
+          },
+          "query_4": {
+            "avg_time": 2.304712931315104e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 5.619579801452537e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 98.13333333333333,
+            "max_cpu": 99.0
+          },
+          "query_5": {
+            "avg_time": 1.0331471761067708e-06,
+            "min_time": 9.5367431640625e-07,
+            "max_time": 1.1920928955078125e-06,
+            "std_time": 1.1239159602905075e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.06666666666666,
+            "max_cpu": 99.0
+          }
+        }
+      },
+      "10000": {
+        "node_count": 10000,
+        "avg_response_time": 2.113978068033854e-06,
+        "avg_memory_usage": 0.0,
+        "avg_cpu_usage": 94.58000000000001,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 1.7484029134114583e-06,
+            "min_time": 1.1920928955078125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 4.052336624139774e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.43333333333334,
+            "max_cpu": 111.3
+          },
+          "query_2": {
+            "avg_time": 2.463658650716146e-06,
+            "min_time": 2.1457672119140625e-06,
+            "max_time": 3.0994415283203125e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 94.39999999999999,
+            "max_cpu": 97.1
+          },
+          "query_3": {
+            "avg_time": 2.2252400716145835e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.6226043701171875e-06,
+            "std_time": 2.9736021254650284e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 92.16666666666667,
+            "max_cpu": 99.6
+          },
+          "query_4": {
+            "avg_time": 2.304712931315104e-06,
+            "min_time": 1.9073486328125e-06,
+            "max_time": 2.86102294921875e-06,
+            "std_time": 4.052336624139774e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 89.66666666666667,
+            "max_cpu": 94.5
+          },
+          "query_5": {
+            "avg_time": 1.8278757731119792e-06,
+            "min_time": 1.1920928955078125e-06,
+            "max_time": 2.1457672119140625e-06,
+            "std_time": 4.49566384116203e-07,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 97.23333333333333,
+            "max_cpu": 113.7
+          }
+        }
+      }
+    },
+    "Hybrid": {
+      "100": {
+        "node_count": 100,
+        "avg_response_time": 9.449323018391927e-05,
+        "avg_memory_usage": 0.0010416666666666667,
+        "avg_cpu_usage": 99.80666666666666,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 0.00013899803161621094,
+            "min_time": 0.00010275840759277344,
+            "max_time": 0.0001971721649169922,
+            "std_time": 4.154781515272515e-05,
+            "avg_memory": 0.005208333333333333,
+            "max_memory": 0.015625,
+            "avg_cpu": 99.73333333333333,
+            "max_cpu": 100.0
+          },
+          "query_2": {
+            "avg_time": 8.821487426757812e-05,
+            "min_time": 7.891654968261719e-05,
+            "max_time": 9.775161743164062e-05,
+            "std_time": 7.691232100763454e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.83333333333333,
+            "max_cpu": 99.9
+          },
+          "query_3": {
+            "avg_time": 8.606910705566406e-05,
+            "min_time": 8.0108642578125e-05,
+            "max_time": 9.298324584960938e-05,
+            "std_time": 5.299117748950212e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.96666666666665,
+            "max_cpu": 100.2
+          },
+          "query_4": {
+            "avg_time": 7.541974385579427e-05,
+            "min_time": 6.914138793945312e-05,
+            "max_time": 8.416175842285156e-05,
+            "std_time": 6.374694388756904e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.80000000000001,
+            "max_cpu": 99.9
+          },
+          "query_5": {
+            "avg_time": 8.376439412434895e-05,
+            "min_time": 8.0108642578125e-05,
+            "max_time": 8.606910705566406e-05,
+            "std_time": 2.614161841614807e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.7,
+            "max_cpu": 100.0
+          }
+        }
+      },
+      "500": {
+        "node_count": 500,
+        "avg_response_time": 0.00016876856486002602,
+        "avg_memory_usage": 0.007291666666666666,
+        "avg_cpu_usage": 99.29333333333332,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 0.00018707911173502603,
+            "min_time": 0.000179290771484375,
+            "max_time": 0.00019812583923339844,
+            "std_time": 8.027152250109648e-06,
+            "avg_memory": 0.010416666666666666,
+            "max_memory": 0.03125,
+            "avg_cpu": 99.8,
+            "max_cpu": 99.9
+          },
+          "query_2": {
+            "avg_time": 0.00017309188842773438,
+            "min_time": 0.0001552104949951172,
+            "max_time": 0.00019407272338867188,
+            "std_time": 1.6016098198766752e-05,
+            "avg_memory": 0.015625,
+            "max_memory": 0.046875,
+            "avg_cpu": 96.86666666666667,
+            "max_cpu": 100.4
+          },
+          "query_3": {
+            "avg_time": 0.00015560785929361978,
+            "min_time": 0.0001468658447265625,
+            "max_time": 0.00016999244689941406,
+            "std_time": 1.024984243418557e-05,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 100.09999999999998,
+            "max_cpu": 100.4
+          },
+          "query_4": {
+            "avg_time": 0.0001506805419921875,
+            "min_time": 0.00013518333435058594,
+            "max_time": 0.0001678466796875,
+            "std_time": 1.338687237041725e-05,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.86666666666667,
+            "max_cpu": 100.2
+          },
+          "query_5": {
+            "avg_time": 0.0001773834228515625,
+            "min_time": 0.00015807151794433594,
+            "max_time": 0.0002040863037109375,
+            "std_time": 1.9498889223585477e-05,
+            "avg_memory": 0.010416666666666666,
+            "max_memory": 0.03125,
+            "avg_cpu": 99.83333333333333,
+            "max_cpu": 100.0
+          }
+        }
+      },
+      "1000": {
+        "node_count": 1000,
+        "avg_response_time": 0.0002426465352376302,
+        "avg_memory_usage": 0.009375,
+        "avg_cpu_usage": 99.90666666666667,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 0.00026679039001464844,
+            "min_time": 0.00023603439331054688,
+            "max_time": 0.000324249267578125,
+            "std_time": 4.0663242165815524e-05,
+            "avg_memory": 0.046875,
+            "max_memory": 0.140625,
+            "avg_cpu": 100.06666666666666,
+            "max_cpu": 100.2
+          },
+          "query_2": {
+            "avg_time": 0.00022776921590169272,
+            "min_time": 0.0002200603485107422,
+            "max_time": 0.00023317337036132812,
+            "std_time": 5.595927792321505e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.86666666666667,
+            "max_cpu": 99.9
+          },
+          "query_3": {
+            "avg_time": 0.00021187464396158853,
+            "min_time": 0.000209808349609375,
+            "max_time": 0.00021505355834960938,
+            "std_time": 2.2813002418529706e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 100.0,
+            "max_cpu": 100.4
+          },
+          "query_4": {
+            "avg_time": 0.00024811426798502606,
+            "min_time": 0.00023508071899414062,
+            "max_time": 0.00026702880859375,
+            "std_time": 1.3689647038863166e-05,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.73333333333333,
+            "max_cpu": 99.9
+          },
+          "query_5": {
+            "avg_time": 0.0002586841583251953,
+            "min_time": 0.00024700164794921875,
+            "max_time": 0.0002779960632324219,
+            "std_time": 1.3755464135438795e-05,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.86666666666667,
+            "max_cpu": 100.0
+          }
+        }
+      },
+      "2000": {
+        "node_count": 2000,
+        "avg_response_time": 0.0004202683766682942,
+        "avg_memory_usage": 0.021875,
+        "avg_cpu_usage": 99.80666666666664,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 0.0004852612813313802,
+            "min_time": 0.0004208087921142578,
+            "max_time": 0.0006091594696044922,
+            "std_time": 8.763309032532187e-05,
+            "avg_memory": 0.10416666666666667,
+            "max_memory": 0.3125,
+            "avg_cpu": 99.59999999999998,
+            "max_cpu": 100.1
+          },
+          "query_2": {
+            "avg_time": 0.00040086110432942707,
+            "min_time": 0.0003948211669921875,
+            "max_time": 0.0004107952117919922,
+            "std_time": 7.078886331444852e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.96666666666665,
+            "max_cpu": 100.0
+          },
+          "query_3": {
+            "avg_time": 0.0003829002380371094,
+            "min_time": 0.00037598609924316406,
+            "max_time": 0.0003898143768310547,
+            "std_time": 5.645370685316099e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 100.03333333333335,
+            "max_cpu": 100.2
+          },
+          "query_4": {
+            "avg_time": 0.0003963311513264974,
+            "min_time": 0.0003838539123535156,
+            "max_time": 0.00041484832763671875,
+            "std_time": 1.3354751388307444e-05,
+            "avg_memory": 0.005208333333333333,
+            "max_memory": 0.015625,
+            "avg_cpu": 100.09999999999998,
+            "max_cpu": 100.1
+          },
+          "query_5": {
+            "avg_time": 0.0004359881083170573,
+            "min_time": 0.00043392181396484375,
+            "max_time": 0.0004379749298095703,
+            "std_time": 1.6556315943399795e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.33333333333333,
+            "max_cpu": 100.2
+          }
+        }
+      },
+      "5000": {
+        "node_count": 5000,
+        "avg_response_time": 0.0009723981221516928,
+        "avg_memory_usage": 0.05520833333333334,
+        "avg_cpu_usage": 99.84666666666666,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 0.0010939439137776692,
+            "min_time": 0.0009911060333251953,
+            "max_time": 0.001264810562133789,
+            "std_time": 0.00012165381818764716,
+            "avg_memory": 0.2604166666666667,
+            "max_memory": 0.78125,
+            "avg_cpu": 99.93333333333334,
+            "max_cpu": 100.0
+          },
+          "query_2": {
+            "avg_time": 0.0009235541025797526,
+            "min_time": 0.00090789794921875,
+            "max_time": 0.0009317398071289062,
+            "std_time": 1.1074422520380365e-05,
+            "avg_memory": 0.010416666666666666,
+            "max_memory": 0.03125,
+            "avg_cpu": 99.89999999999999,
+            "max_cpu": 100.0
+          },
+          "query_3": {
+            "avg_time": 0.0009311040242513021,
+            "min_time": 0.0008981227874755859,
+            "max_time": 0.0009491443634033203,
+            "std_time": 2.335555778094738e-05,
+            "avg_memory": 0.005208333333333333,
+            "max_memory": 0.015625,
+            "avg_cpu": 99.56666666666666,
+            "max_cpu": 100.0
+          },
+          "query_4": {
+            "avg_time": 0.0009223620096842448,
+            "min_time": 0.0009031295776367188,
+            "max_time": 0.0009348392486572266,
+            "std_time": 1.379855751308777e-05,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.86666666666667,
+            "max_cpu": 99.9
+          },
+          "query_5": {
+            "avg_time": 0.0009910265604654949,
+            "min_time": 0.000982046127319336,
+            "max_time": 0.001001119613647461,
+            "std_time": 7.826361976693585e-06,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.96666666666665,
+            "max_cpu": 100.1
+          }
+        }
+      },
+      "10000": {
+        "node_count": 10000,
+        "avg_response_time": 0.0019317785898844398,
+        "avg_memory_usage": 0.1125,
+        "avg_cpu_usage": 99.86666666666667,
+        "detailed_results": {
+          "query_1": {
+            "avg_time": 0.002108494440714518,
+            "min_time": 0.001977682113647461,
+            "max_time": 0.0023391246795654297,
+            "std_time": 0.00016357035947670606,
+            "avg_memory": 0.5260416666666666,
+            "max_memory": 1.546875,
+            "avg_cpu": 100.0,
+            "max_cpu": 100.0
+          },
+          "query_2": {
+            "avg_time": 0.001800537109375,
+            "min_time": 0.0017879009246826172,
+            "max_time": 0.0018229484558105469,
+            "std_time": 1.58902003316418e-05,
+            "avg_memory": 0.005208333333333333,
+            "max_memory": 0.015625,
+            "avg_cpu": 100.03333333333335,
+            "max_cpu": 100.1
+          },
+          "query_3": {
+            "avg_time": 0.001887957255045573,
+            "min_time": 0.0018229484558105469,
+            "max_time": 0.001970052719116211,
+            "std_time": 6.125836899057924e-05,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.86666666666667,
+            "max_cpu": 100.0
+          },
+          "query_4": {
+            "avg_time": 0.001869519551595052,
+            "min_time": 0.0017969608306884766,
+            "max_time": 0.001943826675415039,
+            "std_time": 5.997047479870079e-05,
+            "avg_memory": 0.0,
+            "max_memory": 0.0,
+            "avg_cpu": 99.7,
+            "max_cpu": 100.1
+          },
+          "query_5": {
+            "avg_time": 0.001992384592692057,
+            "min_time": 0.001958131790161133,
+            "max_time": 0.0020380020141601562,
+            "std_time": 3.358252614186862e-05,
+            "avg_memory": 0.03125,
+            "max_memory": 0.0625,
+            "avg_cpu": 99.73333333333333,
+            "max_cpu": 100.0
+          }
+        }
+      }
+    }
+  }
+}

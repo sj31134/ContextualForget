@@ -1,0 +1,293 @@
+{
+  "analysis_date": "2025-10-18T18:05:19.945773",
+  "rq1_contextual_forgetting": {
+    "hypothesis": "ContextualForget이 BM25, Vector보다 우수한 성능을 보일 것이다",
+    "comparisons": {
+      "ContextualForget_vs_BM25": {
+        "success_rate": {
+          "ContextualForget": 0.0,
+          "BM25": 0.0,
+          "difference": 0.0
+        },
+        "confidence": {
+          "ContextualForget": 0.0,
+          "BM25": 0.0,
+          "difference": 0.0
+        },
+        "t_test": {
+          "t_statistic": NaN,
+          "p_value": NaN,
+          "significant": false
+        },
+        "effect_size": {
+          "cohens_d": 0,
+          "interpretation": "small"
+        }
+      },
+      "ContextualForget_vs_Vector": {
+        "success_rate": {
+          "ContextualForget": 0.0,
+          "Vector": 0.0,
+          "difference": 0.0
+        },
+        "confidence": {
+          "ContextualForget": 0.0,
+          "Vector": 0.0,
+          "difference": 0.0
+        },
+        "t_test": {
+          "t_statistic": NaN,
+          "p_value": NaN,
+          "significant": false
+        },
+        "effect_size": {
+          "cohens_d": 0,
+          "interpretation": "small"
+        }
+      }
+    }
+  },
+  "rq2_adaptive_retrieval": {
+    "hypothesis": "적응적 검색 전략이 쿼리 타입별로 최적의 성능을 보일 것이다",
+    "query_type_analysis": {
+      "guid": {
+        "BM25": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.805543899536133e-05,
+          "count": 100
+        },
+        "Vector": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.5883445739746095e-05,
+          "count": 100
+        },
+        "ContextualForget": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.580953598022461e-05,
+          "count": 100
+        },
+        "Hybrid": {
+          "success_rate": 1.0,
+          "avg_confidence": 0.11339679999999998,
+          "avg_response_time": 4.7719478607177736e-05,
+          "count": 100
+        }
+      },
+      "temporal": {
+        "BM25": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.6298294067382812e-05,
+          "count": 100
+        },
+        "Vector": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.669883728027344e-05,
+          "count": 100
+        },
+        "ContextualForget": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.630544662475586e-05,
+          "count": 100
+        },
+        "Hybrid": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 0.0002633404731750488,
+          "count": 100
+        }
+      },
+      "author": {
+        "BM25": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.638650894165039e-05,
+          "count": 100
+        },
+        "Vector": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.613616943359375e-05,
+          "count": 100
+        },
+        "ContextualForget": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.6870498657226564e-05,
+          "count": 100
+        },
+        "Hybrid": {
+          "success_rate": 0.07,
+          "avg_confidence": 0.017614069565217393,
+          "avg_response_time": 0.00018960237503051758,
+          "count": 100
+        }
+      },
+      "keyword": {
+        "BM25": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.5826225280761718e-05,
+          "count": 100
+        },
+        "Vector": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.694917678833008e-05,
+          "count": 100
+        },
+        "ContextualForget": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.6686916351318358e-05,
+          "count": 100
+        },
+        "Hybrid": {
+          "success_rate": 0.75,
+          "avg_confidence": 0.18943098298862995,
+          "avg_response_time": 0.00032828330993652345,
+          "count": 100
+        }
+      },
+      "complex": {
+        "BM25": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.7690658569335938e-05,
+          "count": 100
+        },
+        "Vector": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.5990734100341795e-05,
+          "count": 100
+        },
+        "ContextualForget": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.6641616821289062e-05,
+          "count": 100
+        },
+        "Hybrid": {
+          "success_rate": 0.43,
+          "avg_confidence": 0.11945743826638652,
+          "avg_response_time": 0.0003533625602722168,
+          "count": 100
+        }
+      },
+      "relationship": {
+        "BM25": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.611948013305664e-05,
+          "count": 100
+        },
+        "Vector": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.5718936920166017e-05,
+          "count": 100
+        },
+        "ContextualForget": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.672506332397461e-05,
+          "count": 100
+        },
+        "Hybrid": {
+          "success_rate": 1.0,
+          "avg_confidence": 0.1711356,
+          "avg_response_time": 0.0001051187515258789,
+          "count": 100
+        }
+      }
+    },
+    "anova_results": {
+      "f_statistic": 99.7869014683942,
+      "p_value": 2.7047258815837962e-76,
+      "significant": true,
+      "interpretation": "쿼리 타입별 적응적 전략 효과가 통계적으로 유의함"
+    }
+  },
+  "rq3_system_universality": {
+    "hypothesis": "통합 시스템이 다양한 쿼리 타입과 엔진에서 일관되게 우수한 성능을 보일 것이다",
+    "universality_analysis": {
+      "engine_performance": {
+        "BM25": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.672943433125814e-05,
+          "total_queries": 600
+        },
+        "Vector": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.6229550043741863e-05,
+          "total_queries": 600
+        },
+        "ContextualForget": {
+          "success_rate": 0.0,
+          "avg_confidence": 0.0,
+          "avg_response_time": 1.6506512959798177e-05,
+          "total_queries": 600
+        },
+        "Hybrid": {
+          "success_rate": 0.5416666666666666,
+          "avg_confidence": 0.10183914847003898,
+          "avg_response_time": 0.00021457115809122722,
+          "total_queries": 600
+        }
+      },
+      "query_type_consistency": {
+        "guid": {
+          "mean_performance": 0.028349199999999995,
+          "std_performance": 0.04910225475393161,
+          "coefficient_of_variation": 1.7320508075688774,
+          "performance_range": 0.11339679999999998
+        },
+        "temporal": {
+          "mean_performance": 0.0,
+          "std_performance": 0.0,
+          "coefficient_of_variation": 0,
+          "performance_range": 0.0
+        },
+        "author": {
+          "mean_performance": 0.004403517391304348,
+          "std_performance": 0.007627115853752291,
+          "coefficient_of_variation": 1.732050807568877,
+          "performance_range": 0.017614069565217393
+        },
+        "keyword": {
+          "mean_performance": 0.04735774574715749,
+          "std_performance": 0.0820260217660057,
+          "coefficient_of_variation": 1.7320508075688774,
+          "performance_range": 0.18943098298862995
+        },
+        "complex": {
+          "mean_performance": 0.02986435956659663,
+          "std_performance": 0.051726588104851014,
+          "coefficient_of_variation": 1.732050807568877,
+          "performance_range": 0.11945743826638652
+        },
+        "relationship": {
+          "mean_performance": 0.0427839,
+          "std_performance": 0.0741038885459461,
+          "coefficient_of_variation": 1.7320508075688776,
+          "performance_range": 0.1711356
+        }
+      },
+      "system_stability": {
+        "overall_mean_confidence": 0.025459787117509746,
+        "overall_std_confidence": 0.06868599719779647,
+        "confidence_range": 0.30033333333333334,
+        "coefficient_of_variation": 2.6978229189732024
+      }
+    }
+  },
+  "visualization_directory": "visualizations/statistical_analysis"
+}

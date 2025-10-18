@@ -1,0 +1,20 @@
+{
+  "analysis_date": "2025-10-18T18:04:58.839796",
+  "rq1_contextual_forgetting": {
+    "hypothesis": "ContextualForget이 BM25, Vector보다 우수한 성능을 보일 것이다",
+    "comparisons": {
+      "ContextualForget_vs_BM25": {
+        "success_rate": {
+          "ContextualForget": 0.0,
+          "BM25": 0.0,
+          "difference": 0.0
+        },
+        "confidence": {
+          "ContextualForget": 0.0,
+          "BM25": 0.0,
+          "difference": 0.0
+        },
+        "t_test": {
+          "t_statistic": NaN,
+          "p_value": NaN,
+          "significant": 

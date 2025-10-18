@@ -1,0 +1,600 @@
+{"id": "guid_001", "question": "e62c187c-2ab0-4d98-b7b4-d50c883b9516 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "e62c187c-2ab0-4d98-b7b4-d50c883b9516", "difficulty": "easy"}
+{"id": "guid_002", "question": "0e5cf4d3-48d4-4bfb-ad25-15809d490c42 관련 문제점은 무엇인가요?", "query_type": "guid", "expected_guid": "0e5cf4d3-48d4-4bfb-ad25-15809d490c42", "difficulty": "easy"}
+{"id": "guid_003", "question": "이슈 34b8749b-569f-459b-8228-0eb822bf2760의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "34b8749b-569f-459b-8228-0eb822bf2760", "difficulty": "easy"}
+{"id": "guid_004", "question": "525752c0-7e90-48f7-a4ff-f591b1ed1f8e에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "525752c0-7e90-48f7-a4ff-f591b1ed1f8e", "difficulty": "easy"}
+{"id": "guid_005", "question": "09d8f43a-8a9e-4e2d-b69b-88ba6ef9c8cc 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "09d8f43a-8a9e-4e2d-b69b-88ba6ef9c8cc", "difficulty": "easy"}
+{"id": "guid_006", "question": "0ab8057b-33ed-462a-a8a6-dd8b4e7351eb 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "0ab8057b-33ed-462a-a8a6-dd8b4e7351eb", "difficulty": "easy"}
+{"id": "guid_007", "question": "4f344cf1-ea06-4291-95d1-6695739b81d9 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "4f344cf1-ea06-4291-95d1-6695739b81d9", "difficulty": "easy"}
+{"id": "guid_008", "question": "이슈 040c3286-501f-4077-800f-66b3483e1010를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "040c3286-501f-4077-800f-66b3483e1010", "difficulty": "easy"}
+{"id": "guid_009", "question": "이슈 adfe3361-7914-4c4d-a6f9-4167ebf81cf9를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "adfe3361-7914-4c4d-a6f9-4167ebf81cf9", "difficulty": "easy"}
+{"id": "guid_010", "question": "4ef5f690-16c4-46fe-ab6e-31a4e4472d36 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "4ef5f690-16c4-46fe-ab6e-31a4e4472d36", "difficulty": "easy"}
+{"id": "guid_011", "question": "fffc1b9d-1f64-46ee-ad84-4fd4a0640e5f와 연결된 다른 이슈들이 있나요?", "query_type": "guid", "expected_guid": "fffc1b9d-1f64-46ee-ad84-4fd4a0640e5f", "difficulty": "easy"}
+{"id": "guid_012", "question": "이슈 fc58b375-7848-406b-9c4c-f88925e38366의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "fc58b375-7848-406b-9c4c-f88925e38366", "difficulty": "easy"}
+{"id": "guid_013", "question": "28942812-8783-4d92-9c54-8a8f31937975 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "28942812-8783-4d92-9c54-8a8f31937975", "difficulty": "easy"}
+{"id": "guid_014", "question": "497d80e9-8ff6-4a44-a29d-aa6ce4ca7d7b 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "497d80e9-8ff6-4a44-a29d-aa6ce4ca7d7b", "difficulty": "easy"}
+{"id": "guid_015", "question": "GUID eda3478f-99b2-4cf5-8867-94205da9c58b의 생성 날짜는 언제인가요?", "query_type": "guid", "expected_guid": "eda3478f-99b2-4cf5-8867-94205da9c58b", "difficulty": "easy"}
+{"id": "guid_016", "question": "이슈 f0a1e690-5256-40e7-b907-69ceef433fb5를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "f0a1e690-5256-40e7-b907-69ceef433fb5", "difficulty": "easy"}
+{"id": "guid_017", "question": "0ab2dbbc-b159-440a-8e8f-0d2c486a97a6와 연결된 다른 이슈들이 있나요?", "query_type": "guid", "expected_guid": "0ab2dbbc-b159-440a-8e8f-0d2c486a97a6", "difficulty": "easy"}
+{"id": "guid_018", "question": "6027edfc-6735-4903-8b0d-117060b43a05와 연결된 다른 이슈들이 있나요?", "query_type": "guid", "expected_guid": "6027edfc-6735-4903-8b0d-117060b43a05", "difficulty": "easy"}
+{"id": "guid_019", "question": "GUID d5434a7e-b1b9-4444-a966-69b3bba332d4의 해결 상태는 어떻게 되나요?", "query_type": "guid", "expected_guid": "d5434a7e-b1b9-4444-a966-69b3bba332d4", "difficulty": "easy"}
+{"id": "guid_020", "question": "GUID 11ebfa16-15ed-4e15-a079-c1d01f3e654c와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "11ebfa16-15ed-4e15-a079-c1d01f3e654c", "difficulty": "easy"}
+{"id": "guid_021", "question": "9e5b60ee-e558-40b4-860e-4754e1c55a08 관련 문제점은 무엇인가요?", "query_type": "guid", "expected_guid": "9e5b60ee-e558-40b4-860e-4754e1c55a08", "difficulty": "easy"}
+{"id": "guid_022", "question": "4e11f1dd-1220-4ce7-85b5-2d65efdfb4b5와 연결된 다른 이슈들이 있나요?", "query_type": "guid", "expected_guid": "4e11f1dd-1220-4ce7-85b5-2d65efdfb4b5", "difficulty": "easy"}
+{"id": "guid_023", "question": "GUID 34b8749b-569f-459b-8228-0eb822bf2760와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "34b8749b-569f-459b-8228-0eb822bf2760", "difficulty": "easy"}
+{"id": "guid_024", "question": "GUID d0fe1c75-dff9-4641-8ad7-2f51e127a92a의 해결 상태는 어떻게 되나요?", "query_type": "guid", "expected_guid": "d0fe1c75-dff9-4641-8ad7-2f51e127a92a", "difficulty": "easy"}
+{"id": "guid_025", "question": "4f379c96-b12b-4fa3-8d69-53eb4a16e787 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "4f379c96-b12b-4fa3-8d69-53eb4a16e787", "difficulty": "easy"}
+{"id": "guid_026", "question": "GUID 525752c0-7e90-48f7-a4ff-f591b1ed1f8e의 해결 상태는 어떻게 되나요?", "query_type": "guid", "expected_guid": "525752c0-7e90-48f7-a4ff-f591b1ed1f8e", "difficulty": "easy"}
+{"id": "guid_027", "question": "이슈 b63878e3-6462-4926-a470-134098428c07를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "b63878e3-6462-4926-a470-134098428c07", "difficulty": "easy"}
+{"id": "guid_028", "question": "d92b6cea-1720-4146-910b-d6f4f90a62ae 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "d92b6cea-1720-4146-910b-d6f4f90a62ae", "difficulty": "easy"}
+{"id": "guid_029", "question": "09d8f43a-8a9e-4e2d-b69b-88ba6ef9c8cc 관련 문제점은 무엇인가요?", "query_type": "guid", "expected_guid": "09d8f43a-8a9e-4e2d-b69b-88ba6ef9c8cc", "difficulty": "easy"}
+{"id": "guid_030", "question": "030d77de-ee5a-491e-a008-bde9fc9690d8 관련 문제점은 무엇인가요?", "query_type": "guid", "expected_guid": "030d77de-ee5a-491e-a008-bde9fc9690d8", "difficulty": "easy"}
+{"id": "guid_031", "question": "5e05c951-2c48-4712-9501-b0044dbc3fe5 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "5e05c951-2c48-4712-9501-b0044dbc3fe5", "difficulty": "easy"}
+{"id": "guid_032", "question": "이슈 a571b1f4-0e93-4ede-9d72-0e0d3280f3a6를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "a571b1f4-0e93-4ede-9d72-0e0d3280f3a6", "difficulty": "easy"}
+{"id": "guid_033", "question": "GUID 75f87cd0-27e4-4cc2-a6ce-56eac9f0d3e0의 생성 날짜는 언제인가요?", "query_type": "guid", "expected_guid": "75f87cd0-27e4-4cc2-a6ce-56eac9f0d3e0", "difficulty": "easy"}
+{"id": "guid_034", "question": "이슈 886f609b-1f30-4cdc-bc18-ce886d68874e를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "886f609b-1f30-4cdc-bc18-ce886d68874e", "difficulty": "easy"}
+{"id": "guid_035", "question": "이슈 a9b327ce-1a09-40b0-9983-978c365ae4e1를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "a9b327ce-1a09-40b0-9983-978c365ae4e1", "difficulty": "easy"}
+{"id": "guid_036", "question": "b2e0b075-b459-4913-ba3f-1a65d17b1d6d 관련 문제점은 무엇인가요?", "query_type": "guid", "expected_guid": "b2e0b075-b459-4913-ba3f-1a65d17b1d6d", "difficulty": "easy"}
+{"id": "guid_037", "question": "05896083-22f3-43d6-ac3c-b04026067601와 연결된 다른 이슈들이 있나요?", "query_type": "guid", "expected_guid": "05896083-22f3-43d6-ac3c-b04026067601", "difficulty": "easy"}
+{"id": "guid_038", "question": "9cef2e5e-c396-46fb-b92a-8866ed60854e 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "9cef2e5e-c396-46fb-b92a-8866ed60854e", "difficulty": "easy"}
+{"id": "guid_039", "question": "e668e086-b6ae-4bed-a9f3-0e921c97baf0에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "e668e086-b6ae-4bed-a9f3-0e921c97baf0", "difficulty": "easy"}
+{"id": "guid_040", "question": "9ffadf55-4d81-43c3-bb14-27dde4ba86e9 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "9ffadf55-4d81-43c3-bb14-27dde4ba86e9", "difficulty": "easy"}
+{"id": "guid_041", "question": "71c8fd6d-cb7e-42b0-89d9-d9547b434595에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "71c8fd6d-cb7e-42b0-89d9-d9547b434595", "difficulty": "easy"}
+{"id": "guid_042", "question": "이슈 7c39bf5d-9fa4-46d3-bb7c-d045f343e6b5의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "7c39bf5d-9fa4-46d3-bb7c-d045f343e6b5", "difficulty": "easy"}
+{"id": "guid_043", "question": "31ec7bd3-e3aa-42e9-b528-6f84e2f5656f 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "31ec7bd3-e3aa-42e9-b528-6f84e2f5656f", "difficulty": "easy"}
+{"id": "guid_044", "question": "이슈 66e93525-3bad-420e-85a8-69479f5a7ba0의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "66e93525-3bad-420e-85a8-69479f5a7ba0", "difficulty": "easy"}
+{"id": "guid_045", "question": "이슈 7c2c66e5-75e5-477c-93e7-9dc9281abde4의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "7c2c66e5-75e5-477c-93e7-9dc9281abde4", "difficulty": "easy"}
+{"id": "guid_046", "question": "이슈 7ef65424-1abd-4283-a2ff-da9efb4c55e4를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "7ef65424-1abd-4283-a2ff-da9efb4c55e4", "difficulty": "easy"}
+{"id": "guid_047", "question": "aff795e2-f84c-428f-aca8-8ddbc128402c에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "aff795e2-f84c-428f-aca8-8ddbc128402c", "difficulty": "easy"}
+{"id": "guid_048", "question": "b2e0b075-b459-4913-ba3f-1a65d17b1d6d에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "b2e0b075-b459-4913-ba3f-1a65d17b1d6d", "difficulty": "easy"}
+{"id": "guid_049", "question": "GUID de2db863-5069-473b-92a0-0f3ef056a0e9와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "de2db863-5069-473b-92a0-0f3ef056a0e9", "difficulty": "easy"}
+{"id": "guid_050", "question": "223c8db8-7bbe-44f2-8204-917b9a596707와 연결된 다른 이슈들이 있나요?", "query_type": "guid", "expected_guid": "223c8db8-7bbe-44f2-8204-917b9a596707", "difficulty": "easy"}
+{"id": "guid_051", "question": "이슈 541e7678-92d3-4acb-8d39-d3c29f01603f를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "541e7678-92d3-4acb-8d39-d3c29f01603f", "difficulty": "easy"}
+{"id": "guid_052", "question": "1c6278fa-9908-418a-8550-6fafdcad0f50 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "1c6278fa-9908-418a-8550-6fafdcad0f50", "difficulty": "easy"}
+{"id": "guid_053", "question": "이슈 adfe3361-7914-4c4d-a6f9-4167ebf81cf9의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "adfe3361-7914-4c4d-a6f9-4167ebf81cf9", "difficulty": "easy"}
+{"id": "guid_054", "question": "이슈 1c62991a-08fd-4ecc-a7f8-82297b42363a의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "1c62991a-08fd-4ecc-a7f8-82297b42363a", "difficulty": "easy"}
+{"id": "guid_055", "question": "이슈 aa19b358-aaf2-47d6-90ff-1d3f2891c8da의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "aa19b358-aaf2-47d6-90ff-1d3f2891c8da", "difficulty": "easy"}
+{"id": "guid_056", "question": "GUID 5bc2f9e6-4f09-49a3-ba73-cd97112085d2의 해결 상태는 어떻게 되나요?", "query_type": "guid", "expected_guid": "5bc2f9e6-4f09-49a3-ba73-cd97112085d2", "difficulty": "easy"}
+{"id": "guid_057", "question": "이슈 b770deea-8195-453c-92b7-cb2123efbef5를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "b770deea-8195-453c-92b7-cb2123efbef5", "difficulty": "easy"}
+{"id": "guid_058", "question": "GUID 754f6eb8-d2ca-4427-bcb4-096137baa039와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "754f6eb8-d2ca-4427-bcb4-096137baa039", "difficulty": "easy"}
+{"id": "guid_059", "question": "GUID a43cb096-f1b7-4eb1-81a4-39258b492558의 생성 날짜는 언제인가요?", "query_type": "guid", "expected_guid": "a43cb096-f1b7-4eb1-81a4-39258b492558", "difficulty": "easy"}
+{"id": "guid_060", "question": "11e4eb35-0e72-4de1-937a-0b9d0728dd3f 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "11e4eb35-0e72-4de1-937a-0b9d0728dd3f", "difficulty": "easy"}
+{"id": "guid_061", "question": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "5a5a4ee2-0b51-4e55-b998-6b67f437c90d", "difficulty": "easy"}
+{"id": "guid_062", "question": "GUID edc87833-0746-4904-b272-3186333cb195와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "edc87833-0746-4904-b272-3186333cb195", "difficulty": "easy"}
+{"id": "guid_063", "question": "663a0896-ef15-4c65-a4ac-9828ebdd5761 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "663a0896-ef15-4c65-a4ac-9828ebdd5761", "difficulty": "easy"}
+{"id": "guid_064", "question": "311b40a6-d330-4e79-9df1-36464bcdd474와 연결된 다른 이슈들이 있나요?", "query_type": "guid", "expected_guid": "311b40a6-d330-4e79-9df1-36464bcdd474", "difficulty": "easy"}
+{"id": "guid_065", "question": "fdeffd63-475d-4a99-b411-ef32167dc2ff 관련 문제점은 무엇인가요?", "query_type": "guid", "expected_guid": "fdeffd63-475d-4a99-b411-ef32167dc2ff", "difficulty": "easy"}
+{"id": "guid_066", "question": "7aea3720-8a0c-4643-992c-f6c99033fe2d 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "7aea3720-8a0c-4643-992c-f6c99033fe2d", "difficulty": "easy"}
+{"id": "guid_067", "question": "GUID 2cfa6b2e-1d09-45b6-9935-469591b3236d와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "2cfa6b2e-1d09-45b6-9935-469591b3236d", "difficulty": "easy"}
+{"id": "guid_068", "question": "이슈 3b450b86-71a4-48ad-8b1a-9e3f0be55993의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "3b450b86-71a4-48ad-8b1a-9e3f0be55993", "difficulty": "easy"}
+{"id": "guid_069", "question": "7c2c66e5-75e5-477c-93e7-9dc9281abde4 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "7c2c66e5-75e5-477c-93e7-9dc9281abde4", "difficulty": "easy"}
+{"id": "guid_070", "question": "GUID 971e9581-3e01-4d1d-aec6-ea80b6843604의 생성 날짜는 언제인가요?", "query_type": "guid", "expected_guid": "971e9581-3e01-4d1d-aec6-ea80b6843604", "difficulty": "easy"}
+{"id": "guid_071", "question": "c1c916db-8218-4180-9a9c-14e153bd72b1 이슈의 우선순위는 무엇인가요?", "query_type": "guid", "expected_guid": "c1c916db-8218-4180-9a9c-14e153bd72b1", "difficulty": "easy"}
+{"id": "guid_072", "question": "7dfd44a9-0d1f-4855-b058-83068edcdf82에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "7dfd44a9-0d1f-4855-b058-83068edcdf82", "difficulty": "easy"}
+{"id": "guid_073", "question": "c4d54418-e71f-4e66-93b2-840c58bf3435 관련 문제점은 무엇인가요?", "query_type": "guid", "expected_guid": "c4d54418-e71f-4e66-93b2-840c58bf3435", "difficulty": "easy"}
+{"id": "guid_074", "question": "GUID fe42df9a-ccaf-4852-9298-07778d2064ac의 생성 날짜는 언제인가요?", "query_type": "guid", "expected_guid": "fe42df9a-ccaf-4852-9298-07778d2064ac", "difficulty": "easy"}
+{"id": "guid_075", "question": "GUID 9e5b60ee-e558-40b4-860e-4754e1c55a08와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "9e5b60ee-e558-40b4-860e-4754e1c55a08", "difficulty": "easy"}
+{"id": "guid_076", "question": "038e1048-bbb2-41c8-90df-a58be9faec5b 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "038e1048-bbb2-41c8-90df-a58be9faec5b", "difficulty": "easy"}
+{"id": "guid_077", "question": "GUID 8c007126-2b19-4887-bf76-76eabfbc6277의 생성 날짜는 언제인가요?", "query_type": "guid", "expected_guid": "8c007126-2b19-4887-bf76-76eabfbc6277", "difficulty": "easy"}
+{"id": "guid_078", "question": "b6b400ed-61d9-425a-8292-e2c1c75689ca에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "b6b400ed-61d9-425a-8292-e2c1c75689ca", "difficulty": "easy"}
+{"id": "guid_079", "question": "GUID 1fe443cd-1358-4fb7-8b55-bc124f038329의 해결 상태는 어떻게 되나요?", "query_type": "guid", "expected_guid": "1fe443cd-1358-4fb7-8b55-bc124f038329", "difficulty": "easy"}
+{"id": "guid_080", "question": "18d35752-737c-4e0a-930b-c8fb620f4b07에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "18d35752-737c-4e0a-930b-c8fb620f4b07", "difficulty": "easy"}
+{"id": "guid_081", "question": "이슈 69955d8b-43fa-421b-bbe2-fb31d5c8c496를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "69955d8b-43fa-421b-bbe2-fb31d5c8c496", "difficulty": "easy"}
+{"id": "guid_082", "question": "886f609b-1f30-4cdc-bc18-ce886d68874e에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "886f609b-1f30-4cdc-bc18-ce886d68874e", "difficulty": "easy"}
+{"id": "guid_083", "question": "GUID dc5267c8-5170-4bd4-a76f-61221babe47a와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "dc5267c8-5170-4bd4-a76f-61221babe47a", "difficulty": "easy"}
+{"id": "guid_084", "question": "c07d9409-ee07-4445-86df-2150dcfe2111에 대한 상세 정보를 알려주세요.", "query_type": "guid", "expected_guid": "c07d9409-ee07-4445-86df-2150dcfe2111", "difficulty": "easy"}
+{"id": "guid_085", "question": "905b99cb-d6bd-4263-a0e3-58abf7d21d63 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "905b99cb-d6bd-4263-a0e3-58abf7d21d63", "difficulty": "easy"}
+{"id": "guid_086", "question": "GUID ce5a141a-b212-4b9f-a6f6-9152cf75265d의 해결 상태는 어떻게 되나요?", "query_type": "guid", "expected_guid": "ce5a141a-b212-4b9f-a6f6-9152cf75265d", "difficulty": "easy"}
+{"id": "guid_087", "question": "이슈 554c9b74-9a32-40bc-b7f9-b1b087ffe1f3의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "554c9b74-9a32-40bc-b7f9-b1b087ffe1f3", "difficulty": "easy"}
+{"id": "guid_088", "question": "이슈 038e1048-bbb2-41c8-90df-a58be9faec5b의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "038e1048-bbb2-41c8-90df-a58be9faec5b", "difficulty": "easy"}
+{"id": "guid_089", "question": "이슈 9cef2e5e-c396-46fb-b92a-8866ed60854e의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "9cef2e5e-c396-46fb-b92a-8866ed60854e", "difficulty": "easy"}
+{"id": "guid_090", "question": "이슈 4cf546fc-396c-418a-a94f-468dcfcf66fa를 담당하는 사람은 누구인가요?", "query_type": "guid", "expected_guid": "4cf546fc-396c-418a-a94f-468dcfcf66fa", "difficulty": "easy"}
+{"id": "guid_091", "question": "이슈 92ac6369-63d3-43cb-9594-77949f0d687d의 내용을 설명해주세요.", "query_type": "guid", "expected_guid": "92ac6369-63d3-43cb-9594-77949f0d687d", "difficulty": "easy"}
+{"id": "guid_092", "question": "b2da0f70-21fd-4acf-8574-6568c447df6f 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "b2da0f70-21fd-4acf-8574-6568c447df6f", "difficulty": "easy"}
+{"id": "guid_093", "question": "GUID d5434a7e-b1b9-4444-a966-69b3bba332d4와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "d5434a7e-b1b9-4444-a966-69b3bba332d4", "difficulty": "easy"}
+{"id": "guid_094", "question": "GUID 91066868-833a-40ab-8073-d4bb1b84d56f의 해결 상태는 어떻게 되나요?", "query_type": "guid", "expected_guid": "91066868-833a-40ab-8073-d4bb1b84d56f", "difficulty": "easy"}
+{"id": "guid_095", "question": "GUID 58be928e-cfa6-49dc-9c9e-9642338692c8의 생성 날짜는 언제인가요?", "query_type": "guid", "expected_guid": "58be928e-cfa6-49dc-9c9e-9642338692c8", "difficulty": "easy"}
+{"id": "guid_096", "question": "8c007126-2b19-4887-bf76-76eabfbc6277 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "8c007126-2b19-4887-bf76-76eabfbc6277", "difficulty": "easy"}
+{"id": "guid_097", "question": "GUID 94f025b7-5c45-4dbd-aa89-7a9a2d37b80e의 생성 날짜는 언제인가요?", "query_type": "guid", "expected_guid": "94f025b7-5c45-4dbd-aa89-7a9a2d37b80e", "difficulty": "easy"}
+{"id": "guid_098", "question": "GUID fa2de3bf-986b-4731-acb5-b4f54aaa0d79의 생성 날짜는 언제인가요?", "query_type": "guid", "expected_guid": "fa2de3bf-986b-4731-acb5-b4f54aaa0d79", "difficulty": "easy"}
+{"id": "guid_099", "question": "GUID ea422c67-347e-41d4-af6b-d9f848aac467와 관련된 이슈는 무엇인가요?", "query_type": "guid", "expected_guid": "ea422c67-347e-41d4-af6b-d9f848aac467", "difficulty": "easy"}
+{"id": "guid_100", "question": "d50c4e73-ff51-4a1c-850e-ea71a429e383 이슈의 분류는 무엇인가요?", "query_type": "guid", "expected_guid": "d50c4e73-ff51-4a1c-850e-ea71a429e383", "difficulty": "easy"}
+{"id": "temporal_001", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_002", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_003", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_004", "question": "지난 주에 업데이트된 이슈들을 찾아주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_005", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_006", "question": "최근 3개월 동안 해결되지 않은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_007", "question": "지난 주에 업데이트된 이슈들을 찾아주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_008", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_009", "question": "지난 달에 보고된 문제점들을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_010", "question": "분기별 이슈 발생 현황을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_011", "question": "분기별 이슈 발생 현황을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_012", "question": "최근 3개월 동안 해결되지 않은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_013", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_014", "question": "최근 1주일 동안 생성된 이슈들은 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_015", "question": "최근 3개월 동안 해결되지 않은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_016", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_017", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_018", "question": "작년 이맘때 생성된 이슈와 비교해주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_019", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_020", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_021", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_022", "question": "최근 1주일 동안 생성된 이슈들은 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_023", "question": "지난 달에 보고된 문제점들을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_024", "question": "분기별 이슈 발생 현황을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_025", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_026", "question": "작년 이맘때 생성된 이슈와 비교해주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_027", "question": "지난 달에 보고된 문제점들을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_028", "question": "최근 1주일 동안 생성된 이슈들은 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_029", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_030", "question": "분기별 이슈 발생 현황을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_031", "question": "작년 이맘때 생성된 이슈와 비교해주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_032", "question": "분기별 이슈 발생 현황을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_033", "question": "최근 1주일 동안 생성된 이슈들은 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_034", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_035", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_036", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_037", "question": "최근 3개월 동안 해결되지 않은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_038", "question": "최근 1주일 동안 생성된 이슈들은 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_039", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_040", "question": "지난 주에 업데이트된 이슈들을 찾아주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_041", "question": "작년 이맘때 생성된 이슈와 비교해주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_042", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_043", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_044", "question": "지난 달에 보고된 문제점들을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_045", "question": "지난 달에 보고된 문제점들을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_046", "question": "지난 달에 보고된 문제점들을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_047", "question": "최근 1주일 동안 생성된 이슈들은 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_048", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_049", "question": "지난 주에 업데이트된 이슈들을 찾아주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_050", "question": "최근 1주일 동안 생성된 이슈들은 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_051", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_052", "question": "작년 이맘때 생성된 이슈와 비교해주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_053", "question": "최근 1주일 동안 생성된 이슈들은 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_054", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_055", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_056", "question": "작년 이맘때 생성된 이슈와 비교해주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_057", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_058", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_059", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_060", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_061", "question": "최근 3개월 동안 해결되지 않은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_062", "question": "지난 주에 업데이트된 이슈들을 찾아주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_063", "question": "최근 3개월 동안 해결되지 않은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_064", "question": "작년 이맘때 생성된 이슈와 비교해주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_065", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_066", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_067", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_068", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_069", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_070", "question": "작년 이맘때 생성된 이슈와 비교해주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_071", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_072", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_073", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_074", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_075", "question": "작년 이맘때 생성된 이슈와 비교해주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_076", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_077", "question": "분기별 이슈 발생 현황을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_078", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_079", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_080", "question": "오늘 생성된 새로운 이슈가 있나요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_081", "question": "최근 1주일 동안 생성된 이슈들은 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_082", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_083", "question": "지난 주에 업데이트된 이슈들을 찾아주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_084", "question": "최근 3개월 동안 해결되지 않은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_085", "question": "지난 달에 보고된 문제점들을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_086", "question": "분기별 이슈 발생 현황을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_087", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_088", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_089", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_090", "question": "지난 주에 업데이트된 이슈들을 찾아주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_091", "question": "최근 3개월 동안 해결되지 않은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_092", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_093", "question": "분기별 이슈 발생 현황을 알려주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_094", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_095", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_096", "question": "최근 2주일 동안 우선순위가 높은 이슈는 무엇인가요?", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_097", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_098", "question": "최근 6개월 동안의 이슈 트렌드를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_099", "question": "지난 주에 업데이트된 이슈들을 찾아주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "temporal_100", "question": "2024년에 생성된 모든 이슈를 보여주세요.", "query_type": "temporal", "time_range": "recent", "difficulty": "medium"}
+{"id": "author_001", "question": "Architect@example.com가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "Architect@example.com", "difficulty": "medium"}
+{"id": "author_002", "question": "pasi.paasiala@solibri.com가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "pasi.paasiala@solibri.com", "difficulty": "medium"}
+{"id": "author_003", "question": "Architect@example.com가 최근에 업데이트한 이슈를 찾아주세요.", "query_type": "author", "expected_author": "Architect@example.com", "difficulty": "medium"}
+{"id": "author_004", "question": "jon.anders.sollien@catenda.no가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "jon.anders.sollien@catenda.no", "difficulty": "medium"}
+{"id": "author_005", "question": "engineer_b가 최근에 업데이트한 이슈를 찾아주세요.", "query_type": "author", "expected_author": "engineer_b", "difficulty": "medium"}
+{"id": "author_006", "question": "engineer_a가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "engineer_a", "difficulty": "medium"}
+{"id": "author_007", "question": "dangl@iabi.eu가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "dangl@iabi.eu", "difficulty": "medium"}
+{"id": "author_008", "question": "engineer_c이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "engineer_c", "difficulty": "medium"}
+{"id": "author_009", "question": "engineer_lee가 해결한 이슈들의 목록을 보여주세요.", "query_type": "author", "expected_author": "engineer_lee", "difficulty": "medium"}
+{"id": "author_010", "question": "architect_jung가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "architect_jung", "difficulty": "medium"}
+{"id": "author_011", "question": "Architect@example.com가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "Architect@example.com", "difficulty": "medium"}
+{"id": "author_012", "question": "architect_jung이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "architect_jung", "difficulty": "medium"}
+{"id": "author_013", "question": "engineer_b이 작성한 이슈들을 보여주세요.", "query_type": "author", "expected_author": "engineer_b", "difficulty": "medium"}
+{"id": "author_014", "question": "blackhole@aconex.com이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "blackhole@aconex.com", "difficulty": "medium"}
+{"id": "author_015", "question": "architect_choi가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "architect_choi", "difficulty": "medium"}
+{"id": "author_016", "question": "Architect@example.com이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "Architect@example.com", "difficulty": "medium"}
+{"id": "author_017", "question": "jon.anders.sollien@catenda.no이 작성한 이슈들을 보여주세요.", "query_type": "author", "expected_author": "jon.anders.sollien@catenda.no", "difficulty": "medium"}
+{"id": "author_018", "question": "architect_jung이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "architect_jung", "difficulty": "medium"}
+{"id": "author_019", "question": "engineer_a가 최근에 업데이트한 이슈를 찾아주세요.", "query_type": "author", "expected_author": "engineer_a", "difficulty": "medium"}
+{"id": "author_020", "question": "Developer@example.com이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "Developer@example.com", "difficulty": "medium"}
+{"id": "author_021", "question": "architect_lee가 해결한 이슈들의 목록을 보여주세요.", "query_type": "author", "expected_author": "architect_lee", "difficulty": "medium"}
+{"id": "author_022", "question": "engineer_a이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "engineer_a", "difficulty": "medium"}
+{"id": "author_023", "question": "Architect@example.com이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "Architect@example.com", "difficulty": "medium"}
+{"id": "author_024", "question": "dangl@iabi.eu이 생성한 이슈 중 아직 해결되지 않은 것은 무엇인가요?", "query_type": "author", "expected_author": "dangl@iabi.eu", "difficulty": "medium"}
+{"id": "author_025", "question": "architect_kim이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "architect_kim", "difficulty": "medium"}
+{"id": "author_026", "question": "dangl@iabi.eu이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "dangl@iabi.eu", "difficulty": "medium"}
+{"id": "author_027", "question": "blackhole@aconex.com이 작성한 이슈들을 보여주세요.", "query_type": "author", "expected_author": "blackhole@aconex.com", "difficulty": "medium"}
+{"id": "author_028", "question": "architect_jung이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "architect_jung", "difficulty": "medium"}
+{"id": "author_029", "question": "unnamed@someemail.com이 생성한 이슈 중 아직 해결되지 않은 것은 무엇인가요?", "query_type": "author", "expected_author": "unnamed@someemail.com", "difficulty": "medium"}
+{"id": "author_030", "question": "engineer_lee가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "engineer_lee", "difficulty": "medium"}
+{"id": "author_031", "question": "architect_lee이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "architect_lee", "difficulty": "medium"}
+{"id": "author_032", "question": "architect_lee가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "architect_lee", "difficulty": "medium"}
+{"id": "author_033", "question": "unnamed@someemail.com이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "unnamed@someemail.com", "difficulty": "medium"}
+{"id": "author_034", "question": "engineer_kim가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "engineer_kim", "difficulty": "medium"}
+{"id": "author_035", "question": "architect_choi가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "architect_choi", "difficulty": "medium"}
+{"id": "author_036", "question": "architect_choi가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "architect_choi", "difficulty": "medium"}
+{"id": "author_037", "question": "architect_jung이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "architect_jung", "difficulty": "medium"}
+{"id": "author_038", "question": "architect_lee이 생성한 이슈 중 아직 해결되지 않은 것은 무엇인가요?", "query_type": "author", "expected_author": "architect_lee", "difficulty": "medium"}
+{"id": "author_039", "question": "engineer_a가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "engineer_a", "difficulty": "medium"}
+{"id": "author_040", "question": "Developer@example.com이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "Developer@example.com", "difficulty": "medium"}
+{"id": "author_041", "question": "engineer_lee가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "engineer_lee", "difficulty": "medium"}
+{"id": "author_042", "question": "blackhole@aconex.com가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "blackhole@aconex.com", "difficulty": "medium"}
+{"id": "author_043", "question": "dangl@iabi.eu이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "dangl@iabi.eu", "difficulty": "medium"}
+{"id": "author_044", "question": "jon.anders.sollien@catenda.no이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "jon.anders.sollien@catenda.no", "difficulty": "medium"}
+{"id": "author_045", "question": "blackhole@aconex.com가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "blackhole@aconex.com", "difficulty": "medium"}
+{"id": "author_046", "question": "pasi.paasiala@solibri.com이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "pasi.paasiala@solibri.com", "difficulty": "medium"}
+{"id": "author_047", "question": "engineer_lee이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "engineer_lee", "difficulty": "medium"}
+{"id": "author_048", "question": "engineer_park이 작성한 이슈들을 보여주세요.", "query_type": "author", "expected_author": "engineer_park", "difficulty": "medium"}
+{"id": "author_049", "question": "Architect@example.com이 생성한 이슈 중 아직 해결되지 않은 것은 무엇인가요?", "query_type": "author", "expected_author": "Architect@example.com", "difficulty": "medium"}
+{"id": "author_050", "question": "architect_lee가 최근에 업데이트한 이슈를 찾아주세요.", "query_type": "author", "expected_author": "architect_lee", "difficulty": "medium"}
+{"id": "author_051", "question": "architect_lee가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "architect_lee", "difficulty": "medium"}
+{"id": "author_052", "question": "unnamed@someemail.com가 최근에 업데이트한 이슈를 찾아주세요.", "query_type": "author", "expected_author": "unnamed@someemail.com", "difficulty": "medium"}
+{"id": "author_053", "question": "blackhole@aconex.com이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "blackhole@aconex.com", "difficulty": "medium"}
+{"id": "author_054", "question": "architect_lee가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "architect_lee", "difficulty": "medium"}
+{"id": "author_055", "question": "architect_kim가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "architect_kim", "difficulty": "medium"}
+{"id": "author_056", "question": "pasi.paasiala@solibri.com가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "pasi.paasiala@solibri.com", "difficulty": "medium"}
+{"id": "author_057", "question": "Developer@example.com이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "Developer@example.com", "difficulty": "medium"}
+{"id": "author_058", "question": "engineer_park가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "engineer_park", "difficulty": "medium"}
+{"id": "author_059", "question": "engineer_b이 작성한 이슈들을 보여주세요.", "query_type": "author", "expected_author": "engineer_b", "difficulty": "medium"}
+{"id": "author_060", "question": "engineer_lee이 생성한 이슈 중 아직 해결되지 않은 것은 무엇인가요?", "query_type": "author", "expected_author": "engineer_lee", "difficulty": "medium"}
+{"id": "author_061", "question": "engineer_lee가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "engineer_lee", "difficulty": "medium"}
+{"id": "author_062", "question": "engineer_c가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "engineer_c", "difficulty": "medium"}
+{"id": "author_063", "question": "Developer@example.com이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "Developer@example.com", "difficulty": "medium"}
+{"id": "author_064", "question": "Developer@example.com이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "Developer@example.com", "difficulty": "medium"}
+{"id": "author_065", "question": "architect_jung이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "architect_jung", "difficulty": "medium"}
+{"id": "author_066", "question": "engineer_b가 해결한 이슈들의 목록을 보여주세요.", "query_type": "author", "expected_author": "engineer_b", "difficulty": "medium"}
+{"id": "author_067", "question": "Developer@example.com이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "Developer@example.com", "difficulty": "medium"}
+{"id": "author_068", "question": "engineer_lee가 해결한 이슈들의 목록을 보여주세요.", "query_type": "author", "expected_author": "engineer_lee", "difficulty": "medium"}
+{"id": "author_069", "question": "engineer_a이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "engineer_a", "difficulty": "medium"}
+{"id": "author_070", "question": "engineer_a가 해결한 이슈들의 목록을 보여주세요.", "query_type": "author", "expected_author": "engineer_a", "difficulty": "medium"}
+{"id": "author_071", "question": "engineer_lee이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "engineer_lee", "difficulty": "medium"}
+{"id": "author_072", "question": "architect_choi가 해결한 이슈들의 목록을 보여주세요.", "query_type": "author", "expected_author": "architect_choi", "difficulty": "medium"}
+{"id": "author_073", "question": "engineer_c가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "engineer_c", "difficulty": "medium"}
+{"id": "author_074", "question": "engineer_park가 최근에 업데이트한 이슈를 찾아주세요.", "query_type": "author", "expected_author": "engineer_park", "difficulty": "medium"}
+{"id": "author_075", "question": "Developer@example.com가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "Developer@example.com", "difficulty": "medium"}
+{"id": "author_076", "question": "architect_jung가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "architect_jung", "difficulty": "medium"}
+{"id": "author_077", "question": "engineer_a가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "engineer_a", "difficulty": "medium"}
+{"id": "author_078", "question": "jon.anders.sollien@catenda.no이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "jon.anders.sollien@catenda.no", "difficulty": "medium"}
+{"id": "author_079", "question": "blackhole@aconex.com가 최근에 업데이트한 이슈를 찾아주세요.", "query_type": "author", "expected_author": "blackhole@aconex.com", "difficulty": "medium"}
+{"id": "author_080", "question": "architect_choi가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "architect_choi", "difficulty": "medium"}
+{"id": "author_081", "question": "jon.anders.sollien@catenda.no이 작성한 이슈 중 우선순위가 높은 것은 무엇인가요?", "query_type": "author", "expected_author": "jon.anders.sollien@catenda.no", "difficulty": "medium"}
+{"id": "author_082", "question": "engineer_kim가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "engineer_kim", "difficulty": "medium"}
+{"id": "author_083", "question": "pasi.paasiala@solibri.com가 해결한 이슈들의 목록을 보여주세요.", "query_type": "author", "expected_author": "pasi.paasiala@solibri.com", "difficulty": "medium"}
+{"id": "author_084", "question": "engineer_c이 작성한 이슈들을 보여주세요.", "query_type": "author", "expected_author": "engineer_c", "difficulty": "medium"}
+{"id": "author_085", "question": "architect_kim가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "architect_kim", "difficulty": "medium"}
+{"id": "author_086", "question": "engineer_b가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "engineer_b", "difficulty": "medium"}
+{"id": "author_087", "question": "pasi.paasiala@solibri.com가 최근에 업데이트한 이슈를 찾아주세요.", "query_type": "author", "expected_author": "pasi.paasiala@solibri.com", "difficulty": "medium"}
+{"id": "author_088", "question": "engineer_b가 담당하는 프로젝트의 이슈 현황은 어떻게 되나요?", "query_type": "author", "expected_author": "engineer_b", "difficulty": "medium"}
+{"id": "author_089", "question": "engineer_kim가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "engineer_kim", "difficulty": "medium"}
+{"id": "author_090", "question": "unnamed@someemail.com가 최근에 업데이트한 이슈를 찾아주세요.", "query_type": "author", "expected_author": "unnamed@someemail.com", "difficulty": "medium"}
+{"id": "author_091", "question": "engineer_park이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "engineer_park", "difficulty": "medium"}
+{"id": "author_092", "question": "architect_jung가 담당하는 이슈 중 지연된 것은 무엇인가요?", "query_type": "author", "expected_author": "architect_jung", "difficulty": "medium"}
+{"id": "author_093", "question": "engineer_kim이 생성한 이슈들의 통계를 보여주세요.", "query_type": "author", "expected_author": "engineer_kim", "difficulty": "medium"}
+{"id": "author_094", "question": "architect_lee이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "architect_lee", "difficulty": "medium"}
+{"id": "author_095", "question": "engineer_kim가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "engineer_kim", "difficulty": "medium"}
+{"id": "author_096", "question": "engineer_kim이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "engineer_kim", "difficulty": "medium"}
+{"id": "author_097", "question": "engineer_lee가 담당하고 있는 문제점들은 무엇인가요?", "query_type": "author", "expected_author": "engineer_lee", "difficulty": "medium"}
+{"id": "author_098", "question": "engineer_kim이 보고한 최근 이슈를 알려주세요.", "query_type": "author", "expected_author": "engineer_kim", "difficulty": "medium"}
+{"id": "author_099", "question": "engineer_c이 작성한 이슈들을 보여주세요.", "query_type": "author", "expected_author": "engineer_c", "difficulty": "medium"}
+{"id": "author_100", "question": "architect_kim이 작성한 이슈들을 보여주세요.", "query_type": "author", "expected_author": "architect_kim", "difficulty": "medium"}
+{"id": "keyword_001", "question": "창문와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "창문", "difficulty": "medium"}
+{"id": "keyword_002", "question": "단열 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "단열", "difficulty": "medium"}
+{"id": "keyword_003", "question": "벽 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "벽", "difficulty": "medium"}
+{"id": "keyword_004", "question": "도면 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "도면", "difficulty": "medium"}
+{"id": "keyword_005", "question": "바닥 관련 해결되지 않은 문제는 무엇인가요?", "query_type": "keyword", "expected_keyword": "바닥", "difficulty": "medium"}
+{"id": "keyword_006", "question": "바닥 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "바닥", "difficulty": "medium"}
+{"id": "keyword_007", "question": "조명 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "조명", "difficulty": "medium"}
+{"id": "keyword_008", "question": "냉방 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "냉방", "difficulty": "medium"}
+{"id": "keyword_009", "question": "계단 관련 해결되지 않은 문제는 무엇인가요?", "query_type": "keyword", "expected_keyword": "계단", "difficulty": "medium"}
+{"id": "keyword_010", "question": "냉방와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "냉방", "difficulty": "medium"}
+{"id": "keyword_011", "question": "배관 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_012", "question": "배관 관련 해결되지 않은 문제는 무엇인가요?", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_013", "question": "문 관련 이슈들을 찾아주세요.", "query_type": "keyword", "expected_keyword": "문", "difficulty": "medium"}
+{"id": "keyword_014", "question": "환기와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "환기", "difficulty": "medium"}
+{"id": "keyword_015", "question": "설계 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "설계", "difficulty": "medium"}
+{"id": "keyword_016", "question": "벽 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "벽", "difficulty": "medium"}
+{"id": "keyword_017", "question": "계단와 관련된 모든 이슈를 보여주세요.", "query_type": "keyword", "expected_keyword": "계단", "difficulty": "medium"}
+{"id": "keyword_018", "question": "구조 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "구조", "difficulty": "medium"}
+{"id": "keyword_019", "question": "조명 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "조명", "difficulty": "medium"}
+{"id": "keyword_020", "question": "문 이슈의 담당자를 알려주세요.", "query_type": "keyword", "expected_keyword": "문", "difficulty": "medium"}
+{"id": "keyword_021", "question": "계단 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "계단", "difficulty": "medium"}
+{"id": "keyword_022", "question": "환기 관련 이슈들을 찾아주세요.", "query_type": "keyword", "expected_keyword": "환기", "difficulty": "medium"}
+{"id": "keyword_023", "question": "천장 이슈의 담당자를 알려주세요.", "query_type": "keyword", "expected_keyword": "천장", "difficulty": "medium"}
+{"id": "keyword_024", "question": "배관 관련 이슈들을 찾아주세요.", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_025", "question": "안전와 관련된 모든 이슈를 보여주세요.", "query_type": "keyword", "expected_keyword": "안전", "difficulty": "medium"}
+{"id": "keyword_026", "question": "설비 문제점이 있는 곳을 알려주세요.", "query_type": "keyword", "expected_keyword": "설비", "difficulty": "medium"}
+{"id": "keyword_027", "question": "승인와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "승인", "difficulty": "medium"}
+{"id": "keyword_028", "question": "환기 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "환기", "difficulty": "medium"}
+{"id": "keyword_029", "question": "조명 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "조명", "difficulty": "medium"}
+{"id": "keyword_030", "question": "안전 관련 해결되지 않은 문제는 무엇인가요?", "query_type": "keyword", "expected_keyword": "안전", "difficulty": "medium"}
+{"id": "keyword_031", "question": "구조 이슈의 담당자를 알려주세요.", "query_type": "keyword", "expected_keyword": "구조", "difficulty": "medium"}
+{"id": "keyword_032", "question": "바닥 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "바닥", "difficulty": "medium"}
+{"id": "keyword_033", "question": "승인와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "승인", "difficulty": "medium"}
+{"id": "keyword_034", "question": "철근와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "철근", "difficulty": "medium"}
+{"id": "keyword_035", "question": "계획 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "계획", "difficulty": "medium"}
+{"id": "keyword_036", "question": "방수 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "방수", "difficulty": "medium"}
+{"id": "keyword_037", "question": "바닥와 관련된 모든 이슈를 보여주세요.", "query_type": "keyword", "expected_keyword": "바닥", "difficulty": "medium"}
+{"id": "keyword_038", "question": "배관 이슈의 담당자를 알려주세요.", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_039", "question": "냉방 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "냉방", "difficulty": "medium"}
+{"id": "keyword_040", "question": "방수 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "방수", "difficulty": "medium"}
+{"id": "keyword_041", "question": "조명 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "조명", "difficulty": "medium"}
+{"id": "keyword_042", "question": "변경 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "변경", "difficulty": "medium"}
+{"id": "keyword_043", "question": "계획 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "계획", "difficulty": "medium"}
+{"id": "keyword_044", "question": "변경 이슈의 담당자를 알려주세요.", "query_type": "keyword", "expected_keyword": "변경", "difficulty": "medium"}
+{"id": "keyword_045", "question": "벽 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "벽", "difficulty": "medium"}
+{"id": "keyword_046", "question": "변경 관련 해결되지 않은 문제는 무엇인가요?", "query_type": "keyword", "expected_keyword": "변경", "difficulty": "medium"}
+{"id": "keyword_047", "question": "도면와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "도면", "difficulty": "medium"}
+{"id": "keyword_048", "question": "계단 관련 해결되지 않은 문제는 무엇인가요?", "query_type": "keyword", "expected_keyword": "계단", "difficulty": "medium"}
+{"id": "keyword_049", "question": "철근 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "철근", "difficulty": "medium"}
+{"id": "keyword_050", "question": "창문 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "창문", "difficulty": "medium"}
+{"id": "keyword_051", "question": "설비 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "설비", "difficulty": "medium"}
+{"id": "keyword_052", "question": "승인 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "승인", "difficulty": "medium"}
+{"id": "keyword_053", "question": "배관 이슈의 담당자를 알려주세요.", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_054", "question": "천장 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "천장", "difficulty": "medium"}
+{"id": "keyword_055", "question": "단열 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "단열", "difficulty": "medium"}
+{"id": "keyword_056", "question": "환기와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "환기", "difficulty": "medium"}
+{"id": "keyword_057", "question": "변경 문제점이 있는 곳을 알려주세요.", "query_type": "keyword", "expected_keyword": "변경", "difficulty": "medium"}
+{"id": "keyword_058", "question": "천장 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "천장", "difficulty": "medium"}
+{"id": "keyword_059", "question": "안전 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "안전", "difficulty": "medium"}
+{"id": "keyword_060", "question": "도면 관련 이슈들을 찾아주세요.", "query_type": "keyword", "expected_keyword": "도면", "difficulty": "medium"}
+{"id": "keyword_061", "question": "조명와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "조명", "difficulty": "medium"}
+{"id": "keyword_062", "question": "철근와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "철근", "difficulty": "medium"}
+{"id": "keyword_063", "question": "구조와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "구조", "difficulty": "medium"}
+{"id": "keyword_064", "question": "단열 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "단열", "difficulty": "medium"}
+{"id": "keyword_065", "question": "안전 이슈의 담당자를 알려주세요.", "query_type": "keyword", "expected_keyword": "안전", "difficulty": "medium"}
+{"id": "keyword_066", "question": "배관와 관련된 모든 이슈를 보여주세요.", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_067", "question": "단열 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "단열", "difficulty": "medium"}
+{"id": "keyword_068", "question": "환기 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "환기", "difficulty": "medium"}
+{"id": "keyword_069", "question": "배관와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_070", "question": "조명와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "조명", "difficulty": "medium"}
+{"id": "keyword_071", "question": "조명와 관련된 모든 이슈를 보여주세요.", "query_type": "keyword", "expected_keyword": "조명", "difficulty": "medium"}
+{"id": "keyword_072", "question": "배관 이슈의 담당자를 알려주세요.", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_073", "question": "변경 관련 해결되지 않은 문제는 무엇인가요?", "query_type": "keyword", "expected_keyword": "변경", "difficulty": "medium"}
+{"id": "keyword_074", "question": "천장 관련 이슈들을 찾아주세요.", "query_type": "keyword", "expected_keyword": "천장", "difficulty": "medium"}
+{"id": "keyword_075", "question": "배관와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_076", "question": "방수와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "방수", "difficulty": "medium"}
+{"id": "keyword_077", "question": "구조 관련 해결되지 않은 문제는 무엇인가요?", "query_type": "keyword", "expected_keyword": "구조", "difficulty": "medium"}
+{"id": "keyword_078", "question": "설계 관련 이슈들을 찾아주세요.", "query_type": "keyword", "expected_keyword": "설계", "difficulty": "medium"}
+{"id": "keyword_079", "question": "계단 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "계단", "difficulty": "medium"}
+{"id": "keyword_080", "question": "배관 문제점이 있는 곳을 알려주세요.", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_081", "question": "철근 문제가 발생한 위치를 찾아주세요.", "query_type": "keyword", "expected_keyword": "철근", "difficulty": "medium"}
+{"id": "keyword_082", "question": "계단와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "계단", "difficulty": "medium"}
+{"id": "keyword_083", "question": "배관와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "배관", "difficulty": "medium"}
+{"id": "keyword_084", "question": "계획 관련 해결되지 않은 문제는 무엇인가요?", "query_type": "keyword", "expected_keyword": "계획", "difficulty": "medium"}
+{"id": "keyword_085", "question": "구조 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "구조", "difficulty": "medium"}
+{"id": "keyword_086", "question": "설비와 관련된 모든 이슈를 보여주세요.", "query_type": "keyword", "expected_keyword": "설비", "difficulty": "medium"}
+{"id": "keyword_087", "question": "천장 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "천장", "difficulty": "medium"}
+{"id": "keyword_088", "question": "계단 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "계단", "difficulty": "medium"}
+{"id": "keyword_089", "question": "방수 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "방수", "difficulty": "medium"}
+{"id": "keyword_090", "question": "창문와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "창문", "difficulty": "medium"}
+{"id": "keyword_091", "question": "천장 문제점이 있는 곳을 알려주세요.", "query_type": "keyword", "expected_keyword": "천장", "difficulty": "medium"}
+{"id": "keyword_092", "question": "안전 관련 최근 이슈를 알려주세요.", "query_type": "keyword", "expected_keyword": "안전", "difficulty": "medium"}
+{"id": "keyword_093", "question": "설계 관련 이슈의 해결 방법을 보여주세요.", "query_type": "keyword", "expected_keyword": "설계", "difficulty": "medium"}
+{"id": "keyword_094", "question": "구조와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "구조", "difficulty": "medium"}
+{"id": "keyword_095", "question": "안전 관련 이슈들을 찾아주세요.", "query_type": "keyword", "expected_keyword": "안전", "difficulty": "medium"}
+{"id": "keyword_096", "question": "구조 관련 이슈들을 찾아주세요.", "query_type": "keyword", "expected_keyword": "구조", "difficulty": "medium"}
+{"id": "keyword_097", "question": "조명와 관련된 모든 이슈를 보여주세요.", "query_type": "keyword", "expected_keyword": "조명", "difficulty": "medium"}
+{"id": "keyword_098", "question": "벽 이슈의 우선순위는 어떻게 되나요?", "query_type": "keyword", "expected_keyword": "벽", "difficulty": "medium"}
+{"id": "keyword_099", "question": "안전와 연관된 다른 문제점들은 무엇인가요?", "query_type": "keyword", "expected_keyword": "안전", "difficulty": "medium"}
+{"id": "keyword_100", "question": "계단와 관련된 모든 이슈를 보여주세요.", "query_type": "keyword", "expected_keyword": "계단", "difficulty": "medium"}
+{"id": "complex_001", "question": "안전 점검에서 발견된 위험 요소들을 분류해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_002", "question": "설비 설치 과정에서 발생한 문제점들을 해결 방법과 함께 보여주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_003", "question": "구조적 결함과 관련된 모든 이슈의 심각도를 평가해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_004", "question": "일정 지연을 야기하는 주요 이슈들을 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_005", "question": "설계 변경으로 인해 발생한 모든 이슈를 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_006", "question": "작업 우선순위를 높여야 할 구조 관련 이슈는 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_007", "question": "지난 달 생성되었지만 아직 해결되지 않은 설비 충돌은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_008", "question": "특정 층(3층)과 관련된 모든 협업 이슈를 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_009", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_010", "question": "안전 점검에서 발견된 위험 요소들을 분류해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_011", "question": "안전 점검에서 발견된 위험 요소들을 분류해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_012", "question": "환경 친화적 재료 사용과 관련된 이슈들을 검토해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_013", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_014", "question": "긴급도가 높은 전기 관련 이슈 중 해결이 지연된 것은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_015", "question": "작업 우선순위를 높여야 할 구조 관련 이슈는 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_016", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_017", "question": "설비 설치 과정에서 발생한 문제점들을 해결 방법과 함께 보여주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_018", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_019", "question": "설계 변경으로 인해 발생한 모든 이슈를 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_020", "question": "설계 변경으로 인해 발생한 모든 이슈를 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_021", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_022", "question": "동일한 작성자가 보고한 유사 문제들의 패턴은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_023", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_024", "question": "에너지 효율성과 관련된 문제점들을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_025", "question": "지난 달 생성되었지만 아직 해결되지 않은 설비 충돌은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_026", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_027", "question": "품질 검사에서 발견된 주요 문제점들을 우선순위별로 정리해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_028", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_029", "question": "설계 변경으로 인해 발생한 모든 이슈를 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_030", "question": "설계 변경으로 인해 발생한 모든 이슈를 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_031", "question": "긴급도가 높은 전기 관련 이슈 중 해결이 지연된 것은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_032", "question": "환경 친화적 재료 사용과 관련된 이슈들을 검토해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_033", "question": "일정 지연을 야기하는 주요 이슈들을 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_034", "question": "동일한 작성자가 보고한 유사 문제들의 패턴은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_035", "question": "일정 지연을 야기하는 주요 이슈들을 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_036", "question": "구조적 결함과 관련된 모든 이슈의 심각도를 평가해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_037", "question": "안전 점검에서 발견된 위험 요소들을 분류해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_038", "question": "구조적 결함과 관련된 모든 이슈의 심각도를 평가해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_039", "question": "에너지 효율성과 관련된 문제점들을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_040", "question": "동일한 작성자가 보고한 유사 문제들의 패턴은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_041", "question": "동일한 작성자가 보고한 유사 문제들의 패턴은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_042", "question": "작업 우선순위를 높여야 할 구조 관련 이슈는 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_043", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_044", "question": "작업 우선순위를 높여야 할 구조 관련 이슈는 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_045", "question": "일정 지연을 야기하는 주요 이슈들을 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_046", "question": "긴급도가 높은 전기 관련 이슈 중 해결이 지연된 것은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_047", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_048", "question": "일정 지연을 야기하는 주요 이슈들을 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_049", "question": "안전 점검에서 발견된 위험 요소들을 분류해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_050", "question": "일정 지연을 야기하는 주요 이슈들을 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_051", "question": "긴급도가 높은 전기 관련 이슈 중 해결이 지연된 것은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_052", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_053", "question": "에너지 효율성과 관련된 문제점들을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_054", "question": "동일한 작성자가 보고한 유사 문제들의 패턴은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_055", "question": "지난 달 생성되었지만 아직 해결되지 않은 설비 충돌은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_056", "question": "설비 설치 과정에서 발생한 문제점들을 해결 방법과 함께 보여주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_057", "question": "지난 달 생성되었지만 아직 해결되지 않은 설비 충돌은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_058", "question": "품질 검사에서 발견된 주요 문제점들을 우선순위별로 정리해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_059", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_060", "question": "품질 검사에서 발견된 주요 문제점들을 우선순위별로 정리해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_061", "question": "안전 점검에서 발견된 위험 요소들을 분류해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_062", "question": "환경 친화적 재료 사용과 관련된 이슈들을 검토해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_063", "question": "특정 층(3층)과 관련된 모든 협업 이슈를 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_064", "question": "특정 층(3층)과 관련된 모든 협업 이슈를 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_065", "question": "특정 층(3층)과 관련된 모든 협업 이슈를 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_066", "question": "구조적 결함과 관련된 모든 이슈의 심각도를 평가해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_067", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_068", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_069", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_070", "question": "환경 친화적 재료 사용과 관련된 이슈들을 검토해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_071", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_072", "question": "일정 지연을 야기하는 주요 이슈들을 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_073", "question": "특정 층(3층)과 관련된 모든 협업 이슈를 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_074", "question": "일정 지연을 야기하는 주요 이슈들을 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_075", "question": "작업 우선순위를 높여야 할 구조 관련 이슈는 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_076", "question": "품질 검사에서 발견된 주요 문제점들을 우선순위별로 정리해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_077", "question": "환경 친화적 재료 사용과 관련된 이슈들을 검토해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_078", "question": "구조적 결함과 관련된 모든 이슈의 심각도를 평가해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_079", "question": "품질 검사에서 발견된 주요 문제점들을 우선순위별로 정리해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_080", "question": "특정 층(3층)과 관련된 모든 협업 이슈를 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_081", "question": "특정 층(3층)과 관련된 모든 협업 이슈를 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_082", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_083", "question": "구조적 결함과 관련된 모든 이슈의 심각도를 평가해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_084", "question": "특정 층(3층)과 관련된 모든 협업 이슈를 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_085", "question": "특정 층(3층)과 관련된 모든 협업 이슈를 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_086", "question": "구조적 결함과 관련된 모든 이슈의 심각도를 평가해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_087", "question": "품질 검사에서 발견된 주요 문제점들을 우선순위별로 정리해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_088", "question": "긴급도가 높은 전기 관련 이슈 중 해결이 지연된 것은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_089", "question": "설비 설치 과정에서 발생한 문제점들을 해결 방법과 함께 보여주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_090", "question": "구조적 결함과 관련된 모든 이슈의 심각도를 평가해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_091", "question": "작업 우선순위를 높여야 할 구조 관련 이슈는 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_092", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_093", "question": "에너지 효율성과 관련된 문제점들을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_094", "question": "예산 초과와 관련된 이슈들의 원인을 분석해주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_095", "question": "지난 달 생성되었지만 아직 해결되지 않은 설비 충돌은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_096", "question": "지난 달 생성되었지만 아직 해결되지 않은 설비 충돌은 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_097", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_098", "question": "일정 지연을 야기하는 주요 이슈들을 찾아주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_099", "question": "작업 우선순위를 높여야 할 구조 관련 이슈는 무엇인가요?", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "complex_100", "question": "접근성 개선을 위한 이슈들의 구현 현황을 알려주세요.", "query_type": "complex", "difficulty": "hard", "requires_reasoning": true}
+{"id": "relationship_001", "question": "8976cf3f-ca3c-4d5f-809b-85c721d20b1c 이슈와 동시에 발생한 다른 이슈들을 보여주세요.", "query_type": "relationship", "expected_guid": "8976cf3f-ca3c-4d5f-809b-85c721d20b1c", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_002", "question": "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_003", "question": "이슈 c220d632-fe66-416b-a272-1648e751ccce의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "c220d632-fe66-416b-a272-1648e751ccce", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_004", "question": "c07d9409-ee07-4445-86df-2150dcfe2111 이슈와 동시에 발생한 다른 이슈들을 보여주세요.", "query_type": "relationship", "expected_guid": "c07d9409-ee07-4445-86df-2150dcfe2111", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_005", "question": "d60a4684-744f-4f40-85db-08807e56d846 이슈와 관련된 모든 담당자들의 작업을 정리해주세요.", "query_type": "relationship", "expected_guid": "d60a4684-744f-4f40-85db-08807e56d846", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_006", "question": "4697c85b-52c8-4200-a2ea-2e99295bc9f1 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "4697c85b-52c8-4200-a2ea-2e99295bc9f1", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_007", "question": "bea59eab-4e32-4d9c-80c5-cae9ccad48fa 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "bea59eab-4e32-4d9c-80c5-cae9ccad48fa", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_008", "question": "7fb3150e-463f-498b-bf20-95c141f4edd6 이슈와 관련된 모든 담당자들의 작업을 정리해주세요.", "query_type": "relationship", "expected_guid": "7fb3150e-463f-498b-bf20-95c141f4edd6", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_009", "question": "이슈 8976cf3f-ca3c-4d5f-809b-85c721d20b1c의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "8976cf3f-ca3c-4d5f-809b-85c721d20b1c", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_010", "question": "이슈 99ef5a7c-6fb1-4397-8bc2-2c870e121c6e와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "99ef5a7c-6fb1-4397-8bc2-2c870e121c6e", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_011", "question": "이슈 b6b400ed-61d9-425a-8292-e2c1c75689ca와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "b6b400ed-61d9-425a-8292-e2c1c75689ca", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_012", "question": "이슈 3743b764-001d-4cdf-8a70-8dda3ec30ac8의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "3743b764-001d-4cdf-8a70-8dda3ec30ac8", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_013", "question": "이슈 ca73dbaf-c09e-4db6-bf14-57a01e66b796의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "ca73dbaf-c09e-4db6-bf14-57a01e66b796", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_014", "question": "541e7678-92d3-4acb-8d39-d3c29f01603f 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "541e7678-92d3-4acb-8d39-d3c29f01603f", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_015", "question": "a8e35c1e-9c40-4685-9f83-3232c8f6d44a 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "a8e35c1e-9c40-4685-9f83-3232c8f6d44a", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_016", "question": "이슈 602c2b41-0f29-4528-9306-2e51935fd5a6의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "602c2b41-0f29-4528-9306-2e51935fd5a6", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_017", "question": "이슈 6fa9c60b-5dfd-4176-8657-b19b6c66fcd2의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "6fa9c60b-5dfd-4176-8657-b19b6c66fcd2", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_018", "question": "faaf0048-3324-4e53-8914-89dd9117dbd9 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "faaf0048-3324-4e53-8914-89dd9117dbd9", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_019", "question": "이슈 45e7fbc0-fea0-4f84-ba6e-733fae09c802의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "45e7fbc0-fea0-4f84-ba6e-733fae09c802", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_020", "question": "이슈 b2e0b075-b459-4913-ba3f-1a65d17b1d6d의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "b2e0b075-b459-4913-ba3f-1a65d17b1d6d", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_021", "question": "d3c23b38-2fbf-4556-8898-76fc7b1e4e17 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "d3c23b38-2fbf-4556-8898-76fc7b1e4e17", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_022", "question": "이슈 e944a39f-132e-496c-abd9-0bbf01ec1ec1의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "e944a39f-132e-496c-abd9-0bbf01ec1ec1", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_023", "question": "dac55c21-845c-4e61-85d8-5c1c21f162ff 이슈와 관련된 모든 담당자들의 작업을 정리해주세요.", "query_type": "relationship", "expected_guid": "dac55c21-845c-4e61-85d8-5c1c21f162ff", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_024", "question": "d21b0026-db89-4b89-91ac-a63819d4847c 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "d21b0026-db89-4b89-91ac-a63819d4847c", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_025", "question": "이슈 8ac9822a-761a-4deb-9f39-f61286acbf6a와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "8ac9822a-761a-4deb-9f39-f61286acbf6a", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_026", "question": "이슈 0671dade-d57f-4ec4-b890-927e8790f8be의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "0671dade-d57f-4ec4-b890-927e8790f8be", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_027", "question": "이슈 875cffd6-7d08-47c7-9e63-58c99466b5a1의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "875cffd6-7d08-47c7-9e63-58c99466b5a1", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_028", "question": "이슈 4f379c96-b12b-4fa3-8d69-53eb4a16e787의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "4f379c96-b12b-4fa3-8d69-53eb4a16e787", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_029", "question": "e7cb061a-03b1-4627-993b-e9f264525959 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "e7cb061a-03b1-4627-993b-e9f264525959", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_030", "question": "이슈 fc58b375-7848-406b-9c4c-f88925e38366의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "fc58b375-7848-406b-9c4c-f88925e38366", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_031", "question": "이슈 d5434a7e-b1b9-4444-a966-69b3bba332d4의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "d5434a7e-b1b9-4444-a966-69b3bba332d4", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_032", "question": "이슈 f30a7331-b4a3-4b47-8704-ac51a2205305와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "f30a7331-b4a3-4b47-8704-ac51a2205305", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_033", "question": "이슈 a4afb4f8-3091-41e7-8da3-87456d7d6358와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "a4afb4f8-3091-41e7-8da3-87456d7d6358", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_034", "question": "d21f5163-7995-45af-bc61-7b60f80ca492 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "d21f5163-7995-45af-bc61-7b60f80ca492", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_035", "question": "이슈 b2e0b075-b459-4913-ba3f-1a65d17b1d6d와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "b2e0b075-b459-4913-ba3f-1a65d17b1d6d", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_036", "question": "be7d419f-915f-465a-8d9c-c9cecdf386d1 이슈와 관련된 모든 담당자들의 작업을 정리해주세요.", "query_type": "relationship", "expected_guid": "be7d419f-915f-465a-8d9c-c9cecdf386d1", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_037", "question": "daf5fd5e-029e-4861-a238-f831feb3e972 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "daf5fd5e-029e-4861-a238-f831feb3e972", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_038", "question": "이슈 45e7fbc0-fea0-4f84-ba6e-733fae09c802의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "45e7fbc0-fea0-4f84-ba6e-733fae09c802", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_039", "question": "이슈 beecf80c-9a44-4f9a-88dd-fcdbefa3b959와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "beecf80c-9a44-4f9a-88dd-fcdbefa3b959", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_040", "question": "이슈 076fbfab-6a6b-48f1-aaac-f94f4d8b7e6c와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "076fbfab-6a6b-48f1-aaac-f94f4d8b7e6c", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_041", "question": "이슈 d74edf45-961f-4b68-bcd7-fa26c2b21df4의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "d74edf45-961f-4b68-bcd7-fa26c2b21df4", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_042", "question": "이슈 589499b8-bbc9-410f-9cb9-4c52bfd20e2d의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "589499b8-bbc9-410f-9cb9-4c52bfd20e2d", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_043", "question": "이슈 9f226776-bef3-4da0-8b2e-6ee1a2296fd8와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "9f226776-bef3-4da0-8b2e-6ee1a2296fd8", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_044", "question": "이슈 73c3d218-ea05-4e3e-a85d-dd20d9036d56의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "73c3d218-ea05-4e3e-a85d-dd20d9036d56", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_045", "question": "이슈 b77a3542-02ba-4a4f-965b-ba62d145fde7의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "b77a3542-02ba-4a4f-965b-ba62d145fde7", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_046", "question": "이슈 21b75a89-0347-4a58-8821-7326c9598743와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "21b75a89-0347-4a58-8821-7326c9598743", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_047", "question": "1a04193d-6741-46d2-b533-1bc70a42dbcc 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "1a04193d-6741-46d2-b533-1bc70a42dbcc", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_048", "question": "이슈 4c1f21d5-d815-4f9e-802c-b688e58896c3의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "4c1f21d5-d815-4f9e-802c-b688e58896c3", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_049", "question": "75ccd8f7-3e9c-45f8-b6ec-75eee95ddbad 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "75ccd8f7-3e9c-45f8-b6ec-75eee95ddbad", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_050", "question": "이슈 f5e92f35-f04e-4227-a08b-ea32d1f8138c의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "f5e92f35-f04e-4227-a08b-ea32d1f8138c", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_051", "question": "이슈 1c34f67b-dcd7-4366-85cd-cf6277f7bc10와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "1c34f67b-dcd7-4366-85cd-cf6277f7bc10", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_052", "question": "이슈 91ff2adb-f944-4c90-97b9-b8d58f935ef0의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "91ff2adb-f944-4c90-97b9-b8d58f935ef0", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_053", "question": "ea37cc2e-6a04-493f-bd9a-e94fac6228c0 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "ea37cc2e-6a04-493f-bd9a-e94fac6228c0", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_054", "question": "이슈 28942812-8783-4d92-9c54-8a8f31937975와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "28942812-8783-4d92-9c54-8a8f31937975", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_055", "question": "이슈 9f20fb9d-8072-4f32-8499-0f32ece45416의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "9f20fb9d-8072-4f32-8499-0f32ece45416", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_056", "question": "이슈 69955d8b-43fa-421b-bbe2-fb31d5c8c496의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "69955d8b-43fa-421b-bbe2-fb31d5c8c496", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_057", "question": "754f6eb8-d2ca-4427-bcb4-096137baa039 이슈와 동시에 발생한 다른 이슈들을 보여주세요.", "query_type": "relationship", "expected_guid": "754f6eb8-d2ca-4427-bcb4-096137baa039", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_058", "question": "이슈 b4643ef6-8ead-4734-b337-6175b22419bb의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "b4643ef6-8ead-4734-b337-6175b22419bb", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_059", "question": "이슈 f4b251be-116b-48ac-a306-1f586f5f1b27의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "f4b251be-116b-48ac-a306-1f586f5f1b27", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_060", "question": "3146b55f-ac72-4490-bb06-60cc254b3d8e 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "3146b55f-ac72-4490-bb06-60cc254b3d8e", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_061", "question": "이슈 6866cfae-41bd-4fb4-846c-47040b30b8ce의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "6866cfae-41bd-4fb4-846c-47040b30b8ce", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_062", "question": "1fe443cd-1358-4fb7-8b55-bc124f038329 이슈와 유사한 다른 이슈들을 찾아주세요.", "query_type": "relationship", "expected_guid": "1fe443cd-1358-4fb7-8b55-bc124f038329", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_063", "question": "이슈 bb0e90f5-c47c-4176-b597-589db0c6d2c4와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "bb0e90f5-c47c-4176-b597-589db0c6d2c4", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_064", "question": "27408960-a2a5-4769-84e8-b196b290c6a4 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "27408960-a2a5-4769-84e8-b196b290c6a4", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_065", "question": "d0fe1c75-dff9-4641-8ad7-2f51e127a92a 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "d0fe1c75-dff9-4641-8ad7-2f51e127a92a", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_066", "question": "2c4783f2-e021-426a-bf2e-6cffd9b25647 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "2c4783f2-e021-426a-bf2e-6cffd9b25647", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_067", "question": "이슈 1f7544a7-4cf0-4f3f-83e4-e7fe07b40146의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "1f7544a7-4cf0-4f3f-83e4-e7fe07b40146", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_068", "question": "이슈 c220d632-fe66-416b-a272-1648e751ccce와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "c220d632-fe66-416b-a272-1648e751ccce", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_069", "question": "이슈 938d1cd4-9693-413f-acf5-d5f9c439b635의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "938d1cd4-9693-413f-acf5-d5f9c439b635", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_070", "question": "이슈 ee6f5351-2b19-4631-adce-f153e3996899와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "ee6f5351-2b19-4631-adce-f153e3996899", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_071", "question": "0f684fa6-cc1d-45b2-86c5-d474ed70b574 이슈와 관련된 모든 담당자들의 작업을 정리해주세요.", "query_type": "relationship", "expected_guid": "0f684fa6-cc1d-45b2-86c5-d474ed70b574", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_072", "question": "이슈 44da1335-8a41-47ae-8b5c-e01cd25f1cbb의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "44da1335-8a41-47ae-8b5c-e01cd25f1cbb", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_073", "question": "이슈 450ce387-6c26-4163-98fe-2fad9005d46d의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "450ce387-6c26-4163-98fe-2fad9005d46d", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_074", "question": "이슈 0ab2dbbc-b159-440a-8e8f-0d2c486a97a6와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "0ab2dbbc-b159-440a-8e8f-0d2c486a97a6", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_075", "question": "이슈 5d48a25f-8034-4e63-874f-2bb3d9dff022와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "5d48a25f-8034-4e63-874f-2bb3d9dff022", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_076", "question": "이슈 f4dd1550-7b60-451d-83fb-6d02fecba5bc와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "f4dd1550-7b60-451d-83fb-6d02fecba5bc", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_077", "question": "9967405c-3bcf-4941-ab80-02b58ff18c5a 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "9967405c-3bcf-4941-ab80-02b58ff18c5a", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_078", "question": "이슈 e3502e98-f017-478e-9343-6b9c9401251c와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "e3502e98-f017-478e-9343-6b9c9401251c", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_079", "question": "이슈 7ef65424-1abd-4283-a2ff-da9efb4c55e4의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "7ef65424-1abd-4283-a2ff-da9efb4c55e4", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_080", "question": "d60a4684-744f-4f40-85db-08807e56d846 이슈와 동시에 발생한 다른 이슈들을 보여주세요.", "query_type": "relationship", "expected_guid": "d60a4684-744f-4f40-85db-08807e56d846", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_081", "question": "이슈 3777746b-fac9-4545-9d00-516dcf0365f0의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "3777746b-fac9-4545-9d00-516dcf0365f0", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_082", "question": "이슈 a3befb7d-8395-4e52-bbca-382fc4198217의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "a3befb7d-8395-4e52-bbca-382fc4198217", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_083", "question": "5e05c951-2c48-4712-9501-b0044dbc3fe5 이슈가 다른 이슈에 미치는 영향을 보여주세요.", "query_type": "relationship", "expected_guid": "5e05c951-2c48-4712-9501-b0044dbc3fe5", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_084", "question": "이슈 b77a3542-02ba-4a4f-965b-ba62d145fde7와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "b77a3542-02ba-4a4f-965b-ba62d145fde7", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_085", "question": "이슈 b6b400ed-61d9-425a-8292-e2c1c75689ca와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "b6b400ed-61d9-425a-8292-e2c1c75689ca", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_086", "question": "이슈 e35e9877-7865-454c-b4df-b28e7cf5c420의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "e35e9877-7865-454c-b4df-b28e7cf5c420", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_087", "question": "3b450b86-71a4-48ad-8b1a-9e3f0be55993 이슈와 관련된 모든 담당자들의 작업을 정리해주세요.", "query_type": "relationship", "expected_guid": "3b450b86-71a4-48ad-8b1a-9e3f0be55993", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_088", "question": "이슈 968b1bad-01e3-4881-bf9e-31d129a67a31의 해결이 다른 이슈에 미치는 영향을 알려주세요.", "query_type": "relationship", "expected_guid": "968b1bad-01e3-4881-bf9e-31d129a67a31", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_089", "question": "aa5a4522-2cf7-4720-a905-9fc98bb120ff 이슈와 관련된 모든 담당자들의 작업을 정리해주세요.", "query_type": "relationship", "expected_guid": "aa5a4522-2cf7-4720-a905-9fc98bb120ff", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_090", "question": "이슈 95ae2ae0-9020-4e61-87be-d8b7bfe960b0의 연쇄 반응을 분석해주세요.", "query_type": "relationship", "expected_guid": "95ae2ae0-9020-4e61-87be-d8b7bfe960b0", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_091", "question": "이슈 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9와 연관된 모든 문제점을 찾아주세요.", "query_type": "relationship", "expected_guid": "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_092", "question": "857dd755-c5a8-4474-903f-f865e510f627 이슈의 원인과 결과를 분석해주세요.", "query_type": "relationship", "expected_guid": "857dd755-c5a8-4474-903f-f865e510f627", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_093", "question": "이슈 ccadfa6a-5998-4520-915d-f0d52a4a3990와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "ccadfa6a-5998-4520-915d-f0d52a4a3990", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_094", "question": "aeb8d729-ec2f-4f46-aa9e-e7a9f15582b0 이슈와 유사한 다른 이슈들을 찾아주세요.", "query_type": "relationship", "expected_guid": "aeb8d729-ec2f-4f46-aa9e-e7a9f15582b0", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_095", "question": "이슈 9e5b60ee-e558-40b4-860e-4754e1c55a08의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "9e5b60ee-e558-40b4-860e-4754e1c55a08", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_096", "question": "b4643ef6-8ead-4734-b337-6175b22419bb 이슈와 관련된 모든 담당자들의 작업을 정리해주세요.", "query_type": "relationship", "expected_guid": "b4643ef6-8ead-4734-b337-6175b22419bb", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_097", "question": "이슈 5879b051-f79a-447d-a371-fab155061d75와 관련된 다른 이슈들은 무엇인가요?", "query_type": "relationship", "expected_guid": "5879b051-f79a-447d-a371-fab155061d75", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_098", "question": "이슈 c9582109-3852-4bdf-86bf-52a6cfd74bf1의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "c9582109-3852-4bdf-86bf-52a6cfd74bf1", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_099", "question": "73ff1e90-e8f3-45e3-a973-b4fdcb338aa0 이슈와 관련된 모든 담당자들의 작업을 정리해주세요.", "query_type": "relationship", "expected_guid": "73ff1e90-e8f3-45e3-a973-b4fdcb338aa0", "difficulty": "hard", "requires_graph_traversal": true}
+{"id": "relationship_100", "question": "이슈 793a5f9f-788e-46e4-b484-9c44d3061577의 의존성을 분석해주세요.", "query_type": "relationship", "expected_guid": "793a5f9f-788e-46e4-b484-9c44d3061577", "difficulty": "hard", "requires_graph_traversal": true}
