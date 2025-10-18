@@ -1,0 +1,1412 @@
+{
+  "BM25": {
+    "total_queries": 10,
+    "successful_queries": 10,
+    "success_rate": 1.0,
+    "avg_confidence": 1.0,
+    "avg_entities_found": 1.0,
+    "execution_time": 0.022738933563232422,
+    "detailed_results": [
+      {
+        "question_id": 0,
+        "question": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+        ],
+        "result": {
+          "answer": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "5a5a4ee2-0b51-4e55-b998-6b67f437c90d",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 1,
+        "question": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+        ],
+        "result": {
+          "answer": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 2,
+        "question": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+        ],
+        "result": {
+          "answer": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "56d65605-13a4-4fe5-a6f4-0ec1926935ca",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 3,
+        "question": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+        ],
+        "result": {
+          "answer": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "88c7932f-50eb-47b6-9b1e-c5b88867fd5a",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 4,
+        "question": "GUID d12f4044-5a36-4568-944c-34587c720840의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d12f4044-5a36-4568-944c-34587c720840"
+        ],
+        "result": {
+          "answer": "GUID d12f4044-5a36-4568-944c-34587c720840는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "d12f4044-5a36-4568-944c-34587c720840"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "d12f4044-5a36-4568-944c-34587c720840",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 5,
+        "question": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+        ],
+        "result": {
+          "answer": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 6,
+        "question": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+        ],
+        "result": {
+          "answer": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "2c4783f2-e021-426a-bf2e-6cffd9b25647",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 7,
+        "question": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+        ],
+        "result": {
+          "answer": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "0ffa0104-e99e-4561-9f24-b97a5360ad37",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 8,
+        "question": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "18a87e54-7470-480c-9f9d-f465261ae86a"
+        ],
+        "result": {
+          "answer": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "18a87e54-7470-480c-9f9d-f465261ae86a"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "18a87e54-7470-480c-9f9d-f465261ae86a",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 9,
+        "question": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+        ],
+        "result": {
+          "answer": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970는 BCF_ISSUE 타입의 요소입니다.",
+          "confidence": 1.0,
+          "result_count": 1,
+          "entities": [
+            "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+          ],
+          "source": "BM25",
+          "details": {
+            "guid": "209d2492-2a26-4dcd-839d-aa7b52ea2970",
+            "entity_type": "BCF_ISSUE",
+            "name": "Opmerking"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 1.0,
+        "overlap_count": 1
+      }
+    ]
+  },
+  "ContextualForget": {
+    "total_queries": 10,
+    "successful_queries": 10,
+    "success_rate": 1.0,
+    "avg_confidence": 0.33099999999999996,
+    "avg_entities_found": 1.0,
+    "execution_time": 0.00048613548278808594,
+    "detailed_results": [
+      {
+        "question_id": 0,
+        "question": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "5a5a4ee2-0b51-4e55-b998-6b67f437c90d",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Geelen V1 20-03-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.00011350004933774471,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 1,
+        "question": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Geelen V1 20-03-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.0001,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 2,
+        "question": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "56d65605-13a4-4fe5-a6f4-0ec1926935ca",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Multicom 10-04-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.0001,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 3,
+        "question": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "88c7932f-50eb-47b6-9b1e-c5b88867fd5a",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Multicom 10-04-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.0001,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 4,
+        "question": "GUID d12f4044-5a36-4568-944c-34587c720840의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d12f4044-5a36-4568-944c-34587c720840"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "d12f4044-5a36-4568-944c-34587c720840"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID d12f4044-5a36-4568-944c-34587c720840의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "d12f4044-5a36-4568-944c-34587c720840",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Multicom 10-04-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.0001,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 5,
+        "question": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Multicom 01-04-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.0001,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 6,
+        "question": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "2c4783f2-e021-426a-bf2e-6cffd9b25647",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Multicom 31-03-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.0001,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 7,
+        "question": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "0ffa0104-e99e-4561-9f24-b97a5360ad37",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Waardo 18-03-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.0001,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 8,
+        "question": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "18a87e54-7470-480c-9f9d-f465261ae86a"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "18a87e54-7470-480c-9f9d-f465261ae86a"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "18a87e54-7470-480c-9f9d-f465261ae86a",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Waardo 18-03-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.0001,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 9,
+        "question": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+        ],
+        "result": {
+          "answer": "1개의 관련 항목을 찾았습니다.",
+          "confidence": 0.33099999999999996,
+          "result_count": 1,
+          "entities": [
+            "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+          ],
+          "source": "ContextualForget",
+          "details": {
+            "query": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970의 엔티티 타입은 무엇인가요?",
+            "query_type": "guid",
+            "results": [
+              {
+                "topic_id": "209d2492-2a26-4dcd-839d-aa7b52ea2970",
+                "title": "Opmerking",
+                "author": "",
+                "description": "",
+                "created": "",
+                "source_file": "Controle Waardo 18-03-2015.bcfzip",
+                "data_type": "real_bcf",
+                "contextual_score": 0.43000000000000005
+              }
+            ],
+            "response_time": 0.0001,
+            "forgetting_applied": true,
+            "contextual_scores": [
+              0.43000000000000005
+            ]
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.33099999999999996,
+        "overlap_count": 1
+      }
+    ]
+  },
+  "Hybrid": {
+    "total_queries": 10,
+    "successful_queries": 10,
+    "success_rate": 1.0,
+    "avg_confidence": 0.44967999999999997,
+    "avg_entities_found": 1.0,
+    "execution_time": 0.004523038864135742,
+    "detailed_results": [
+      {
+        "question_id": 0,
+        "question": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+        ],
+        "result": {
+          "answer": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "5a5a4ee2-0b51-4e55-b998-6b67f437c90d",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Geelen V1 20-03-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "5a5a4ee2-0b51-4e55-b998-6b67f437c90d",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.054625+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 1,
+        "question": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+        ],
+        "result": {
+          "answer": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Geelen V1 20-03-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.055124+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 2,
+        "question": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+        ],
+        "result": {
+          "answer": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "56d65605-13a4-4fe5-a6f4-0ec1926935ca",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Multicom 10-04-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "56d65605-13a4-4fe5-a6f4-0ec1926935ca",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.055559+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 3,
+        "question": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+        ],
+        "result": {
+          "answer": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "88c7932f-50eb-47b6-9b1e-c5b88867fd5a",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Multicom 10-04-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "88c7932f-50eb-47b6-9b1e-c5b88867fd5a",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.056075+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 4,
+        "question": "GUID d12f4044-5a36-4568-944c-34587c720840의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d12f4044-5a36-4568-944c-34587c720840"
+        ],
+        "result": {
+          "answer": "GUID d12f4044-5a36-4568-944c-34587c720840는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "d12f4044-5a36-4568-944c-34587c720840"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID d12f4044-5a36-4568-944c-34587c720840의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "d12f4044-5a36-4568-944c-34587c720840"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID d12f4044-5a36-4568-944c-34587c720840의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "d12f4044-5a36-4568-944c-34587c720840",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Multicom 10-04-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID d12f4044-5a36-4568-944c-34587c720840는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "d12f4044-5a36-4568-944c-34587c720840"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "d12f4044-5a36-4568-944c-34587c720840",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.056504+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 5,
+        "question": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+        ],
+        "result": {
+          "answer": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Multicom 01-04-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.056930+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 6,
+        "question": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+        ],
+        "result": {
+          "answer": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "2c4783f2-e021-426a-bf2e-6cffd9b25647",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Multicom 31-03-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "2c4783f2-e021-426a-bf2e-6cffd9b25647",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.057360+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 7,
+        "question": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+        ],
+        "result": {
+          "answer": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "0ffa0104-e99e-4561-9f24-b97a5360ad37",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Waardo 18-03-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "0ffa0104-e99e-4561-9f24-b97a5360ad37",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.057780+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 8,
+        "question": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "18a87e54-7470-480c-9f9d-f465261ae86a"
+        ],
+        "result": {
+          "answer": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "18a87e54-7470-480c-9f9d-f465261ae86a"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "18a87e54-7470-480c-9f9d-f465261ae86a"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "18a87e54-7470-480c-9f9d-f465261ae86a",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Waardo 18-03-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "18a87e54-7470-480c-9f9d-f465261ae86a"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "18a87e54-7470-480c-9f9d-f465261ae86a",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.058196+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      },
+      {
+        "question_id": 9,
+        "question": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+        ],
+        "result": {
+          "answer": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970는 BCF_ISSUE 타입의 요소입니다. (2개 엔진에서 검증됨)",
+          "confidence": 0.44968,
+          "result_count": 2,
+          "entities": [
+            "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+          ],
+          "source": "Hybrid",
+          "details": {
+            "query": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970의 엔티티 타입은 무엇인가요?",
+            "strategy": "weighted_fusion",
+            "engine_results": {
+              "ContextualForget": {
+                "answer": "1개의 관련 항목을 찾았습니다.",
+                "confidence": 0.352,
+                "result_count": 1,
+                "entities": [
+                  "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+                ],
+                "source": "ContextualForget",
+                "details": {
+                  "query": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970의 엔티티 타입은 무엇인가요?",
+                  "query_type": "guid",
+                  "results": [
+                    {
+                      "topic_id": "209d2492-2a26-4dcd-839d-aa7b52ea2970",
+                      "title": "Opmerking",
+                      "author": "",
+                      "description": "",
+                      "created": "",
+                      "source_file": "Controle Waardo 18-03-2015.bcfzip",
+                      "data_type": "real_bcf",
+                      "contextual_score": 0.46
+                    }
+                  ],
+                  "response_time": 0.0001,
+                  "forgetting_applied": true,
+                  "contextual_scores": [
+                    0.46
+                  ]
+                }
+              },
+              "BM25": {
+                "answer": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970는 BCF_ISSUE 타입의 요소입니다.",
+                "confidence": 1.0,
+                "result_count": 1,
+                "entities": [
+                  "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+                ],
+                "source": "BM25",
+                "details": {
+                  "guid": "209d2492-2a26-4dcd-839d-aa7b52ea2970",
+                  "entity_type": "BCF_ISSUE",
+                  "name": "Opmerking"
+                }
+              }
+            },
+            "fused_confidence": 0.44968,
+            "timestamp": "2025-10-18T06:42:35.058613+00:00"
+          }
+        },
+        "success": true,
+        "entities_found": 1,
+        "confidence": 0.44968,
+        "overlap_count": 1
+      }
+    ]
+  }
+}

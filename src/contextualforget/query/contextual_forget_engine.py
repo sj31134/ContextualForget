@@ -93,8 +93,26 @@ class ContextualForgetEngine(AdvancedQueryEngine):
         """GUID 검색 with 맥락적 망각"""
         start_time = time.perf_counter()
         
-        # 기본 GUID 검색 수행
-        results = self.find_by_guid(guid, ttl)
+        # BCF 노드에서 직접 GUID 검색
+        results = []
+        bcf_node = ("BCF", guid)
+        
+        if bcf_node in self.graph:
+            node_data = self.graph.nodes[bcf_node]
+            result = {
+                "topic_id": guid,
+                "title": node_data.get("title", ""),
+                "author": node_data.get("author", ""),
+                "description": node_data.get("description", ""),
+                "created": node_data.get("created", ""),
+                "source_file": node_data.get("source_file", ""),
+                "data_type": node_data.get("data_type", "real_bcf")
+            }
+            results.append(result)
+        
+        # IFC 노드에서도 검색 (기존 로직)
+        ifc_results = self.find_by_guid(guid, ttl)
+        results.extend(ifc_results)
         
         if not self.enable_contextual_forgetting or not apply_forgetting:
             return results
@@ -154,12 +172,43 @@ class ContextualForgetEngine(AdvancedQueryEngine):
         
         return filtered_results
     
+    def _detect_query_type(self, query: str) -> str:
+        """쿼리 타입 자동 감지"""
+        import re
+        
+        # GUID 쿼리 감지
+        guid_pattern = r'([A-Za-z0-9]{8}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{12})'
+        if re.search(guid_pattern, query):
+            return "guid"
+        
+        # 시간 관련 쿼리 감지
+        temporal_keywords = ['최근', '이전', '생성', '날짜', '일', '주', '월', '년', 'recent', 'ago', 'created', 'date']
+        if any(keyword in query.lower() for keyword in temporal_keywords):
+            return "temporal"
+        
+        # 작성자 관련 쿼리 감지
+        author_keywords = ['작성', 'author', 'engineer', 'architect']
+        if any(keyword in query.lower() for keyword in author_keywords):
+            return "author"
+        
+        # 복잡한 쿼리 감지 (여러 조건이 포함된 경우)
+        complex_keywords = ['그리고', '또는', '하지만', 'and', 'or', 'but', 'with', 'without']
+        if any(keyword in query.lower() for keyword in complex_keywords):
+            return "complex"
+        
+        # 기본값: 일반 키워드 쿼리
+        return "general"
+    
     def contextual_query(self, 
                         query: str, 
-                        query_type: str = "general",
+                        query_type: str = "auto",
                         apply_forgetting: bool = True) -> Dict[str, Any]:
         """맥락적 쿼리 처리"""
         start_time = time.perf_counter()
+        
+        # 쿼리 타입 자동 감지
+        if query_type == "auto":
+            query_type = self._detect_query_type(query)
         
         # 쿼리 타입에 따른 적응적 가중치 적용
         if self.enable_contextual_forgetting:
@@ -172,7 +221,7 @@ class ContextualForgetEngine(AdvancedQueryEngine):
         if query_type == "guid":
             # GUID 패턴 추출
             import re
-            guid_pattern = r'\b[A-Za-z0-9]{22}\b'
+            guid_pattern = r'([A-Za-z0-9]{8}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{12})'
             guid_match = re.search(guid_pattern, query)
             if guid_match:
                 results = self.find_by_guid_with_forgetting(guid_match.group(), apply_forgetting=apply_forgetting)
@@ -202,16 +251,34 @@ class ContextualForgetEngine(AdvancedQueryEngine):
         else:
             confidence = 0.0
 
-        # 결과 정리
+        # entities 리스트 추출
+        entities = []
+        for doc in results:
+            entity_id = doc.get('doc_id') or doc.get('topic_id') or doc.get('guid', '')
+            if entity_id:
+                entities.append(entity_id)
+        
+        # 답변 생성 (간단한 요약)
+        if results:
+            answer = f"{len(results)}개의 관련 항목을 찾았습니다."
+        else:
+            answer = "관련 정보를 찾을 수 없습니다."
+        
+        # 결과 정리 (표준 형식)
         response = {
-            'query': query,
-            'query_type': query_type,
-            'results': results,
-            'result_count': len(results),
+            'answer': answer,
             'confidence': confidence,
-            'response_time': response_time,
-            'forgetting_applied': apply_forgetting and self.enable_contextual_forgetting,
-            'contextual_scores': contextual_scores
+            'result_count': len(results),
+            'entities': entities,
+            'source': 'ContextualForget',
+            'details': {
+                'query': query,
+                'query_type': query_type,
+                'results': results,
+                'response_time': response_time,
+                'forgetting_applied': apply_forgetting and self.enable_contextual_forgetting,
+                'contextual_scores': contextual_scores
+            }
         }
         
         # 성능 메트릭 업데이트

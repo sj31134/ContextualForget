@@ -1,0 +1,1748 @@
+{
+  "slabim": {
+    "dataset_name": "SLABIM",
+    "source": "HKUST Aerial Robotics Lab",
+    "total_size": 51331449,
+    "file_structure": {
+      "tutorial": {
+        "misc": {
+          "config.py": {
+            "type": "file",
+            "size": 3954,
+            "extension": ".py"
+          }
+        },
+        "registration": {
+          "eval.py": {
+            "type": "file",
+            "size": 198,
+            "extension": ".py"
+          }
+        },
+        "pose_tracking": {
+          "eval.py": {
+            "type": "file",
+            "size": 25,
+            "extension": ".py"
+          }
+        },
+        "semantic_mapping": {
+          "eval.py": {
+            "type": "file",
+            "size": 28,
+            "extension": ".py"
+          }
+        }
+      },
+      "LICENSE": {
+        "type": "file",
+        "size": 35149,
+        "extension": ""
+      },
+      "config": {
+        "5F": {
+          "5f_region_01.yaml": {
+            "type": "file",
+            "size": 520,
+            "extension": ".yaml"
+          }
+        }
+      },
+      "README.md": {
+        "type": "file",
+        "size": 8225,
+        "extension": ".md"
+      },
+      ".gitignore": {
+        "type": "file",
+        "size": 3138,
+        "extension": ""
+      },
+      ".git": {
+        "config": {
+          "type": "file",
+          "size": 303,
+          "extension": ""
+        },
+        "objects": {
+          "pack": {
+            "pack-12d11e446c32ba75bfaccd5413c47e917939848e.rev": {
+              "type": "file",
+              "size": 228,
+              "extension": ".rev"
+            },
+            "pack-12d11e446c32ba75bfaccd5413c47e917939848e.pack": {
+              "type": "file",
+              "size": 25623026,
+              "extension": ".pack"
+            },
+            "pack-12d11e446c32ba75bfaccd5413c47e917939848e.idx": {
+              "type": "file",
+              "size": 2304,
+              "extension": ".idx"
+            }
+          },
+          "info": {}
+        },
+        "HEAD": {
+          "type": "file",
+          "size": 21,
+          "extension": ""
+        },
+        "info": {
+          "exclude": {
+            "type": "file",
+            "size": 240,
+            "extension": ""
+          }
+        },
+        "logs": {
+          "HEAD": {
+            "type": "file",
+            "size": 209,
+            "extension": ""
+          },
+          "refs": {
+            "heads": null,
+            "remotes": null
+          }
+        },
+        "description": {
+          "type": "file",
+          "size": 73,
+          "extension": ""
+        },
+        "hooks": {
+          "commit-msg.sample": {
+            "type": "file",
+            "size": 896,
+            "extension": ".sample"
+          },
+          "pre-rebase.sample": {
+            "type": "file",
+            "size": 4898,
+            "extension": ".sample"
+          },
+          "sendemail-validate.sample": {
+            "type": "file",
+            "size": 2308,
+            "extension": ".sample"
+          },
+          "pre-commit.sample": {
+            "type": "file",
+            "size": 1649,
+            "extension": ".sample"
+          },
+          "applypatch-msg.sample": {
+            "type": "file",
+            "size": 478,
+            "extension": ".sample"
+          },
+          "fsmonitor-watchman.sample": {
+            "type": "file",
+            "size": 4726,
+            "extension": ".sample"
+          },
+          "pre-receive.sample": {
+            "type": "file",
+            "size": 544,
+            "extension": ".sample"
+          },
+          "prepare-commit-msg.sample": {
+            "type": "file",
+            "size": 1492,
+            "extension": ".sample"
+          },
+          "post-update.sample": {
+            "type": "file",
+            "size": 189,
+            "extension": ".sample"
+          },
+          "pre-merge-commit.sample": {
+            "type": "file",
+            "size": 416,
+            "extension": ".sample"
+          },
+          "pre-applypatch.sample": {
+            "type": "file",
+            "size": 424,
+            "extension": ".sample"
+          },
+          "pre-push.sample": {
+            "type": "file",
+            "size": 1374,
+            "extension": ".sample"
+          },
+          "update.sample": {
+            "type": "file",
+            "size": 3650,
+            "extension": ".sample"
+          },
+          "push-to-checkout.sample": {
+            "type": "file",
+            "size": 2783,
+            "extension": ".sample"
+          }
+        },
+        "refs": {
+          "heads": {
+            "main": {
+              "type": "file",
+              "size": 41,
+              "extension": ""
+            }
+          },
+          "tags": {},
+          "remotes": {
+            "origin": null
+          }
+        },
+        "index": {
+          "type": "file",
+          "size": 1645,
+          "extension": ""
+        },
+        "packed-refs": {
+          "type": "file",
+          "size": 112,
+          "extension": ""
+        }
+      },
+      "assets": {
+        "pose_tracking.gif": {
+          "type": "file",
+          "size": 7867274,
+          "extension": ".gif"
+        },
+        "sensor_suite.png": {
+          "type": "file",
+          "size": 441712,
+          "extension": ".png"
+        },
+        "collection.gif": {
+          "type": "file",
+          "size": 10604313,
+          "extension": ".gif"
+        },
+        "overview.png": {
+          "type": "file",
+          "size": 1066202,
+          "extension": ".png"
+        },
+        "semantic_mapping.gif": {
+          "type": "file",
+          "size": 5086647,
+          "extension": ".gif"
+        },
+        "registration.gif": {
+          "type": "file",
+          "size": 513931,
+          "extension": ".gif"
+        },
+        "logo.png": {
+          "type": "file",
+          "size": 45656,
+          "extension": ".png"
+        }
+      }
+    },
+    "bcf_availability": false,
+    "bcf_conversion_potential": "high",
+    "time_series_data": true,
+    "real_data": true,
+    "credibility_contribution": "high",
+    "integration_difficulty": "medium",
+    "key_features": [
+      "SLAM 스캔 데이터와 BIM 모델 결합",
+      "12개 세션의 다층/다구역 데이터",
+      "LiDAR와 카메라 센서 데이터",
+      "Ground truth pose 정보",
+      "시맨틱 매핑 데이터 (floor, wall, door, column)",
+      "ROS bag 파일 포함"
+    ],
+    "limitations": [],
+    "bcf_conversion_methods": [
+      "SLAM 스캔 vs BIM 모델 차이점 분석",
+      "센서 데이터의 이상치 탐지",
+      "시간별 변화 추적을 통한 이슈 생성",
+      "시맨틱 매핑 오류를 BCF 이슈로 변환"
+    ],
+    "time_series_features": [
+      "12개 세션의 시간별 데이터",
+      "pose_frame_to_bim.txt (프레임별 pose)",
+      "pose_map_to_bim.txt (맵별 pose)",
+      "timestamps.txt (시간 정보)"
+    ],
+    "credibility_reasons": [
+      "실제 HKUST 건물 데이터",
+      "ICRA 2025 논문 발표 예정",
+      "공개된 SLAM-BIM 결합 데이터셋",
+      "다양한 로보틱스 태스크 검증"
+    ],
+    "status": "analyzed"
+  },
+  "schependomlaan": {
+    "dataset_name": "Schependomlaan",
+    "source": "TU Eindhoven ISBE Group",
+    "total_size": 5671195153,
+    "file_structure": {
+      "As Planned models": {
+        "IFC Schependomlaan incl planningsdata.ifc": {
+          "type": "file",
+          "size": 65078748,
+          "extension": ".ifc"
+        },
+        "Week 37 11 sept IFC Schependomlaan incl planningsdata.ifc": {
+          "type": "file",
+          "size": 65064843,
+          "extension": ".ifc"
+        },
+        "Week 26 26 june IFC Schependomlaan incl planningsdata.ifc": {
+          "type": "file",
+          "size": 14843114,
+          "extension": ".ifc"
+        },
+        "Week 30 24 july IFC Schependomlaan incl planningsdata.ifc": {
+          "type": "file",
+          "size": 30292565,
+          "extension": ".ifc"
+        },
+        "Synchro": {
+          "Synchro project Schependomlaan.sp": {
+            "type": "file",
+            "size": 11010587,
+            "extension": ".sp"
+          }
+        },
+        "Week 27 3 july IFC Schependomlaan incl planningsdata.ifc": {
+          "type": "file",
+          "size": 19547479,
+          "extension": ".ifc"
+        },
+        "Week 29 17 july IFC Schependomlaan incl planningsdata.ifc": {
+          "type": "file",
+          "size": 28765558,
+          "extension": ".ifc"
+        },
+        "Week 28 10 july IFC Schependomlaan incl planningsdata.ifc": {
+          "type": "file",
+          "size": 26715414,
+          "extension": ".ifc"
+        }
+      },
+      "LICENSE.MD": {
+        "type": "file",
+        "size": 217,
+        "extension": ".MD"
+      },
+      "Drone images and videos": {
+        "Link to Drone images and videos.url": {
+          "type": "file",
+          "size": 140,
+          "extension": ".url"
+        }
+      },
+      "Comparison As Planned As Built": {
+        "comparison_all weeks.xlsx": {
+          "type": "file",
+          "size": 28124,
+          "extension": ".xlsx"
+        }
+      },
+      "Coordination model and subcontractors models": {
+        "Checks": {
+          "BCF": {
+            "Controle Geelen V2 20-03-2015.bcfzip": {
+              "type": "file",
+              "size": 560830,
+              "extension": ".bcfzip"
+            },
+            "Controle Multicom 10-04-2015.bcfzip": {
+              "type": "file",
+              "size": 1335918,
+              "extension": ".bcfzip"
+            },
+            "Controle Multicom 31-03-2015.bcfzip": {
+              "type": "file",
+              "size": 567915,
+              "extension": ".bcfzip"
+            },
+            "Controle Waardo 18-03-2015.bcfzip": {
+              "type": "file",
+              "size": 4656863,
+              "extension": ".bcfzip"
+            },
+            "Controle Jordahl 20-04-2015.bcfzip": {
+              "type": "file",
+              "size": 841332,
+              "extension": ".bcfzip"
+            },
+            "Controle Linden 11-05-2015.bcfzip": {
+              "type": "file",
+              "size": 3231514,
+              "extension": ".bcfzip"
+            },
+            "Controle Multicom 01-04-2015.bcfzip": {
+              "type": "file",
+              "size": 355959,
+              "extension": ".bcfzip"
+            },
+            "Controle Willemsen 19-06-2015.bcfzip": {
+              "type": "file",
+              "size": 980444,
+              "extension": ".bcfzip"
+            },
+            "Controle FEK 07-05-2015.bcfzip": {
+              "type": "file",
+              "size": 1467051,
+              "extension": ".bcfzip"
+            },
+            "Controle Multicom 26-03-2015.bcfzip": {
+              "type": "file",
+              "size": 2205510,
+              "extension": ".bcfzip"
+            },
+            "Controle Ytong 01-04-2015.bcfzip": {
+              "type": "file",
+              "size": 435956,
+              "extension": ".bcfzip"
+            },
+            "Controle Geelen V1 20-03-2015.bcfzip": {
+              "type": "file",
+              "size": 1973411,
+              "extension": ".bcfzip"
+            },
+            "Controle Linden 18-05-2015.bcfzip": {
+              "type": "file",
+              "size": 765716,
+              "extension": ".bcfzip"
+            },
+            "Controle Willemsen 17-06-2015.bcfzip": {
+              "type": "file",
+              "size": 4946306,
+              "extension": ".bcfzip"
+            },
+            "Controle FEK 16-04-2015.bcfzip": {
+              "type": "file",
+              "size": 706042,
+              "extension": ".bcfzip"
+            },
+            "Controle Willemsen 26-05-2015.bcfzip": {
+              "type": "file",
+              "size": 4034097,
+              "extension": ".bcfzip"
+            },
+            "Controle Waardo 26-03-2015.bcfzip": {
+              "type": "file",
+              "size": 660884,
+              "extension": ".bcfzip"
+            },
+            "Controle staalconstructie 27-03-2015.bcfzip": {
+              "type": "file",
+              "size": 2443593,
+              "extension": ".bcfzip"
+            },
+            "Controle Xella BG 20-03-2015.bcfzip": {
+              "type": "file",
+              "size": 573508,
+              "extension": ".bcfzip"
+            },
+            "Controle Geelen V3+Dak 20-03-2015.bcfzip": {
+              "type": "file",
+              "size": 2168707,
+              "extension": ".bcfzip"
+            }
+          },
+          "Tekla BIMsight package": {
+            "Controle Willemsen 26-05-2015.tbp": {
+              "type": "file",
+              "size": 19835138,
+              "extension": ".tbp"
+            },
+            "Controle FEK 07-05-2015.tbp": {
+              "type": "file",
+              "size": 11967645,
+              "extension": ".tbp"
+            },
+            "Controle Geelen V3+Dak 20-03-2015.tbp": {
+              "type": "file",
+              "size": 17725065,
+              "extension": ".tbp"
+            },
+            "Controle Ytong 01-04-2015.tbp": {
+              "type": "file",
+              "size": 11066539,
+              "extension": ".tbp"
+            },
+            "Controle Willemsen 19-06-2015.tbp": {
+              "type": "file",
+              "size": 23167914,
+              "extension": ".tbp"
+            },
+            "Controle Multicom 01-04-2015.tbp": {
+              "type": "file",
+              "size": 11683637,
+              "extension": ".tbp"
+            },
+            "Controle Linden 11-05-2015.tbp": {
+              "type": "file",
+              "size": 13028787,
+              "extension": ".tbp"
+            },
+            "Controle Linden 18-05-2015.tbp": {
+              "type": "file",
+              "size": 12579719,
+              "extension": ".tbp"
+            },
+            "Controle Waardo 26-03-2015.tbp": {
+              "type": "file",
+              "size": 19020123,
+              "extension": ".tbp"
+            },
+            "Controle Multicom 26-03-2015.tbp": {
+              "type": "file",
+              "size": 11265831,
+              "extension": ".tbp"
+            },
+            "Controle Waardo 18-03-2015.tbp": {
+              "type": "file",
+              "size": 19197491,
+              "extension": ".tbp"
+            },
+            "Controle Multicom 31-03-2015.tbp": {
+              "type": "file",
+              "size": 11470304,
+              "extension": ".tbp"
+            },
+            "Controle FEK 16-04-2015.tbp": {
+              "type": "file",
+              "size": 9860042,
+              "extension": ".tbp"
+            },
+            "Controle Geelen V2 20-03-2015.tbp": {
+              "type": "file",
+              "size": 15932262,
+              "extension": ".tbp"
+            },
+            "Controle Multicom 10-04-2015.tbp": {
+              "type": "file",
+              "size": 13208343,
+              "extension": ".tbp"
+            },
+            "Controle Jordahl 20-04-2015.tbp": {
+              "type": "file",
+              "size": 10238535,
+              "extension": ".tbp"
+            },
+            "Controle Willemsen 17-06-2015.tbp": {
+              "type": "file",
+              "size": 24183762,
+              "extension": ".tbp"
+            },
+            "Controle Xella BG 20-03-2015.tbp": {
+              "type": "file",
+              "size": 9308890,
+              "extension": ".tbp"
+            },
+            "Controle Geelen V1 20-03-2015.tbp": {
+              "type": "file",
+              "size": 16151081,
+              "extension": ".tbp"
+            },
+            "Controle staalconstructie 27-03-2015.tbp": {
+              "type": "file",
+              "size": 11561688,
+              "extension": ".tbp"
+            }
+          }
+        },
+        "ROOT-Vebo interne modelkwaliteit.bcfzip": {
+          "type": "file",
+          "size": 10318,
+          "extension": ".bcfzip"
+        },
+        "BIMsight Projectdata1": {
+          "YTONG-Kavel 06.ifc": {
+            "type": "file",
+            "size": 60863,
+            "extension": ".ifc"
+          },
+          "SONSBEEK-V1 Rio+MV+Hwa.dwg": {
+            "type": "file",
+            "size": 352319,
+            "extension": ".dwg"
+          },
+          "ROOT-prefab_vloer_lifttop.ifczip": {
+            "type": "file",
+            "size": 7961,
+            "extension": ".ifczip"
+          },
+          "YTONG-Kavel 07.ifc": {
+            "type": "file",
+            "size": 63277,
+            "extension": ".ifc"
+          },
+          "ProjectData": {
+            "YTONG-Kavel 06.ifc": {
+              "type": "file",
+              "size": 68044,
+              "extension": ".ifc"
+            },
+            "SONSBEEK-V1 Rio+MV+Hwa.dwg": {
+              "type": "file",
+              "size": 352319,
+              "extension": ".dwg"
+            },
+            "ROOT-prefab_vloer_lifttop.ifczip": {
+              "type": "file",
+              "size": 7961,
+              "extension": ".ifczip"
+            },
+            "YTONG-Kavel 07.ifc": {
+              "type": "file",
+              "size": 63274,
+              "extension": ".ifc"
+            },
+            "ProjectData": null,
+            "comments": null,
+            "YTONG-Kavel 05.ifc": {
+              "type": "file",
+              "size": 63288,
+              "extension": ".ifc"
+            },
+            "ROOT-kapconstructie_dakkapellen_platdak.ifczip": {
+              "type": "file",
+              "size": 348082,
+              "extension": ".ifczip"
+            },
+            "ROOT-lateien_en_geveldragers.ifczip": {
+              "type": "file",
+              "size": 85708,
+              "extension": ".ifczip"
+            },
+            "YTONG-Kavel 04.ifc": {
+              "type": "file",
+              "size": 68162,
+              "extension": ".ifc"
+            },
+            "YTONG-Kavel 10.ifc": {
+              "type": "file",
+              "size": 66187,
+              "extension": ".ifc"
+            },
+            "ROOT-prefab_balkons.ifczip": {
+              "type": "file",
+              "size": 12864,
+              "extension": ".ifczip"
+            },
+            "SONSBEEK-V1 Water+Gas+CV.dwg": {
+              "type": "file",
+              "size": 426049,
+              "extension": ".dwg"
+            },
+            "YTONG-Kavel 01.ifc": {
+              "type": "file",
+              "size": 75290,
+              "extension": ".ifc"
+            },
+            "YTONG-Kavel 03.ifc": {
+              "type": "file",
+              "size": 96981,
+              "extension": ".ifc"
+            },
+            "WAARDO-Kanaalplaatvloer.ifc": {
+              "type": "file",
+              "size": 4697244,
+              "extension": ".ifc"
+            },
+            "redlines": null,
+            "SONSBEEK-Fund. Water+Gas+CV.dwg": {
+              "type": "file",
+              "size": 200094,
+              "extension": ".dwg"
+            },
+            "YTONG-Kavel 02.ifc": {
+              "type": "file",
+              "size": 56011,
+              "extension": ".ifc"
+            },
+            "snapshots": null,
+            "ROOT-traphekken.ifczip": {
+              "type": "file",
+              "size": 65394,
+              "extension": ".ifczip"
+            },
+            "SONSBEEK-V2 Sparingen.dwg": {
+              "type": "file",
+              "size": 193641,
+              "extension": ".dwg"
+            },
+            "SONSBEEK-Dak Water+Gas+CV.dwg": {
+              "type": "file",
+              "size": 212935,
+              "extension": ".dwg"
+            },
+            "SONSBEEK-V2 Rio+MV+Hwa.dwg": {
+              "type": "file",
+              "size": 338122,
+              "extension": ".dwg"
+            },
+            "SONSBEEK-Dak Rio+MV+Hwa.dwg": {
+              "type": "file",
+              "size": 264667,
+              "extension": ".dwg"
+            },
+            "JORDAHL-Gevelderagers.ifc": {
+              "type": "file",
+              "size": 4982429,
+              "extension": ".ifc"
+            },
+            "XELLA-Begane grond.ifc": {
+              "type": "file",
+              "size": 596450,
+              "extension": ".ifc"
+            },
+            "ROOT-kalkzandsteen.ifczip": {
+              "type": "file",
+              "size": 262213,
+              "extension": ".ifczip"
+            },
+            "V_L_Constructief.ifc": {
+              "type": "file",
+              "size": 2146522,
+              "extension": ".ifc"
+            },
+            "ROOT-houten kozijnen.ifczip": {
+              "type": "file",
+              "size": 1898930,
+              "extension": ".ifczip"
+            },
+            "SONSBEEK-V1 Sparingen.dwg": {
+              "type": "file",
+              "size": 192988,
+              "extension": ".dwg"
+            },
+            "SONSBEEK-Fund. Rio+MV+Hwa.dwg": {
+              "type": "file",
+              "size": 275042,
+              "extension": ".dwg"
+            },
+            "YTONG-Algemeen.ifc": {
+              "type": "file",
+              "size": 11162,
+              "extension": ".ifc"
+            },
+            "SONSBEEK-Dak Sparingen.dwg": {
+              "type": "file",
+              "size": 194707,
+              "extension": ".dwg"
+            },
+            "SONSBEEK-V3 Rio+MV+Hwa.dwg": {
+              "type": "file",
+              "size": 288641,
+              "extension": ".dwg"
+            },
+            "HB_Nutsvoorzieningen.ifc": {
+              "type": "file",
+              "size": 34475935,
+              "extension": ".ifc"
+            },
+            "ROOT-staal.ifczip": {
+              "type": "file",
+              "size": 170769,
+              "extension": ".ifczip"
+            },
+            "ROOT-Compleet.ifczip": {
+              "type": "file",
+              "size": 8873221,
+              "extension": ".ifczip"
+            },
+            "MULTICOM-Prefab.ifc": {
+              "type": "file",
+              "size": 1159317,
+              "extension": ".ifc"
+            },
+            "notes": null,
+            "BERNTS-Staalconstructie.ifc": {
+              "type": "file",
+              "size": 4311384,
+              "extension": ".ifc"
+            },
+            "links": null,
+            "ROOT-kanaalplaatvloer.ifczip": {
+              "type": "file",
+              "size": 76281,
+              "extension": ".ifczip"
+            },
+            "ROOT-breedplaatvloeren.ifczip": {
+              "type": "file",
+              "size": 116132,
+              "extension": ".ifczip"
+            },
+            "SONSBEEK-V3 Sparingen.dwg": {
+              "type": "file",
+              "size": 192994,
+              "extension": ".dwg"
+            },
+            "GEELEN-Dakvloer.ifc": {
+              "type": "file",
+              "size": 122879,
+              "extension": ".ifc"
+            },
+            "SONSBEEK-BG Water+Gas+CV.dwg": {
+              "type": "file",
+              "size": 414002,
+              "extension": ".dwg"
+            },
+            "XELLA-1e verdieping.ifc": {
+              "type": "file",
+              "size": 564479,
+              "extension": ".ifc"
+            },
+            "SONSBEEK-V3 Water+Gas+CV.dwg": {
+              "type": "file",
+              "size": 340662,
+              "extension": ".dwg"
+            },
+            "persons": null,
+            "desktop.ini": {
+              "type": "file",
+              "size": 139,
+              "extension": ".ini"
+            },
+            "FEK-Leuningen en hekwerken.IFC": {
+              "type": "file",
+              "size": 2878727,
+              "extension": ".IFC"
+            },
+            "ROOT-prefab_trappen.ifczip": {
+              "type": "file",
+              "size": 39017,
+              "extension": ".ifczip"
+            },
+            "ROOT-Vebo.ifczip": {
+              "type": "file",
+              "size": 232375,
+              "extension": ".ifczip"
+            },
+            "GEELEN-Breedplaat V1.ifc": {
+              "type": "file",
+              "size": 487500,
+              "extension": ".ifc"
+            },
+            "YTONG-Kavel 09.ifc": {
+              "type": "file",
+              "size": 62335,
+              "extension": ".ifc"
+            },
+            "YTONG-Kavel 08.ifc": {
+              "type": "file",
+              "size": 68085,
+              "extension": ".ifc"
+            },
+            "SONSBEEK-BG Rio+MV+Hwa.dwg": {
+              "type": "file",
+              "size": 348788,
+              "extension": ".dwg"
+            },
+            "GEELEN-Breedplaat V2.ifc": {
+              "type": "file",
+              "size": 298831,
+              "extension": ".ifc"
+            },
+            "SONSBEEK-V2 Water+Gas+CV.dwg": {
+              "type": "file",
+              "size": 363433,
+              "extension": ".dwg"
+            },
+            "ProjectData.tbp": {
+              "type": "file",
+              "size": 320512,
+              "extension": ".tbp"
+            },
+            "GEELEN-Breedplaat V3.ifc": {
+              "type": "file",
+              "size": 147619,
+              "extension": ".ifc"
+            }
+          },
+          "YTONG-Kavel 05.ifc": {
+            "type": "file",
+            "size": 63285,
+            "extension": ".ifc"
+          },
+          "ROOT-kapconstructie_dakkapellen_platdak.ifczip": {
+            "type": "file",
+            "size": 348082,
+            "extension": ".ifczip"
+          },
+          "XELLA-2e verdieping.ifc": {
+            "type": "file",
+            "size": 445748,
+            "extension": ".ifc"
+          },
+          "ROOT-lateien_en_geveldragers.ifczip": {
+            "type": "file",
+            "size": 85708,
+            "extension": ".ifczip"
+          },
+          "YTONG-Kavel 04.ifc": {
+            "type": "file",
+            "size": 70583,
+            "extension": ".ifc"
+          },
+          "YTONG-Kavel 10.ifc": {
+            "type": "file",
+            "size": 61406,
+            "extension": ".ifc"
+          },
+          "ROOT-prefab_balkons.ifczip": {
+            "type": "file",
+            "size": 12864,
+            "extension": ".ifczip"
+          },
+          "SONSBEEK-V1 Water+Gas+CV.dwg": {
+            "type": "file",
+            "size": 426049,
+            "extension": ".dwg"
+          },
+          "FEK - Franse balkonhekken en doorvalbeveiliging.IFC": {
+            "type": "file",
+            "size": 11173030,
+            "extension": ".IFC"
+          },
+          "YTONG-Kavel 01.ifc": {
+            "type": "file",
+            "size": 77686,
+            "extension": ".ifc"
+          },
+          "YTONG-Kavel 03.ifc": {
+            "type": "file",
+            "size": 92184,
+            "extension": ".ifc"
+          },
+          "WAARDO-Kanaalplaatvloer.ifc": {
+            "type": "file",
+            "size": 4697244,
+            "extension": ".ifc"
+          },
+          "SONSBEEK-Fund. Water+Gas+CV.dwg": {
+            "type": "file",
+            "size": 200094,
+            "extension": ".dwg"
+          },
+          "YTONG-Kavel 02.ifc": {
+            "type": "file",
+            "size": 58497,
+            "extension": ".ifc"
+          },
+          "WILLEMSEN-Hoogbouw.ifc": {
+            "type": "file",
+            "size": 6017265,
+            "extension": ".ifc"
+          },
+          "ROOT-traphekken.ifczip": {
+            "type": "file",
+            "size": 65394,
+            "extension": ".ifczip"
+          },
+          "SONSBEEK-V2 Sparingen.dwg": {
+            "type": "file",
+            "size": 193641,
+            "extension": ".dwg"
+          },
+          "SONSBEEK-Dak Water+Gas+CV.dwg": {
+            "type": "file",
+            "size": 212935,
+            "extension": ".dwg"
+          },
+          "SONSBEEK-V2 Rio+MV+Hwa.dwg": {
+            "type": "file",
+            "size": 338122,
+            "extension": ".dwg"
+          },
+          "SONSBEEK-Dak Rio+MV+Hwa.dwg": {
+            "type": "file",
+            "size": 264667,
+            "extension": ".dwg"
+          },
+          "MULTICOM-trappen+bordessen.ifc": {
+            "type": "file",
+            "size": 334666,
+            "extension": ".ifc"
+          },
+          "LINDEN - Kozijnen.ifcZIP": {
+            "type": "file",
+            "size": 460876,
+            "extension": ".ifcZIP"
+          },
+          "WILLEMSEN-laagbouw dakpannen.ifc": {
+            "type": "file",
+            "size": 999706,
+            "extension": ".ifc"
+          },
+          "JORDAHL-Gevelderagers.ifc": {
+            "type": "file",
+            "size": 3574980,
+            "extension": ".ifc"
+          },
+          "WILLEMSEN-Hoogbouw dakpannen.ifc": {
+            "type": "file",
+            "size": 5219347,
+            "extension": ".ifc"
+          },
+          "XELLA-Begane grond.ifc": {
+            "type": "file",
+            "size": 596450,
+            "extension": ".ifc"
+          },
+          "ROOT-kalkzandsteen.ifczip": {
+            "type": "file",
+            "size": 262213,
+            "extension": ".ifczip"
+          },
+          "V_L_Constructief.ifc": {
+            "type": "file",
+            "size": 2146522,
+            "extension": ".ifc"
+          },
+          "ROOT-houten kozijnen.ifczip": {
+            "type": "file",
+            "size": 1898930,
+            "extension": ".ifczip"
+          },
+          "SONSBEEK-V1 Sparingen.dwg": {
+            "type": "file",
+            "size": 192988,
+            "extension": ".dwg"
+          },
+          "SONSBEEK-Fund. Rio+MV+Hwa.dwg": {
+            "type": "file",
+            "size": 275042,
+            "extension": ".dwg"
+          },
+          "YTONG-Algemeen.ifc": {
+            "type": "file",
+            "size": 11162,
+            "extension": ".ifc"
+          },
+          "SONSBEEK-Dak Sparingen.dwg": {
+            "type": "file",
+            "size": 237294,
+            "extension": ".dwg"
+          },
+          "XELLA-3e verdieping.ifc": {
+            "type": "file",
+            "size": 201295,
+            "extension": ".ifc"
+          },
+          "SONSBEEK-V3 Rio+MV+Hwa.dwg": {
+            "type": "file",
+            "size": 288641,
+            "extension": ".dwg"
+          },
+          "HB_Nutsvoorzieningen.ifc": {
+            "type": "file",
+            "size": 34475935,
+            "extension": ".ifc"
+          },
+          "ROOT-staal.ifczip": {
+            "type": "file",
+            "size": 170769,
+            "extension": ".ifczip"
+          },
+          "ROOT-Compleet.ifczip": {
+            "type": "file",
+            "size": 8873221,
+            "extension": ".ifczip"
+          },
+          "FEK - Traphekken.IFC": {
+            "type": "file",
+            "size": 12040545,
+            "extension": ".IFC"
+          },
+          "BERNTS-Staalconstructie.ifc": {
+            "type": "file",
+            "size": 3886639,
+            "extension": ".ifc"
+          },
+          "ROOT-kanaalplaatvloer.ifczip": {
+            "type": "file",
+            "size": 76281,
+            "extension": ".ifczip"
+          },
+          "SONSBEEK-BG Rio+MV+Hwa.bak": {
+            "type": "file",
+            "size": 325509,
+            "extension": ".bak"
+          },
+          "ROOT-breedplaatvloeren.ifczip": {
+            "type": "file",
+            "size": 116132,
+            "extension": ".ifczip"
+          },
+          "SONSBEEK-V3 Sparingen.dwg": {
+            "type": "file",
+            "size": 192994,
+            "extension": ".dwg"
+          },
+          "GEELEN-Dakvloer.ifc": {
+            "type": "file",
+            "size": 266382,
+            "extension": ".ifc"
+          },
+          "SONSBEEK-BG Water+Gas+CV.dwg": {
+            "type": "file",
+            "size": 414002,
+            "extension": ".dwg"
+          },
+          "WILLEMSEN-Laagbouw.ifc": {
+            "type": "file",
+            "size": 1958122,
+            "extension": ".ifc"
+          },
+          "XELLA-1e verdieping.ifc": {
+            "type": "file",
+            "size": 564479,
+            "extension": ".ifc"
+          },
+          "SONSBEEK-V3 Water+Gas+CV.dwg": {
+            "type": "file",
+            "size": 340662,
+            "extension": ".dwg"
+          },
+          "Schependomlaan Nijmegen.tbp": {
+            "type": "file",
+            "size": 19364618,
+            "extension": ".tbp"
+          },
+          "FEK - Balkonhekken en borstweringsleuningen.IFC": {
+            "type": "file",
+            "size": 4023823,
+            "extension": ".IFC"
+          },
+          "BALKONHEKKEN 23-9-2015.IFC": {
+            "type": "file",
+            "size": 2215938,
+            "extension": ".IFC"
+          },
+          "desktop.ini": {
+            "type": "file",
+            "size": 139,
+            "extension": ".ini"
+          },
+          "ROOT-prefab_trappen.ifczip": {
+            "type": "file",
+            "size": 39017,
+            "extension": ".ifczip"
+          },
+          "ROOT-Vebo.ifczip": {
+            "type": "file",
+            "size": 232375,
+            "extension": ".ifczip"
+          },
+          "MULTICOM-banden.ifc": {
+            "type": "file",
+            "size": 403044,
+            "extension": ".ifc"
+          },
+          "GEELEN-Breedplaat V1.ifc": {
+            "type": "file",
+            "size": 521474,
+            "extension": ".ifc"
+          },
+          "YTONG-Kavel 09.ifc": {
+            "type": "file",
+            "size": 62320,
+            "extension": ".ifc"
+          },
+          "YTONG-Kavel 08.ifc": {
+            "type": "file",
+            "size": 60871,
+            "extension": ".ifc"
+          },
+          "SONSBEEK-BG Rio+MV+Hwa.dwg": {
+            "type": "file",
+            "size": 348788,
+            "extension": ".dwg"
+          },
+          "GEELEN-Breedplaat V2.ifc": {
+            "type": "file",
+            "size": 299842,
+            "extension": ".ifc"
+          },
+          "SONSBEEK-V2 Water+Gas+CV.dwg": {
+            "type": "file",
+            "size": 363433,
+            "extension": ".dwg"
+          },
+          "MULTICOM-balkons.ifc": {
+            "type": "file",
+            "size": 644143,
+            "extension": ".ifc"
+          },
+          "ProjectData.tbp": {
+            "type": "file",
+            "size": 140726,
+            "extension": ".tbp"
+          },
+          "GEELEN-Breedplaat V3.ifc": {
+            "type": "file",
+            "size": 332660,
+            "extension": ".ifc"
+          }
+        },
+        "HB_Nutsvoorzieningen Interne modelkwaliteit .bcfzip": {
+          "type": "file",
+          "size": 35548,
+          "extension": ".bcfzip"
+        }
+      },
+      "figure 1.png": {
+        "type": "file",
+        "size": 30549,
+        "extension": ".png"
+      },
+      "figure 2.png": {
+        "type": "file",
+        "size": 164005,
+        "extension": ".png"
+      },
+      "figure 3.png": {
+        "type": "file",
+        "size": 144214,
+        "extension": ".png"
+      },
+      "Point Clouds": {
+        "Week 30": {
+          "PLY": {
+            "De Schepen week 30_t.ply": {
+              "type": "file",
+              "size": 263330451,
+              "extension": ".ply"
+            }
+          },
+          "ASCII": {
+            "De Schepen week 30_t - Cloud.txt": {
+              "type": "file",
+              "size": 133220528,
+              "extension": ".txt"
+            }
+          },
+          "LAS": {
+            "De Schepen week 30_t.las": {
+              "type": "file",
+              "size": 51117051,
+              "extension": ".las"
+            }
+          }
+        },
+        "Week 27": {
+          "PLY": {
+            "De Schepen week 27_t.ply": {
+              "type": "file",
+              "size": 205962475,
+              "extension": ".ply"
+            }
+          },
+          "ASCII": {
+            "De Schepen week 27_t - Cloud.txt": {
+              "type": "file",
+              "size": 97142881,
+              "extension": ".txt"
+            }
+          }
+        },
+        "Week 29": {
+          "PLY": {
+            "De Schepen week 29_t.ply": {
+              "type": "file",
+              "size": 475084870,
+              "extension": ".ply"
+            }
+          },
+          "ASCII": {
+            "De Schepen week 29_t - Cloud.txt": {
+              "type": "file",
+              "size": 271430070,
+              "extension": ".txt"
+            },
+            "De Schepen week 29_t - Cloud.nwc": {
+              "type": "file",
+              "size": 6946305,
+              "extension": ".nwc"
+            }
+          }
+        },
+        "Week 28": {
+          "PLY": {
+            "De Schepen week 28_t.ply": {
+              "type": "file",
+              "size": 440113608,
+              "extension": ".ply"
+            }
+          },
+          "ASCII": {
+            "De Schepen week 27_t - Cloud.txt": {
+              "type": "file",
+              "size": 115645959,
+              "extension": ".txt"
+            },
+            "De Schepen week 27_t - Cloud.nwc": {
+              "type": "file",
+              "size": 2998884,
+              "extension": ".nwc"
+            }
+          }
+        },
+        "Week 26": {
+          "PLY": {
+            "De Schepen week 27_t.ply": {
+              "type": "file",
+              "size": 73988849,
+              "extension": ".ply"
+            }
+          }
+        }
+      },
+      "Planning": {
+        "PDF": {
+          "Schependomlaan Nijmegen 18-02-2015.pdf": {
+            "type": "file",
+            "size": 542155,
+            "extension": ".pdf"
+          }
+        },
+        "XML": {
+          "Uitvoering Schependomlaan 18-02-2015.xml": {
+            "type": "file",
+            "size": 458222,
+            "extension": ".xml"
+          }
+        }
+      },
+      "README.md": {
+        "type": "file",
+        "size": 6620,
+        "extension": ".md"
+      },
+      "Event log": {
+        "Eventlog with As Built information": {
+          "Schependomlaan eventlog as planned data incl as built data.csv": {
+            "type": "file",
+            "size": 743583,
+            "extension": ".csv"
+          },
+          "Schependomlaan eventlog as planned data incl as built data.xlsx": {
+            "type": "file",
+            "size": 486177,
+            "extension": ".xlsx"
+          }
+        },
+        "Eventlog with actors FAKE": {
+          "Schependomlaan eventlog as planned data incl as built data incl Actors FAKE.xlsx": {
+            "type": "file",
+            "size": 264913,
+            "extension": ".xlsx"
+          },
+          "Schependomlaan eventlog as planned data incl as built data incl Actors FAKE.csv": {
+            "type": "file",
+            "size": 802966,
+            "extension": ".csv"
+          }
+        },
+        "Eventlog As Planned": {
+          "eventlog IFC schependomlaan.xlsx": {
+            "type": "file",
+            "size": 440010,
+            "extension": ".xlsx"
+          },
+          "eventlog IFC schependomlaan.csv": {
+            "type": "file",
+            "size": 1241660,
+            "extension": ".csv"
+          }
+        }
+      },
+      "Design model Archicad (ROOT)": {
+        "ROOT Archicad Design Model Schependomlaan.pla": {
+          "type": "file",
+          "size": 179490080,
+          "extension": ".pla"
+        }
+      },
+      ".gitattributes": {
+        "type": "file",
+        "size": 252,
+        "extension": ""
+      },
+      ".git": {
+        "config": {
+          "type": "file",
+          "size": 357,
+          "extension": ""
+        },
+        "objects": {
+          "pack": {
+            "pack-4c16701e93ca3dad4053eeeb5af078ca5ac5d07d.idx": {
+              "type": "file",
+              "size": 14372,
+              "extension": ".idx"
+            },
+            "pack-4c16701e93ca3dad4053eeeb5af078ca5ac5d07d.rev": {
+              "type": "file",
+              "size": 1952,
+              "extension": ".rev"
+            },
+            "pack-4c16701e93ca3dad4053eeeb5af078ca5ac5d07d.pack": {
+              "type": "file",
+              "size": 193093202,
+              "extension": ".pack"
+            }
+          },
+          "info": {}
+        },
+        "HEAD": {
+          "type": "file",
+          "size": 23,
+          "extension": ""
+        },
+        "info": {
+          "exclude": {
+            "type": "file",
+            "size": 240,
+            "extension": ""
+          }
+        },
+        "logs": {
+          "HEAD": {
+            "type": "file",
+            "size": 224,
+            "extension": ""
+          },
+          "refs": {
+            "heads": null,
+            "remotes": null
+          }
+        },
+        "description": {
+          "type": "file",
+          "size": 73,
+          "extension": ""
+        },
+        "hooks": {
+          "commit-msg.sample": {
+            "type": "file",
+            "size": 896,
+            "extension": ".sample"
+          },
+          "post-commit": {
+            "type": "file",
+            "size": 356,
+            "extension": ""
+          },
+          "pre-rebase.sample": {
+            "type": "file",
+            "size": 4898,
+            "extension": ".sample"
+          },
+          "sendemail-validate.sample": {
+            "type": "file",
+            "size": 2308,
+            "extension": ".sample"
+          },
+          "pre-commit.sample": {
+            "type": "file",
+            "size": 1649,
+            "extension": ".sample"
+          },
+          "post-checkout": {
+            "type": "file",
+            "size": 360,
+            "extension": ""
+          },
+          "applypatch-msg.sample": {
+            "type": "file",
+            "size": 478,
+            "extension": ".sample"
+          },
+          "fsmonitor-watchman.sample": {
+            "type": "file",
+            "size": 4726,
+            "extension": ".sample"
+          },
+          "pre-receive.sample": {
+            "type": "file",
+            "size": 544,
+            "extension": ".sample"
+          },
+          "prepare-commit-msg.sample": {
+            "type": "file",
+            "size": 1492,
+            "extension": ".sample"
+          },
+          "post-update.sample": {
+            "type": "file",
+            "size": 189,
+            "extension": ".sample"
+          },
+          "pre-merge-commit.sample": {
+            "type": "file",
+            "size": 416,
+            "extension": ".sample"
+          },
+          "pre-applypatch.sample": {
+            "type": "file",
+            "size": 424,
+            "extension": ".sample"
+          },
+          "pre-push": {
+            "type": "file",
+            "size": 350,
+            "extension": ""
+          },
+          "post-merge": {
+            "type": "file",
+            "size": 354,
+            "extension": ""
+          },
+          "pre-push.sample": {
+            "type": "file",
+            "size": 1374,
+            "extension": ".sample"
+          },
+          "update.sample": {
+            "type": "file",
+            "size": 3650,
+            "extension": ".sample"
+          },
+          "push-to-checkout.sample": {
+            "type": "file",
+            "size": 2783,
+            "extension": ".sample"
+          }
+        },
+        "refs": {
+          "heads": {
+            "master": {
+              "type": "file",
+              "size": 41,
+              "extension": ""
+            }
+          },
+          "tags": {},
+          "remotes": {
+            "origin": null
+          }
+        },
+        "lfs": {
+          "incomplete": {},
+          "objects": {
+            "29": null,
+            "53": null,
+            "5b": null,
+            "08": null,
+            "d3": null,
+            "a1": null,
+            "f1": null,
+            "cb": null,
+            "1e": null,
+            "8b": null
+          },
+          "tmp": {}
+        },
+        "index": {
+          "type": "file",
+          "size": 66401,
+          "extension": ""
+        },
+        "packed-refs": {
+          "type": "file",
+          "size": 114,
+          "extension": ""
+        }
+      },
+      "Design model IFC": {
+        "ROOT-Compleet interne modelkwaliteit.bcfzip": {
+          "type": "file",
+          "size": 177722,
+          "extension": ".bcfzip"
+        },
+        "IFC Schependomlaan.ifc": {
+          "type": "file",
+          "size": 49286967,
+          "extension": ".ifc"
+        }
+      }
+    },
+    "bcf_availability": true,
+    "bcf_conversion_potential": "very_high",
+    "time_series_data": true,
+    "real_data": true,
+    "credibility_contribution": "very_high",
+    "integration_difficulty": "low",
+    "key_features": [
+      "실제 BCF 2.0 파일 23개 포함",
+      "주차별 IFC 모델 (Week 26-37)",
+      "As-planned vs As-built 비교 데이터",
+      "실제 건설 프로젝트 데이터",
+      "Event log (프로세스 마이닝용)",
+      "Point cloud 데이터 (드론 촬영)",
+      "다분야 협업 모델 (구조, 설비, 건축)"
+    ],
+    "limitations": [],
+    "bcf_files_count": 20,
+    "bcf_files": [
+      "Controle Geelen V2 20-03-2015.bcfzip",
+      "Controle Multicom 10-04-2015.bcfzip",
+      "Controle Multicom 31-03-2015.bcfzip",
+      "Controle Waardo 18-03-2015.bcfzip",
+      "Controle Jordahl 20-04-2015.bcfzip",
+      "Controle Linden 11-05-2015.bcfzip",
+      "Controle Multicom 01-04-2015.bcfzip",
+      "Controle Willemsen 19-06-2015.bcfzip",
+      "Controle FEK 07-05-2015.bcfzip",
+      "Controle Multicom 26-03-2015.bcfzip",
+      "Controle Ytong 01-04-2015.bcfzip",
+      "Controle Geelen V1 20-03-2015.bcfzip",
+      "Controle Linden 18-05-2015.bcfzip",
+      "Controle Willemsen 17-06-2015.bcfzip",
+      "Controle FEK 16-04-2015.bcfzip",
+      "Controle Willemsen 26-05-2015.bcfzip",
+      "Controle Waardo 26-03-2015.bcfzip",
+      "Controle staalconstructie 27-03-2015.bcfzip",
+      "Controle Xella BG 20-03-2015.bcfzip",
+      "Controle Geelen V3+Dak 20-03-2015.bcfzip"
+    ],
+    "bcf_total_size": 34911556,
+    "ifc_files_count": 62,
+    "ifc_files": [
+      "IFC Schependomlaan incl planningsdata.ifc",
+      "Week 37 11 sept IFC Schependomlaan incl planningsdata.ifc",
+      "Week 26 26 june IFC Schependomlaan incl planningsdata.ifc",
+      "Week 30 24 july IFC Schependomlaan incl planningsdata.ifc",
+      "Week 27 3 july IFC Schependomlaan incl planningsdata.ifc",
+      "Week 29 17 july IFC Schependomlaan incl planningsdata.ifc",
+      "Week 28 10 july IFC Schependomlaan incl planningsdata.ifc",
+      "YTONG-Kavel 06.ifc",
+      "YTONG-Kavel 07.ifc",
+      "YTONG-Kavel 05.ifc",
+      "XELLA-2e verdieping.ifc",
+      "YTONG-Kavel 04.ifc",
+      "YTONG-Kavel 10.ifc",
+      "YTONG-Kavel 01.ifc",
+      "YTONG-Kavel 03.ifc",
+      "WAARDO-Kanaalplaatvloer.ifc",
+      "YTONG-Kavel 02.ifc",
+      "WILLEMSEN-Hoogbouw.ifc",
+      "MULTICOM-trappen+bordessen.ifc",
+      "WILLEMSEN-laagbouw dakpannen.ifc",
+      "JORDAHL-Gevelderagers.ifc",
+      "WILLEMSEN-Hoogbouw dakpannen.ifc",
+      "XELLA-Begane grond.ifc",
+      "V_L_Constructief.ifc",
+      "YTONG-Algemeen.ifc",
+      "XELLA-3e verdieping.ifc",
+      "HB_Nutsvoorzieningen.ifc",
+      "BERNTS-Staalconstructie.ifc",
+      "GEELEN-Dakvloer.ifc",
+      "WILLEMSEN-Laagbouw.ifc",
+      "XELLA-1e verdieping.ifc",
+      "MULTICOM-banden.ifc",
+      "GEELEN-Breedplaat V1.ifc",
+      "YTONG-Kavel 09.ifc",
+      "YTONG-Kavel 08.ifc",
+      "GEELEN-Breedplaat V2.ifc",
+      "MULTICOM-balkons.ifc",
+      "GEELEN-Breedplaat V3.ifc",
+      "YTONG-Kavel 06.ifc",
+      "YTONG-Kavel 07.ifc",
+      "YTONG-Kavel 05.ifc",
+      "YTONG-Kavel 04.ifc",
+      "YTONG-Kavel 10.ifc",
+      "YTONG-Kavel 01.ifc",
+      "YTONG-Kavel 03.ifc",
+      "WAARDO-Kanaalplaatvloer.ifc",
+      "YTONG-Kavel 02.ifc",
+      "JORDAHL-Gevelderagers.ifc",
+      "XELLA-Begane grond.ifc",
+      "V_L_Constructief.ifc",
+      "YTONG-Algemeen.ifc",
+      "HB_Nutsvoorzieningen.ifc",
+      "MULTICOM-Prefab.ifc",
+      "BERNTS-Staalconstructie.ifc",
+      "GEELEN-Dakvloer.ifc",
+      "XELLA-1e verdieping.ifc",
+      "GEELEN-Breedplaat V1.ifc",
+      "YTONG-Kavel 09.ifc",
+      "YTONG-Kavel 08.ifc",
+      "GEELEN-Breedplaat V2.ifc",
+      "GEELEN-Breedplaat V3.ifc",
+      "IFC Schependomlaan.ifc"
+    ],
+    "bcf_conversion_methods": [
+      "기존 BCF 파일 직접 활용",
+      "Event log를 BCF 이슈로 변환",
+      "As-planned vs As-built 차이를 BCF로 변환",
+      "주차별 모델 변화를 BCF 이슈로 변환"
+    ],
+    "time_series_features": [
+      "주차별 IFC 모델 (Week 26, 27, 28, 29, 30, 37)",
+      "Event log with timestamps",
+      "As-built point clouds by week",
+      "BCF 파일의 시간별 이슈 추적"
+    ],
+    "credibility_reasons": [
+      "실제 건설 프로젝트 데이터",
+      "실제 BCF 파일 23개",
+      "TU Eindhoven 학술 연구",
+      "다분야 협업 프로세스 데이터",
+      "As-planned vs As-built 검증 데이터"
+    ],
+    "status": "analyzed"
+  },
+  "comparison": {
+    "size_comparison": {
+      "slabim": "0.05 GB",
+      "schependomlaan": "5.28 GB"
+    },
+    "bcf_availability": {
+      "slabim": false,
+      "schependomlaan": true
+    },
+    "time_series_suitability": {
+      "slabim": true,
+      "schependomlaan": true
+    },
+    "credibility_contribution": {
+      "slabim": "high",
+      "schependomlaan": "very_high"
+    },
+    "integration_difficulty": {
+      "slabim": "medium",
+      "schependomlaan": "low"
+    },
+    "priority_scores": {
+      "slabim": 5,
+      "schependomlaan": 8
+    },
+    "recommended_priority": "schependomlaan"
+  },
+  "recommendations": [
+    "1순위: Schependomlaan 데이터셋 우선 활용",
+    "  - 실제 BCF 파일 23개로 즉시 활용 가능",
+    "  - 주차별 IFC 모델로 시계열 분석 가능",
+    "  - Event log를 통한 프로세스 마이닝 활용",
+    "  - As-planned vs As-built 비교 데이터 활용",
+    "2순위: SLABIM 데이터셋 보완 활용",
+    "  - SLAM 스캔 vs BIM 차이점을 BCF 이슈로 변환",
+    "  - 시맨틱 매핑 오류를 협업 이슈로 활용",
+    "  - 12개 세션의 시간별 변화 추적",
+    "  - 실제 건물 데이터로 현실성 향상",
+    "통합 전략:",
+    "  - Schependomlaan의 실제 BCF로 합성 데이터 대체",
+    "  - SLABIM의 시계열 데이터로 망각 메커니즘 테스트",
+    "  - 두 데이터셋의 조합으로 연구 신뢰도 대폭 향상",
+    "  - 97% 합성 데이터 문제를 실질적으로 해결"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "real_data_analysis": {
+    "data_type": "실제 BCF",
+    "total_issues": 93,
+    "unique_topic_ids": 84,
+    "title_analysis": {
+      "non_empty_titles": 92,
+      "empty_titles": 1,
+      "unique_titles": 1,
+      "avg_title_length": 9,
+      "most_common_titles": {
+        "Opmerking": 92
+      }
+    },
+    "author_analysis": {
+      "non_empty_authors": 0,
+      "empty_authors": 93,
+      "unique_authors": 0,
+      "most_common_authors": {}
+    },
+    "description_analysis": {
+      "non_empty_descriptions": 0,
+      "empty_descriptions": 93,
+      "avg_description_length": 0,
+      "max_description_length": 0
+    },
+    "date_analysis": {
+      "non_empty_dates": 0,
+      "empty_dates": 93,
+      "date_format_consistency": 0
+    },
+    "quality_metrics": {
+      "completeness_score": 0.19784946236559142,
+      "diversity_score": 0.005376344086021506,
+      "consistency_score": 1.0,
+      "overall_quality_score": 0.380752688172043
+    }
+  },
+  "synthetic_data_analysis": {
+    "data_type": "합성 BCF",
+    "total_issues": 735,
+    "unique_topic_ids": 1,
+    "title_analysis": {
+      "non_empty_titles": 0,
+      "empty_titles": 735,
+      "unique_titles": 0,
+      "avg_title_length": 0,
+      "most_common_titles": {}
+    },
+    "author_analysis": {
+      "non_empty_authors": 0,
+      "empty_authors": 735,
+      "unique_authors": 0,
+      "most_common_authors": {}
+    },
+    "description_analysis": {
+      "non_empty_descriptions": 0,
+      "empty_descriptions": 735,
+      "avg_description_length": 0,
+      "max_description_length": 0
+    },
+    "date_analysis": {
+      "non_empty_dates": 0,
+      "empty_dates": 735,
+      "date_format_consistency": 0
+    },
+    "quality_metrics": {
+      "completeness_score": 0.0,
+      "diversity_score": 0.0,
+      "consistency_score": 1.0,
+      "overall_quality_score": 0.3
+    }
+  },
+  "comparison": {
+    "comparison_date": "2025-10-18T14:49:58.420690",
+    "data_volume_comparison": {
+      "real_data_issues": 93,
+      "synthetic_data_issues": 735,
+      "volume_ratio": 0.12653061224489795
+    },
+    "quality_metrics_comparison": {
+      "completeness": {
+        "real": 0.19784946236559142,
+        "synthetic": 0.0,
+        "difference": 0.19784946236559142
+      },
+      "diversity": {
+        "real": 0.005376344086021506,
+        "synthetic": 0.0,
+        "difference": 0.005376344086021506
+      },
+      "consistency": {
+        "real": 1.0,
+        "synthetic": 1.0,
+        "difference": 0.0
+      },
+      "overall": {
+        "real": 0.380752688172043,
+        "synthetic": 0.3,
+        "difference": 0.08075268817204301
+      }
+    },
+    "field_analysis_comparison": {
+      "titles": {
+        "real_non_empty": 92,
+        "synthetic_non_empty": 0,
+        "real_avg_length": 9,
+        "synthetic_avg_length": 0
+      },
+      "authors": {
+        "real_non_empty": 0,
+        "synthetic_non_empty": 0,
+        "real_unique": 0,
+        "synthetic_unique": 0
+      },
+      "descriptions": {
+        "real_non_empty": 0,
+        "synthetic_non_empty": 0,
+        "real_avg_length": 0,
+        "synthetic_avg_length": 0
+      }
+    },
+    "recommendations": [
+      "실제 데이터가 합성 데이터보다 전반적으로 높은 품질을 보입니다.",
+      "실제 데이터의 완성도가 더 높습니다. 실제 데이터를 주요 훈련 데이터로 사용하세요.",
+      "실제 데이터의 다양성이 더 높습니다. 더 풍부한 패턴 학습이 가능합니다.",
+      "실제 데이터의 양이 적습니다. 합성 데이터를 보완 데이터로 활용하세요."
+    ]
+  }
+}

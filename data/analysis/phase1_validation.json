@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-10-15T09:39:40.566627",
+  "phase": "Phase 1",
+  "ifc": {
+    "count": 122,
+    "size_mb": 40.22,
+    "sources": {
+      "IfcOpenShell": 100,
+      "buildingSMART": 14,
+      "xBIM": 3,
+      "Other": 5
+    }
+  },
+  "bcf": {
+    "raw_count": 87,
+    "processed_count": 88,
+    "total_issues": 382,
+    "avg_issues_per_file": 4.3,
+    "issue_types": {
+      "Unknown": 382
+    },
+    "issue_statuses": {
+      "Unknown": 382
+    },
+    "unique_authors": 0
+  },
+  "quality_checks": {
+    "IFC 파일 존재": "PASS",
+    "BCF 파일 존재": "PASS",
+    "BCF 처리 성공": "PASS",
+    "충분한 이슈 수 (>100)": "PASS",
+    "다양한 이슈 타입": "FAIL",
+    "다양한 소스": "PASS"
+  },
+  "goals": {
+    "RQ1: 충분한 IFC 다양성 (>100)": "ACHIEVED",
+    "RQ2: 충분한 이슈 수 (>200)": "ACHIEVED",
+    "RQ3: 다양한 이슈 타입 (>5)": "PENDING",
+    "신뢰할 수 있는 소스": "ACHIEVED"
+  }
+}

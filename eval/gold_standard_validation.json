@@ -1,0 +1,15 @@
+{
+  "total_qa": 200,
+  "original_qa": 100,
+  "new_qa": 100,
+  "category_distribution": {
+    "entity_search": 60,
+    "issue_search": 60,
+    "relationship": 80
+  },
+  "balance_check": {
+    "entity_search": true,
+    "issue_search": true,
+    "relationship": true
+  }
+}

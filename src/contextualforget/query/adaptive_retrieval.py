@@ -344,18 +344,57 @@ class HybridRetrievalEngine:
         }
         
         # 융합된 결과 생성
+        fused_confidence = sum(
+            results[engine].get('confidence', 0.0) * weights.get(engine, 0.33)
+            for engine in results
+        )
+        
+        # 표준 형식으로 변환
         fused_result = {
-            'query': query,
-            'strategy': 'weighted_fusion',
-            'engine_results': results,
-            'fused_confidence': sum(
-                results[engine].get('confidence', 0.0) * weights.get(engine, 0.33)
-                for engine in results
-            ),
-            'timestamp': datetime.now(timezone.utc)
+            'answer': self._generate_fused_answer(results),
+            'confidence': fused_confidence,
+            'result_count': sum(results[engine].get('result_count', 0) for engine in results),
+            'entities': self._merge_entities(results),
+            'source': 'Hybrid',
+            'details': {
+                'query': query,
+                'strategy': 'weighted_fusion',
+                'engine_results': results,
+                'fused_confidence': fused_confidence,
+                'timestamp': datetime.now(timezone.utc).isoformat()
+            }
         }
         
         return fused_result
+    
+    def _generate_fused_answer(self, results: Dict[str, Any]) -> str:
+        """융합된 답변 생성"""
+        successful_results = [r for r in results.values() if r.get('confidence', 0) > 0]
+        
+        if not successful_results:
+            return "관련 정보를 찾을 수 없습니다."
+        
+        # 가장 높은 신뢰도의 결과를 기본으로 사용
+        best_result = max(successful_results, key=lambda x: x.get('confidence', 0))
+        base_answer = best_result.get('answer', '')
+        
+        # 여러 엔진이 성공한 경우 추가 정보 포함
+        if len(successful_results) > 1:
+            engine_count = len(successful_results)
+            return f"{base_answer} ({engine_count}개 엔진에서 검증됨)"
+        
+        return base_answer
+    
+    def _merge_entities(self, results: Dict[str, Any]) -> List[str]:
+        """엔티티 리스트 병합"""
+        all_entities = []
+        for result in results.values():
+            entities = result.get('entities', [])
+            if isinstance(entities, list):
+                all_entities.extend(entities)
+        
+        # 중복 제거
+        return list(set(all_entities))
     
     def _ranked_fusion(self, query: str, **kwargs) -> Dict[str, Any]:
         """순위 기반 융합"""
@@ -397,15 +436,24 @@ class HybridRetrievalEngine:
         """기본 융합 (ContextualForget 우선)"""
         try:
             result = self.base_engines['ContextualForget'].contextual_query(query)
+            # 표준 형식 확인 및 추가
+            if 'source' not in result:
+                result['source'] = 'Hybrid'
             result['strategy'] = 'basic_fusion'
             result['selected_engine'] = 'ContextualForget'
             return result
         except Exception as e:
             return {
-                'query': query,
-                'strategy': 'basic_fusion',
-                'error': str(e),
-                'confidence': 0.0
+                'answer': '검색 중 오류가 발생했습니다.',
+                'confidence': 0.0,
+                'result_count': 0,
+                'entities': [],
+                'source': 'Hybrid',
+                'details': {
+                    'query': query,
+                    'strategy': 'basic_fusion',
+                    'error': str(e)
+                }
             }
     
     def update_performance(self, query_result: Dict[str, Any], feedback: Optional[float] = None):

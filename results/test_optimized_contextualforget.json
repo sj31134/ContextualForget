@@ -1,0 +1,272 @@
+[
+  {
+    "qa_id": "qa_llm_000",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.01199793815612793
+  },
+  {
+    "qa_id": "qa_llm_000",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7344029545783997,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7344029545783997,
+    "response_time": 0.021664142608642578
+  },
+  {
+    "qa_id": "qa_llm_000",
+    "engine": "ContextualForget",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.382,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.382,
+    "response_time": 0.0007810592651367188
+  },
+  {
+    "qa_id": "qa_llm_001",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.005110979080200195
+  },
+  {
+    "qa_id": "qa_llm_001",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7949898838996887,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7949898838996887,
+    "response_time": 0.021785736083984375
+  },
+  {
+    "qa_id": "qa_llm_001",
+    "engine": "ContextualForget",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.40299999999999997,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.40299999999999997,
+    "response_time": 0.0011780261993408203
+  },
+  {
+    "qa_id": "qa_llm_002",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.004964113235473633
+  },
+  {
+    "qa_id": "qa_llm_002",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7200499773025513,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7200499773025513,
+    "response_time": 0.03999018669128418
+  },
+  {
+    "qa_id": "qa_llm_002",
+    "engine": "ContextualForget",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.424,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.424,
+    "response_time": 0.0011730194091796875
+  },
+  {
+    "qa_id": "qa_llm_003",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.010297298431396484
+  },
+  {
+    "qa_id": "qa_llm_003",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7398091554641724,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7398091554641724,
+    "response_time": 0.04087233543395996
+  },
+  {
+    "qa_id": "qa_llm_003",
+    "engine": "ContextualForget",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.445,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.445,
+    "response_time": 0.0008151531219482422
+  },
+  {
+    "qa_id": "qa_llm_004",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.00890493392944336
+  },
+  {
+    "qa_id": "qa_llm_004",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7353087067604065,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7353087067604065,
+    "response_time": 0.020322084426879883
+  },
+  {
+    "qa_id": "qa_llm_004",
+    "engine": "ContextualForget",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.466,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.466,
+    "response_time": 0.0011260509490966797
+  }
+]

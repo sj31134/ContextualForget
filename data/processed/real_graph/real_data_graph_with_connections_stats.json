@@ -1,0 +1,10 @@
+{
+  "graph_creation_date": "2025-10-18T16:30:16.733790",
+  "total_nodes": 316,
+  "bcf_nodes": 93,
+  "ifc_nodes": 232,
+  "total_edges": 306,
+  "graph_density": 0.003074141048824593,
+  "connected_components": 18,
+  "average_clustering": 0.0007283504118947156
+}

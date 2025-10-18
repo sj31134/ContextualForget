@@ -83,9 +83,20 @@ class VectorQueryEngine(BaselineQueryEngine):
         documents = []
         metadata = []
         
+        # Handle different data structures
+        if 'graph' in graph_data:
+            # NetworkX graph object
+            graph = graph_data['graph']
+            nodes_to_process = list(graph.nodes(data=True))
+        elif 'nodes' in graph_data:
+            # List of (node, data) tuples
+            nodes_to_process = graph_data['nodes']
+        else:
+            nodes_to_process = []
+        
         # Process BCF data
         bcf_count = 0
-        for node, data in graph_data.get('nodes', []):
+        for node, data in nodes_to_process:
             if isinstance(node, tuple) and len(node) == 2:
                 node_type, node_id = node
                 if node_type == "BCF":
@@ -113,7 +124,7 @@ class VectorQueryEngine(BaselineQueryEngine):
         
         # Process IFC data
         ifc_count = 0
-        for node, data in graph_data.get('nodes', []):
+        for node, data in nodes_to_process:
             if isinstance(node, tuple) and len(node) == 2:
                 node_type, node_id = node
                 if node_type == "IFC":
@@ -195,12 +206,18 @@ class VectorQueryEngine(BaselineQueryEngine):
         author_keywords = ['작성', 'author', 'engineer', 'architect']
         return any(keyword in question.lower() for keyword in author_keywords)
     
+    def _is_guid_query(self, question: str) -> bool:
+        """Check if query is asking for GUID information."""
+        import re
+        guid_pattern = r'([A-Za-z0-9]{8}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{12})'
+        return bool(re.search(guid_pattern, question))
+    
     def _handle_guid_query(self, question: str) -> dict[str, Any]:
         """Handle GUID-specific queries."""
         import re
         
-        # Extract GUID from question
-        guid_pattern = r'\b([A-Za-z0-9]{22})\b'
+        # Extract GUID from question (UUID 형식 지원)
+        guid_pattern = r'([A-Za-z0-9]{8}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{12})'
         match = re.search(guid_pattern, question)
         
         if not match:
@@ -215,6 +232,7 @@ class VectorQueryEngine(BaselineQueryEngine):
                     "answer": f"GUID {guid}는 {metadata['entity_type']} 타입의 IFC 요소입니다.",
                     "confidence": 1.0,
                     "result_count": 1,
+                    "entities": [guid],  # 실제 GUID 반환
                     "source": "Vector",
                     "details": {
                         "guid": guid,
@@ -227,6 +245,7 @@ class VectorQueryEngine(BaselineQueryEngine):
             "answer": f"GUID {guid}에 대한 정보를 찾을 수 없습니다.",
             "confidence": 0.0,
             "result_count": 0,
+            "entities": [],
             "source": "Vector"
         }
     
@@ -271,15 +290,18 @@ class VectorQueryEngine(BaselineQueryEngine):
             filtered_results.sort(key=lambda x: x[1], reverse=True)
             
             issues = []
+            entities = []
             for idx, _similarity in filtered_results[:5]:
                 metadata = self.document_metadata[idx]
                 issues.append(metadata['title'])
+                entities.append(metadata.get('doc_id', metadata.get('guid', '')))
             
             answer = f"관련 이슈: {', '.join(issues)}"
             return {
                 "answer": answer,
                 "confidence": 0.7,
                 "result_count": len(filtered_results),
+                "entities": entities,
                 "source": "Vector",
                 "details": {
                     "issues": issues,
@@ -291,6 +313,7 @@ class VectorQueryEngine(BaselineQueryEngine):
                 "answer": "해당 기간의 이슈를 찾을 수 없습니다.",
                 "confidence": 0.0,
                 "result_count": 0,
+                "entities": [],
                 "source": "Vector"
             }
     
@@ -317,6 +340,8 @@ class VectorQueryEngine(BaselineQueryEngine):
             return {
                 "answer": "작성자 정보를 찾을 수 없습니다.",
                 "confidence": 0.0,
+                "result_count": 0,
+                "entities": [],
                 "source": "Vector"
             }
         
@@ -328,11 +353,13 @@ class VectorQueryEngine(BaselineQueryEngine):
         
         if author_docs:
             issues = [metadata['title'] for _, metadata in author_docs[:10]]
+            entities = [metadata.get('doc_id', metadata.get('guid', '')) for _, metadata in author_docs[:10]]
             answer = f"{author}가 작성한 이슈: {', '.join(issues[:3])}"
             return {
                 "answer": answer,
                 "confidence": 0.8,
                 "result_count": len(author_docs),
+                "entities": entities,
                 "source": "Vector",
                 "details": {
                     "author": author,
@@ -345,6 +372,7 @@ class VectorQueryEngine(BaselineQueryEngine):
                 "answer": f"{author}가 작성한 이슈를 찾을 수 없습니다.",
                 "confidence": 0.0,
                 "result_count": 0,
+                "entities": [],
                 "source": "Vector"
             }
     
@@ -385,10 +413,20 @@ class VectorQueryEngine(BaselineQueryEngine):
             
             answer = " | ".join(answer_parts) if answer_parts else "관련 정보를 찾을 수 없습니다."
             
+            # Extract entity IDs (실제 GUID 추출)
+            entities = []
+            for idx in top_indices:
+                metadata = self.document_metadata[idx]
+                if metadata.get('doc_type') == 'IFC':
+                    entities.append(metadata.get('guid', ''))
+                else:
+                    entities.append(metadata.get('doc_id', ''))
+            
             return {
                 "answer": answer,
                 "confidence": float(similarities[top_indices[0]]),
                 "result_count": len(bcf_results) + len(ifc_results),
+                "entities": entities,
                 "source": "Vector",
                 "details": {
                     "bcf_count": len(bcf_results),
@@ -401,6 +439,7 @@ class VectorQueryEngine(BaselineQueryEngine):
                 "answer": "관련 정보를 찾을 수 없습니다.",
                 "confidence": 0.0,
                 "result_count": 0,
+                "entities": [],
                 "source": "Vector"
             }
     

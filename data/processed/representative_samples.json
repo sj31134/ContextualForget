@@ -1,0 +1,1455 @@
+{
+  "ifc_samples": [
+    {
+      "node_id": [
+        "IFC",
+        "0sAYN8OJzFKu1rNoJBdSki"
+      ],
+      "guid": "0sAYN8OJzFKu1rNoJBdSki",
+      "type": "RELASSOCIATESMATERIAL",
+      "name": "0sAYN8OJzFKu1rNoJBdSki",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "0h96c29SfAxQbCDOLFZN7y"
+      ],
+      "guid": "0h96c29SfAxQbCDOLFZN7y",
+      "type": "RELASSOCIATESMATERIAL",
+      "name": "0h96c29SfAxQbCDOLFZN7y",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "2VydWQfLvDSPW7gidaXJGH"
+      ],
+      "guid": "2VydWQfLvDSPW7gidaXJGH",
+      "type": "RELASSOCIATESMATERIAL",
+      "name": "2VydWQfLvDSPW7gidaXJGH",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "3Sj0T8qcX67xNXu1cvvrJw"
+      ],
+      "guid": "3Sj0T8qcX67xNXu1cvvrJw",
+      "type": "RELASSOCIATESLIBRARY",
+      "name": "3Sj0T8qcX67xNXu1cvvrJw",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "1owbdEI8X8F8IHwZqiS_lX"
+      ],
+      "guid": "1owbdEI8X8F8IHwZqiS_lX",
+      "type": "RELASSOCIATESLIBRARY",
+      "name": "1owbdEI8X8F8IHwZqiS_lX",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "0W0v8ITSL4zuLBscYO2o81"
+      ],
+      "guid": "0W0v8ITSL4zuLBscYO2o81",
+      "type": "RELASSOCIATESLIBRARY",
+      "name": "0W0v8ITSL4zuLBscYO2o81",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "2BB1KrtHb0Q8GrFZdmqVGN"
+      ],
+      "guid": "2BB1KrtHb0Q8GrFZdmqVGN",
+      "type": "SIMPLEPROPERTYTEMPLATE",
+      "name": "2BB1KrtHb0Q8GrFZdmqVGN",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "0Mt1ruC358UebrYoiomnnr"
+      ],
+      "guid": "0Mt1ruC358UebrYoiomnnr",
+      "type": "SIMPLEPROPERTYTEMPLATE",
+      "name": "0Mt1ruC358UebrYoiomnnr",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "10IBH26AfBS93YaYHoHO_0"
+      ],
+      "guid": "10IBH26AfBS93YaYHoHO_0",
+      "type": "SIMPLEPROPERTYTEMPLATE",
+      "name": "10IBH26AfBS93YaYHoHO_0",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "278sjptdDDzgOZseERj390"
+      ],
+      "guid": "278sjptdDDzgOZseERj390",
+      "type": "COLUMNTYPE",
+      "name": "278sjptdDDzgOZseERj390",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "3aSZOvGmr7jggSNwsq5PJE"
+      ],
+      "guid": "3aSZOvGmr7jggSNwsq5PJE",
+      "type": "COLUMNTYPE",
+      "name": "3aSZOvGmr7jggSNwsq5PJE",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "28iv3Kru12yQ7R7RRwNjvD"
+      ],
+      "guid": "28iv3Kru12yQ7R7RRwNjvD",
+      "type": "COLUMNTYPE",
+      "name": "28iv3Kru12yQ7R7RRwNjvD",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "1_UeVn6yDFiQNhUkRsBNZI"
+      ],
+      "guid": "1_UeVn6yDFiQNhUkRsBNZI",
+      "type": "BEAMTYPE",
+      "name": "1_UeVn6yDFiQNhUkRsBNZI",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "3qutoZTvP0lvLWNXyjPhPm"
+      ],
+      "guid": "3qutoZTvP0lvLWNXyjPhPm",
+      "type": "BEAMTYPE",
+      "name": "3qutoZTvP0lvLWNXyjPhPm",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "0KDd_P8b1A7BzmhpnPTWcD"
+      ],
+      "guid": "0KDd_P8b1A7BzmhpnPTWcD",
+      "type": "BEAMTYPE",
+      "name": "0KDd_P8b1A7BzmhpnPTWcD",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "1u_tA4fMH2Yelqr1_XXhD0"
+      ],
+      "guid": "1u_tA4fMH2Yelqr1_XXhD0",
+      "type": "MEMBERTYPE",
+      "name": "1u_tA4fMH2Yelqr1_XXhD0",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "2iGxxDkGPEPBxl_nQwLF6K"
+      ],
+      "guid": "2iGxxDkGPEPBxl_nQwLF6K",
+      "type": "MEMBERTYPE",
+      "name": "2iGxxDkGPEPBxl_nQwLF6K",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "1Sg6I9VWTAMfI4dTnSxhcR"
+      ],
+      "guid": "1Sg6I9VWTAMfI4dTnSxhcR",
+      "type": "MEMBERTYPE",
+      "name": "1Sg6I9VWTAMfI4dTnSxhcR",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "0O5PVtKJr0vQ1WHIJycdMK"
+      ],
+      "guid": "0O5PVtKJr0vQ1WHIJycdMK",
+      "type": "PROPERTYSETTEMPLATE",
+      "name": "0O5PVtKJr0vQ1WHIJycdMK",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "3QoawjoGHBIPmOacJ5QJVt"
+      ],
+      "guid": "3QoawjoGHBIPmOacJ5QJVt",
+      "type": "PROPERTYSETTEMPLATE",
+      "name": "3QoawjoGHBIPmOacJ5QJVt",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "2jmfqObCHFUh52YUnwgr4Y"
+      ],
+      "guid": "2jmfqObCHFUh52YUnwgr4Y",
+      "type": "PROPERTYSETTEMPLATE",
+      "name": "2jmfqObCHFUh52YUnwgr4Y",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "2IMp2B_yz5uhg91eaUUtU9"
+      ],
+      "guid": "2IMp2B_yz5uhg91eaUUtU9",
+      "type": "PROPERTYSET",
+      "name": "2IMp2B_yz5uhg91eaUUtU9",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "1M1KH38ALA2hlVsZbmcxAp"
+      ],
+      "guid": "1M1KH38ALA2hlVsZbmcxAp",
+      "type": "PROPERTYSET",
+      "name": "1M1KH38ALA2hlVsZbmcxAp",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "1bH3Sn1CL869TpIu9xfzRh"
+      ],
+      "guid": "1bH3Sn1CL869TpIu9xfzRh",
+      "type": "PROPERTYSET",
+      "name": "1bH3Sn1CL869TpIu9xfzRh",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "Assemblies"
+      ],
+      "guid": "Assemblies",
+      "type": "LABEL",
+      "name": "Assemblies",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "FAILCLOSED"
+      ],
+      "guid": "FAILCLOSED",
+      "type": "LABEL",
+      "name": "FAILCLOSED",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "DAMPERACTUATOR"
+      ],
+      "guid": "DAMPERACTUATOR",
+      "type": "LABEL",
+      "name": "DAMPERACTUATOR",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "1sql3mCgnCxhxzaKnaNPw3"
+      ],
+      "guid": "1sql3mCgnCxhxzaKnaNPw3",
+      "type": "RELDEFINESBYPROPERTIES",
+      "name": "1sql3mCgnCxhxzaKnaNPw3",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "1AUpuQO99DN88KVElfbCPB"
+      ],
+      "guid": "1AUpuQO99DN88KVElfbCPB",
+      "type": "RELDEFINESBYPROPERTIES",
+      "name": "1AUpuQO99DN88KVElfbCPB",
+      "description": "",
+      "sample_type": "entity_search"
+    },
+    {
+      "node_id": [
+        "IFC",
+        "1ykybQGDr5_fuE28Dg8YXp"
+      ],
+      "guid": "1ykybQGDr5_fuE28Dg8YXp",
+      "type": "RELDEFINESBYPROPERTIES",
+      "name": "1ykybQGDr5_fuE28Dg8YXp",
+      "description": "",
+      "sample_type": "entity_search"
+    }
+  ],
+  "bcf_samples": [
+    {
+      "node_id": [
+        "BCF",
+        "bcf_sample_001"
+      ],
+      "topic_id": "bcf_sample_001",
+      "title": "Sample BCF Issue",
+      "description": "This is a sample BCF issue for testing",
+      "priority": "medium",
+      "author": "test_user",
+      "created": "2025-01-01T00:00:00Z",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "793a5f9f-788e-46e4-b484-9c44d3061577"
+      ],
+      "topic_id": "793a5f9f-788e-46e4-b484-9c44d3061577",
+      "title": "Orthogonal Camera",
+      "description": "This topic has a single viewpoint with an orthogonal camera. The viewpoint camera was manually created and should provide a straight view from the center of the coordinate system top down to the model.",
+      "priority": "normal",
+      "author": "Architect@example.com",
+      "created": "2021-02-17T11:35:54+02:00",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "dc5267c8-5170-4bd4-a76f-61221babe47a"
+      ],
+      "topic_id": "dc5267c8-5170-4bd4-a76f-61221babe47a",
+      "title": "발코니 난간",
+      "description": "발코니 난간 높이가 안전 기준 미달입니다.",
+      "priority": "normal",
+      "author": "architect_jung",
+      "created": "2025-08-15T23:13:53.073747",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "030d77de-ee5a-491e-a008-bde9fc9690d8"
+      ],
+      "topic_id": "030d77de-ee5a-491e-a008-bde9fc9690d8",
+      "title": "기둥 단면 부족",
+      "description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.",
+      "priority": "normal",
+      "author": "engineer_a",
+      "created": "2025-09-23T23:13:53.073766",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "b2da0f70-21fd-4acf-8574-6568c447df6f"
+      ],
+      "topic_id": "b2da0f70-21fd-4acf-8574-6568c447df6f",
+      "title": "보일러 용량",
+      "description": "보일러 용량 재검토 필요합니다.",
+      "priority": "normal",
+      "author": "architect_choi",
+      "created": "2025-07-28T23:13:53.073783",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "7c7879b4-1c3c-4d36-aef4-1b41d9ff39dc"
+      ],
+      "topic_id": "7c7879b4-1c3c-4d36-aef4-1b41d9ff39dc",
+      "title": "덕트 간섭",
+      "description": "공조 덕트가 구조 보와 간섭합니다.",
+      "priority": "normal",
+      "author": "architect_jung",
+      "created": "2025-08-20T23:13:53.073800",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "0dff83e1-eb38-41bc-bd7a-eaab0de564b5"
+      ],
+      "topic_id": "0dff83e1-eb38-41bc-bd7a-eaab0de564b5",
+      "title": "기계실 공간 부족",
+      "description": "기계실 기기 배치 시 공간이 부족합니다.",
+      "priority": "normal",
+      "author": "engineer_a",
+      "created": "2025-09-19T23:13:53.073816",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "11c60fb3-5800-44bf-a71e-7facb2062290"
+      ],
+      "topic_id": "11c60fb3-5800-44bf-a71e-7facb2062290",
+      "title": "스프링클러 헤드 추가",
+      "description": "스프링클러 헤드 설치 간격이 기준 초과합니다.",
+      "priority": "normal",
+      "author": "engineer_park",
+      "created": "2025-10-02T23:13:53.073834",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "6866cfae-41bd-4fb4-846c-47040b30b8ce"
+      ],
+      "topic_id": "6866cfae-41bd-4fb4-846c-47040b30b8ce",
+      "title": "자재 반입 경로",
+      "description": "자재 반입 경로 확보 어려움.",
+      "priority": "normal",
+      "author": "engineer_lee",
+      "created": "2025-08-14T23:13:53.073856",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "b62e857d-3245-4916-b50d-ea1d0f0a9401"
+      ],
+      "topic_id": "b62e857d-3245-4916-b50d-ea1d0f0a9401",
+      "title": "시공 순서 변경",
+      "description": "현장 여건상 시공 순서 변경 필요.",
+      "priority": "normal",
+      "author": "engineer_b",
+      "created": "2025-07-18T23:13:53.073875",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "db7749e9-983a-4e5d-88a8-b850567ac15a"
+      ],
+      "topic_id": "db7749e9-983a-4e5d-88a8-b850567ac15a",
+      "title": "전력 용량 부족",
+      "description": "전력 수용량이 부족합니다. 큐비클 증설 필요.",
+      "priority": "normal",
+      "author": "engineer_park",
+      "created": "2025-07-12T23:13:53.073892",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "e668e086-b6ae-4bed-a9f3-0e921c97baf0"
+      ],
+      "topic_id": "e668e086-b6ae-4bed-a9f3-0e921c97baf0",
+      "title": "소화전 접근",
+      "description": "소화전 접근 공간이 확보되지 않았습니다.",
+      "priority": "normal",
+      "author": "architect_jung",
+      "created": "2025-10-01T23:13:53.073909",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "d294f0d1-40e4-4d6a-8922-fcd2acc1f7bb"
+      ],
+      "topic_id": "d294f0d1-40e4-4d6a-8922-fcd2acc1f7bb",
+      "title": "접지 시스템",
+      "description": "접지 시스템 상세 확인 필요.",
+      "priority": "normal",
+      "author": "engineer_b",
+      "created": "2025-07-29T23:13:53.075200",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "3743b764-001d-4cdf-8a70-8dda3ec30ac8"
+      ],
+      "topic_id": "3743b764-001d-4cdf-8a70-8dda3ec30ac8",
+      "title": "접지 시스템",
+      "description": "접지 시스템 상세 확인 필요.",
+      "priority": "normal",
+      "author": "engineer_b",
+      "created": "2025-10-01T23:13:53.075224",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "b2829558-d6ac-47a7-9449-6984f537ce25"
+      ],
+      "topic_id": "b2829558-d6ac-47a7-9449-6984f537ce25",
+      "title": "보 처짐 우려",
+      "description": "보의 처짐이 허용치를 초과합니다. 보강 또는 단면 증가 필요.",
+      "priority": "normal",
+      "author": "engineer_park",
+      "created": "2025-07-30T23:13:53.075245",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "450ce387-6c26-4163-98fe-2fad9005d46d"
+      ],
+      "topic_id": "450ce387-6c26-4163-98fe-2fad9005d46d",
+      "title": "시공 순서 변경",
+      "description": "현장 여건상 시공 순서 변경 필요.",
+      "priority": "normal",
+      "author": "architect_choi",
+      "created": "2025-07-22T23:13:53.075265",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "69955d8b-43fa-421b-bbe2-fb31d5c8c496"
+      ],
+      "topic_id": "69955d8b-43fa-421b-bbe2-fb31d5c8c496",
+      "title": "보일러 용량",
+      "description": "보일러 용량 재검토 필요합니다.",
+      "priority": "normal",
+      "author": "engineer_kim",
+      "created": "2025-08-18T23:13:53.075283",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "b9d54772-bab6-46a3-a799-af1356575edb"
+      ],
+      "topic_id": "b9d54772-bab6-46a3-a799-af1356575edb",
+      "title": "시공 순서 변경",
+      "description": "현장 여건상 시공 순서 변경 필요.",
+      "priority": "normal",
+      "author": "engineer_b",
+      "created": "2025-08-04T23:13:53.075302",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "1f7544a7-4cf0-4f3f-83e4-e7fe07b40146"
+      ],
+      "topic_id": "1f7544a7-4cf0-4f3f-83e4-e7fe07b40146",
+      "title": "마감재 변경",
+      "description": "마감재 사양이 승인된 내용과 다릅니다.",
+      "priority": "normal",
+      "author": "engineer_a",
+      "created": "2025-09-13T23:13:53.075324",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "456b122e-3c6c-480c-9f60-30b4bd47ae08"
+      ],
+      "topic_id": "456b122e-3c6c-480c-9f60-30b4bd47ae08",
+      "title": "Single visible wall",
+      "description": "Single Visible Wall",
+      "priority": "normal",
+      "author": "blackhole@aconex.com",
+      "created": "2021-02-17T11:03:34.498Z",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "03b7d46f-47ed-4957-a495-36413d8d6534"
+      ],
+      "topic_id": "03b7d46f-47ed-4957-a495-36413d8d6534",
+      "title": "접지 시스템",
+      "description": "접지 시스템 상세 확인 필요.",
+      "priority": "normal",
+      "author": "engineer_lee",
+      "created": "2025-07-19T23:13:53.078667",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "813d62db-1a12-4f99-82bb-18f4c68d07f2"
+      ],
+      "topic_id": "813d62db-1a12-4f99-82bb-18f4c68d07f2",
+      "title": "내진 설계 미흡",
+      "description": "내진 벽체 배치가 구조 계산서와 불일치합니다.",
+      "priority": "normal",
+      "author": "engineer_b",
+      "created": "2025-09-30T23:13:53.078684",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "0ab2dbbc-b159-440a-8e8f-0d2c486a97a6"
+      ],
+      "topic_id": "0ab2dbbc-b159-440a-8e8f-0d2c486a97a6",
+      "title": "기초 깊이 변경",
+      "description": "지반 조사 결과 기초 깊이 증가 필요.",
+      "priority": "normal",
+      "author": "engineer_lee",
+      "created": "2025-08-15T23:13:53.078699",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "b2e0b075-b459-4913-ba3f-1a65d17b1d6d"
+      ],
+      "topic_id": "b2e0b075-b459-4913-ba3f-1a65d17b1d6d",
+      "title": "조명 배치 변경",
+      "description": "조명 배치가 실 용도와 맞지 않습니다.",
+      "priority": "normal",
+      "author": "engineer_park",
+      "created": "2025-08-07T23:13:53.071404",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "6acd419a-a8ea-4c83-aca9-c2233fed49b3"
+      ],
+      "topic_id": "6acd419a-a8ea-4c83-aca9-c2233fed49b3",
+      "title": "냉방 부하 초과",
+      "description": "냉방 부하가 예상보다 높습니다.",
+      "priority": "normal",
+      "author": "architect_choi",
+      "created": "2025-08-03T23:13:53.071420",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "592c753d-df08-49d3-b854-f03a007a6967"
+      ],
+      "topic_id": "592c753d-df08-49d3-b854-f03a007a6967",
+      "title": "스프링클러 헤드 추가",
+      "description": "스프링클러 헤드 설치 간격이 기준 초과합니다.",
+      "priority": "normal",
+      "author": "engineer_b",
+      "created": "2025-08-09T23:13:53.071435",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "d2aedef3-2fd7-40c2-b2c3-3a4025b1aad1"
+      ],
+      "topic_id": "d2aedef3-2fd7-40c2-b2c3-3a4025b1aad1",
+      "title": "기초 깊이 변경",
+      "description": "지반 조사 결과 기초 깊이 증가 필요.",
+      "priority": "normal",
+      "author": "architect_jung",
+      "created": "2025-10-08T23:13:53.071450",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "68316244-2ebc-4658-82db-90b7b0131483"
+      ],
+      "topic_id": "68316244-2ebc-4658-82db-90b7b0131483",
+      "title": "조명 배치 변경",
+      "description": "조명 배치가 실 용도와 맞지 않습니다.",
+      "priority": "normal",
+      "author": "architect_jung",
+      "created": "2025-10-05T23:13:53.071465",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "7aea3720-8a0c-4643-992c-f6c99033fe2d"
+      ],
+      "topic_id": "7aea3720-8a0c-4643-992c-f6c99033fe2d",
+      "title": "자재 반입 경로",
+      "description": "자재 반입 경로 확보 어려움.",
+      "priority": "normal",
+      "author": "engineer_park",
+      "created": "2025-08-20T23:13:53.071480",
+      "sample_type": "issue_search"
+    },
+    {
+      "node_id": [
+        "BCF",
+        "10ee5e63-534b-4460-a050-e69462c5ab85"
+      ],
+      "topic_id": "10ee5e63-534b-4460-a050-e69462c5ab85",
+      "title": "환기 용량 부족",
+      "description": "환기 용량이 실내 인원수 대비 부족합니다.",
+      "priority": "normal",
+      "author": "architect_choi",
+      "created": "2025-08-10T23:13:53.071498",
+      "sample_type": "issue_search"
+    }
+  ],
+  "connected_pairs": [
+    {
+      "bcf_node_id": [
+        "BCF",
+        "030d77de-ee5a-491e-a008-bde9fc9690d8"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "06RelWCXj0AxyUJVg6xqKg"
+      ],
+      "bcf_topic_id": "030d77de-ee5a-491e-a008-bde9fc9690d8",
+      "bcf_title": "기둥 단면 부족",
+      "bcf_description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.",
+      "ifc_guid": "06RelWCXj0AxyUJVg6xqKg",
+      "ifc_type": "COLUMNTYPE",
+      "ifc_name": "06RelWCXj0AxyUJVg6xqKg",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "b2da0f70-21fd-4acf-8574-6568c447df6f"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "b2da0f70-21fd-4acf-8574-6568c447df6f",
+      "bcf_title": "보일러 용량",
+      "bcf_description": "보일러 용량 재검토 필요합니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "7c7879b4-1c3c-4d36-aef4-1b41d9ff39dc"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "7c7879b4-1c3c-4d36-aef4-1b41d9ff39dc",
+      "bcf_title": "덕트 간섭",
+      "bcf_description": "공조 덕트가 구조 보와 간섭합니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "6866cfae-41bd-4fb4-846c-47040b30b8ce"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "6866cfae-41bd-4fb4-846c-47040b30b8ce",
+      "bcf_title": "자재 반입 경로",
+      "bcf_description": "자재 반입 경로 확보 어려움.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "e668e086-b6ae-4bed-a9f3-0e921c97baf0"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "e668e086-b6ae-4bed-a9f3-0e921c97baf0",
+      "bcf_title": "소화전 접근",
+      "bcf_description": "소화전 접근 공간이 확보되지 않았습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "b2829558-d6ac-47a7-9449-6984f537ce25"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "b2829558-d6ac-47a7-9449-6984f537ce25",
+      "bcf_title": "보 처짐 우려",
+      "bcf_description": "보의 처짐이 허용치를 초과합니다. 보강 또는 단면 증가 필요.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "69955d8b-43fa-421b-bbe2-fb31d5c8c496"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "69955d8b-43fa-421b-bbe2-fb31d5c8c496",
+      "bcf_title": "보일러 용량",
+      "bcf_description": "보일러 용량 재검토 필요합니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "456b122e-3c6c-480c-9f60-30b4bd47ae08"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "3cUkl32yn9qRSPvBJVyWw5"
+      ],
+      "bcf_topic_id": "456b122e-3c6c-480c-9f60-30b4bd47ae08",
+      "bcf_title": "Single visible wall",
+      "bcf_description": "Single Visible Wall",
+      "ifc_guid": "3cUkl32yn9qRSPvBJVyWw5",
+      "ifc_type": "WALL",
+      "ifc_name": "3cUkl32yn9qRSPvBJVyWw5",
+      "confidence": 0.1085107783544213,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "813d62db-1a12-4f99-82bb-18f4c68d07f2"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "1Xezbq735AdBO_4DerG66G"
+      ],
+      "bcf_topic_id": "813d62db-1a12-4f99-82bb-18f4c68d07f2",
+      "bcf_title": "내진 설계 미흡",
+      "bcf_description": "내진 벽체 배치가 구조 계산서와 불일치합니다.",
+      "ifc_guid": "1Xezbq735AdBO_4DerG66G",
+      "ifc_type": "WALLSTANDARDCASE",
+      "ifc_name": "1Xezbq735AdBO_4DerG66G",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "6acd419a-a8ea-4c83-aca9-c2233fed49b3"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "6acd419a-a8ea-4c83-aca9-c2233fed49b3",
+      "bcf_title": "냉방 부하 초과",
+      "bcf_description": "냉방 부하가 예상보다 높습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "7aea3720-8a0c-4643-992c-f6c99033fe2d"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "7aea3720-8a0c-4643-992c-f6c99033fe2d",
+      "bcf_title": "자재 반입 경로",
+      "bcf_description": "자재 반입 경로 확보 어려움.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "6e9a9f2f-263c-4358-815e-87baf9c7df15"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "28Fol_2rT8D93IPNMW2ztB"
+      ],
+      "bcf_topic_id": "6e9a9f2f-263c-4358-815e-87baf9c7df15",
+      "bcf_title": "All components except one plate visible",
+      "bcf_description": "All components of a curtain wall except one plate visible",
+      "ifc_guid": "28Fol_2rT8D93IPNMW2ztB",
+      "ifc_type": "PLATE",
+      "ifc_name": "28Fol_2rT8D93IPNMW2ztB",
+      "confidence": 0.08068977309848897,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "968b1bad-01e3-4881-bf9e-31d129a67a31"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "968b1bad-01e3-4881-bf9e-31d129a67a31",
+      "bcf_title": "소화전 접근",
+      "bcf_description": "소화전 접근 공간이 확보되지 않았습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "7c5bb1b7-0698-47eb-b44d-f4df7f6df017"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "7c5bb1b7-0698-47eb-b44d-f4df7f6df017",
+      "bcf_title": "냉방 부하 초과",
+      "bcf_description": "냉방 부하가 예상보다 높습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "25439233-41c7-4d3d-890c-94623bbb954c"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "1Xezbq735AdBO_4DerG66G"
+      ],
+      "bcf_topic_id": "25439233-41c7-4d3d-890c-94623bbb954c",
+      "bcf_title": "벽체 두께 불일치",
+      "bcf_description": "외벽 두께가 단열 기준을 만족하지 못합니다.",
+      "ifc_guid": "1Xezbq735AdBO_4DerG66G",
+      "ifc_type": "WALLSTANDARDCASE",
+      "ifc_name": "1Xezbq735AdBO_4DerG66G",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "fa2de3bf-986b-4731-acb5-b4f54aaa0d79"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "FireRating"
+      ],
+      "bcf_topic_id": "fa2de3bf-986b-4731-acb5-b4f54aaa0d79",
+      "bcf_title": "방화구획 관통",
+      "bcf_description": "방화구획 관통부 방화 처리 누락.",
+      "ifc_guid": "FireRating",
+      "ifc_type": "PROPERTYSINGLEVALUE",
+      "ifc_name": "FireRating",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "b98fb35b-683e-4575-875f-650117fd56ef"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "b98fb35b-683e-4575-875f-650117fd56ef",
+      "bcf_title": "연결부 상세 누락",
+      "bcf_description": "기둥-보 접합부 상세도가 누락되었습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "adfe3361-7914-4c4d-a6f9-4167ebf81cf9"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "adfe3361-7914-4c4d-a6f9-4167ebf81cf9",
+      "bcf_title": "냉방 부하 초과",
+      "bcf_description": "냉방 부하가 예상보다 높습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "05282cbf-999b-41ed-8488-179c41bf1630"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "05282cbf-999b-41ed-8488-179c41bf1630",
+      "bcf_title": "덕트 간섭",
+      "bcf_description": "공조 덕트가 구조 보와 간섭합니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "040c3286-501f-4077-800f-66b3483e1010"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "040c3286-501f-4077-800f-66b3483e1010",
+      "bcf_title": "소화전 접근",
+      "bcf_description": "소화전 접근 공간이 확보되지 않았습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "ecf8c925-3d6e-4825-9abf-a08b0adcd024"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "ecf8c925-3d6e-4825-9abf-a08b0adcd024",
+      "bcf_title": "보일러 용량",
+      "bcf_description": "보일러 용량 재검토 필요합니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "9e5b60ee-e558-40b4-860e-4754e1c55a08"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "1Xezbq735AdBO_4DerG66G"
+      ],
+      "bcf_topic_id": "9e5b60ee-e558-40b4-860e-4754e1c55a08",
+      "bcf_title": "벽체 두께 불일치",
+      "bcf_description": "외벽 두께가 단열 기준을 만족하지 못합니다.",
+      "ifc_guid": "1Xezbq735AdBO_4DerG66G",
+      "ifc_type": "WALLSTANDARDCASE",
+      "ifc_name": "1Xezbq735AdBO_4DerG66G",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "e33a2480-790d-4a07-882c-256fbbe6b815"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "e33a2480-790d-4a07-882c-256fbbe6b815",
+      "bcf_title": "연결부 상세 누락",
+      "bcf_description": "기둥-보 접합부 상세도가 누락되었습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "7ad1a717-bf20-4c12-b511-cbd90370ddba"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "Assignment"
+      ],
+      "bcf_topic_id": "7ad1a717-bf20-4c12-b511-cbd90370ddba",
+      "bcf_title": "User assignment",
+      "bcf_description": "",
+      "ifc_guid": "Assignment",
+      "ifc_type": "LABEL",
+      "ifc_name": "Assignment",
+      "confidence": 0.25566468527188974,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "d8c01933-14ca-4a66-b8fe-9edf4efd6b8c"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "1Xezbq735AdBO_4DerG66G"
+      ],
+      "bcf_topic_id": "d8c01933-14ca-4a66-b8fe-9edf4efd6b8c",
+      "bcf_title": "배관 경로 변경",
+      "bcf_description": "급수 배관 경로가 건축 벽체와 충돌합니다.",
+      "ifc_guid": "1Xezbq735AdBO_4DerG66G",
+      "ifc_type": "WALLSTANDARDCASE",
+      "ifc_name": "1Xezbq735AdBO_4DerG66G",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "554c9b74-9a32-40bc-b7f9-b1b087ffe1f3"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "FireRating"
+      ],
+      "bcf_topic_id": "554c9b74-9a32-40bc-b7f9-b1b087ffe1f3",
+      "bcf_title": "방화구획 관통",
+      "bcf_description": "방화구획 관통부 방화 처리 누락.",
+      "ifc_guid": "FireRating",
+      "ifc_type": "PROPERTYSINGLEVALUE",
+      "ifc_name": "FireRating",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "b4643ef6-8ead-4734-b337-6175b22419bb"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "1Xezbq735AdBO_4DerG66G"
+      ],
+      "bcf_topic_id": "b4643ef6-8ead-4734-b337-6175b22419bb",
+      "bcf_title": "벽체 두께 불일치",
+      "bcf_description": "외벽 두께가 단열 기준을 만족하지 못합니다.",
+      "ifc_guid": "1Xezbq735AdBO_4DerG66G",
+      "ifc_type": "WALLSTANDARDCASE",
+      "ifc_name": "1Xezbq735AdBO_4DerG66G",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "a71b41ee-499e-4229-bd64-a2d5c6270a97"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "1Xezbq735AdBO_4DerG66G"
+      ],
+      "bcf_topic_id": "a71b41ee-499e-4229-bd64-a2d5c6270a97",
+      "bcf_title": "배관 경로 변경",
+      "bcf_description": "급수 배관 경로가 건축 벽체와 충돌합니다.",
+      "ifc_guid": "1Xezbq735AdBO_4DerG66G",
+      "ifc_type": "WALLSTANDARDCASE",
+      "ifc_name": "1Xezbq735AdBO_4DerG66G",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "db32cc47-91a8-4bff-962e-b38903d0e229"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "FireRating"
+      ],
+      "bcf_topic_id": "db32cc47-91a8-4bff-962e-b38903d0e229",
+      "bcf_title": "방화구획 관통",
+      "bcf_description": "방화구획 관통부 방화 처리 누락.",
+      "ifc_guid": "FireRating",
+      "ifc_type": "PROPERTYSINGLEVALUE",
+      "ifc_name": "FireRating",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "ee6f5351-2b19-4631-adce-f153e3996899"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "ee6f5351-2b19-4631-adce-f153e3996899",
+      "bcf_title": "보 처짐 우려",
+      "bcf_description": "보의 처짐이 허용치를 초과합니다. 보강 또는 단면 증가 필요.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "ca73dbaf-c09e-4db6-bf14-57a01e66b796"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "06RelWCXj0AxyUJVg6xqKg"
+      ],
+      "bcf_topic_id": "ca73dbaf-c09e-4db6-bf14-57a01e66b796",
+      "bcf_title": "기둥 단면 부족",
+      "bcf_description": "하중 계산 결과 기둥 단면이 부족합니다. 400x400 → 500x500으로 변경 필요.",
+      "ifc_guid": "06RelWCXj0AxyUJVg6xqKg",
+      "ifc_type": "COLUMNTYPE",
+      "ifc_name": "06RelWCXj0AxyUJVg6xqKg",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "0f93d7aa-e1c3-40fd-a420-c10f8614ddcd"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "06RelWCXj0AxyUJVg6xqKg"
+      ],
+      "bcf_topic_id": "0f93d7aa-e1c3-40fd-a420-c10f8614ddcd",
+      "bcf_title": "기둥 단면 확대",
+      "bcf_description": "내하력 부족으로 단면 증가 필요합니다.",
+      "ifc_guid": "06RelWCXj0AxyUJVg6xqKg",
+      "ifc_type": "COLUMNTYPE",
+      "ifc_name": "06RelWCXj0AxyUJVg6xqKg",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "31ec7bd3-e3aa-42e9-b528-6f84e2f5656f"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "06RelWCXj0AxyUJVg6xqKg"
+      ],
+      "bcf_topic_id": "31ec7bd3-e3aa-42e9-b528-6f84e2f5656f",
+      "bcf_title": "기둥 단면 확대",
+      "bcf_description": "내하력 부족으로 단면 증가 필요합니다.",
+      "ifc_guid": "06RelWCXj0AxyUJVg6xqKg",
+      "ifc_type": "COLUMNTYPE",
+      "ifc_name": "06RelWCXj0AxyUJVg6xqKg",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "c5324386-cbb1-4b4a-a94c-a777c473e9b1"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "c5324386-cbb1-4b4a-a94c-a777c473e9b1",
+      "bcf_title": "보 연결부 상세",
+      "bcf_description": "용접 상세도가 누락되었습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "663a0896-ef15-4c65-a4ac-9828ebdd5761"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "06RelWCXj0AxyUJVg6xqKg"
+      ],
+      "bcf_topic_id": "663a0896-ef15-4c65-a4ac-9828ebdd5761",
+      "bcf_title": "기둥 단면 확대",
+      "bcf_description": "내하력 부족으로 단면 증가 필요합니다.",
+      "ifc_guid": "06RelWCXj0AxyUJVg6xqKg",
+      "ifc_type": "COLUMNTYPE",
+      "ifc_name": "06RelWCXj0AxyUJVg6xqKg",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "beecf80c-9a44-4f9a-88dd-fcdbefa3b959"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "beecf80c-9a44-4f9a-88dd-fcdbefa3b959",
+      "bcf_title": "보 연결부 상세",
+      "bcf_description": "용접 상세도가 누락되었습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "f4b251be-116b-48ac-a306-1f586f5f1b27"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "f4b251be-116b-48ac-a306-1f586f5f1b27",
+      "bcf_title": "보 연결부 상세",
+      "bcf_description": "용접 상세도가 누락되었습니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "21276f69-85a1-417d-94dd-ac676153a76f"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "21276f69-85a1-417d-94dd-ac676153a76f",
+      "bcf_title": "지붕 구조 보강 필요",
+      "bcf_description": "적설하중 계산 재검토가 필요합니다.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "969e6a7d-9362-4076-9d0f-0da351661bb2"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "1Xezbq735AdBO_4DerG66G"
+      ],
+      "bcf_topic_id": "969e6a7d-9362-4076-9d0f-0da351661bb2",
+      "bcf_title": "내진 설계 미흡",
+      "bcf_description": "내진 벽체 배치가 구조 계산서와 불일치합니다.",
+      "ifc_guid": "1Xezbq735AdBO_4DerG66G",
+      "ifc_type": "WALLSTANDARDCASE",
+      "ifc_name": "1Xezbq735AdBO_4DerG66G",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    },
+    {
+      "bcf_node_id": [
+        "BCF",
+        "88f69904-7ff2-45fb-9831-e72f35490f57"
+      ],
+      "ifc_node_id": [
+        "IFC",
+        "2pAeYRAvX10OFDGbZcUMQ1"
+      ],
+      "bcf_topic_id": "88f69904-7ff2-45fb-9831-e72f35490f57",
+      "bcf_title": "자재 반입 경로",
+      "bcf_description": "자재 반입 경로 확보 어려움.",
+      "ifc_guid": "2pAeYRAvX10OFDGbZcUMQ1",
+      "ifc_type": "BEAMTYPE",
+      "ifc_name": "2pAeYRAvX10OFDGbZcUMQ1",
+      "confidence": 0.10000000000000002,
+      "sample_type": "relationship"
+    }
+  ],
+  "metadata": {
+    "total_samples": 100,
+    "graph_nodes": 33287,
+    "graph_edges": 513,
+    "ifc_node_count": 32905,
+    "bcf_node_count": 382
+  }
+}

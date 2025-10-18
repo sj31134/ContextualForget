@@ -1,0 +1,722 @@
+[
+  {
+    "qa_id": "qa_llm_000",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.025248050689697266
+  },
+  {
+    "qa_id": "qa_llm_000",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7344029545783997,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7344029545783997,
+    "response_time": 0.1451730728149414
+  },
+  {
+    "qa_id": "qa_llm_001",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.011914968490600586
+  },
+  {
+    "qa_id": "qa_llm_001",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7949898838996887,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7949898838996887,
+    "response_time": 0.02084517478942871
+  },
+  {
+    "qa_id": "qa_llm_002",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.004894256591796875
+  },
+  {
+    "qa_id": "qa_llm_002",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7200499773025513,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7200499773025513,
+    "response_time": 0.0374300479888916
+  },
+  {
+    "qa_id": "qa_llm_003",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.010568857192993164
+  },
+  {
+    "qa_id": "qa_llm_003",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7398091554641724,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7398091554641724,
+    "response_time": 0.03658604621887207
+  },
+  {
+    "qa_id": "qa_llm_004",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.008146047592163086
+  },
+  {
+    "qa_id": "qa_llm_004",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7353087067604065,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7353087067604065,
+    "response_time": 0.019733190536499023
+  },
+  {
+    "qa_id": "qa_llm_005",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.005418062210083008
+  },
+  {
+    "qa_id": "qa_llm_005",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.8091609477996826,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.8091609477996826,
+    "response_time": 0.03249669075012207
+  },
+  {
+    "qa_id": "qa_llm_006",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.009201765060424805
+  },
+  {
+    "qa_id": "qa_llm_006",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.751093864440918,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.751093864440918,
+    "response_time": 0.03387022018432617
+  },
+  {
+    "qa_id": "qa_llm_007",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.009279012680053711
+  },
+  {
+    "qa_id": "qa_llm_007",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7794004082679749,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7794004082679749,
+    "response_time": 0.02179718017578125
+  },
+  {
+    "qa_id": "qa_llm_008",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.004817008972167969
+  },
+  {
+    "qa_id": "qa_llm_008",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7817366123199463,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7817366123199463,
+    "response_time": 0.03596210479736328
+  },
+  {
+    "qa_id": "qa_llm_009",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.009050130844116211
+  },
+  {
+    "qa_id": "qa_llm_009",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.8015764951705933,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.8015764951705933,
+    "response_time": 0.020493030548095703
+  },
+  {
+    "qa_id": "qa_llm_010",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.008569717407226562
+  },
+  {
+    "qa_id": "qa_llm_010",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7754994630813599,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7754994630813599,
+    "response_time": 0.021664142608642578
+  },
+  {
+    "qa_id": "qa_llm_011",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.010013103485107422
+  },
+  {
+    "qa_id": "qa_llm_011",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7763271331787109,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7763271331787109,
+    "response_time": 0.019610166549682617
+  },
+  {
+    "qa_id": "qa_llm_012",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.008848190307617188
+  },
+  {
+    "qa_id": "qa_llm_012",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7430364489555359,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7430364489555359,
+    "response_time": 0.021525144577026367
+  },
+  {
+    "qa_id": "qa_llm_013",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.009878873825073242
+  },
+  {
+    "qa_id": "qa_llm_013",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7391939163208008,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7391939163208008,
+    "response_time": 0.020678997039794922
+  },
+  {
+    "qa_id": "qa_llm_014",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.009344100952148438
+  },
+  {
+    "qa_id": "qa_llm_014",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7908705472946167,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7908705472946167,
+    "response_time": 0.03560590744018555
+  },
+  {
+    "qa_id": "qa_llm_015",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.009547948837280273
+  },
+  {
+    "qa_id": "qa_llm_015",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7762888669967651,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7762888669967651,
+    "response_time": 0.02197408676147461
+  },
+  {
+    "qa_id": "qa_llm_016",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.005409955978393555
+  },
+  {
+    "qa_id": "qa_llm_016",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7371269464492798,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7371269464492798,
+    "response_time": 0.020418643951416016
+  },
+  {
+    "qa_id": "qa_llm_017",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.004971027374267578
+  },
+  {
+    "qa_id": "qa_llm_017",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7753857374191284,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7753857374191284,
+    "response_time": 0.02119278907775879
+  },
+  {
+    "qa_id": "qa_llm_018",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.004698038101196289
+  },
+  {
+    "qa_id": "qa_llm_018",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7959742546081543,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7959742546081543,
+    "response_time": 0.02071404457092285
+  },
+  {
+    "qa_id": "qa_llm_019",
+    "engine": "BM25",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.6,
+      "response_time": 0.0,
+      "result_count": 2
+    },
+    "result_count": 2,
+    "confidence": 0.6,
+    "response_time": 0.0048427581787109375
+  },
+  {
+    "qa_id": "qa_llm_019",
+    "engine": "Vector",
+    "metrics": {
+      "success": false,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ndcg@10": 0.0,
+      "mrr": 0.0,
+      "confidence": 0.7716132998466492,
+      "response_time": 0.0,
+      "result_count": 5
+    },
+    "result_count": 5,
+    "confidence": 0.7716132998466492,
+    "response_time": 0.0193328857421875
+  }
+]

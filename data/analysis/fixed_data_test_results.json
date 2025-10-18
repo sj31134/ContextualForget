@@ -1,0 +1,866 @@
+{
+  "BM25": {
+    "success_rate": 100.0,
+    "avg_confidence": 1.0,
+    "avg_entities": 1.0,
+    "avg_response_time": 0.001079535367898643,
+    "detailed_results": [
+      {
+        "question_id": 1,
+        "question": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+        ],
+        "retrieved_entities": [
+          "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.013153166975826025,
+        "is_success": true
+      },
+      {
+        "question_id": 2,
+        "question": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+        ],
+        "retrieved_entities": [
+          "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.0048633748665452,
+        "is_success": true
+      },
+      {
+        "question_id": 3,
+        "question": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+        ],
+        "retrieved_entities": [
+          "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00022841687314212322,
+        "is_success": true
+      },
+      {
+        "question_id": 4,
+        "question": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+        ],
+        "retrieved_entities": [
+          "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.0002335000317543745,
+        "is_success": true
+      },
+      {
+        "question_id": 5,
+        "question": "GUID d12f4044-5a36-4568-944c-34587c720840의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d12f4044-5a36-4568-944c-34587c720840"
+        ],
+        "retrieved_entities": [
+          "d12f4044-5a36-4568-944c-34587c720840"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00021399999968707561,
+        "is_success": true
+      },
+      {
+        "question_id": 6,
+        "question": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+        ],
+        "retrieved_entities": [
+          "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00020900019444525242,
+        "is_success": true
+      },
+      {
+        "question_id": 7,
+        "question": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+        ],
+        "retrieved_entities": [
+          "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00020370795391499996,
+        "is_success": true
+      },
+      {
+        "question_id": 8,
+        "question": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+        ],
+        "retrieved_entities": [
+          "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00023133284412324429,
+        "is_success": true
+      },
+      {
+        "question_id": 9,
+        "question": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "18a87e54-7470-480c-9f9d-f465261ae86a"
+        ],
+        "retrieved_entities": [
+          "18a87e54-7470-480c-9f9d-f465261ae86a"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00019770790822803974,
+        "is_success": true
+      },
+      {
+        "question_id": 10,
+        "question": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+        ],
+        "retrieved_entities": [
+          "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00019391602836549282,
+        "is_success": true
+      },
+      {
+        "question_id": 11,
+        "question": "GUID 2cfa6b2e-1d09-45b6-9935-469591b3236d의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "2cfa6b2e-1d09-45b6-9935-469591b3236d"
+        ],
+        "retrieved_entities": [
+          "2cfa6b2e-1d09-45b6-9935-469591b3236d"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00018954207189381123,
+        "is_success": true
+      },
+      {
+        "question_id": 12,
+        "question": "GUID 6fa9c60b-5dfd-4176-8657-b19b6c66fcd2의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "6fa9c60b-5dfd-4176-8657-b19b6c66fcd2"
+        ],
+        "retrieved_entities": [
+          "6fa9c60b-5dfd-4176-8657-b19b6c66fcd2"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00018608313985168934,
+        "is_success": true
+      },
+      {
+        "question_id": 13,
+        "question": "GUID 74dd7cb0-6cf7-4949-bee2-9f1a3a11f657의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "74dd7cb0-6cf7-4949-bee2-9f1a3a11f657"
+        ],
+        "retrieved_entities": [
+          "74dd7cb0-6cf7-4949-bee2-9f1a3a11f657"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.0001887078396975994,
+        "is_success": true
+      },
+      {
+        "question_id": 14,
+        "question": "GUID a2a3d93c-b636-4294-9607-15db126dfd73의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "a2a3d93c-b636-4294-9607-15db126dfd73"
+        ],
+        "retrieved_entities": [
+          "a2a3d93c-b636-4294-9607-15db126dfd73"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.0001854998990893364,
+        "is_success": true
+      },
+      {
+        "question_id": 15,
+        "question": "GUID a43cb096-f1b7-4eb1-81a4-39258b492558의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "a43cb096-f1b7-4eb1-81a4-39258b492558"
+        ],
+        "retrieved_entities": [
+          "a43cb096-f1b7-4eb1-81a4-39258b492558"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00018304097466170788,
+        "is_success": true
+      },
+      {
+        "question_id": 16,
+        "question": "GUID ae529ef0-ade8-4bed-b8a1-7d13a6cf9352의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "ae529ef0-ade8-4bed-b8a1-7d13a6cf9352"
+        ],
+        "retrieved_entities": [
+          "ae529ef0-ade8-4bed-b8a1-7d13a6cf9352"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00018370896577835083,
+        "is_success": true
+      },
+      {
+        "question_id": 17,
+        "question": "GUID bfb7ae0e-fdd7-486c-b0ec-71e2bc84185e의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "bfb7ae0e-fdd7-486c-b0ec-71e2bc84185e"
+        ],
+        "retrieved_entities": [
+          "bfb7ae0e-fdd7-486c-b0ec-71e2bc84185e"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00019470881670713425,
+        "is_success": true
+      },
+      {
+        "question_id": 18,
+        "question": "GUID c62d732b-43f9-45c2-a9aa-84a6aed61720의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "c62d732b-43f9-45c2-a9aa-84a6aed61720"
+        ],
+        "retrieved_entities": [
+          "c62d732b-43f9-45c2-a9aa-84a6aed61720"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00018425006419420242,
+        "is_success": true
+      },
+      {
+        "question_id": 19,
+        "question": "GUID ca06f05d-5351-4b84-983d-63339ff4c614의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "ca06f05d-5351-4b84-983d-63339ff4c614"
+        ],
+        "retrieved_entities": [
+          "ca06f05d-5351-4b84-983d-63339ff4c614"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.00018154201097786427,
+        "is_success": true
+      },
+      {
+        "question_id": 20,
+        "question": "GUID d3c23b38-2fbf-4556-8898-76fc7b1e4e17의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d3c23b38-2fbf-4556-8898-76fc7b1e4e17"
+        ],
+        "retrieved_entities": [
+          "d3c23b38-2fbf-4556-8898-76fc7b1e4e17"
+        ],
+        "confidence": 1.0,
+        "entity_count": 1,
+        "response_time": 0.0001854998990893364,
+        "is_success": true
+      }
+    ]
+  },
+  "ContextualForget": {
+    "success_rate": 100.0,
+    "avg_confidence": 0.3309999999999998,
+    "avg_entities": 1.0,
+    "avg_response_time": 1.4410424046218396e-05,
+    "detailed_results": [
+      {
+        "question_id": 1,
+        "question": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+        ],
+        "retrieved_entities": [
+          "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 4.0708109736442566e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 2,
+        "question": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+        ],
+        "retrieved_entities": [
+          "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.8750084564089775e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 3,
+        "question": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+        ],
+        "retrieved_entities": [
+          "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.5916069969534874e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 4,
+        "question": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+        ],
+        "retrieved_entities": [
+          "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.9707949832081795e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 5,
+        "question": "GUID d12f4044-5a36-4568-944c-34587c720840의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d12f4044-5a36-4568-944c-34587c720840"
+        ],
+        "retrieved_entities": [
+          "d12f4044-5a36-4568-944c-34587c720840"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.5791039913892746e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 6,
+        "question": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+        ],
+        "retrieved_entities": [
+          "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.354212872684002e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 7,
+        "question": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+        ],
+        "retrieved_entities": [
+          "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.1709053069353104e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 8,
+        "question": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+        ],
+        "retrieved_entities": [
+          "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.4666002243757248e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 9,
+        "question": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "18a87e54-7470-480c-9f9d-f465261ae86a"
+        ],
+        "retrieved_entities": [
+          "18a87e54-7470-480c-9f9d-f465261ae86a"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.2792181223630905e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 10,
+        "question": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+        ],
+        "retrieved_entities": [
+          "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.1041993275284767e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 11,
+        "question": "GUID 2cfa6b2e-1d09-45b6-9935-469591b3236d의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "2cfa6b2e-1d09-45b6-9935-469591b3236d"
+        ],
+        "retrieved_entities": [
+          "2cfa6b2e-1d09-45b6-9935-469591b3236d"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.1208932846784592e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 12,
+        "question": "GUID 6fa9c60b-5dfd-4176-8657-b19b6c66fcd2의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "6fa9c60b-5dfd-4176-8657-b19b6c66fcd2"
+        ],
+        "retrieved_entities": [
+          "6fa9c60b-5dfd-4176-8657-b19b6c66fcd2"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.0667135939002037e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 13,
+        "question": "GUID 74dd7cb0-6cf7-4949-bee2-9f1a3a11f657의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "74dd7cb0-6cf7-4949-bee2-9f1a3a11f657"
+        ],
+        "retrieved_entities": [
+          "74dd7cb0-6cf7-4949-bee2-9f1a3a11f657"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.0624993592500687e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 14,
+        "question": "GUID a2a3d93c-b636-4294-9607-15db126dfd73의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "a2a3d93c-b636-4294-9607-15db126dfd73"
+        ],
+        "retrieved_entities": [
+          "a2a3d93c-b636-4294-9607-15db126dfd73"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.0832911357283592e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 15,
+        "question": "GUID a43cb096-f1b7-4eb1-81a4-39258b492558의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "a43cb096-f1b7-4eb1-81a4-39258b492558"
+        ],
+        "retrieved_entities": [
+          "a43cb096-f1b7-4eb1-81a4-39258b492558"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.1208001524209976e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 16,
+        "question": "GUID ae529ef0-ade8-4bed-b8a1-7d13a6cf9352의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "ae529ef0-ade8-4bed-b8a1-7d13a6cf9352"
+        ],
+        "retrieved_entities": [
+          "ae529ef0-ade8-4bed-b8a1-7d13a6cf9352"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.1499971151351929e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 17,
+        "question": "GUID bfb7ae0e-fdd7-486c-b0ec-71e2bc84185e의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "bfb7ae0e-fdd7-486c-b0ec-71e2bc84185e"
+        ],
+        "retrieved_entities": [
+          "bfb7ae0e-fdd7-486c-b0ec-71e2bc84185e"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.1832918971776962e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 18,
+        "question": "GUID c62d732b-43f9-45c2-a9aa-84a6aed61720의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "c62d732b-43f9-45c2-a9aa-84a6aed61720"
+        ],
+        "retrieved_entities": [
+          "c62d732b-43f9-45c2-a9aa-84a6aed61720"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.1541880667209625e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 19,
+        "question": "GUID ca06f05d-5351-4b84-983d-63339ff4c614의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "ca06f05d-5351-4b84-983d-63339ff4c614"
+        ],
+        "retrieved_entities": [
+          "ca06f05d-5351-4b84-983d-63339ff4c614"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.2125121429562569e-05,
+        "is_success": true
+      },
+      {
+        "question_id": 20,
+        "question": "GUID d3c23b38-2fbf-4556-8898-76fc7b1e4e17의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d3c23b38-2fbf-4556-8898-76fc7b1e4e17"
+        ],
+        "retrieved_entities": [
+          "d3c23b38-2fbf-4556-8898-76fc7b1e4e17"
+        ],
+        "confidence": 0.33099999999999996,
+        "entity_count": 1,
+        "response_time": 1.2042000889778137e-05,
+        "is_success": true
+      }
+    ]
+  },
+  "Hybrid": {
+    "success_rate": 100.0,
+    "avg_confidence": 0.44968,
+    "avg_entities": 2.0,
+    "avg_response_time": 0.0002196854562498629,
+    "detailed_results": [
+      {
+        "question_id": 1,
+        "question": "GUID 5a5a4ee2-0b51-4e55-b998-6b67f437c90d의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+        ],
+        "retrieved_entities": [
+          "5a5a4ee2-0b51-4e55-b998-6b67f437c90d"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00023491703905165195,
+        "is_success": true
+      },
+      {
+        "question_id": 2,
+        "question": "GUID 9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+        ],
+        "retrieved_entities": [
+          "9f524a15-1517-4e05-a8b1-2dd2a9c8c4e9"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00022008409723639488,
+        "is_success": true
+      },
+      {
+        "question_id": 3,
+        "question": "GUID 56d65605-13a4-4fe5-a6f4-0ec1926935ca의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+        ],
+        "retrieved_entities": [
+          "56d65605-13a4-4fe5-a6f4-0ec1926935ca"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00021779094822704792,
+        "is_success": true
+      },
+      {
+        "question_id": 4,
+        "question": "GUID 88c7932f-50eb-47b6-9b1e-c5b88867fd5a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+        ],
+        "retrieved_entities": [
+          "88c7932f-50eb-47b6-9b1e-c5b88867fd5a"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00021425005979835987,
+        "is_success": true
+      },
+      {
+        "question_id": 5,
+        "question": "GUID d12f4044-5a36-4568-944c-34587c720840의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d12f4044-5a36-4568-944c-34587c720840"
+        ],
+        "retrieved_entities": [
+          "d12f4044-5a36-4568-944c-34587c720840"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.0002091669011861086,
+        "is_success": true
+      },
+      {
+        "question_id": 6,
+        "question": "GUID d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+        ],
+        "retrieved_entities": [
+          "d2fd4f3a-4b9c-48db-ac18-ddf94d5111a7"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00020875013433396816,
+        "is_success": true
+      },
+      {
+        "question_id": 7,
+        "question": "GUID 2c4783f2-e021-426a-bf2e-6cffd9b25647의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+        ],
+        "retrieved_entities": [
+          "2c4783f2-e021-426a-bf2e-6cffd9b25647"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00020754197612404823,
+        "is_success": true
+      },
+      {
+        "question_id": 8,
+        "question": "GUID 0ffa0104-e99e-4561-9f24-b97a5360ad37의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+        ],
+        "retrieved_entities": [
+          "0ffa0104-e99e-4561-9f24-b97a5360ad37"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00021091685630381107,
+        "is_success": true
+      },
+      {
+        "question_id": 9,
+        "question": "GUID 18a87e54-7470-480c-9f9d-f465261ae86a의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "18a87e54-7470-480c-9f9d-f465261ae86a"
+        ],
+        "retrieved_entities": [
+          "18a87e54-7470-480c-9f9d-f465261ae86a"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00032058311626315117,
+        "is_success": true
+      },
+      {
+        "question_id": 10,
+        "question": "GUID 209d2492-2a26-4dcd-839d-aa7b52ea2970의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+        ],
+        "retrieved_entities": [
+          "209d2492-2a26-4dcd-839d-aa7b52ea2970"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00024524983018636703,
+        "is_success": true
+      },
+      {
+        "question_id": 11,
+        "question": "GUID 2cfa6b2e-1d09-45b6-9935-469591b3236d의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "2cfa6b2e-1d09-45b6-9935-469591b3236d"
+        ],
+        "retrieved_entities": [
+          "2cfa6b2e-1d09-45b6-9935-469591b3236d"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00021662493236362934,
+        "is_success": true
+      },
+      {
+        "question_id": 12,
+        "question": "GUID 6fa9c60b-5dfd-4176-8657-b19b6c66fcd2의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "6fa9c60b-5dfd-4176-8657-b19b6c66fcd2"
+        ],
+        "retrieved_entities": [
+          "6fa9c60b-5dfd-4176-8657-b19b6c66fcd2"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00020899996161460876,
+        "is_success": true
+      },
+      {
+        "question_id": 13,
+        "question": "GUID 74dd7cb0-6cf7-4949-bee2-9f1a3a11f657의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "74dd7cb0-6cf7-4949-bee2-9f1a3a11f657"
+        ],
+        "retrieved_entities": [
+          "74dd7cb0-6cf7-4949-bee2-9f1a3a11f657"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00021033314988017082,
+        "is_success": true
+      },
+      {
+        "question_id": 14,
+        "question": "GUID a2a3d93c-b636-4294-9607-15db126dfd73의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "a2a3d93c-b636-4294-9607-15db126dfd73"
+        ],
+        "retrieved_entities": [
+          "a2a3d93c-b636-4294-9607-15db126dfd73"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00020995805971324444,
+        "is_success": true
+      },
+      {
+        "question_id": 15,
+        "question": "GUID a43cb096-f1b7-4eb1-81a4-39258b492558의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "a43cb096-f1b7-4eb1-81a4-39258b492558"
+        ],
+        "retrieved_entities": [
+          "a43cb096-f1b7-4eb1-81a4-39258b492558"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00022812490351498127,
+        "is_success": true
+      },
+      {
+        "question_id": 16,
+        "question": "GUID ae529ef0-ade8-4bed-b8a1-7d13a6cf9352의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "ae529ef0-ade8-4bed-b8a1-7d13a6cf9352"
+        ],
+        "retrieved_entities": [
+          "ae529ef0-ade8-4bed-b8a1-7d13a6cf9352"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00020179105922579765,
+        "is_success": true
+      },
+      {
+        "question_id": 17,
+        "question": "GUID bfb7ae0e-fdd7-486c-b0ec-71e2bc84185e의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "bfb7ae0e-fdd7-486c-b0ec-71e2bc84185e"
+        ],
+        "retrieved_entities": [
+          "bfb7ae0e-fdd7-486c-b0ec-71e2bc84185e"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00020366697572171688,
+        "is_success": true
+      },
+      {
+        "question_id": 18,
+        "question": "GUID c62d732b-43f9-45c2-a9aa-84a6aed61720의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "c62d732b-43f9-45c2-a9aa-84a6aed61720"
+        ],
+        "retrieved_entities": [
+          "c62d732b-43f9-45c2-a9aa-84a6aed61720"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00021837488748133183,
+        "is_success": true
+      },
+      {
+        "question_id": 19,
+        "question": "GUID ca06f05d-5351-4b84-983d-63339ff4c614의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "ca06f05d-5351-4b84-983d-63339ff4c614"
+        ],
+        "retrieved_entities": [
+          "ca06f05d-5351-4b84-983d-63339ff4c614"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00020366720855236053,
+        "is_success": true
+      },
+      {
+        "question_id": 20,
+        "question": "GUID d3c23b38-2fbf-4556-8898-76fc7b1e4e17의 엔티티 타입은 무엇인가요?",
+        "gold_entities": [
+          "d3c23b38-2fbf-4556-8898-76fc7b1e4e17"
+        ],
+        "retrieved_entities": [
+          "d3c23b38-2fbf-4556-8898-76fc7b1e4e17"
+        ],
+        "confidence": 0.44968,
+        "entity_count": 2,
+        "response_time": 0.00020291702821850777,
+        "is_success": true
+      }
+    ]
+  }
+}

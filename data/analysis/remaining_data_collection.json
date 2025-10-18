@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-10-15T09:57:03.518333",
+  "phase": "자동 수집 완료 (로그인 불필요)",
+  "collected": {
+    "bimserver": 0,
+    "bcf_test_ifcs": 2,
+    "openbim_ids": 304,
+    "total_size": 2028706
+  },
+  "summary": {
+    "total_files": 306,
+    "total_size_mb": 1.93
+  }
+}

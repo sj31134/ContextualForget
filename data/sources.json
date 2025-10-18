@@ -10,7 +10,20 @@
     {
       "path": "data/raw/sample.bcfzip",
       "name": "Sample BCF",
-      "description": "Sample BCF file for testing"
+      "description": "Sample BCF file for testing",
+      "usage": "secondary_training_data",
+      "data_quality": "medium"
+    },
+    {
+      "path": "data/processed/real_bcf/real_bcf_data.jsonl",
+      "name": "Schependomlaan Real BCF Data",
+      "description": "실제 건설 프로젝트의 BCF 협업 이슈 데이터 (93개 이슈)",
+      "type": "real_bcf",
+      "source_url": "https://github.com/sj31134/DataSetSchependomlaan.git",
+      "file_count": 20,
+      "data_quality": "high",
+      "added_date": "2025-10-18T14:47:23.696561",
+      "usage": "primary_training_data"
     }
   ]
 }

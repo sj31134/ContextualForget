@@ -1883,5 +1883,248 @@
   "citation": {
     "bibtex": "@misc{buildingsmart2024,\n  author = {{buildingSMART International}},\n  title = {{IFC Sample Test Files}},\n  year = {2024},\n  howpublished = {\\url{https://github.com/buildingSMART/Sample-Test-Files}},\n  note = {Accessed: 2025-10-09}\n}\n\n@software{ifcopenshell2024,\n  author = {{IfcOpenShell Contributors}},\n  title = {{IfcOpenShell: Open source IFC library and geometry engine}},\n  year = {2024},\n  url = {https://ifcopenshell.org/},\n  license = {LGPL}\n}\n\n@software{xbim2024,\n  author = {{xBIM Team}},\n  title = {{xBIM Toolkit}},\n  year = {2024},\n  url = {https://github.com/xBimTeam},\n  license = {CDDL}\n}",
     "apa": "buildingSMART International. (2024). IFC Sample Test Files. https://github.com/buildingSMART/Sample-Test-Files\n\nIfcOpenShell Contributors. (2024). IfcOpenShell: Open source IFC library and geometry engine. https://ifcopenshell.org/\n\nxBIM Team. (2024). xBIM Toolkit. https://github.com/xBimTeam"
-  }
+  },
+  "collections": [
+    {
+      "timestamp": "2025-10-15T09:38:02.820061",
+      "phase": "Phase 1 - Priority Datasets",
+      "files_collected": 32,
+      "stats": {
+        "bcf_count": 32,
+        "ifc_count": 0,
+        "total_size": 1985269,
+        "sources": {
+          "buildingSMART_BCF": 32,
+          "buildingSMART_IFC": 0,
+          "BIMserver": 0
+        }
+      },
+      "files": [
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_All parts except one visible.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 19814,
+          "collected_at": "2025-10-15T09:38:02.802839"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_One part visible.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 5972,
+          "collected_at": "2025-10-15T09:38:02.803180"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_case.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 21147,
+          "collected_at": "2025-10-15T09:38:02.803466"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_Component Selection.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 186181,
+          "collected_at": "2025-10-15T09:38:02.803870"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_All parts of curtain walls visible.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 19715,
+          "collected_at": "2025-10-15T09:38:02.804166"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_PerspectiveCamera.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 208676,
+          "collected_at": "2025-10-15T09:38:02.804721"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_OrthogonalCamera.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 155523,
+          "collected_at": "2025-10-15T09:38:02.805066"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_ExtensionSchema.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 1803,
+          "collected_at": "2025-10-15T09:38:02.805314"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_MinimumInformation.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 835,
+          "collected_at": "2025-10-15T09:38:02.805530"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_ExternalBIMSnippet.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 956,
+          "collected_at": "2025-10-15T09:38:02.805759"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_PDFFile.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 188978,
+          "collected_at": "2025-10-15T09:38:02.806273"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_MaximumInformation.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 368484,
+          "collected_at": "2025-10-15T09:38:02.806938"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v2.1_InternalBIMSnippet.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v2.1",
+          "size": 1184,
+          "collected_at": "2025-10-15T09:38:02.807122"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_all parts except one visible.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 23678,
+          "collected_at": "2025-10-15T09:38:02.807638"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_one part of decomposed object visible.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 6869,
+          "collected_at": "2025-10-15T09:38:02.807979"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_single visible space.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 33789,
+          "collected_at": "2025-10-15T09:38:02.808378"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_component selection.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 69378,
+          "collected_at": "2025-10-15T09:38:02.808853"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_single visible wall.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 15337,
+          "collected_at": "2025-10-15T09:38:02.809150"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_all parts of curtain walls visible.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 19549,
+          "collected_at": "2025-10-15T09:38:02.809400"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_perspective camera.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 82183,
+          "collected_at": "2025-10-15T09:38:02.809716"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_orthogonal camera.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 17825,
+          "collected_at": "2025-10-15T09:38:02.810013"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_single invisible wall.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 41001,
+          "collected_at": "2025-10-15T09:38:02.810213"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_all components and spaces visible.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 104568,
+          "collected_at": "2025-10-15T09:38:02.810646"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_Topics with different models visible.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 38459,
+          "collected_at": "2025-10-15T09:38:02.811038"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_Related topics with both topics in the same file.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 2939,
+          "collected_at": "2025-10-15T09:38:02.811410"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_Milestone.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 61468,
+          "collected_at": "2025-10-15T09:38:02.811841"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_Labels.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 97604,
+          "collected_at": "2025-10-15T09:38:02.812189"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_Document reference internal.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 100614,
+          "collected_at": "2025-10-15T09:38:02.812576"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_DueDate.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 2087,
+          "collected_at": "2025-10-15T09:38:02.812929"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_document reference external.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 24589,
+          "collected_at": "2025-10-15T09:38:02.813231"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_User assignment.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 62809,
+          "collected_at": "2025-10-15T09:38:02.813520"
+        },
+        {
+          "path": "data/raw/downloaded/buildingsmart_bcf_v3.0_Minimum information.bcfzip",
+          "source": "buildingSMART BCF Test Cases",
+          "version": "v3.0",
+          "size": 1255,
+          "collected_at": "2025-10-15T09:38:02.813811"
+        }
+      ]
+    }
+  ]
 }

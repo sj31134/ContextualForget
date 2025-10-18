@@ -29,6 +29,7 @@ class BaselineQueryEngine(ABC):
                 'answer': str,
                 'confidence': float (0.0-1.0),
                 'result_count': int,
+                'entities': list[str],  # Retrieved entity IDs (GUIDs, topic_ids)
                 'source': str,
                 'details': dict
             }

@@ -10,9 +10,28 @@ data/processed/*.gpickle
 data/external/
 
 # Research reports and evaluation results
-docs/FINAL_RESEARCH_REPORT.md
-docs/RESEARCH_VALIDATION_REPORT.md
 evaluation_*.json
 evaluation_*.csv
 evaluation_*.md
 evaluation_results_*.csv
+
+# Research papers and academic documents
+docs/RESEARCH_PAPER_DRAFT.md
+docs/EXECUTIVE_SUMMARY.md
+PROJECT_STATUS.md
+
+# Temporary test files
+test_*.jsonl
+debug_*.py
+test_*_samples.py
+test_*_only.py
+test_*_detection.py
+test_*_regex.py
+test_*_contextualforget.py
+comprehensive_matching_test.py
+quick_test.py
+
+# Cache and temporary files
+cache/
+*.log
+*.tmp

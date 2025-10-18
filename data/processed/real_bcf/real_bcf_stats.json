@@ -1,0 +1,209 @@
+{
+  "total_files_processed": 20,
+  "total_issues_found": 93,
+  "data_type": "real_bcf",
+  "source_project": "Schependomlaan",
+  "processing_date": "2025-10-18T14:47:23.695973",
+  "file_details": [
+    {
+      "filename": "Controle Geelen V2 20-03-2015.bcfzip",
+      "file_size_mb": 0.53,
+      "issues_count": 2,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Multicom 10-04-2015.bcfzip",
+      "file_size_mb": 1.27,
+      "issues_count": 4,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Multicom 31-03-2015.bcfzip",
+      "file_size_mb": 0.54,
+      "issues_count": 1,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Waardo 18-03-2015.bcfzip",
+      "file_size_mb": 4.44,
+      "issues_count": 17,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Jordahl 20-04-2015.bcfzip",
+      "file_size_mb": 0.8,
+      "issues_count": 3,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Linden 11-05-2015.bcfzip",
+      "file_size_mb": 3.08,
+      "issues_count": 5,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Multicom 01-04-2015.bcfzip",
+      "file_size_mb": 0.34,
+      "issues_count": 2,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Willemsen 19-06-2015.bcfzip",
+      "file_size_mb": 0.94,
+      "issues_count": 2,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle FEK 07-05-2015.bcfzip",
+      "file_size_mb": 1.4,
+      "issues_count": 3,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Multicom 26-03-2015.bcfzip",
+      "file_size_mb": 2.1,
+      "issues_count": 6,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Ytong 01-04-2015.bcfzip",
+      "file_size_mb": 0.42,
+      "issues_count": 2,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Geelen V1 20-03-2015.bcfzip",
+      "file_size_mb": 1.88,
+      "issues_count": 5,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Linden 18-05-2015.bcfzip",
+      "file_size_mb": 0.73,
+      "issues_count": 1,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Willemsen 17-06-2015.bcfzip",
+      "file_size_mb": 4.72,
+      "issues_count": 9,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle FEK 16-04-2015.bcfzip",
+      "file_size_mb": 0.67,
+      "issues_count": 3,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Willemsen 26-05-2015.bcfzip",
+      "file_size_mb": 3.85,
+      "issues_count": 9,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Waardo 26-03-2015.bcfzip",
+      "file_size_mb": 0.63,
+      "issues_count": 2,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle staalconstructie 27-03-2015.bcfzip",
+      "file_size_mb": 2.33,
+      "issues_count": 9,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Xella BG 20-03-2015.bcfzip",
+      "file_size_mb": 0.55,
+      "issues_count": 2,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    },
+    {
+      "filename": "Controle Geelen V3+Dak 20-03-2015.bcfzip",
+      "file_size_mb": 2.07,
+      "issues_count": 6,
+      "authors": [],
+      "date_range": {
+        "earliest": "",
+        "latest": ""
+      }
+    }
+  ]
+}

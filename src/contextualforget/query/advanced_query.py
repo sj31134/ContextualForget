@@ -75,17 +75,22 @@ class AdvancedQueryEngine:
         """Find all BCF topics by a specific author."""
         hits = []
         
-        for node, data in self.graph.nodes(data=True):
-            if node[0] == "BCF" and data.get("author") == author:
+        # BCF 노드만 필터링하여 순회 최적화
+        bcf_nodes = [(node, data) for node, data in self.graph.nodes(data=True) if node[0] == "BCF"]
+        
+        for node, data in bcf_nodes:
+            if data.get("author") == author:
                 # Apply TTL filtering
                 if ttl > 0 and expired(data.get("created", ""), ttl):
                     continue
                 
-                # Find related IFC entities
+                # Find related IFC entities (최대 10개로 제한)
                 related_guids = []
+                neighbor_count = 0
                 for neighbor in self.graph.neighbors(node):
-                    if neighbor[0] == "IFC":
+                    if neighbor[0] == "IFC" and neighbor_count < 10:
                         related_guids.append(neighbor[1])
+                        neighbor_count += 1
                 
                 hits.append({
                     "topic_id": node[1],
@@ -141,32 +146,36 @@ class AdvancedQueryEngine:
         hits = []
         keywords_lower = [kw.lower() for kw in keywords]
         
-        for node, data in self.graph.nodes(data=True):
-            if node[0] == "BCF":
-                # Apply TTL filtering
-                if ttl > 0 and expired(data.get("created", ""), ttl):
-                    continue
+        # BCF 노드만 필터링하여 순회 최적화
+        bcf_nodes = [(node, data) for node, data in self.graph.nodes(data=True) if node[0] == "BCF"]
+        
+        for node, data in bcf_nodes:
+            # Apply TTL filtering
+            if ttl > 0 and expired(data.get("created", ""), ttl):
+                continue
+            
+            # Check if any keyword matches
+            title = data.get("title", "").lower()
+            description = data.get("description", "").lower()
+            text_content = f"{title} {description}"
+            
+            if any(kw in text_content for kw in keywords_lower):
+                # Find related IFC entities (최대 10개로 제한)
+                related_guids = []
+                neighbor_count = 0
+                for neighbor in self.graph.neighbors(node):
+                    if neighbor[0] == "IFC" and neighbor_count < 10:
+                        related_guids.append(neighbor[1])
+                        neighbor_count += 1
                 
-                # Check if any keyword matches
-                title = data.get("title", "").lower()
-                description = data.get("description", "").lower()
-                text_content = f"{title} {description}"
-                
-                if any(kw in text_content for kw in keywords_lower):
-                    # Find related IFC entities
-                    related_guids = []
-                    for neighbor in self.graph.neighbors(node):
-                        if neighbor[0] == "IFC":
-                            related_guids.append(neighbor[1])
-                    
-                    hits.append({
-                        "topic_id": node[1],
-                        "created": data.get("created"),
-                        "title": data.get("title", ""),
-                        "author": data.get("author", ""),
-                        "related_guids": related_guids,
-                        "matched_keywords": [kw for kw in keywords_lower if kw in text_content]
-                    })
+                hits.append({
+                    "topic_id": node[1],
+                    "created": data.get("created"),
+                    "title": data.get("title", ""),
+                    "author": data.get("author", ""),
+                    "related_guids": related_guids,
+                    "matched_keywords": [kw for kw in keywords_lower if kw in text_content]
+                })
         
         return hits
     

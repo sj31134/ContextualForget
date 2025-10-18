@@ -1,0 +1,118 @@
+{
+  "slabim": {
+    "name": "SLABIM Dataset",
+    "institution": "Hong Kong University of Science and Technology (HKUST)",
+    "description": "SLAM 스캔 데이터와 BIM 모델을 시간의 흐름에 따라 결합한 데이터셋",
+    "features": [
+      "As-designed vs As-built 비교 가능",
+      "시간적 변화 추적",
+      "실제 건물 데이터 (HKUST 캠퍼스)",
+      "SLAM 스캔 + BIM 모델"
+    ],
+    "data_types": [
+      "3D Point Cloud",
+      "BIM Models",
+      "Temporal Data"
+    ],
+    "potential_bcf_conversion": "SLAM 스캔과 BIM 모델 간 차이점을 BCF 이슈로 변환 가능",
+    "time_series_suitability": "높음 - 시간에 따른 건물 변화 추적 가능",
+    "credibility_contribution": "실제 건물 데이터로 높은 신뢰도",
+    "access_method": "학술 기관 문의 필요",
+    "estimated_size": "수 GB ~ 수십 GB",
+    "licensing": "학술 연구 목적",
+    "urls": [
+      "https://github.com/hkust-vgd/slabim",
+      "https://www.hkust.edu.hk/"
+    ],
+    "accessibility": "GitHub 리포지토리 접근 불가"
+  },
+  "duraark": {
+    "name": "DURAARK Dataset",
+    "institution": "European Union FP7 Project",
+    "description": "실제 건설 프로젝트에서 추출한 다분야 IFC 모델 집합",
+    "features": [
+      "다분야 IFC 모델 (구조, 설비, 건축)",
+      "실제 건설 프로젝트 데이터",
+      "Medical Clinic 프로젝트 포함",
+      "IFC 표준 준수"
+    ],
+    "data_types": [
+      "IFC Files",
+      "Multi-disciplinary Models",
+      "Project Documentation"
+    ],
+    "potential_bcf_conversion": "분야별 IFC 모델 간 충돌 검출 → BCF 이슈 변환",
+    "time_series_suitability": "중간 - 프로젝트 단계별 모델 비교 가능",
+    "credibility_contribution": "실제 건설 프로젝트로 높은 신뢰도",
+    "access_method": "프로젝트 웹사이트 또는 학술 문의",
+    "estimated_size": "수백 MB ~ 수 GB",
+    "licensing": "EU 프로젝트 - 학술 연구 목적",
+    "urls": [
+      "http://duraark.eu/",
+      "https://github.com/DURAARK"
+    ],
+    "accessibility": "웹사이트 접근 가능"
+  },
+  "schependomlaan": {
+    "name": "Schependomlaan Dataset",
+    "institution": "TU Eindhoven",
+    "description": "실제 주택 건설 프로젝트의 주차별 BIM 모델과 실제 BCF 2.0 파일",
+    "features": [
+      "실제 BCF 2.0 파일 포함",
+      "주차별 BIM 모델",
+      "실제 주택 건설 프로젝트",
+      "설계 검토 과정 데이터"
+    ],
+    "data_types": [
+      "BCF 2.0 Files",
+      "Weekly BIM Models",
+      "Design Review Data"
+    ],
+    "potential_bcf_conversion": "이미 BCF 파일이 있어서 직접 사용 가능",
+    "time_series_suitability": "매우 높음 - 주차별 모델과 BCF 이슈 추적",
+    "credibility_contribution": "실제 BCF 파일로 최고 신뢰도",
+    "access_method": "TU Eindhoven 학술 문의",
+    "estimated_size": "수백 MB",
+    "licensing": "학술 연구 목적",
+    "urls": [
+      "https://www.tue.nl/",
+      "https://research.tue.nl/"
+    ],
+    "accessibility": "TU Eindhoven 웹사이트 접근 가능"
+  },
+  "summary": {
+    "bcf_availability": {
+      "schependomlaan": "상 - 실제 BCF 2.0 파일 포함",
+      "duraark": "중 - IFC 모델 간 충돌 검출로 BCF 변환 가능",
+      "slabim": "중 - SLAM-BIM 차이점을 BCF로 변환 가능"
+    },
+    "time_series_suitability": {
+      "schependomlaan": "상 - 주차별 모델과 BCF 이슈",
+      "slabim": "상 - 시간에 따른 건물 변화",
+      "duraark": "중 - 프로젝트 단계별 모델"
+    },
+    "credibility_contribution": {
+      "schependomlaan": "상 - 실제 BCF 파일",
+      "slabim": "상 - 실제 건물 데이터",
+      "duraark": "상 - 실제 건설 프로젝트"
+    },
+    "accessibility": {
+      "schependomlaan": "중 - 학술 문의 필요",
+      "duraark": "중 - 프로젝트 웹사이트",
+      "slabim": "중 - GitHub 확인 가능"
+    },
+    "overall_priority": {
+      "1순위": "schependomlaan - 실제 BCF 파일 포함",
+      "2순위": "slabim - 시간적 변화 추적 우수",
+      "3순위": "duraark - IFC 모델 풍부"
+    }
+  },
+  "recommendations": [
+    "1. Schependomlaan 데이터셋을 최우선으로 확보 - 실제 BCF 파일 포함",
+    "2. SLABIM 데이터셋을 2순위로 확보 - 시간적 변화 추적에 최적",
+    "3. DURAARK 데이터셋을 3순위로 확보 - IFC 모델 다양성 제공",
+    "4. 각 데이터셋에 대해 학술 기관에 직접 문의하여 접근 방법 확인",
+    "5. 데이터 확보 후 기존 97% 합성 데이터 비율을 80% 이하로 개선",
+    "6. 실제 BCF 파일 확보로 연구 신뢰도 대폭 향상 기대"
+  ]
+}

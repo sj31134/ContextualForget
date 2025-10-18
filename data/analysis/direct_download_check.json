@@ -1,0 +1,93 @@
+{
+  "slabim": {
+    "status": "completed",
+    "direct_download": false,
+    "github_repos": [],
+    "download_links": [
+      {
+        "type": "institutional_portal",
+        "url": "https://repository.hkust.edu.hk/",
+        "accessible": true
+      }
+    ],
+    "access_method": "unknown"
+  },
+  "duraark": {
+    "status": "completed",
+    "direct_download": true,
+    "project_websites": [
+      {
+        "url": "http://duraark.eu/",
+        "accessible": true,
+        "status_code": 200
+      }
+    ],
+    "download_links": [
+      {
+        "type": "project_website",
+        "url": "http://duraark.eu/",
+        "accessible": true,
+        "note": "웹사이트에서 다운로드 링크 확인 필요"
+      }
+    ],
+    "access_method": "project_website"
+  },
+  "schependomlaan": {
+    "status": "completed",
+    "direct_download": true,
+    "institutional_sites": [
+      {
+        "url": "https://www.tue.nl/",
+        "accessible": true,
+        "status_code": 200
+      },
+      {
+        "url": "https://data.4tu.nl/",
+        "accessible": true,
+        "status_code": 200
+      },
+      {
+        "url": "https://github.com/tue-mps",
+        "accessible": true,
+        "status_code": 200
+      }
+    ],
+    "download_links": [
+      {
+        "type": "data_portal",
+        "url": "https://data.4tu.nl/",
+        "accessible": true,
+        "note": "4TU 데이터 포털에서 검색 가능"
+      },
+      {
+        "type": "search_result",
+        "url": "https://github.com/search?q=schependomlaan",
+        "accessible": true,
+        "note": "검색 결과에서 데이터셋 확인 가능"
+      },
+      {
+        "type": "search_result",
+        "url": "https://data.4tu.nl/search?q=schependomlaan",
+        "accessible": true,
+        "note": "검색 결과에서 데이터셋 확인 가능"
+      },
+      {
+        "type": "search_result",
+        "url": "https://pure.tue.nl/search?q=schependomlaan",
+        "accessible": true,
+        "note": "검색 결과에서 데이터셋 확인 가능"
+      }
+    ],
+    "access_method": "data_portal"
+  },
+  "summary": {
+    "total_datasets": 3,
+    "direct_download_available": 2,
+    "github_accessible": 0,
+    "institutional_accessible": 2,
+    "recommendations": [
+      "duraark: 직접 다운로드 가능",
+      "schependomlaan: 직접 다운로드 가능"
+    ]
+  }
+}
