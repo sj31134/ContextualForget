@@ -1,0 +1,33 @@
+{
+  "restoration_date": "2025-10-18T17:47:07.125940",
+  "analysis": {
+    "ifc_files": 428,
+    "bcf_files": 87,
+    "total_files": 515,
+    "total_size_mb": 44.31612586975098,
+    "bcf_analysis": {
+      "hospital_issues.bcfzip": 4,
+      "industrial_issues.bcfzip": 7,
+      "buildingsmart_bcf_v3.0_all parts except one visible.bcfzip": 1,
+      "synthetic_bcf_009.bcfzip": 8,
+      "synthetic_bcf_017.bcfzip": 6,
+      "buildingsmart_bcf_v3.0_all components and spaces visible.bcfzip": 1,
+      "buildingsmart_bcf_v2.1_case.bcfzip": 1,
+      "synthetic_bcf_005.bcfzip": 3,
+      "buildingsmart_bcf_v2.1_PDFFile.bcfzip": 1,
+      "synthetic_bcf_050.bcfzip": 3
+    },
+    "estimated_total_bcf_issues": 304
+  },
+  "bcf_result": {
+    "total_issues": 381,
+    "output_file": "data/processed/restored_bcf/restored_bcf_data.jsonl",
+    "source_files": 87
+  },
+  "ifc_result": {
+    "analyzed_files": 50,
+    "total_files": 428,
+    "output_file": "data/processed/restored_ifc/ifc_analysis.json"
+  },
+  "sources_updated": true
+}

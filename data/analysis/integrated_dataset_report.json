@@ -1,0 +1,68 @@
+{
+  "integration_date": "2025-10-18T17:48:35.914546",
+  "bcf_dataset": {
+    "total_issues": 474,
+    "project_type_distribution": {
+      "residential": {
+        "count": 97,
+        "percentage": 20.464135021097047
+      },
+      "commercial": {
+        "count": 370,
+        "percentage": 78.05907172995781
+      },
+      "infrastructure": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "industrial": {
+        "count": 7,
+        "percentage": 1.4767932489451476
+      }
+    },
+    "output_file": "data/processed/integrated_dataset/integrated_bcf_data.jsonl"
+  },
+  "ifc_dataset": {
+    "total_files": 50,
+    "source_distribution": {
+      "openbim_ids": {
+        "count": 36,
+        "percentage": 72.0
+      },
+      "ifcopenshell": {
+        "count": 10,
+        "percentage": 20.0
+      },
+      "buildingsmart": {
+        "count": 3,
+        "percentage": 6.0
+      },
+      "xbim_samples": {
+        "count": 1,
+        "percentage": 2.0
+      },
+      "other": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "output_file": "data/processed/integrated_dataset/integrated_ifc_data.json"
+  },
+  "integration_summary": {
+    "total_bcf_issues": 474,
+    "total_ifc_files": 50,
+    "project_types": [
+      "residential",
+      "commercial",
+      "infrastructure",
+      "industrial"
+    ],
+    "ifc_sources": [
+      "openbim_ids",
+      "ifcopenshell",
+      "buildingsmart",
+      "xbim_samples",
+      "other"
+    ]
+  }
+}

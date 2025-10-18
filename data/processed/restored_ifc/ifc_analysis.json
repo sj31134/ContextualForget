@@ -1,0 +1,402 @@
+[
+  {
+    "filename": "IfcOpenShell-files_Psets_BBIM_Annotation.ifc",
+    "size_bytes": 5853,
+    "size_mb": 0.005581855773925781,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.115617",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_invalid-an_entity_not_matching_the_specified_class_should_fail.ifc",
+    "size_bytes": 310,
+    "size_mb": 0.0002956390380859375,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.115956",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-a_required_facet_checks_all_parameters_as_normal.ifc",
+    "size_bytes": 1158,
+    "size_mb": 0.0011043548583984375,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.116177",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-attributes_with_a_boolean_false_should_pass.ifc",
+    "size_bytes": 315,
+    "size_mb": 0.00030040740966796875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.116432",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "buildingsmart_Building-Structural.ifc",
+    "size_bytes": 296640,
+    "size_mb": 0.28289794921875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.116636",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "IfcOpenShell-files_CBI_L2_Classification.ifc",
+    "size_bytes": 5002,
+    "size_mb": 0.0047702789306640625,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.116886",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-a_number_specified_as_a_string_is_treated_as_a_string.ifc",
+    "size_bytes": 781,
+    "size_mb": 0.0007448196411132812,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.117113",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "IfcOpenShell-files_IFC4 Furniture Library.ifc",
+    "size_bytes": 734664,
+    "size_mb": 0.7006301879882812,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.117350",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-comparison_tolerance_for_floating_point_negative_low_number_lower_bound.ifc",
+    "size_bytes": 803,
+    "size_mb": 0.0007658004760742188,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.117490",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "IfcOpenShell-files_CAWS Nov 2019.ifc",
+    "size_bytes": 715650,
+    "size_mb": 0.6824970245361328,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.117689",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "buildingsmart_Building-Hvac.ifc",
+    "size_bytes": 179727,
+    "size_mb": 0.1714010238647461,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.117831",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-booleans_must_be_specified_as_lowercase_strings_1_3.ifc",
+    "size_bytes": 320,
+    "size_mb": 0.00030517578125,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.117971",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-properties_can_be_inherited_from_the_type_1_2.ifc",
+    "size_bytes": 856,
+    "size_mb": 0.00081634521484375,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.118191",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_invalid-booleans_must_be_specified_as_lowercase_strings_2_3.ifc",
+    "size_bytes": 320,
+    "size_mb": 0.00030517578125,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.118413",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "IfcOpenShell-files_passing_header.ifc",
+    "size_bytes": 1313,
+    "size_mb": 0.0012521743774414062,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.118534",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-optional_specifications_may_still_pass_if_nothing_is_applicable.ifc",
+    "size_bytes": 316,
+    "size_mb": 0.000301361083984375,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.118749",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-a_bound_can_be_inclusive_4_4.ifc",
+    "size_bytes": 294,
+    "size_mb": 0.0002803802490234375,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.118956",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-all_matching_properties_must_satisfy_requirements_3_3.ifc",
+    "size_bytes": 844,
+    "size_mb": 0.000804901123046875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.119153",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_invalid-entities_must_be_specified_as_uppercase_strings.ifc",
+    "size_bytes": 310,
+    "size_mb": 0.0002956390380859375,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.119280",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-attributes_with_an_empty_set_always_fail.ifc",
+    "size_bytes": 355,
+    "size_mb": 0.00033855438232421875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.119578",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-any_profile_category_in_a_profile_set_will_pass_a_value_check.ifc",
+    "size_bytes": 541,
+    "size_mb": 0.0005159378051757812,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.119806",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-user_defined_types_are_checked_case_sensitively.ifc",
+    "size_bytes": 328,
+    "size_mb": 0.00031280517578125,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.120030",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "buildingsmart_Infra-Plumbing.ifc",
+    "size_bytes": 524740,
+    "size_mb": 0.5004310607910156,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.120157",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-a_logical_unknown_is_considered_false_and_will_not_pass.ifc",
+    "size_bytes": 783,
+    "size_mb": 0.0007467269897460938,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.120276",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-real_values_are_checked_using_type_casting_2_3.ifc",
+    "size_bytes": 780,
+    "size_mb": 0.000743865966796875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.120524",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-elements_with_no_properties_always_fail.ifc",
+    "size_bytes": 593,
+    "size_mb": 0.0005655288696289062,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.120765",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-any_matching_value_in_an_enumerated_property_will_pass_2_3.ifc",
+    "size_bytes": 1007,
+    "size_mb": 0.0009603500366210938,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.120894",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-comparison_tolerance_for_floating_point_negative_high_number_upper_bound.ifc",
+    "size_bytes": 801,
+    "size_mb": 0.0007638931274414062,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.121127",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-the_nest_entity_must_match_exactly_1_2.ifc",
+    "size_bytes": 438,
+    "size_mb": 0.0004177093505859375,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.121332",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-any_material_name_in_a_constituent_set_will_pass_a_value_check.ifc",
+    "size_bytes": 501,
+    "size_mb": 0.00047779083251953125,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.121529",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-properties_can_be_overriden_by_an_occurrence_2_2.ifc",
+    "size_bytes": 1049,
+    "size_mb": 0.0010004043579101562,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.121762",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "IfcOpenShell-files_STABU-Element (6 Cijfers).ifc",
+    "size_bytes": 199098,
+    "size_mb": 0.18987464904785156,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.121884",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "IfcOpenShell-files_fail-duplicated-guids-ifc2x3.ifc",
+    "size_bytes": 1080,
+    "size_mb": 0.00102996826171875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.122031",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-the_container_entity_must_match_exactly_2_2.ifc",
+    "size_bytes": 460,
+    "size_mb": 0.000438690185546875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.122170",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "xBIM-Samples_SampleHouseExtension.ifc",
+    "size_bytes": 152701,
+    "size_mb": 0.14562702178955078,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.122405",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-durations_are_treated_as_strings_2_2.ifc",
+    "size_bytes": 322,
+    "size_mb": 0.0003070831298828125,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.122571",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "IfcOpenShell-files_Pset_IFC2X3.ifc",
+    "size_bytes": 613615,
+    "size_mb": 0.5851888656616211,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.122774",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "IfcOpenShell-files_TALO2000_HankenimikkeistÃ¶_FIN.ifc",
+    "size_bytes": 10115,
+    "size_mb": 0.009646415710449219,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.123010",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-any_contained_element_passes_a_containment_relationship_2_2.ifc",
+    "size_bytes": 460,
+    "size_mb": 0.000438690185546875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.123144",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-the_container_predefined_type_must_match_exactly_1_2.ifc",
+    "size_bytes": 481,
+    "size_mb": 0.00045871734619140625,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.123282",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-comparison_tolerance_for_floating_point_negative_low_number_lower_bound.ifc",
+    "size_bytes": 802,
+    "size_mb": 0.0007648468017578125,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.123518",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-comparison_tolerance_for_floating_point_negative_one_lower_bound.ifc",
+    "size_bytes": 800,
+    "size_mb": 0.000762939453125,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.123731",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-durations_are_treated_as_strings_2_2.ifc",
+    "size_bytes": 788,
+    "size_mb": 0.000751495361328125,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.123897",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-specification_version_is_purely_metadata_and_does_not_impact_pass_or_fail_result.ifc",
+    "size_bytes": 376,
+    "size_mb": 0.00035858154296875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.124342",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-an_optional_facet_always_passes_regardless_of_outcome_1_2.ifc",
+    "size_bytes": 783,
+    "size_mb": 0.0007467269897460938,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.124457",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-value_restrictions_may_be_used_3_3.ifc",
+    "size_bytes": 317,
+    "size_mb": 0.00030231475830078125,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.124584",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "IfcOpenShell-files_IFC2X3 Demo Template.ifc",
+    "size_bytes": 142128,
+    "size_mb": 0.1355438232421875,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.124780",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-value_restrictions_may_be_used_1_3.ifc",
+    "size_bytes": 314,
+    "size_mb": 0.0002994537353515625,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.124915",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_pass-attributes_referencing_an_object_should_pass.ifc",
+    "size_bytes": 378,
+    "size_mb": 0.0003604888916015625,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.125023",
+    "ifc_version": "ISO-10303-21;"
+  },
+  {
+    "filename": "openbim_ids_fail-dates_are_treated_as_strings_2_2.ifc",
+    "size_bytes": 795,
+    "size_mb": 0.0007581710815429688,
+    "source_type": "downloaded",
+    "restored_date": "2025-10-18T17:47:07.125151",
+    "ifc_version": "ISO-10303-21;"
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "validation_date": "2025-10-18T18:27:09.494660",
+  "total_issues": 0,
+  "total_warnings": 12,
+  "overall_status": "PASSED",
+  "issues": [],
+  "warnings": [
+    {
+      "category": "RQ_CONSISTENCY",
+      "severity": "WARNING",
+      "message": "RQ1 definition missing or inconsistent in README.md",
+      "file_path": "README.md",
+      "timestamp": "2025-10-18T18:27:09.422752"
+    },
+    {
+      "category": "RQ_CONSISTENCY",
+      "severity": "WARNING",
+      "message": "RQ2 definition missing or inconsistent in README.md",
+      "file_path": "README.md",
+      "timestamp": "2025-10-18T18:27:09.422791"
+    },
+    {
+      "category": "RQ_CONSISTENCY",
+      "severity": "WARNING",
+      "message": "RQ3 definition missing or inconsistent in README.md",
+      "file_path": "README.md",
+      "timestamp": "2025-10-18T18:27:09.422825"
+    },
+    {
+      "category": "RQ_CONSISTENCY",
+      "severity": "WARNING",
+      "message": "RQ1 definition missing or inconsistent in docs/UNIFIED_RESEARCH_OBJECTIVES.md",
+      "file_path": "docs/UNIFIED_RESEARCH_OBJECTIVES.md",
+      "timestamp": "2025-10-18T18:27:09.423251"
+    },
+    {
+      "category": "RQ_CONSISTENCY",
+      "severity": "WARNING",
+      "message": "RQ2 definition missing or inconsistent in docs/UNIFIED_RESEARCH_OBJECTIVES.md",
+      "file_path": "docs/UNIFIED_RESEARCH_OBJECTIVES.md",
+      "timestamp": "2025-10-18T18:27:09.423291"
+    },
+    {
+      "category": "RQ_CONSISTENCY",
+      "severity": "WARNING",
+      "message": "RQ3 definition missing or inconsistent in docs/UNIFIED_RESEARCH_OBJECTIVES.md",
+      "file_path": "docs/UNIFIED_RESEARCH_OBJECTIVES.md",
+      "timestamp": "2025-10-18T18:27:09.423316"
+    },
+    {
+      "category": "RQ_CONSISTENCY",
+      "severity": "WARNING",
+      "message": "RQ1 definition missing or inconsistent in PROJECT_STATUS.md",
+      "file_path": "PROJECT_STATUS.md",
+      "timestamp": "2025-10-18T18:27:09.423536"
+    },
+    {
+      "category": "RQ_CONSISTENCY",
+      "severity": "WARNING",
+      "message": "RQ2 definition missing or inconsistent in PROJECT_STATUS.md",
+      "file_path": "PROJECT_STATUS.md",
+      "timestamp": "2025-10-18T18:27:09.423563"
+    },
+    {
+      "category": "RQ_CONSISTENCY",
+      "severity": "WARNING",
+      "message": "RQ3 definition missing or inconsistent in PROJECT_STATUS.md",
+      "file_path": "PROJECT_STATUS.md",
+      "timestamp": "2025-10-18T18:27:09.423586"
+    },
+    {
+      "category": "STATISTICAL_VALIDATION",
+      "severity": "WARNING",
+      "message": "Hybrid success rate not found in results",
+      "file_path": "/Users/junyonglee/ContextualForget/results/evaluation_extended/evaluation_extended_20251018_175528_comprehensive.json",
+      "timestamp": "2025-10-18T18:27:09.483065"
+    },
+    {
+      "category": "STATISTICAL_VALIDATION",
+      "severity": "WARNING",
+      "message": "Hybrid success rate not found in results",
+      "file_path": "/Users/junyonglee/ContextualForget/results/statistical_validation/statistical_validation_20251018_180519.json",
+      "timestamp": "2025-10-18T18:27:09.485051"
+    },
+    {
+      "category": "STATISTICAL_VALIDATION",
+      "severity": "WARNING",
+      "message": "Hybrid success rate not found in results",
+      "file_path": "/Users/junyonglee/ContextualForget/results/scalability_benchmark/complexity_analysis_20251018_175744.json",
+      "timestamp": "2025-10-18T18:27:09.485234"
+    }
+  ]
+}
